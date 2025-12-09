@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "the_great_expansion:asphalt"
+  },
+  "result": {
+    "id": "the_great_expansion:asphalt_slabs",
+    "count": 1
+  }
+}

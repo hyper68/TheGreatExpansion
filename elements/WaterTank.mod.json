@@ -1,0 +1,28 @@
+{
+  "_fv": 79,
+  "_type": "fluid_tanks",
+  "definition": {
+    "block": "GerminationTank",
+    "inteType": "Default",
+    "tanks": [
+      {
+        "size": 8000,
+        "fluidRestrictions": [
+          {
+            "value": "WATER"
+          }
+        ],
+        "type": "Default"
+      }
+    ],
+    "gui": "GerminationTankGUI",
+    "overlays": [
+      {
+        "xPos": 0,
+        "yPos": 0,
+        "height": 16,
+        "index": 0
+      }
+    ]
+  }
+}

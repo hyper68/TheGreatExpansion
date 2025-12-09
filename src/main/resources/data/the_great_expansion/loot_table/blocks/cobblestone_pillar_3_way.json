@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_great_expansion:blocks/cobblestone_pillar_3_way",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_great_expansion:cobblestone_pillar_3_way"
+        }
+      ]
+    }
+  ]
+}

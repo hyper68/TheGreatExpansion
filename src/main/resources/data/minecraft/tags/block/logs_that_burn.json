@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#the_great_expansion:palo_logs",
+      "required": false
+    }
+  ]
+}

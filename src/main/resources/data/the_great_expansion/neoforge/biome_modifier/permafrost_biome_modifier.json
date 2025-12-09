@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "the_great_expansion:wild_tundra",
+    "snowy_plains",
+    "snowy_taiga",
+    "snowy_beach"
+  ],
+  "features": "the_great_expansion:permafrost",
+  "step": "underground_ores"
+}

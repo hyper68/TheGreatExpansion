@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.the_great_expansion.snowscape_disk.desc"
+  },
+  "length_in_seconds": 219,
+  "sound_event": "the_great_expansion:snowbound"
+}

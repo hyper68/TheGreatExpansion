@@ -1,0 +1,21 @@
+{
+  "description": {
+    "translate": "enchantment.the_great_expansion.alpentall"
+  },
+  "supported_items": "the_great_expansion:aqualith_armor_chestplate",
+  "weight": 10,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "any"
+  ],
+  "exclusive_set": []
+}

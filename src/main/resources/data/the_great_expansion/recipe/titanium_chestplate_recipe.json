@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:titanium_ingot"
+    },
+    "b": {
+      "item": "the_great_expansion:steel_ingot"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:titanium_armour_chestplate",
+    "count": 1
+  }
+}

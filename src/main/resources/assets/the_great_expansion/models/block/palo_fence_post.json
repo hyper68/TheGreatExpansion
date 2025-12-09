@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "the_great_expansion:block/palo_planks",
+    "particle": "the_great_expansion:block/palo_planks"
+  },
+  "render_type": "solid"
+}

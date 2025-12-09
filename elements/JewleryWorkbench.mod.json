@@ -1,0 +1,321 @@
+{
+  "_fv": 79,
+  "_type": "block",
+  "definition": {
+    "texture": "jewlerybenchtexture",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 2,
+    "customModelName": "jewlerybench:default",
+    "rotationMode": 1,
+    "enablePitch": false,
+    "emissiveRendering": false,
+    "displayFluidOverlay": false,
+    "animations": [],
+    "itemTexture": "",
+    "particleTexture": "",
+    "blockSetType": "OAK",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "hasTransparency": true,
+    "connectedSides": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 2.0,
+        "My": 16.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 2.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 0.0,
+        "mz": 14.0,
+        "Mx": 32.0,
+        "My": 14.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 12.0,
+        "mz": 2.0,
+        "Mx": 32.0,
+        "My": 14.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 6.0,
+        "mz": 2.0,
+        "Mx": 32.0,
+        "My": 7.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 6.0,
+        "mz": 14.0,
+        "Mx": 30.0,
+        "My": 8.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 9.0,
+        "mz": 0.0,
+        "Mx": 30.0,
+        "My": 11.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 9.0,
+        "mz": -2.0,
+        "Mx": 4.0,
+        "My": 10.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 3.0,
+        "my": 10.0,
+        "mz": -2.0,
+        "Mx": 4.0,
+        "My": 11.0,
+        "Mz": -1.0,
+        "subtract": false
+      },
+      {
+        "mx": 32.0,
+        "my": 7.0,
+        "mz": 12.5,
+        "Mx": 32.0,
+        "My": 12.0,
+        "Mz": 13.5,
+        "subtract": false
+      },
+      {
+        "mx": 32.0,
+        "my": 7.0,
+        "mz": 10.5,
+        "Mx": 32.0,
+        "My": 12.0,
+        "Mz": 11.5,
+        "subtract": false
+      },
+      {
+        "mx": 32.0,
+        "my": 7.0,
+        "mz": 8.5,
+        "Mx": 32.0,
+        "My": 12.0,
+        "Mz": 9.5,
+        "subtract": false
+      },
+      {
+        "mx": 32.0,
+        "my": 7.0,
+        "mz": 6.5,
+        "Mx": 32.0,
+        "My": 12.0,
+        "Mz": 7.5,
+        "subtract": false
+      },
+      {
+        "mx": 32.0,
+        "my": 7.0,
+        "mz": 4.5,
+        "Mx": 32.0,
+        "My": 12.0,
+        "Mz": 5.5,
+        "subtract": false
+      },
+      {
+        "mx": 32.0,
+        "my": 7.0,
+        "mz": 2.5,
+        "Mx": 32.0,
+        "My": 12.0,
+        "Mz": 3.5,
+        "subtract": false
+      },
+      {
+        "mx": 30.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 32.0,
+        "My": 14.0,
+        "Mz": 2.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 13.0,
+        "mz": 2.0,
+        "Mx": 2.0,
+        "My": 14.0,
+        "Mz": 14.0,
+        "subtract": false
+      },
+      {
+        "mx": 2.0,
+        "my": 13.0,
+        "mz": 0.0,
+        "Mx": 30.0,
+        "My": 14.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 21.0,
+        "my": 14.0,
+        "mz": 9.0,
+        "Mx": 32.0,
+        "My": 19.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 5.0,
+        "my": 14.0,
+        "mz": 4.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 11.0,
+        "subtract": false
+      }
+    ],
+    "customProperties": [],
+    "name": "Jewlery Workbench",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "hardness": 1.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "isWaterloggable": false,
+    "hasBlockItem": true,
+    "maxStackSize": 64,
+    "rarity": "COMMON",
+    "immuneToFire": false,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:TheGreatExpansion"
+      }
+    ],
+    "destroyTool": "Not specified",
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "xpAmountMin": 0,
+    "xpAmountMax": 0,
+    "useLootTableForDrops": false,
+    "requiresCorrectTool": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canRedstoneConnect": false,
+    "lightOpacity": 0,
+    "tickRate": 0,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "canProvidePower": false,
+    "emittedRedstonePower": {
+      "fixedValue": 15.0
+    },
+    "colorOnMap": "DEFAULT",
+    "noteBlockInstrument": "harp",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "NONE",
+    "aiPathNodeType": "DEFAULT",
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "WOOD"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "luminance": 0,
+    "unbreakable": false,
+    "vanillaToolTier": "NONE",
+    "isBonemealable": false,
+    "sensitiveToVibration": false,
+    "vibrationalEvents": [],
+    "vibrationSensitivityRadius": {
+      "fixedValue": 7.0
+    },
+    "hasInventory": true,
+    "guiBoundTo": "JewleryWorkbenchGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 0,
+    "inventoryStackSize": 99,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "inventoryInSlotIDs": [],
+    "hasEnergyStorage": false,
+    "energyInitial": 0,
+    "energyCapacity": 400000,
+    "energyMaxReceive": 200,
+    "energyMaxExtract": 200,
+    "isFluidTank": false,
+    "fluidCapacity": 8000,
+    "fluidRestrictions": [],
+    "generateFeature": false,
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "TAG:stone_ore_replaceables"
+      }
+    ],
+    "generationShape": "UNIFORM",
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

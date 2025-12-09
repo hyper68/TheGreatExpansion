@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:titanium_ingot"
+    },
+    "b": {
+      "item": "the_great_expansion:steel_ingot"
+    },
+    "c": {
+      "item": "the_great_expansion:crude_oil_bucket"
+    },
+    "d": {
+      "item": "the_great_expansion:machine_frame"
+    },
+    "e": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:refinery",
+    "count": 1
+  }
+}

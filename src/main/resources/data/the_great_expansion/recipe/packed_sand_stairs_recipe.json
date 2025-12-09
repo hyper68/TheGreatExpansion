@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "the_great_expansion:packed_sand"
+  },
+  "result": {
+    "id": "the_great_expansion:packed_sand_stairs",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "the_great_expansion:custom/filler",
+  "textures": {
+    "all": "the_great_expansion:block/texture",
+    "particle": "the_great_expansion:block/texture",
+    "2": "the_great_expansion:block/texture"
+  },
+  "render_type": "solid"
+}

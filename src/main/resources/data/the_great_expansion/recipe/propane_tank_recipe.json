@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:aluminum_ingot"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:empty_propane_tank",
+    "count": 1
+  }
+}

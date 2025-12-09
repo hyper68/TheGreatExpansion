@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_great_expansion:block/ilmenite_ore"
+    },
+    "facing=east": {
+      "model": "the_great_expansion:block/ilmenite_ore",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_great_expansion:block/ilmenite_ore",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_great_expansion:block/ilmenite_ore",
+      "y": 270
+    }
+  }
+}

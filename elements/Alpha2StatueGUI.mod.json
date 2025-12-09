@@ -1,0 +1,98 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_thank_you_for_playing",
+          "text": {
+            "fixedValue": "THANK YOU FOR PLAYING!"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 154,
+          "y": 48,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_the_mod_is_still_in_development",
+          "text": {
+            "fixedValue": "THE MOD IS STILL IN DEVELOPMENT!"
+          },
+          "color": {
+            "value": -205,
+            "falpha": 0.0
+          },
+          "x": 131,
+          "y": 65,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_alpha_2",
+          "text": {
+            "fixedValue": "Alpha 2"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 192,
+          "y": 100,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_treasures_of_the_desert",
+          "text": {
+            "fixedValue": "Treasures of the Desert"
+          },
+          "color": {
+            "value": -13485605,
+            "falpha": 0.0
+          },
+          "x": 152,
+          "y": 146,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter survey code",
+          "name": "SurveyCode",
+          "width": 120,
+          "height": 20,
+          "x": 154,
+          "y": 169,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

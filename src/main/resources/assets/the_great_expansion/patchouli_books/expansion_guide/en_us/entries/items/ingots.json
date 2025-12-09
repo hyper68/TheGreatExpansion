@@ -1,0 +1,83 @@
+{
+  "name": "Ingots",
+  "icon": "minecraft:iron_ingot",
+  "category": "the_great_expansion:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:aluminum_ingot",
+      "title": "Aluminum Ingot",
+      "text": "Refined from Bauxite."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "the_great_expansion:aluminum_ingot_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:tin_ingot",
+      "title": "Tin Ingot",
+      "text": "Refined from Cassiterite Ore."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "the_great_expansion:tin_ingot_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:lead_ingot",
+      "title": "Lead Ingot",
+      "text": "Refined from Galena Ore."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "the_great_expansion:lead_ingot_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_ingot",
+      "title": "Titanium Ingot",
+      "text": "Refined from Ilmenite Ore."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "the_great_expansion:titanium_ingot_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:mercury_ingot",
+      "title": "Mercury Ingot",
+      "text": "Refined from Cinnabar Ore."
+    },
+    {
+      "type": "patchouli:smelting",
+      "recipe": "the_great_expansion:mercury_ingot_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:steel_ingot",
+      "title": "Steel Ingot",
+      "text": "Smelted through steel powder. 2400 tick craft time (1 minute 30 seconds)."
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "the_great_expansion:steel_ingot_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:silicon_dust",
+      "title": "Silicon Dust",
+      "text": "Created by crushing Glass inside a crusher. Used as the precursor to Silicon Ingots."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:silicon_ingot",
+      "title": "Silicon Ingot",
+      "text": "Blasted from Silicon Dust. A valuable material used in advanced crafting and electronics."
+    },
+    {
+      "type": "patchouli:blasting",
+      "recipe": "the_great_expansion:silicon_ingot_recipe"
+    }
+  ]
+}

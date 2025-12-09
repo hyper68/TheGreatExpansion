@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_great_expansion:block/reinforced_chest",
+    "particle": "the_great_expansion:block/reinforced_chest"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Patches",
+  "icon": "minecraft:writable_book",
+  "category": "the_great_expansion:general",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "UPDATE 1: Refine it",
+      "text": "8/00/2025$(br)$(br)The next few updates will be focusing on creating a framework for the mod. This update brings a few new items and 2 new machines, plus brand new features to enjoy. Below is the full update log."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Items Added",
+      "text": "• Silicon Dust$(br)• Silicon Ingot$(br)• Crude Oil$(br)• Propane Gas$(br)• Propane Tanks$(br)• Gasoline$(br)• Diesel$(br)• Asphalt"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Machines Added",
+      "text": "• Refinery$(br)• Filler"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Gameplay Features",
+      "text": "• Propane Tanks can be filled inside the Filler machine with Propane Gas.$(br)• The Refinery can currently be used to refine Crude Oil into usable products.$(br)• General quality of life improvements.$(br)• Multiple bug fixes."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Final Notes",
+      "text": "The update is playable now and may require the latest NeoForge version.$(br)$(br)More updates coming soon!$(br)$(br)Have an amazing rest of summer and God bless."
+    }
+  ]
+}

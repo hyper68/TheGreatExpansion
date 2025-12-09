@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "desert",
+  "spawners": {
+    "type": "the_great_expansion:sand_crab",
+    "weight": 20,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

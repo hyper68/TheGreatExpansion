@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_great_expansion:aqualith_block"
+    }
+  ],
+  "result": {
+    "id": "the_great_expansion:aqualith",
+    "count": 9
+  }
+}

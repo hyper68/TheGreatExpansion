@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    " b ",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:steel_beams"
+    },
+    "b": {
+      "item": "the_great_expansion:steel_face_plate"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:steel_frame",
+    "count": 1
+  }
+}

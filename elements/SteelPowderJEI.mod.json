@@ -1,0 +1,22 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "crusher_jei",
+    "result": {
+      "value": "CUSTOM:SteelPowder"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.COAL#0"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CrusherJEI"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Snowfleck",
+    "splashName": "Splash Potion of Snowfleck",
+    "lingeringName": "Lingering Potion of Snowfleck",
+    "arrowName": "Arrow of Snowfleck",
+    "effects": [
+      {
+        "effect": {
+          "value": "FIRE_RESISTANCE"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "WATER_BREATHING"
+        },
+        "duration": 3000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 2000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

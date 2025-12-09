@@ -1,0 +1,37 @@
+{
+  "name": "Ores",
+  "icon": "minecraft:stone",
+  "category": "the_great_expansion:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:bauxite",
+      "title": "Bauxite",
+      "text": "Bauxite is the primary source of aluminum."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:cassiterite_ore",
+      "title": "Cassiterite Ore",
+      "text": "Cassiterite is the primary source of tin."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:galena_ore",
+      "title": "Galena Ore",
+      "text": "A dense lead-bearing ore found deep underground."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:ilmenite_ore",
+      "title": "Limenite Ore",
+      "text": "Main source of titanium."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:cinnabar_ore",
+      "title": "Cinnabar Ore",
+      "text": "Glowing red ore used for mercury."
+    }
+  ]
+}

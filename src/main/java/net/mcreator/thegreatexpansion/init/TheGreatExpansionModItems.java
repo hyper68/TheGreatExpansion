@@ -1,0 +1,290 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mcreator.thegreatexpansion.init;
+
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.bus.api.SubscribeEvent;
+
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
+import net.minecraft.world.item.BlockItem;
+
+import net.mcreator.thegreatexpansion.item.*;
+import net.mcreator.thegreatexpansion.TheGreatExpansionMod;
+
+public class TheGreatExpansionModItems {
+	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(TheGreatExpansionMod.MODID);
+	public static final DeferredItem<Item> BAUXITE;
+	public static final DeferredItem<Item> CASSITERITE_ORE;
+	public static final DeferredItem<Item> GALENA_ORE;
+	public static final DeferredItem<Item> ILMENITE_ORE;
+	public static final DeferredItem<Item> CINNABAR_ORE;
+	public static final DeferredItem<Item> ALUMINUM_INGOT;
+	public static final DeferredItem<Item> TIN_INGOT;
+	public static final DeferredItem<Item> LEAD_INGOT;
+	public static final DeferredItem<Item> TITANIUM_INGOT;
+	public static final DeferredItem<Item> MERCURY_INGOT;
+	public static final DeferredItem<Item> TITANIUM_SWORD;
+	public static final DeferredItem<Item> CRUSHER;
+	public static final DeferredItem<Item> STEEL_POWDER;
+	public static final DeferredItem<Item> STEEL_INGOT;
+	public static final DeferredItem<Item> STEEL_BEAMS;
+	public static final DeferredItem<Item> STEEL_FACE_PLATE;
+	public static final DeferredItem<Item> STEEL_FRAME;
+	public static final DeferredItem<Item> MACHINE_FRAME;
+	public static final DeferredItem<Item> TITANIUM_ARMOUR_HELMET;
+	public static final DeferredItem<Item> TITANIUM_ARMOUR_CHESTPLATE;
+	public static final DeferredItem<Item> TITANIUM_ARMOUR_LEGGINGS;
+	public static final DeferredItem<Item> TITANIUM_ARMOUR_BOOTS;
+	public static final DeferredItem<Item> TITANIUM_AXE;
+	public static final DeferredItem<Item> SILICON_DUST;
+	public static final DeferredItem<Item> SILICON_INGOT;
+	public static final DeferredItem<Item> CRUDE_OIL_BUCKET;
+	public static final DeferredItem<Item> REFINERY;
+	public static final DeferredItem<Item> PROPANE;
+	public static final DeferredItem<Item> EMPTY_PROPANE_TANK;
+	public static final DeferredItem<Item> FILLED_PROPANE_TANK;
+	public static final DeferredItem<Item> GASOLINE_1;
+	public static final DeferredItem<Item> DIESEL_1;
+	public static final DeferredItem<Item> ASPHALT;
+	public static final DeferredItem<Item> FILLER;
+	public static final DeferredItem<Item> SILICON_SHEETS;
+	public static final DeferredItem<Item> SILICON_PADDING_HELMET;
+	public static final DeferredItem<Item> SILICON_PADDING_CHESTPLATE;
+	public static final DeferredItem<Item> SILICON_PADDING_PANTS;
+	public static final DeferredItem<Item> SILICON_PADDING_BOOTS;
+	public static final DeferredItem<Item> PACKED_SAND;
+	public static final DeferredItem<Item> PACKED_SAND_STAIRS;
+	public static final DeferredItem<Item> PACKED_SAND_BRICKS;
+	public static final DeferredItem<Item> PACKED_SAND_BRICK_STAIRS;
+	public static final DeferredItem<Item> ASPHALT_SLABS;
+	public static final DeferredItem<Item> ASPHALT_STAIRS;
+	public static final DeferredItem<Item> AQUALITH;
+	public static final DeferredItem<Item> AQUALITH_ORE;
+	public static final DeferredItem<Item> AQUALITH_BLOCK;
+	public static final DeferredItem<Item> AQUALITH_PICKAXE;
+	public static final DeferredItem<Item> AQUALITH_AXE;
+	public static final DeferredItem<Item> AQUALITH_SWORD;
+	public static final DeferredItem<Item> AQUALITH_SHOVEL;
+	public static final DeferredItem<Item> AQUALITH_HOE;
+	public static final DeferredItem<Item> AQUALITH_ARMOR_HELMET;
+	public static final DeferredItem<Item> AQUALITH_ARMOR_CHESTPLATE;
+	public static final DeferredItem<Item> AQUALITH_ARMOR_LEGGINGS;
+	public static final DeferredItem<Item> AQUALITH_ARMOR_BOOTS;
+	public static final DeferredItem<Item> PALO_LOG;
+	public static final DeferredItem<Item> PALO_WOOD;
+	public static final DeferredItem<Item> PALO_PLANKS;
+	public static final DeferredItem<Item> PALO_LEAVES;
+	public static final DeferredItem<Item> PALO_STAIRS;
+	public static final DeferredItem<Item> PALO_SLAB;
+	public static final DeferredItem<Item> PALO_FENCE;
+	public static final DeferredItem<Item> PALO_FENCE_GATE;
+	public static final DeferredItem<Item> PALO_PRESSURE_PLATE;
+	public static final DeferredItem<Item> PALO_BUTTON;
+	public static final DeferredItem<Item> SAND_CRAB_SPAWN_EGG;
+	public static final DeferredItem<Item> REINFORCED_CHEST;
+	public static final DeferredItem<Item> LEAD_ARROW;
+	public static final DeferredItem<Item> PRESSURE_COOKER;
+	public static final DeferredItem<Item> PROPANE_GENERATOR;
+	public static final DeferredItem<Item> STEEL_HAMMER;
+	public static final DeferredItem<Item> PALO_SAPLING;
+	public static final DeferredItem<Item> JEWLERY_WORKBENCH;
+	public static final DeferredItem<Item> SAND_VAULT;
+	public static final DeferredItem<Item> COBBLESTONE_PILLAR;
+	public static final DeferredItem<Item> COBBLESTONE_PILLAR_BASE;
+	public static final DeferredItem<Item> ALPHA_2_STATUE;
+	public static final DeferredItem<Item> COBBLESTONE_PILLAR_TOPPER;
+	public static final DeferredItem<Item> COBBLESTONE_PILLAR_T_SECTION;
+	public static final DeferredItem<Item> COBBLESTONE_PILLAR_3_WAY;
+	public static final DeferredItem<Item> COBBLESTONE_PILLAR_4_WAY;
+	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR;
+	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR_3_WAY;
+	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR_4_WAY;
+	public static final DeferredItem<Item> STALKER_SPAWN_EGG;
+	public static final DeferredItem<Item> SNOWSCAPE_DISK;
+	public static final DeferredItem<Item> HOLLOW_BELLS_DISK;
+	public static final DeferredItem<Item> ICE_BRICKS;
+	public static final DeferredItem<Item> ICE_BRICK_STAIRS;
+	public static final DeferredItem<Item> ICE_BRICK_SLABS;
+	public static final DeferredItem<Item> ICE_BRICK_FENCE;
+	public static final DeferredItem<Item> ICE_BRICK_WALL;
+	public static final DeferredItem<Item> ICE_BRICK_TRAPDOOR;
+	public static final DeferredItem<Item> ICE_BRICK_DOOR;
+	public static final DeferredItem<Item> ICE_BRICK_FENCEGATE;
+	public static final DeferredItem<Item> ICE_CUTTER;
+	public static final DeferredItem<Item> BIG_SNOWMAN;
+	public static final DeferredItem<Item> MEDIUM_SNOWMAN;
+	public static final DeferredItem<Item> SMALL_SNOWMAN;
+	public static final DeferredItem<Item> SNOW_LILY;
+	public static final DeferredItem<Item> ICE_BLOCK;
+	public static final DeferredItem<Item> ICE_BLOCK_STAIRS;
+	public static final DeferredItem<Item> ICE_BLOCK_SLABS;
+	public static final DeferredItem<Item> ICE_BLOCK_FENCE;
+	public static final DeferredItem<Item> ICE_BLOCK_WALL;
+	public static final DeferredItem<Item> ICE_BLOCK_TRAPDOOR;
+	public static final DeferredItem<Item> ICE_BLOCK_DOOR;
+	public static final DeferredItem<Item> ICE_BLOCK_FENCEGATE;
+	public static final DeferredItem<Item> SUB_ZOMBIE_SPAWN_EGG;
+	public static final DeferredItem<Item> SNOWDROP;
+	public static final DeferredItem<Item> HELLEBORE;
+	public static final DeferredItem<Item> WINTERBERRY;
+	public static final DeferredItem<Item> GERMINATION_TANK;
+	public static final DeferredItem<Item> PERMAFROST;
+	public static final DeferredItem<Item> PERMAFROST_IRON_ORE;
+	public static final DeferredItem<Item> REINFORCED_PERMAFROST;
+	public static final DeferredItem<Item> CRYONITE_ORE;
+	public static final DeferredItem<Item> INDUCTION_FURNACE;
+	static {
+		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
+		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
+		GALENA_ORE = block(TheGreatExpansionModBlocks.GALENA_ORE);
+		ILMENITE_ORE = block(TheGreatExpansionModBlocks.ILMENITE_ORE);
+		CINNABAR_ORE = block(TheGreatExpansionModBlocks.CINNABAR_ORE);
+		ALUMINUM_INGOT = REGISTRY.register("aluminum_ingot", AluminumIngotItem::new);
+		TIN_INGOT = REGISTRY.register("tin_ingot", TinIngotItem::new);
+		LEAD_INGOT = REGISTRY.register("lead_ingot", LeadIngotItem::new);
+		TITANIUM_INGOT = REGISTRY.register("titanium_ingot", TitaniumIngotItem::new);
+		MERCURY_INGOT = REGISTRY.register("mercury_ingot", MercuryIngotItem::new);
+		TITANIUM_SWORD = REGISTRY.register("titanium_sword", TitaniumSwordItem::new);
+		CRUSHER = block(TheGreatExpansionModBlocks.CRUSHER);
+		STEEL_POWDER = REGISTRY.register("steel_powder", SteelPowderItem::new);
+		STEEL_INGOT = REGISTRY.register("steel_ingot", SteelIngotItem::new);
+		STEEL_BEAMS = REGISTRY.register("steel_beams", SteelBeamsItem::new);
+		STEEL_FACE_PLATE = REGISTRY.register("steel_face_plate", SteelFacePlateItem::new);
+		STEEL_FRAME = block(TheGreatExpansionModBlocks.STEEL_FRAME);
+		MACHINE_FRAME = block(TheGreatExpansionModBlocks.MACHINE_FRAME);
+		TITANIUM_ARMOUR_HELMET = REGISTRY.register("titanium_armour_helmet", TitaniumArmourItem.Helmet::new);
+		TITANIUM_ARMOUR_CHESTPLATE = REGISTRY.register("titanium_armour_chestplate", TitaniumArmourItem.Chestplate::new);
+		TITANIUM_ARMOUR_LEGGINGS = REGISTRY.register("titanium_armour_leggings", TitaniumArmourItem.Leggings::new);
+		TITANIUM_ARMOUR_BOOTS = REGISTRY.register("titanium_armour_boots", TitaniumArmourItem.Boots::new);
+		TITANIUM_AXE = REGISTRY.register("titanium_axe", TitaniumAxeItem::new);
+		SILICON_DUST = REGISTRY.register("silicon_dust", SiliconDustItem::new);
+		SILICON_INGOT = REGISTRY.register("silicon_ingot", SiliconIngotItem::new);
+		CRUDE_OIL_BUCKET = REGISTRY.register("crude_oil_bucket", CrudeOilItem::new);
+		REFINERY = block(TheGreatExpansionModBlocks.REFINERY);
+		PROPANE = REGISTRY.register("propane", PropaneItem::new);
+		EMPTY_PROPANE_TANK = REGISTRY.register("empty_propane_tank", EmptyPropaneTankItem::new);
+		FILLED_PROPANE_TANK = REGISTRY.register("filled_propane_tank", FilledPropaneTankItem::new);
+		GASOLINE_1 = REGISTRY.register("gasoline_1", Gasoline1Item::new);
+		DIESEL_1 = REGISTRY.register("diesel_1", Diesel1Item::new);
+		ASPHALT = block(TheGreatExpansionModBlocks.ASPHALT);
+		FILLER = block(TheGreatExpansionModBlocks.FILLER);
+		SILICON_SHEETS = REGISTRY.register("silicon_sheets", SiliconSheetsItem::new);
+		SILICON_PADDING_HELMET = REGISTRY.register("silicon_padding_helmet", SiliconPaddingHelmetItem::new);
+		SILICON_PADDING_CHESTPLATE = REGISTRY.register("silicon_padding_chestplate", SiliconPaddingChestplateItem::new);
+		SILICON_PADDING_PANTS = REGISTRY.register("silicon_padding_pants", SiliconPaddingPantsItem::new);
+		SILICON_PADDING_BOOTS = REGISTRY.register("silicon_padding_boots", SiliconPaddingBootsItem::new);
+		PACKED_SAND = block(TheGreatExpansionModBlocks.PACKED_SAND);
+		PACKED_SAND_STAIRS = block(TheGreatExpansionModBlocks.PACKED_SAND_STAIRS);
+		PACKED_SAND_BRICKS = block(TheGreatExpansionModBlocks.PACKED_SAND_BRICKS);
+		PACKED_SAND_BRICK_STAIRS = block(TheGreatExpansionModBlocks.PACKED_SAND_BRICK_STAIRS);
+		ASPHALT_SLABS = block(TheGreatExpansionModBlocks.ASPHALT_SLABS);
+		ASPHALT_STAIRS = block(TheGreatExpansionModBlocks.ASPHALT_STAIRS);
+		AQUALITH = REGISTRY.register("aqualith", AqualithItem::new);
+		AQUALITH_ORE = block(TheGreatExpansionModBlocks.AQUALITH_ORE);
+		AQUALITH_BLOCK = block(TheGreatExpansionModBlocks.AQUALITH_BLOCK);
+		AQUALITH_PICKAXE = REGISTRY.register("aqualith_pickaxe", AqualithPickaxeItem::new);
+		AQUALITH_AXE = REGISTRY.register("aqualith_axe", AqualithAxeItem::new);
+		AQUALITH_SWORD = REGISTRY.register("aqualith_sword", AqualithSwordItem::new);
+		AQUALITH_SHOVEL = REGISTRY.register("aqualith_shovel", AqualithShovelItem::new);
+		AQUALITH_HOE = REGISTRY.register("aqualith_hoe", AqualithHoeItem::new);
+		AQUALITH_ARMOR_HELMET = REGISTRY.register("aqualith_armor_helmet", AqualithArmorItem.Helmet::new);
+		AQUALITH_ARMOR_CHESTPLATE = REGISTRY.register("aqualith_armor_chestplate", AqualithArmorItem.Chestplate::new);
+		AQUALITH_ARMOR_LEGGINGS = REGISTRY.register("aqualith_armor_leggings", AqualithArmorItem.Leggings::new);
+		AQUALITH_ARMOR_BOOTS = REGISTRY.register("aqualith_armor_boots", AqualithArmorItem.Boots::new);
+		PALO_LOG = block(TheGreatExpansionModBlocks.PALO_LOG);
+		PALO_WOOD = block(TheGreatExpansionModBlocks.PALO_WOOD);
+		PALO_PLANKS = block(TheGreatExpansionModBlocks.PALO_PLANKS);
+		PALO_LEAVES = block(TheGreatExpansionModBlocks.PALO_LEAVES);
+		PALO_STAIRS = block(TheGreatExpansionModBlocks.PALO_STAIRS);
+		PALO_SLAB = block(TheGreatExpansionModBlocks.PALO_SLAB);
+		PALO_FENCE = block(TheGreatExpansionModBlocks.PALO_FENCE);
+		PALO_FENCE_GATE = block(TheGreatExpansionModBlocks.PALO_FENCE_GATE);
+		PALO_PRESSURE_PLATE = block(TheGreatExpansionModBlocks.PALO_PRESSURE_PLATE);
+		PALO_BUTTON = block(TheGreatExpansionModBlocks.PALO_BUTTON);
+		SAND_CRAB_SPAWN_EGG = REGISTRY.register("sand_crab_spawn_egg", () -> new DeferredSpawnEggItem(TheGreatExpansionModEntities.SAND_CRAB, -154, -3355648, new Item.Properties()));
+		REINFORCED_CHEST = block(TheGreatExpansionModBlocks.REINFORCED_CHEST);
+		LEAD_ARROW = REGISTRY.register("lead_arrow", LeadArrowItem::new);
+		PRESSURE_COOKER = block(TheGreatExpansionModBlocks.PRESSURE_COOKER);
+		PROPANE_GENERATOR = block(TheGreatExpansionModBlocks.PROPANE_GENERATOR);
+		STEEL_HAMMER = REGISTRY.register("steel_hammer", SteelHammerItem::new);
+		PALO_SAPLING = block(TheGreatExpansionModBlocks.PALO_SAPLING);
+		JEWLERY_WORKBENCH = block(TheGreatExpansionModBlocks.JEWLERY_WORKBENCH);
+		SAND_VAULT = block(TheGreatExpansionModBlocks.SAND_VAULT);
+		COBBLESTONE_PILLAR = block(TheGreatExpansionModBlocks.COBBLESTONE_PILLAR);
+		COBBLESTONE_PILLAR_BASE = block(TheGreatExpansionModBlocks.COBBLESTONE_PILLAR_BASE);
+		ALPHA_2_STATUE = block(TheGreatExpansionModBlocks.ALPHA_2_STATUE);
+		COBBLESTONE_PILLAR_TOPPER = block(TheGreatExpansionModBlocks.COBBLESTONE_PILLAR_TOPPER);
+		COBBLESTONE_PILLAR_T_SECTION = block(TheGreatExpansionModBlocks.COBBLESTONE_PILLAR_T_SECTION);
+		COBBLESTONE_PILLAR_3_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_PILLAR_3_WAY);
+		COBBLESTONE_PILLAR_4_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_PILLAR_4_WAY);
+		COBBLESTONE_SIDE_PILLAR = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR);
+		COBBLESTONE_SIDE_PILLAR_3_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR_3_WAY);
+		COBBLESTONE_SIDE_PILLAR_4_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR_4_WAY);
+		STALKER_SPAWN_EGG = REGISTRY.register("stalker_spawn_egg", () -> new DeferredSpawnEggItem(TheGreatExpansionModEntities.STALKER, -16777216, -13421773, new Item.Properties()));
+		SNOWSCAPE_DISK = REGISTRY.register("snowscape_disk", SnowscapeDiskItem::new);
+		HOLLOW_BELLS_DISK = REGISTRY.register("hollow_bells_disk", HollowBellsDiskItem::new);
+		ICE_BRICKS = block(TheGreatExpansionModBlocks.ICE_BRICKS);
+		ICE_BRICK_STAIRS = block(TheGreatExpansionModBlocks.ICE_BRICK_STAIRS);
+		ICE_BRICK_SLABS = block(TheGreatExpansionModBlocks.ICE_BRICK_SLABS);
+		ICE_BRICK_FENCE = block(TheGreatExpansionModBlocks.ICE_BRICK_FENCE);
+		ICE_BRICK_WALL = block(TheGreatExpansionModBlocks.ICE_BRICK_WALL);
+		ICE_BRICK_TRAPDOOR = block(TheGreatExpansionModBlocks.ICE_BRICK_TRAPDOOR);
+		ICE_BRICK_DOOR = doubleBlock(TheGreatExpansionModBlocks.ICE_BRICK_DOOR);
+		ICE_BRICK_FENCEGATE = block(TheGreatExpansionModBlocks.ICE_BRICK_FENCEGATE);
+		ICE_CUTTER = block(TheGreatExpansionModBlocks.ICE_CUTTER);
+		BIG_SNOWMAN = block(TheGreatExpansionModBlocks.BIG_SNOWMAN);
+		MEDIUM_SNOWMAN = block(TheGreatExpansionModBlocks.MEDIUM_SNOWMAN);
+		SMALL_SNOWMAN = block(TheGreatExpansionModBlocks.SMALL_SNOWMAN);
+		SNOW_LILY = block(TheGreatExpansionModBlocks.SNOW_LILY);
+		ICE_BLOCK = block(TheGreatExpansionModBlocks.ICE_BLOCK);
+		ICE_BLOCK_STAIRS = block(TheGreatExpansionModBlocks.ICE_BLOCK_STAIRS);
+		ICE_BLOCK_SLABS = block(TheGreatExpansionModBlocks.ICE_BLOCK_SLABS);
+		ICE_BLOCK_FENCE = block(TheGreatExpansionModBlocks.ICE_BLOCK_FENCE);
+		ICE_BLOCK_WALL = block(TheGreatExpansionModBlocks.ICE_BLOCK_WALL);
+		ICE_BLOCK_TRAPDOOR = block(TheGreatExpansionModBlocks.ICE_BLOCK_TRAPDOOR);
+		ICE_BLOCK_DOOR = doubleBlock(TheGreatExpansionModBlocks.ICE_BLOCK_DOOR);
+		ICE_BLOCK_FENCEGATE = block(TheGreatExpansionModBlocks.ICE_BLOCK_FENCEGATE);
+		SUB_ZOMBIE_SPAWN_EGG = REGISTRY.register("sub_zombie_spawn_egg", () -> new DeferredSpawnEggItem(TheGreatExpansionModEntities.SUB_ZOMBIE, -1, -11302768, new Item.Properties()));
+		SNOWDROP = block(TheGreatExpansionModBlocks.SNOWDROP);
+		HELLEBORE = block(TheGreatExpansionModBlocks.HELLEBORE);
+		WINTERBERRY = block(TheGreatExpansionModBlocks.WINTERBERRY);
+		GERMINATION_TANK = block(TheGreatExpansionModBlocks.GERMINATION_TANK);
+		PERMAFROST = block(TheGreatExpansionModBlocks.PERMAFROST);
+		PERMAFROST_IRON_ORE = block(TheGreatExpansionModBlocks.PERMAFROST_IRON_ORE);
+		REINFORCED_PERMAFROST = block(TheGreatExpansionModBlocks.REINFORCED_PERMAFROST);
+		CRYONITE_ORE = block(TheGreatExpansionModBlocks.CRYONITE_ORE);
+		INDUCTION_FURNACE = block(TheGreatExpansionModBlocks.INDUCTION_FURNACE);
+	}
+
+	// Start of user code block custom items
+	// End of user code block custom items
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), CRUDE_OIL_BUCKET.get());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
+		return block(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), properties));
+	}
+}

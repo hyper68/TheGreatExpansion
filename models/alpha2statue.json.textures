@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "alpha_2_statue"
+      },
+      "name": "default"
+    }
+  }
+}

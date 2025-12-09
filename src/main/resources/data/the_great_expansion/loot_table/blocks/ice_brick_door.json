@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_great_expansion:blocks/ice_brick_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_great_expansion:ice_brick_door",
+          "conditions": [
+            {
+              "block": "the_great_expansion:ice_brick_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

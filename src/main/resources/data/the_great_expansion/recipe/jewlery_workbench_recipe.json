@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "b b",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:steel_ingot"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:jewlery_workbench",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_great_expansion:block/palosapling",
+    "particle": "the_great_expansion:block/palosapling"
+  },
+  "render_type": "cutout"
+}

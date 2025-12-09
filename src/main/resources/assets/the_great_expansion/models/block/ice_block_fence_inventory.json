@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "the_great_expansion:block/iceblock",
+    "particle": "the_great_expansion:block/iceblock"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "the_great_expansion:custom/smallsnowman",
+  "textures": {
+    "all": "the_great_expansion:block/smallsnowman",
+    "particle": "the_great_expansion:block/smallsnowman",
+    "0": "the_great_expansion:block/smallsnowman"
+  },
+  "render_type": "solid"
+}

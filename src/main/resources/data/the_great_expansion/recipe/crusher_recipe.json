@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:tin_ingot"
+    },
+    "b": {
+      "item": "minecraft:redstone_block"
+    },
+    "c": {
+      "item": "minecraft:grindstone"
+    },
+    "d": {
+      "item": "the_great_expansion:titanium_ingot"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:crusher",
+    "count": 1
+  }
+}

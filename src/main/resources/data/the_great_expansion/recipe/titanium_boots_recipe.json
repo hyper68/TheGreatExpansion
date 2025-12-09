@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:titanium_ingot"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:titanium_armour_boots",
+    "count": 1
+  }
+}

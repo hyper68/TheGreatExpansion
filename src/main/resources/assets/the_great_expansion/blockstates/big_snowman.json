@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_great_expansion:block/big_snowman"
+    },
+    "facing=east": {
+      "model": "the_great_expansion:block/big_snowman",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_great_expansion:block/big_snowman",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_great_expansion:block/big_snowman",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "the_great_expansion:block/big_snowman",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "the_great_expansion:block/big_snowman",
+      "x": 90
+    }
+  }
+}

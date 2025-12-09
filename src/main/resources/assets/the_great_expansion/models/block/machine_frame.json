@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_great_expansion:block/machineframe",
+    "particle": "the_great_expansion:block/machineframe"
+  },
+  "render_type": "solid"
+}

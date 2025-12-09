@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_great_expansion:block/refinery"
+    },
+    "facing=east": {
+      "model": "the_great_expansion:block/refinery",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_great_expansion:block/refinery",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_great_expansion:block/refinery",
+      "y": 270
+    }
+  }
+}

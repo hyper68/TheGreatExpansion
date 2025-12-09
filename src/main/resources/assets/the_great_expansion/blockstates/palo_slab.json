@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_great_expansion:block/palo_slab"
+    },
+    "type=top": {
+      "model": "the_great_expansion:block/palo_slab_top"
+    },
+    "type=double": {
+      "model": "the_great_expansion:block/palo_slab_full"
+    }
+  }
+}

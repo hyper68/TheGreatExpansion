@@ -1,0 +1,9 @@
+{
+  "parent": "the_great_expansion:custom/mediumsnowman",
+  "textures": {
+    "all": "the_great_expansion:block/mediumsnowman",
+    "particle": "the_great_expansion:block/mediumsnowman",
+    "0": "the_great_expansion:block/mediumsnowman"
+  },
+  "render_type": "solid"
+}

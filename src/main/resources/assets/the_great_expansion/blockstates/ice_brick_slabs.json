@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_great_expansion:block/ice_brick_slabs"
+    },
+    "type=top": {
+      "model": "the_great_expansion:block/ice_brick_slabs_top"
+    },
+    "type=double": {
+      "model": "the_great_expansion:block/ice_brick_slabs_full"
+    }
+  }
+}

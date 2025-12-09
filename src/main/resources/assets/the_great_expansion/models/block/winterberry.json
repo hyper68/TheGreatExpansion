@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "the_great_expansion:block/winterberry",
+    "particle": "the_great_expansion:block/winterberry"
+  },
+  "render_type": "cutout"
+}

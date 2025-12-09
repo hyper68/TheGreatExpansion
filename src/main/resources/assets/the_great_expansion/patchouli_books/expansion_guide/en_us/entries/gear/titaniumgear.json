@@ -1,0 +1,67 @@
+{
+  "name": "Titanium Gear",
+  "icon": "the_great_expansion:titanium_chestplate",
+  "category": "the_great_expansion:gear",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_armour_helmet",
+      "title": "Titanium Helmet",
+      "text": "Strong and sleek head protection."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:titanium_helmet_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_armour_chestplate",
+      "title": "Titanium Chestplate",
+      "text": "Maximum defense with light weight."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:titanium_chestplate_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_armour_leggings",
+      "title": "Titanium Leggings",
+      "text": "Tough protection for the lower body."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:titanium_leggings_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_armour_boots",
+      "title": "Titanium Boots",
+      "text": "Heavy-duty footwear made for exploration."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:titanium_boots_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_sword",
+      "title": "Titanium Sword",
+      "text": "Superior cutting power and durability."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:titanium_sword_recipe"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:titanium_axe",
+      "title": "Titanium Axe",
+      "text": "Chops through trees like butter."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:titanium_axe_recipe"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ingots",
+  "icon": "the_great_expansion:aqualith",
+  "category": "the_great_expansion:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:aqualith",
+      "title": "Aqualith",
+      "text": "A gem collected by mining aqualith ore in a desert biome."
+       },
+       {
+      "type": "patchouli:smelting",
+      "recipe": "the_great_expansion:aqualith_ore_smelting"
+    }
+  ]
+}

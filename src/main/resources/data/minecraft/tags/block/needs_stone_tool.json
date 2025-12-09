@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "the_great_expansion:ice_brick_fence",
+    "the_great_expansion:ice_block_trapdoor",
+    "the_great_expansion:ice_block",
+    "the_great_expansion:ice_bricks",
+    "the_great_expansion:ice_brick_trapdoor",
+    "the_great_expansion:ice_block_door",
+    "the_great_expansion:ice_block_wall",
+    "the_great_expansion:ice_block_fencegate",
+    "the_great_expansion:packed_sand_bricks",
+    "the_great_expansion:ice_brick_slabs",
+    "the_great_expansion:ice_brick_wall",
+    "the_great_expansion:ice_block_stairs",
+    "the_great_expansion:ice_brick_stairs",
+    "the_great_expansion:ice_cutter",
+    "the_great_expansion:asphalt",
+    "the_great_expansion:ice_brick_fencegate",
+    "the_great_expansion:ice_block_slabs",
+    "the_great_expansion:ice_block_fence",
+    "the_great_expansion:packed_sand_brick_stairs",
+    "the_great_expansion:ice_brick_door"
+  ]
+}

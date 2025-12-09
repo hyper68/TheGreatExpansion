@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right_open",
+  "textures": {
+    "particle": "the_great_expansion:block/iceblock",
+    "bottom": "the_great_expansion:block/iceblock",
+    "top": "the_great_expansion:block/iceblock"
+  },
+  "render_type": "solid"
+}

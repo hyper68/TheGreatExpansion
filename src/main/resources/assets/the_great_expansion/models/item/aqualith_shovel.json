@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_great_expansion:item/aqualith_shovel"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+  "result": {
+    "id": "the_great_expansion:cobblestone_pillar_3_way",
+    "count": 1
+  }
+}

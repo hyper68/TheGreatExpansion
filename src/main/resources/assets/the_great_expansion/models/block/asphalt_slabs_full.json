@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "the_great_expansion:block/asphalt",
+    "bottom": "the_great_expansion:block/asphalt",
+    "top": "the_great_expansion:block/asphalt",
+    "side": "the_great_expansion:block/asphalt"
+  },
+  "render_type": "solid"
+}

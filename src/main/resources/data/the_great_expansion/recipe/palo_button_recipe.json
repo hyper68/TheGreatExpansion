@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "the_great_expansion:palo_planks"
+    }
+  ],
+  "result": {
+    "id": "the_great_expansion:palo_button",
+    "count": 1
+  }
+}

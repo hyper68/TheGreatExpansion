@@ -1,0 +1,11 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "the_great_expansion:wild_tundra",
+    "frozen_peaks",
+    "snowy_plains",
+    "snowy_taiga"
+  ],
+  "features": "the_great_expansion:hellebore",
+  "step": "vegetal_decoration"
+}

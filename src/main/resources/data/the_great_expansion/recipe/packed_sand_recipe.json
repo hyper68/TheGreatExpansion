@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:packed_sand",
+    "count": 1
+  }
+}

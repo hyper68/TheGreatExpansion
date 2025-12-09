@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "the_great_expansion:silicon_dust"
+  },
+  "result": {
+    "id": "the_great_expansion:silicon_ingot"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Fluids",
+  "icon": "the_great_expansion:crude_oil_bucket",
+  "category": "the_great_expansion:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:crude_oil_bucket",
+      "title": "Crude Oil",
+      "text": "A raw fluid found underground. Crude Oil is the base resource refined into many other fuels."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:gasoline_1",
+      "title": "Gas",
+      "text": "A volatile fuel refined from Crude Oil. Used for combustion-based machines."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:diesel_1",
+      "title": "Diesel",
+      "text": "A stable and powerful fuel refined from Crude Oil. Useful in heavy machinery."
+    }
+  ]
+}

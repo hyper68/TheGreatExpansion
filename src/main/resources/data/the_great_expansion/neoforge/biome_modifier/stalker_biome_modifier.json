@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "dark_forest",
+    "plains"
+  ],
+  "spawners": {
+    "type": "the_great_expansion:stalker",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

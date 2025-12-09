@@ -1,0 +1,9 @@
+{
+  "parent": "the_great_expansion:custom/jewlerybench",
+  "textures": {
+    "all": "the_great_expansion:block/jewlerybenchtexture",
+    "particle": "the_great_expansion:block/jewlerybenchtexture",
+    "0": "the_great_expansion:block/jewlerybenchtexture"
+  },
+  "render_type": "cutout_mipped"
+}

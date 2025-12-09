@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Eskimo",
+    "pointOfInterest": {
+      "value": "CUSTOM:IceCutter"
+    },
+    "actionSound": {
+      "value": "block.powder_snow.place"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "eskimo.png",
+    "zombifiedProfessionTextureFile": "eskimo.png"
+  }
+}

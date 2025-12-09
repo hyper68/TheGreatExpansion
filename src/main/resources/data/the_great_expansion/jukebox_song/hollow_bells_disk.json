@@ -1,0 +1,8 @@
+{
+  "comparator_output": 0,
+  "description": {
+    "translate": "item.the_great_expansion.hollow_bells_disk.desc"
+  },
+  "length_in_seconds": 164,
+  "sound_event": "the_great_expansion:hollowbells"
+}

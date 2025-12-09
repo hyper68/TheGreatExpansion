@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:aluminum_ingot"
+    },
+    "b": {
+      "item": "the_great_expansion:steel_frame"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:machine_frame",
+    "count": 1
+  }
+}

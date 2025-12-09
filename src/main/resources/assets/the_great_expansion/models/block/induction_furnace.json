@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_great_expansion:block/induction_furnace_bottom",
+    "up": "the_great_expansion:block/induction_furnace_top",
+    "north": "the_great_expansion:block/induction_furnace_front",
+    "east": "the_great_expansion:block/induction_furnace_side",
+    "south": "the_great_expansion:block/induction_furnace_back",
+    "west": "the_great_expansion:block/induction_furnace_side",
+    "particle": "the_great_expansion:block/induction_furnace_bottom"
+  },
+  "render_type": "solid"
+}

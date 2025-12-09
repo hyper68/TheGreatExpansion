@@ -1,0 +1,9 @@
+{
+  "parent": "the_great_expansion:custom/sidepillar",
+  "textures": {
+    "all": "minecraft:block/cobblestone",
+    "particle": "minecraft:block/cobblestone",
+    "missing": "minecraft:block/cobblestone"
+  },
+  "render_type": "solid"
+}

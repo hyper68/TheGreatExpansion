@@ -1,0 +1,10 @@
+{
+  "parent": "the_great_expansion:custom/germination_tank",
+  "textures": {
+    "all": "the_great_expansion:block/germinationtankbottom",
+    "particle": "the_great_expansion:block/germinationtankbottom",
+    "0": "the_great_expansion:block/germinationtankbottom",
+    "1": "the_great_expansion:block/germinationtanktop"
+  },
+  "render_type": "cutout_mipped"
+}

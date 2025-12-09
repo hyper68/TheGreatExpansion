@@ -1,0 +1,25 @@
+{
+  "name": "Gasses",
+  "icon": "the_great_expansion:propane",
+  "category": "the_great_expansion:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:propane",
+      "title": "Propane",
+      "text": "A refined gas, extracted from Crude Oil. Propane is stored under pressure and used as an efficient fuel for machines and furnaces."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "the_great_expansion:empty_propane_tank",
+      "title": "Empty Propane Tank",
+      "text": "Craft an Empty Propane Tank to store propane. These are later filled using the Filler Machine."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:filled_propane_tank",
+      "title": "Filling Propane Tanks",
+      "text": "Place an Empty Propane Tank inside the Filler Machine with Propane to create a Filled Propane Tank."
+    }
+  ]
+}

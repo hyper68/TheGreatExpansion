@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "the_great_expansion:asphalt_stairs",
+    "the_great_expansion:ice_block_stairs",
+    "the_great_expansion:palo_stairs",
+    "the_great_expansion:ice_brick_stairs",
+    "the_great_expansion:packed_sand_stairs",
+    "the_great_expansion:packed_sand_brick_stairs"
+  ]
+}

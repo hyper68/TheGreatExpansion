@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:aqualith"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:aqualith_block",
+    "count": 1
+  }
+}

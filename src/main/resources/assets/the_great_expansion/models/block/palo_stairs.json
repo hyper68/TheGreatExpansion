@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "the_great_expansion:block/palo_planks",
+    "bottom": "the_great_expansion:block/palo_planks",
+    "top": "the_great_expansion:block/palo_planks",
+    "side": "the_great_expansion:block/palo_planks"
+  },
+  "render_type": "solid"
+}

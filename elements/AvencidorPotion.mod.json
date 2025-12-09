@@ -1,0 +1,42 @@
+{
+  "_fv": 79,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Avencidor",
+    "splashName": "Splash Potion of Avencidor",
+    "lingeringName": "Lingering Potion of Avencidor",
+    "arrowName": "Arrow of Avencidor",
+    "effects": [
+      {
+        "effect": {
+          "value": "STRENGTH"
+        },
+        "duration": 4000,
+        "infinite": false,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HEALTH_BOOST"
+        },
+        "duration": 3600,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "LUCK"
+        },
+        "duration": 2000,
+        "infinite": false,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

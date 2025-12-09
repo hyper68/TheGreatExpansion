@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="the_great_expansion"
+version="0.4.0"
+displayName="The Great Expansion"
+displayURL="https://mcreator.net"
+credits="Created by Hyper"
+authors="Hyper mods"
+description="The great expanion of items and explorations"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "the_great_expansion.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.the_great_expansion]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.the_great_expansion]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.the_great_expansion]]
+    modId="jei"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

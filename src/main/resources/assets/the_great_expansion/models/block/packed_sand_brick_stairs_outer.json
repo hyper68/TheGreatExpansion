@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "the_great_expansion:block/packedsandbricks",
+    "bottom": "the_great_expansion:block/packedsandbricks",
+    "top": "the_great_expansion:block/packedsandbricks",
+    "side": "the_great_expansion:block/packedsandbricks"
+  },
+  "render_type": "solid"
+}

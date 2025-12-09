@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "frozen_peaks",
+    "snowy_slopes",
+    "snowy_plains",
+    "snowy_beach",
+    "snowy_taiga",
+    "ice_spikes"
+  ],
+  "features": "the_great_expansion:snow_lily",
+  "step": "vegetal_decoration"
+}

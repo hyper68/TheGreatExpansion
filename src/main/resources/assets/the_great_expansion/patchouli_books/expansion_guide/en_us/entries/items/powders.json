@@ -1,0 +1,13 @@
+{
+  "name": "Powders",
+  "icon": "the_great_expansion:steel_powder",
+  "category": "the_great_expansion:items",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "item": "the_great_expansion:steel_powder",
+      "title": "Steel Powder",
+      "text": "Steel powder can be made by taking x1 Iron Ingot, and x1 Carchole, and placing them inside of the 'Crusher'"
+    }
+  ]
+}

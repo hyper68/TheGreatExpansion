@@ -1,0 +1,26 @@
+{
+  "snowbound": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:snowbound",
+        "stream": true
+      }
+    ]
+  },
+  "hollowbells": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:hollow_bells",
+        "stream": true
+      }
+    ]
+  },
+  "snowboundeffect": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:_crystalline_frost_shimmer_soft_glass_clink_airy_icy_swirl_subtle_wind_chime_sparkle_",
+        "stream": false
+      }
+    ]
+  }
+}

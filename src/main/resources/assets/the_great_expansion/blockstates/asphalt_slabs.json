@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_great_expansion:block/asphalt_slabs"
+    },
+    "type=top": {
+      "model": "the_great_expansion:block/asphalt_slabs_top"
+    },
+    "type=double": {
+      "model": "the_great_expansion:block/asphalt_slabs_full"
+    }
+  }
+}

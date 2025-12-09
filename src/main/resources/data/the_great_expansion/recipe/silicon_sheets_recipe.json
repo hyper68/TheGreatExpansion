@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:silicon_ingot"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:silicon_sheets",
+    "count": 1
+  }
+}

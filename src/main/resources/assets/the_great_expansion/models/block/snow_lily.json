@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "the_great_expansion:block/snowlily",
+    "particle": "the_great_expansion:block/snowlily"
+  },
+  "render_type": "cutout"
+}

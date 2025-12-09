@@ -1,0 +1,9 @@
+{
+  "parent": "the_great_expansion:custom/alpha2statue",
+  "textures": {
+    "all": "the_great_expansion:block/alpha_2_statue",
+    "particle": "the_great_expansion:block/alpha_2_statue",
+    "0": "the_great_expansion:block/alpha_2_statue"
+  },
+  "render_type": "solid"
+}

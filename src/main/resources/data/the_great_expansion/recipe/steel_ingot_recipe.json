@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 2400,
+  "ingredient": {
+    "item": "the_great_expansion:steel_powder"
+  },
+  "result": {
+    "id": "the_great_expansion:steel_ingot"
+  }
+}

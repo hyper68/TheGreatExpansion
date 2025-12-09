@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Snowbound",
+    "icon": "4f21f77f-8b78-4c32-870e-192f84a92077",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "CUSTOM:snowboundeffect"
+    },
+    "isInstant": false,
+    "mobEffectCategory": "NEUTRAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": {
+          "value": "CUSTOM:Apalatian"
+        },
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

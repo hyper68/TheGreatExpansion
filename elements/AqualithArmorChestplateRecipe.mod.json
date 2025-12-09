@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Aqualith"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      },
+      {
+        "value": "CUSTOM:Aqualith"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AqualithArmor.body"
+    },
+    "name": "aqualith_armor_chestplate_recipe",
+    "namespace": "mod"
+  }
+}
