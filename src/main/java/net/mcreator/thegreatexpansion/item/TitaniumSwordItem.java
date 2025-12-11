@@ -15,12 +15,12 @@ public class TitaniumSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 100;
+			return 750;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 4f;
+			return 7f;
 		}
 
 		@Override
@@ -35,7 +35,7 @@ public class TitaniumSwordItem extends SwordItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 12;
 		}
 
 		@Override
@@ -45,6 +45,6 @@ public class TitaniumSwordItem extends SwordItem {
 	};
 
 	public TitaniumSwordItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 7.5f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 6.5f, -2.4f)));
 	}
 }

@@ -15,12 +15,12 @@ public class AqualithSwordItem extends SwordItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 1741;
+			return 1900;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 14f;
+			return 9f;
 		}
 
 		@Override
@@ -30,12 +30,12 @@ public class AqualithSwordItem extends SwordItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_DIAMOND_TOOL;
+			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 56;
+			return 20;
 		}
 
 		@Override
@@ -45,6 +45,6 @@ public class AqualithSwordItem extends SwordItem {
 	};
 
 	public AqualithSwordItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 15f, 8f)));
+		super(TOOL_TIER, new Item.Properties().attributes(SwordItem.createAttributes(TOOL_TIER, 7.5f, -2.4f)));
 	}
 }

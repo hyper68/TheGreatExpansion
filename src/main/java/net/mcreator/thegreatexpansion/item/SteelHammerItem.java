@@ -14,18 +14,19 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.thegreatexpansion.init.TheGreatExpansionModItems;
 import net.mcreator.thegreatexpansion.procedures.SteelHammerBlockDestroyedWithToolProcedure;
 
 public class SteelHammerItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 250;
+			return 500;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 4f;
+			return 6f;
 		}
 
 		@Override
@@ -35,22 +36,22 @@ public class SteelHammerItem extends PickaxeItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_DIAMOND_TOOL;
+			return BlockTags.INCORRECT_FOR_IRON_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 14;
 		}
 
 		@Override
 		public Ingredient getRepairIngredient() {
-			return Ingredient.of();
+			return Ingredient.of(new ItemStack(TheGreatExpansionModItems.STEEL_INGOT.get()));
 		}
 	};
 
 	public SteelHammerItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 4f, -3.2f)));
 	}
 
 	@Override

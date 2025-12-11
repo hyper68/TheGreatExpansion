@@ -29,13 +29,13 @@ public abstract class TitaniumArmourItem extends ArmorItem {
 	public static void registerArmorMaterial(RegisterEvent event) {
 		event.register(Registries.ARMOR_MATERIAL, registerHelper -> {
 			ArmorMaterial armorMaterial = new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-				map.put(ArmorItem.Type.BOOTS, 2);
-				map.put(ArmorItem.Type.LEGGINGS, 5);
-				map.put(ArmorItem.Type.CHESTPLATE, 6);
-				map.put(ArmorItem.Type.HELMET, 2);
-				map.put(ArmorItem.Type.BODY, 6);
-			}), 9, DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_iron")), () -> Ingredient.of(new ItemStack(TheGreatExpansionModItems.TITANIUM_INGOT.get())),
-					List.of(new ArmorMaterial.Layer(ResourceLocation.parse("the_great_expansion:titaniumarmour"))), 0f, 0f);
+				map.put(ArmorItem.Type.BOOTS, 3);
+				map.put(ArmorItem.Type.LEGGINGS, 6);
+				map.put(ArmorItem.Type.CHESTPLATE, 8);
+				map.put(ArmorItem.Type.HELMET, 3);
+				map.put(ArmorItem.Type.BODY, 8);
+			}), 12, DeferredHolder.create(Registries.SOUND_EVENT, ResourceLocation.parse("item.armor.equip_iron")), () -> Ingredient.of(new ItemStack(TheGreatExpansionModItems.TITANIUM_INGOT.get())),
+					List.of(new ArmorMaterial.Layer(ResourceLocation.parse("the_great_expansion:titaniumarmour"))), 1f, 0f);
 			registerHelper.register(ResourceLocation.parse("the_great_expansion:titanium_armour"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
@@ -47,25 +47,25 @@ public abstract class TitaniumArmourItem extends ArmorItem {
 
 	public static class Helmet extends TitaniumArmourItem {
 		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(15)));
+			super(ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(22)));
 		}
 	}
 
 	public static class Chestplate extends TitaniumArmourItem {
 		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(15)));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(22)));
 		}
 	}
 
 	public static class Leggings extends TitaniumArmourItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(15)));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(22)));
 		}
 	}
 
 	public static class Boots extends TitaniumArmourItem {
 		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(15)));
+			super(ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(22)));
 		}
 	}
 }

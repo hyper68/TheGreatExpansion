@@ -29,13 +29,13 @@ public abstract class AqualithArmorItem extends ArmorItem {
 	public static void registerArmorMaterial(RegisterEvent event) {
 		event.register(Registries.ARMOR_MATERIAL, registerHelper -> {
 			ArmorMaterial armorMaterial = new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
-				map.put(ArmorItem.Type.BOOTS, 8);
-				map.put(ArmorItem.Type.LEGGINGS, 20);
-				map.put(ArmorItem.Type.CHESTPLATE, 24);
-				map.put(ArmorItem.Type.HELMET, 8);
-				map.put(ArmorItem.Type.BODY, 24);
-			}), 36, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(TheGreatExpansionModItems.AQUALITH.get())), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("the_great_expansion:aqualith"))),
-					3f, 0f);
+				map.put(ArmorItem.Type.BOOTS, 3);
+				map.put(ArmorItem.Type.LEGGINGS, 6);
+				map.put(ArmorItem.Type.CHESTPLATE, 8);
+				map.put(ArmorItem.Type.HELMET, 3);
+				map.put(ArmorItem.Type.BODY, 8);
+			}), 20, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(TheGreatExpansionModItems.AQUALITH.get())), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("the_great_expansion:aqualith"))),
+					2.5f, 0f);
 			registerHelper.register(ResourceLocation.parse("the_great_expansion:aqualith_armor"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
@@ -47,25 +47,25 @@ public abstract class AqualithArmorItem extends ArmorItem {
 
 	public static class Helmet extends AqualithArmorItem {
 		public Helmet() {
-			super(ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(39)));
+			super(ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(28)));
 		}
 	}
 
 	public static class Chestplate extends AqualithArmorItem {
 		public Chestplate() {
-			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(39)));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(28)));
 		}
 	}
 
 	public static class Leggings extends AqualithArmorItem {
 		public Leggings() {
-			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(39)));
+			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(28)));
 		}
 	}
 
 	public static class Boots extends AqualithArmorItem {
 		public Boots() {
-			super(ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(39)));
+			super(ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(28)));
 		}
 	}
 }
