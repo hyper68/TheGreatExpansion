@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "capsule_recipe_type",
+    "ingredients": [
+      {
+        "value": "CUSTOM:MercuryIngot"
+      },
+      {
+        "value": "CUSTOM:Capsule"
+      }
+    ],
+    "integers": [
+      1
+    ],
+    "strings": [],
+    "recipetype": "CapsuleRecipeType",
+    "results": [
+      {
+        "value": "CUSTOM:MercuryCapsule"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

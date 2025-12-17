@@ -2730,10 +2730,8 @@
       "registry_name": "stalker",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/stalker_biome_modifier.json",
           "src/main/java/net/mcreator/thegreatexpansion/entity/StalkerEntity.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/renderer/StalkerRenderer.java",
-          "src/main/resources/assets/the_great_expansion/models/item/stalker_spawn_egg.json"
+          "src/main/java/net/mcreator/thegreatexpansion/client/renderer/StalkerRenderer.java"
         ]
       },
       "path": "~/Enitys/Misc."
@@ -3648,6 +3646,555 @@
         "return_type": "number"
       },
       "path": "~/Machines/InductionFurnace"
+    },
+    {
+      "name": "TitaniumAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/titanium_axe_recipe.json"
+        ]
+      },
+      "path": "~/Gear/Titanium"
+    },
+    {
+      "name": "OmegaCraftingTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omega_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/OmegaCraftingTableBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/omega_crafting_table.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/OmegaCraftingTableBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/block/omega_crafting_table.json",
+          "src/main/resources/assets/the_great_expansion/models/item/omega_crafting_table.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/omega_crafting_table.json"
+        ]
+      },
+      "path": "~/Machines/Omega"
+    },
+    {
+      "name": "OmegaCraftingTableGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omega_crafting_table_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/OmegaCraftingTableGUIMenu.java",
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/OmegaCraftingTableGUIScreen.java"
+        ]
+      },
+      "path": "~/Machines/Omega"
+    },
+    {
+      "name": "LiquidGlass",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_glass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/LiquidGlassItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/liquid_glass.json"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidGlass"
+    },
+    {
+      "name": "LIquidGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_iquid_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/l_iquid_glass_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/l_iquid_glass_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidGlass"
+    },
+    {
+      "name": "LIquidGlassBlastRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_iquid_glass_blast_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/l_iquid_glass_blast_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/l_iquid_glass_blast_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidGlass"
+    },
+    {
+      "name": "HeavyMetal",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavy_metal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/heavy_metal.json"
+        ]
+      },
+      "path": "~/Ingots"
+    },
+    {
+      "name": "LeadBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/lead_block.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/LeadBlockBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/lead_block.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/lead_block.json",
+          "src/main/resources/assets/the_great_expansion/models/block/lead_block.json"
+        ]
+      },
+      "path": "~/Items/ECU/LeadBlock"
+    },
+    {
+      "name": "LeadBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/lead_block_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/lead_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/LeadBlock"
+    },
+    {
+      "name": "CompressedLeadBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_lead_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/compressed_lead_block.json",
+          "src/main/resources/assets/the_great_expansion/models/block/compressed_lead_block.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/compressed_lead_block.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/CompressedLeadBlockBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/compressed_lead_block.json"
+        ]
+      },
+      "path": "~/Items/ECU/CompressedLeadBlock"
+    },
+    {
+      "name": "CompressedLeadBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compressed_lead_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/compressed_lead_block_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/compressed_lead_block_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/CompressedLeadBlock"
+    },
+    {
+      "name": "DenseAsABrick",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dense_as_a_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/dense_as_a_brick.json"
+        ]
+      },
+      "path": "~/Items/ECU/LeadBlock"
+    },
+    {
+      "name": "UnnaturallyCompact",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unnaturally_compact",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/unnaturally_compact.json"
+        ]
+      },
+      "path": "~/Items/ECU/CompressedLeadBlock"
+    },
+    {
+      "name": "DiamondRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/DiamondRodItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/diamond_rod.json"
+        ]
+      },
+      "path": "~/Items/ECU/DiamondRod"
+    },
+    {
+      "name": "DiamondRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/diamond_rod_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/diamond_rod_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/DiamondRod"
+    },
+    {
+      "name": "CutAbove",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_above",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/cut_above.json"
+        ]
+      },
+      "path": "~/Items/ECU/DiamondRod"
+    },
+    {
+      "name": "ThroughTheLookingGlass",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "through_the_looking_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/through_the_looking_glass.json"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidGlass"
+    },
+    {
+      "name": "ExpansionControlRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expansion_control_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/ExpansionControlRodItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/expansion_control_rod.json"
+        ]
+      },
+      "path": "~/Items/ECU/Expansion Control Rods"
+    },
+    {
+      "name": "ExpansionControlRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expansion_control_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/expansion_control_rod_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/Expansion Control Rods"
+    },
+    {
+      "name": "PerfectAlignment",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "perfect_alignment",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/perfect_alignment.json"
+        ]
+      },
+      "path": "~/Items/ECU/Expansion Control Rods"
+    },
+    {
+      "name": "LiquidAqualith",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_aqualith",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/liquid_aqualith.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/LiquidAqualithItem.java"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidAqualith"
+    },
+    {
+      "name": "LiquidAqualithRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_aqualith_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/liquid_aqualith_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/liquid_aqualith_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidAqualith"
+    },
+    {
+      "name": "LiquidAqualithBlastRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_aqualith_blast_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/liquid_aqualith_blast_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/liquid_aqualith_blast_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/LiquidAqualith"
+    },
+    {
+      "name": "AqualithControlRod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqualith_control_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/aqualith_control_rod.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithControlRodItem.java"
+        ]
+      },
+      "path": "~/Items/ECU/Aqualith Control Rod"
+    },
+    {
+      "name": "AqualithControlRodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aqualith_control_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/aqualith_control_rod_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/Aqualith Control Rod"
+    },
+    {
+      "name": "StabilityFirst",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stability_first",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/stability_first.json"
+        ]
+      },
+      "path": "~/Items/ECU/Aqualith Control Rod"
+    },
+    {
+      "name": "DiamondScreen",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/DiamondScreenItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/diamond_screen.json"
+        ]
+      },
+      "path": "~/Items/ECU/Diamond Screen"
+    },
+    {
+      "name": "DiamondScreenRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_screen_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/diamond_screen_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU/Diamond Screen"
+    },
+    {
+      "name": "CrystalLattice",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_lattice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/crystal_lattice.json"
+        ]
+      },
+      "path": "~/Items/ECU/Diamond Screen"
+    },
+    {
+      "name": "Capsulator",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsulator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/capsulator.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/CapsulatorBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/capsulator.json",
+          "src/main/resources/assets/the_great_expansion/models/item/capsulator.json",
+          "src/main/resources/assets/the_great_expansion/models/block/capsulator.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/CapsulatorBlockEntity.java"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "CapsulatorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsulator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/capsulator_recipe.json"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "Capsule",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/capsule.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/CapsuleItem.java"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "CapsuleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/capsule_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/capsule_recipe.json"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "CapsulatorProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsulator_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/CapsulatorProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "MercuryCapsule",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_capsule",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/mercury_capsule.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/MercuryCapsuleItem.java"
+        ]
+      },
+      "path": "~/Machines/capsulator/Mercury Capsule"
+    },
+    {
+      "name": "CapsulatorGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsulator_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/CapsulatorGUIMenu.java",
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/CapsulatorGUIScreen.java"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "CapsuleRecipeType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capsule_recipe_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/jei_recipes/CapsuleRecipeTypeRecipeCategory.java",
+          "src/main/java/net/mcreator/thegreatexpansion/jei_recipes/CapsuleRecipeTypeRecipe.java"
+        ]
+      },
+      "path": "~/Machines/capsulator"
+    },
+    {
+      "name": "MercuryCapsuleRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mercury_capsule_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/mercury_capsule_recipe.json"
+        ]
+      },
+      "path": "~/Machines/capsulator/Mercury Capsule"
     }
   ],
   "variable_elements": [],
@@ -3679,6 +4226,10 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Capsulator",
+      "~CUSTOM:CompressedLeadBlock",
+      "~CUSTOM:LeadBlock",
+      "~CUSTOM:OmegaCraftingTable",
       "~CUSTOM:InductionFurnace",
       "~CUSTOM:IceBlockFencegate",
       "~CUSTOM:IceBlockDoor",
@@ -3710,6 +4261,7 @@
       "~CUSTOM:Bauxite"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:OmegaCraftingTable",
       "~CUSTOM:InductionFurnace",
       "~CUSTOM:ReinforcedChest",
       "~CUSTOM:IlmeniteOre",
@@ -3717,6 +4269,8 @@
       "~CUSTOM:Bauxite"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:CompressedLeadBlock",
+      "~CUSTOM:LeadBlock",
       "~CUSTOM:AqualithBlock",
       "~CUSTOM:AqualithOre",
       "~CUSTOM:CinnabarOre"
@@ -3973,7 +4527,18 @@
       "Permafrost",
       "ReinforcedPermafrost",
       "CryoniteOre",
-      "PermafrostIronOre"
+      "PermafrostIronOre",
+      "LiquidGlass",
+      "LeadBlock",
+      "CompressedLeadBlock",
+      "DiamondRod",
+      "ExpansionControlRod",
+      "LiquidAqualith",
+      "AqualithControlRod",
+      "DiamondScreen",
+      "Capsule",
+      "MercuryCapsule",
+      "Capsulator"
     ]
   },
   "language_map": {
@@ -4077,7 +4642,6 @@
       "block.the_great_expansion.cobblestone_side_pillar": "Cobblestone Side Pillar",
       "block.the_great_expansion.cobblestone_side_pillar_3_way": "Cobblestone Side Pillar 3 Way",
       "block.the_great_expansion.cobblestone_side_pillar_4_way": "Cobblestone Side Pillar 4 Way",
-      "item.the_great_expansion.stalker_spawn_egg": "Stalker Spawn Egg",
       "entity.the_great_expansion.stalker": "Stalker",
       "subtitles.snowbound": "",
       "item.the_great_expansion.snowscape_disk.desc": "A calming soundtrack, making you feel the snow.",
@@ -4132,7 +4696,35 @@
       "block.the_great_expansion.reinforced_permafrost": "Reinforced Permafrost",
       "block.the_great_expansion.cryonite_ore": "Cryonite Ore",
       "block.the_great_expansion.induction_furnace": "Induction Furnace",
-      "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": ""
+      "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": "",
+      "block.the_great_expansion.omega_crafting_table": "Omega Crafting Table",
+      "item.the_great_expansion.liquid_glass": "Liquid Glass",
+      "advancements.heavy_metal.descr": "Obtain your first Lead Ingot, “Probably shouldn’t lick it.”",
+      "advancements.heavy_metal.title": "Heavy Metal",
+      "block.the_great_expansion.lead_block": "Lead Block",
+      "block.the_great_expansion.compressed_lead_block": "Compressed Lead Block",
+      "advancements.dense_as_a_brick.title": "Dense As A Brick",
+      "advancements.dense_as_a_brick.descr": "Craft a Lead Block, “Nine times the toxicity.”",
+      "advancements.unnaturally_compact.title": "Unnaturally Compact",
+      "advancements.unnaturally_compact.descr": "Create Compressed Lead, “Physics is more of a suggestion.”",
+      "item.the_great_expansion.diamond_rod": "Diamond Rod",
+      "advancements.cut_above.title": "Cut Above",
+      "advancements.cut_above.descr": "Craft a Diamond Rod, “Precision sharpened.”",
+      "advancements.through_the_looking_glass.title": "Through The Looking Glass",
+      "advancements.through_the_looking_glass.descr": "Create Liquid Glass, “Clear, but deadly hot.”",
+      "item.the_great_expansion.expansion_control_rod": "Expansion Control Rod",
+      "advancements.perfect_alignment.descr": "Craft an Expansion Control Rod, “Expansion without chaos.”",
+      "advancements.perfect_alignment.title": "Perfect Alignment",
+      "item.the_great_expansion.liquid_aqualith": "Liquid Aqualith",
+      "item.the_great_expansion.aqualith_control_rod": "Aqualith Control Rod",
+      "advancements.stability_first.title": "Stability First",
+      "advancements.stability_first.descr": "Craft an Aquath Control Rod, “Control is everything.”",
+      "item.the_great_expansion.diamond_screen": "Diamond Screen",
+      "advancements.crystal_lattice.descr": "Craft a Diamond Screen, “Seeing atoms now.”",
+      "advancements.crystal_lattice.title": "Crystal Lattice",
+      "block.the_great_expansion.capsulator": "Capsulator",
+      "item.the_great_expansion.capsule": "Capsule",
+      "item.the_great_expansion.mercury_capsule": "Capsule"
     }
   },
   "metadata": {
@@ -4147,6 +4739,8 @@
       "src/main/java/net/mcreator/thegreatexpansion/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModScreens.java",
       "src/main/resources/data/the_great_expansion/tags/item/jei_empty_tag.json",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModJeiPlugin.java",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModRecipeTypes.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModMobEffects.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModPotions.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModBrewingRecipes.java",
@@ -4227,6 +4821,19 @@
           {
             "name": "InductionFurnace",
             "children": []
+          },
+          {
+            "name": "Omega",
+            "children": []
+          },
+          {
+            "name": "capsulator",
+            "children": [
+              {
+                "name": "Mercury Capsule",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -4236,7 +4843,45 @@
       },
       {
         "name": "Items",
-        "children": []
+        "children": [
+          {
+            "name": "ECU",
+            "children": [
+              {
+                "name": "LiquidGlass",
+                "children": []
+              },
+              {
+                "name": "LeadBlock",
+                "children": []
+              },
+              {
+                "name": "CompressedLeadBlock",
+                "children": []
+              },
+              {
+                "name": "DiamondRod",
+                "children": []
+              },
+              {
+                "name": "Expansion Control Rods",
+                "children": []
+              },
+              {
+                "name": "LiquidAqualith",
+                "children": []
+              },
+              {
+                "name": "Aqualith Control Rod",
+                "children": []
+              },
+              {
+                "name": "Diamond Screen",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Fluids",

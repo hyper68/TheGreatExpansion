@@ -34,6 +34,8 @@ public class TheGreatExpansionModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IceCutterBlockEntity>> ICE_CUTTER = register("ice_cutter", TheGreatExpansionModBlocks.ICE_CUTTER, IceCutterBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<GerminationTankBlockEntity>> GERMINATION_TANK = register("germination_tank", TheGreatExpansionModBlocks.GERMINATION_TANK, GerminationTankBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<InductionFurnaceBlockEntity>> INDUCTION_FURNACE = register("induction_furnace", TheGreatExpansionModBlocks.INDUCTION_FURNACE, InductionFurnaceBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<OmegaCraftingTableBlockEntity>> OMEGA_CRAFTING_TABLE = register("omega_crafting_table", TheGreatExpansionModBlocks.OMEGA_CRAFTING_TABLE, OmegaCraftingTableBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<CapsulatorBlockEntity>> CAPSULATOR = register("capsulator", TheGreatExpansionModBlocks.CAPSULATOR, CapsulatorBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -59,5 +61,8 @@ public class TheGreatExpansionModBlockEntities {
 		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, GERMINATION_TANK.get(), (blockEntity, side) -> blockEntity.getFluidTank());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, INDUCTION_FURNACE.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, INDUCTION_FURNACE.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, OMEGA_CRAFTING_TABLE.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, CAPSULATOR.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, CAPSULATOR.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
 	}
 }

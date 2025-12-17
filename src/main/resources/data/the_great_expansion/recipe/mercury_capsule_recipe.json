@@ -1,0 +1,17 @@
+{
+  "type": "the_great_expansion:capsule_recipe_type",
+  "ingredients": [
+    {
+      "item": "the_great_expansion:mercury_ingot"
+    },
+    {
+      "item": "the_great_expansion:capsule"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "the_great_expansion:mercury_capsule",
+      "count": 1
+    }
+  ]
+}

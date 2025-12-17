@@ -1,0 +1,45 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipetype",
+  "definition": {
+    "textureSelector": "capsulejei.png",
+    "width": 175,
+    "height": 165,
+    "icon": {
+      "value": "CUSTOM:Capsulator"
+    },
+    "craftingtables": [],
+    "enableCraftingtable": false,
+    "enableIntList": false,
+    "enableStringList": false,
+    "title": "Capsulator",
+    "slotList": [
+      {
+        "type": "INPUT",
+        "x": 78,
+        "y": 7,
+        "slotid": 0
+      },
+      {
+        "type": "INPUT",
+        "x": 78,
+        "y": 61,
+        "slotid": 1
+      },
+      {
+        "type": "OUTPUT",
+        "x": 78,
+        "y": 34,
+        "slotid": 0
+      }
+    ],
+    "components": [],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

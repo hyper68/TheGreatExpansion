@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:expansion_control_rod"
+    },
+    "title": {
+      "translate": "advancements.perfect_alignment.title"
+    },
+    "description": {
+      "translate": "advancements.perfect_alignment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "perfect_alignment_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:expansion_control_rod"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:cut_above"
+}

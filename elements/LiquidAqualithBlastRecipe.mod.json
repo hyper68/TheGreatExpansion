@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Aqualith"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 72000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:Aqualith"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:LiquidAqualith"
+    },
+    "name": "liquid_aqualith_blast_recipe",
+    "namespace": "mod"
+  }
+}

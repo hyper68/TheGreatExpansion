@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_great_expansion:block/leadblock",
+    "particle": "the_great_expansion:block/leadblock"
+  },
+  "render_type": "solid"
+}

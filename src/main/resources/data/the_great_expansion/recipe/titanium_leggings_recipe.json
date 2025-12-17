@@ -2,16 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aba",
+    "aaa",
     "a a",
     "a a"
   ],
   "key": {
     "a": {
       "item": "the_great_expansion:titanium_ingot"
-    },
-    "b": {
-      "item": "the_great_expansion:steel_ingot"
     }
   },
   "result": {

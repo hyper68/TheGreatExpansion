@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:LiquidGlass"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DiamondScreen"
+    },
+    "name": "diamond_screen_recipe",
+    "namespace": "mod"
+  }
+}

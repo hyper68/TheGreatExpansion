@@ -121,6 +121,17 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModBlocks.REINFORCED_PERMAFROST.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.CRYONITE_ORE.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.PERMAFROST_IRON_ORE.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.LIQUID_GLASS.get());
+				tabData.accept(TheGreatExpansionModBlocks.LEAD_BLOCK.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.COMPRESSED_LEAD_BLOCK.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.DIAMOND_ROD.get());
+				tabData.accept(TheGreatExpansionModItems.EXPANSION_CONTROL_ROD.get());
+				tabData.accept(TheGreatExpansionModItems.LIQUID_AQUALITH.get());
+				tabData.accept(TheGreatExpansionModItems.AQUALITH_CONTROL_ROD.get());
+				tabData.accept(TheGreatExpansionModItems.DIAMOND_SCREEN.get());
+				tabData.accept(TheGreatExpansionModItems.CAPSULE.get());
+				tabData.accept(TheGreatExpansionModItems.MERCURY_CAPSULE.get());
+				tabData.accept(TheGreatExpansionModBlocks.CAPSULATOR.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WINTER_EXPANSION = REGISTRY.register("winter_expansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.the_great_expansion.winter_expansion")).icon(() -> new ItemStack(TheGreatExpansionModBlocks.SMALL_SNOWMAN.get())).displayItems((parameters, tabData) -> {
@@ -198,7 +209,6 @@ public class TheGreatExpansionModTabs {
 			tabData.accept(TheGreatExpansionModBlocks.WINTERBERRY.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(TheGreatExpansionModItems.SAND_CRAB_SPAWN_EGG.get());
-			tabData.accept(TheGreatExpansionModItems.STALKER_SPAWN_EGG.get());
 			tabData.accept(TheGreatExpansionModItems.SUB_ZOMBIE_SPAWN_EGG.get());
 		}
 	}

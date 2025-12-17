@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.GLASS"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 12000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "Blocks.GLASS"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:LiquidGlass"
+    },
+    "name": "l_iquid_glass_blast_recipe",
+    "namespace": "mod"
+  }
+}

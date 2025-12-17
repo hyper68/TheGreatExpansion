@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "category": "misc",
-  "experience": 2.8,
+  "experience": 1.2,
   "cookingtime": 200,
   "ingredient": {
     "item": "the_great_expansion:aqualith_ore"

@@ -89,6 +89,10 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> REINFORCED_PERMAFROST;
 	public static final DeferredBlock<Block> CRYONITE_ORE;
 	public static final DeferredBlock<Block> INDUCTION_FURNACE;
+	public static final DeferredBlock<Block> OMEGA_CRAFTING_TABLE;
+	public static final DeferredBlock<Block> LEAD_BLOCK;
+	public static final DeferredBlock<Block> COMPRESSED_LEAD_BLOCK;
+	public static final DeferredBlock<Block> CAPSULATOR;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -166,6 +170,10 @@ public class TheGreatExpansionModBlocks {
 		REINFORCED_PERMAFROST = REGISTRY.register("reinforced_permafrost", ReinforcedPermafrostBlock::new);
 		CRYONITE_ORE = REGISTRY.register("cryonite_ore", CryoniteOreBlock::new);
 		INDUCTION_FURNACE = REGISTRY.register("induction_furnace", InductionFurnaceBlock::new);
+		OMEGA_CRAFTING_TABLE = REGISTRY.register("omega_crafting_table", OmegaCraftingTableBlock::new);
+		LEAD_BLOCK = REGISTRY.register("lead_block", LeadBlockBlock::new);
+		COMPRESSED_LEAD_BLOCK = REGISTRY.register("compressed_lead_block", CompressedLeadBlockBlock::new);
+		CAPSULATOR = REGISTRY.register("capsulator", CapsulatorBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

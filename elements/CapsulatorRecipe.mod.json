@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SteelFacePlate"
+      },
+      {
+        "value": "CUSTOM:DiamondRod"
+      },
+      {
+        "value": "CUSTOM:SteelFacePlate"
+      },
+      {
+        "value": "CUSTOM:SiliconSheets"
+      },
+      {
+        "value": "CUSTOM:MachineFrame"
+      },
+      {
+        "value": "CUSTOM:SiliconSheets"
+      },
+      {
+        "value": "CUSTOM:SteelBeams"
+      },
+      {
+        "value": "CUSTOM:SiliconSheets"
+      },
+      {
+        "value": "CUSTOM:SteelBeams"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Capsulator"
+    },
+    "name": "capsulator_recipe",
+    "namespace": "mod"
+  }
+}

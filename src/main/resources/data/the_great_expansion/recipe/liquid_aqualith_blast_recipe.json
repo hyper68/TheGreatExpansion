@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 72000,
+  "ingredient": {
+    "item": "the_great_expansion:aqualith"
+  },
+  "result": {
+    "id": "the_great_expansion:liquid_aqualith"
+  }
+}

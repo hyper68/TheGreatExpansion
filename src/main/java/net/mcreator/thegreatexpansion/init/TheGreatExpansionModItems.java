@@ -108,7 +108,6 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR;
 	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR_3_WAY;
 	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR_4_WAY;
-	public static final DeferredItem<Item> STALKER_SPAWN_EGG;
 	public static final DeferredItem<Item> SNOWSCAPE_DISK;
 	public static final DeferredItem<Item> HOLLOW_BELLS_DISK;
 	public static final DeferredItem<Item> ICE_BRICKS;
@@ -142,6 +141,18 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> REINFORCED_PERMAFROST;
 	public static final DeferredItem<Item> CRYONITE_ORE;
 	public static final DeferredItem<Item> INDUCTION_FURNACE;
+	public static final DeferredItem<Item> OMEGA_CRAFTING_TABLE;
+	public static final DeferredItem<Item> LIQUID_GLASS;
+	public static final DeferredItem<Item> LEAD_BLOCK;
+	public static final DeferredItem<Item> COMPRESSED_LEAD_BLOCK;
+	public static final DeferredItem<Item> DIAMOND_ROD;
+	public static final DeferredItem<Item> EXPANSION_CONTROL_ROD;
+	public static final DeferredItem<Item> LIQUID_AQUALITH;
+	public static final DeferredItem<Item> AQUALITH_CONTROL_ROD;
+	public static final DeferredItem<Item> DIAMOND_SCREEN;
+	public static final DeferredItem<Item> CAPSULATOR;
+	public static final DeferredItem<Item> CAPSULE;
+	public static final DeferredItem<Item> MERCURY_CAPSULE;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -229,7 +240,6 @@ public class TheGreatExpansionModItems {
 		COBBLESTONE_SIDE_PILLAR = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR);
 		COBBLESTONE_SIDE_PILLAR_3_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR_3_WAY);
 		COBBLESTONE_SIDE_PILLAR_4_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR_4_WAY);
-		STALKER_SPAWN_EGG = REGISTRY.register("stalker_spawn_egg", () -> new DeferredSpawnEggItem(TheGreatExpansionModEntities.STALKER, -16777216, -13421773, new Item.Properties()));
 		SNOWSCAPE_DISK = REGISTRY.register("snowscape_disk", SnowscapeDiskItem::new);
 		HOLLOW_BELLS_DISK = REGISTRY.register("hollow_bells_disk", HollowBellsDiskItem::new);
 		ICE_BRICKS = block(TheGreatExpansionModBlocks.ICE_BRICKS);
@@ -263,6 +273,18 @@ public class TheGreatExpansionModItems {
 		REINFORCED_PERMAFROST = block(TheGreatExpansionModBlocks.REINFORCED_PERMAFROST);
 		CRYONITE_ORE = block(TheGreatExpansionModBlocks.CRYONITE_ORE);
 		INDUCTION_FURNACE = block(TheGreatExpansionModBlocks.INDUCTION_FURNACE);
+		OMEGA_CRAFTING_TABLE = block(TheGreatExpansionModBlocks.OMEGA_CRAFTING_TABLE);
+		LIQUID_GLASS = REGISTRY.register("liquid_glass", LiquidGlassItem::new);
+		LEAD_BLOCK = block(TheGreatExpansionModBlocks.LEAD_BLOCK);
+		COMPRESSED_LEAD_BLOCK = block(TheGreatExpansionModBlocks.COMPRESSED_LEAD_BLOCK);
+		DIAMOND_ROD = REGISTRY.register("diamond_rod", DiamondRodItem::new);
+		EXPANSION_CONTROL_ROD = REGISTRY.register("expansion_control_rod", ExpansionControlRodItem::new);
+		LIQUID_AQUALITH = REGISTRY.register("liquid_aqualith", LiquidAqualithItem::new);
+		AQUALITH_CONTROL_ROD = REGISTRY.register("aqualith_control_rod", AqualithControlRodItem::new);
+		DIAMOND_SCREEN = REGISTRY.register("diamond_screen", DiamondScreenItem::new);
+		CAPSULATOR = block(TheGreatExpansionModBlocks.CAPSULATOR);
+		CAPSULE = REGISTRY.register("capsule", CapsuleItem::new);
+		MERCURY_CAPSULE = REGISTRY.register("mercury_capsule", MercuryCapsuleItem::new);
 	}
 
 	// Start of user code block custom items

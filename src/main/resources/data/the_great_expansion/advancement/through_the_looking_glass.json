@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:liquid_glass"
+    },
+    "title": {
+      "translate": "advancements.through_the_looking_glass.title"
+    },
+    "description": {
+      "translate": "advancements.through_the_looking_glass.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "through_the_looking_glass_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:liquid_glass"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:cut_above"
+}

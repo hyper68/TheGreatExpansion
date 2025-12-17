@@ -25,11 +25,15 @@
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "usageCount": 1000,
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaniumIngot"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],

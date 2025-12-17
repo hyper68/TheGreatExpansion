@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.GLASS"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 2.0,
+    "cookingTime": 24000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "Blocks.GLASS"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:LiquidGlass"
+    },
+    "name": "l_iquid_glass_recipe",
+    "namespace": "mod"
+  }
+}

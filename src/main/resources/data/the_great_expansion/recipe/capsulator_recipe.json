@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "ece"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:steel_face_plate"
+    },
+    "b": {
+      "item": "the_great_expansion:diamond_rod"
+    },
+    "c": {
+      "item": "the_great_expansion:silicon_sheets"
+    },
+    "d": {
+      "item": "the_great_expansion:machine_frame"
+    },
+    "e": {
+      "item": "the_great_expansion:steel_beams"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:capsulator",
+    "count": 1
+  }
+}

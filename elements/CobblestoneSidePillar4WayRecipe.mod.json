@@ -19,7 +19,7 @@
       "value": "Blocks.COBBLESTONE"
     },
     "stoneCuttingReturnStack": {
-      "value": "CUSTOM:CobblestoneSidePillar3Way"
+      "value": "CUSTOM:CobblestoneSidePillar4Way"
     },
     "name": "cobblestone_side_pillar_4_way_recipe",
     "namespace": "mod"

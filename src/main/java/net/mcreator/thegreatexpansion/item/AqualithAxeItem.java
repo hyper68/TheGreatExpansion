@@ -16,12 +16,12 @@ public class AqualithAxeItem extends AxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 1900;
+			return 1741;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 9f;
+			return 14f;
 		}
 
 		@Override
@@ -31,12 +31,12 @@ public class AqualithAxeItem extends AxeItem {
 
 		@Override
 		public TagKey<Block> getIncorrectBlocksForDrops() {
-			return BlockTags.INCORRECT_FOR_NETHERITE_TOOL;
+			return BlockTags.INCORRECT_FOR_DIAMOND_TOOL;
 		}
 
 		@Override
 		public int getEnchantmentValue() {
-			return 20;
+			return 56;
 		}
 
 		@Override
@@ -46,6 +46,6 @@ public class AqualithAxeItem extends AxeItem {
 	};
 
 	public AqualithAxeItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 9.5f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 15f, 8f)));
 	}
 }

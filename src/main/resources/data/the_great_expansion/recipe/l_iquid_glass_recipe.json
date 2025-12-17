@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 2,
+  "cookingtime": 24000,
+  "ingredient": {
+    "item": "minecraft:glass"
+  },
+  "result": {
+    "id": "the_great_expansion:liquid_glass"
+  }
+}

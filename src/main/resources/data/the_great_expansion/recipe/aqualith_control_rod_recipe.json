@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:titanium_ingot"
+    },
+    "b": {
+      "item": "the_great_expansion:liquid_aqualith"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:aqualith_control_rod",
+    "count": 1
+  }
+}

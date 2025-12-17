@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_great_expansion:block/capsulator_bottom",
+    "up": "the_great_expansion:block/capsulator_top",
+    "north": "the_great_expansion:block/capsulator_front",
+    "east": "the_great_expansion:block/capsulator_side",
+    "south": "the_great_expansion:block/capsulator_back",
+    "west": "the_great_expansion:block/capsulator_side",
+    "particle": "the_great_expansion:block/capsulator_bottom"
+  },
+  "render_type": "solid"
+}

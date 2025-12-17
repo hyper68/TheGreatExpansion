@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:compressed_lead_block"
+    },
+    "title": {
+      "translate": "advancements.unnaturally_compact.title"
+    },
+    "description": {
+      "translate": "advancements.unnaturally_compact.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "unnaturally_compact_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:compressed_lead_block"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:dense_as_a_brick"
+}

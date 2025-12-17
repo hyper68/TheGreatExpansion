@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Aqualith"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 108000,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Aqualith"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:LiquidAqualith"
+    },
+    "name": "liquid_aqualith_recipe",
+    "namespace": "mod"
+  }
+}
