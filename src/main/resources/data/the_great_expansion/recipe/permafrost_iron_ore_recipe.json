@@ -1,0 +1,18 @@
+{
+  "type": "the_great_expansion:induction_furnace_jei",
+  "ingredients": [
+    {
+      "item": "the_great_expansion:permafrost_iron_ore"
+    }
+  ],
+  "strings": [
+    "44,000 Rf per craft",
+    "300 Ticks"
+  ],
+  "outputs": [
+    {
+      "id": "minecraft:iron_ingot",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "crusher_jei_type",
+    "ingredients": [
+      {
+        "value": "Items.REDSTONE"
+      },
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "CrusherJEIType",
+    "results": [
+      {
+        "value": "CUSTOM:RedstonePowder"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

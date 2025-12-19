@@ -153,6 +153,12 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> CAPSULATOR;
 	public static final DeferredItem<Item> CAPSULE;
 	public static final DeferredItem<Item> MERCURY_CAPSULE;
+	public static final DeferredItem<Item> EXPANSIO_CONTROL_UNIT;
+	public static final DeferredItem<Item> IRON_POWDER;
+	public static final DeferredItem<Item> COPPER_POWDER;
+	public static final DeferredItem<Item> GOLD_POWDER;
+	public static final DeferredItem<Item> DIAMOND_POWDER;
+	public static final DeferredItem<Item> REDSTONE_POWDER;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -285,6 +291,12 @@ public class TheGreatExpansionModItems {
 		CAPSULATOR = block(TheGreatExpansionModBlocks.CAPSULATOR);
 		CAPSULE = REGISTRY.register("capsule", CapsuleItem::new);
 		MERCURY_CAPSULE = REGISTRY.register("mercury_capsule", MercuryCapsuleItem::new);
+		EXPANSIO_CONTROL_UNIT = REGISTRY.register("expansio_control_unit", ExpansioControlUnitItem::new);
+		IRON_POWDER = REGISTRY.register("iron_powder", IronPowderItem::new);
+		COPPER_POWDER = REGISTRY.register("copper_powder", CopperPowderItem::new);
+		GOLD_POWDER = REGISTRY.register("gold_powder", GoldPowderItem::new);
+		DIAMOND_POWDER = REGISTRY.register("diamond_powder", DiamondPowderItem::new);
+		REDSTONE_POWDER = REGISTRY.register("redstone_powder", RedstonePowderItem::new);
 	}
 
 	// Start of user code block custom items

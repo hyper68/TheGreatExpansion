@@ -1,0 +1,17 @@
+{
+  "type": "the_great_expansion:crusher_jei_type",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "the_great_expansion:steel_powder",
+      "count": 1
+    }
+  ]
+}

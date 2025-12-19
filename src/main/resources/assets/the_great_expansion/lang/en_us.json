@@ -180,5 +180,11 @@
   "advancements.crystal_lattice.title": "Crystal Lattice",
   "block.the_great_expansion.capsulator": "Capsulator",
   "item.the_great_expansion.capsule": "Capsule",
-  "item.the_great_expansion.mercury_capsule": "Capsule"
+  "item.the_great_expansion.mercury_capsule": "Capsule",
+  "item.the_great_expansion.expansio_control_unit": "Expansio Control Unit",
+  "item.the_great_expansion.iron_powder": "Iron Powder",
+  "item.the_great_expansion.copper_powder": "Copper Powder",
+  "item.the_great_expansion.gold_powder": "Gold Powder",
+  "item.the_great_expansion.diamond_powder": "Diamond Powder",
+  "item.the_great_expansion.redstone_powder": "Redstone Powder"
 }

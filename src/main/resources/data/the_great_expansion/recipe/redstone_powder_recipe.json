@@ -1,0 +1,17 @@
+{
+  "type": "the_great_expansion:crusher_jei_type",
+  "ingredients": [
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "tag": "the_great_expansion:jei_empty_tag"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "the_great_expansion:redstone_powder",
+      "count": 1
+    }
+  ]
+}

@@ -2290,19 +2290,6 @@
       "path": "~/Items"
     },
     {
-      "name": "SteelPowderJEI",
-      "type": "jeirecipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "steel_powder_jei",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_great_expansion/recipe/steel_powder_jei.json"
-        ]
-      },
-      "path": "~/Machines/Crusher"
-    },
-    {
       "name": "PaloTree",
       "type": "feature",
       "compiles": true,
@@ -4195,6 +4182,235 @@
         ]
       },
       "path": "~/Machines/capsulator/Mercury Capsule"
+    },
+    {
+      "name": "ExpansioControlUnit",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expansio_control_unit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/expansio_control_unit.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/ExpansioControlUnitItem.java"
+        ]
+      },
+      "path": "~/Items/ECU"
+    },
+    {
+      "name": "ExpansionControlUnitRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "expansion_control_unit_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/expansion_control_unit_recipe.json"
+        ]
+      },
+      "path": "~/Items/ECU"
+    },
+    {
+      "name": "InductionFurnaceJei",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "induction_furnace_jei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/jei_recipes/InductionFurnaceJeiRecipeCategory.java",
+          "src/main/java/net/mcreator/thegreatexpansion/jei_recipes/InductionFurnaceJeiRecipe.java"
+        ]
+      },
+      "path": "~/Machines/InductionFurnace"
+    },
+    {
+      "name": "PermafrostIronOreRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "permafrost_iron_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/permafrost_iron_ore_recipe.json"
+        ]
+      },
+      "path": "~/Machines/InductionFurnace"
+    },
+    {
+      "name": "CrusherJEIType",
+      "type": "jeirecipetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crusher_jei_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/jei_recipes/CrusherJEITypeRecipe.java",
+          "src/main/java/net/mcreator/thegreatexpansion/jei_recipes/CrusherJEITypeRecipeCategory.java"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "SteelPowderRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/steel_powder_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "SiliconDustRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silicon_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/silicon_dust_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "IronPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/IronPowderItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/iron_powder.json"
+        ]
+      },
+      "path": "~/Back To the basics"
+    },
+    {
+      "name": "CopperPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/copper_powder.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/CopperPowderItem.java"
+        ]
+      },
+      "path": "~/Back To the basics"
+    },
+    {
+      "name": "GoldPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/gold_powder.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/GoldPowderItem.java"
+        ]
+      },
+      "path": "~/Back To the basics"
+    },
+    {
+      "name": "DiamondPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/DiamondPowderItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/diamond_powder.json"
+        ]
+      },
+      "path": "~/Back To the basics"
+    },
+    {
+      "name": "RedstonePowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/RedstonePowderItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/redstone_powder.json"
+        ]
+      },
+      "path": "~/Back To the basics"
+    },
+    {
+      "name": "IronPowderRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/iron_powder_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "CopperPowderRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/copper_powder_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "GoldPowderRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/gold_powder_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "RedstonePowderRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/redstone_powder_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "DiamondPowderRecipe",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_powder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/diamond_powder_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
     }
   ],
   "variable_elements": [],
@@ -4538,7 +4754,13 @@
       "DiamondScreen",
       "Capsule",
       "MercuryCapsule",
-      "Capsulator"
+      "Capsulator",
+      "ExpansioControlUnit",
+      "IronPowder",
+      "CopperPowder",
+      "GoldPowder",
+      "DiamondPowder",
+      "RedstonePowder"
     ]
   },
   "language_map": {
@@ -4724,7 +4946,13 @@
       "advancements.crystal_lattice.title": "Crystal Lattice",
       "block.the_great_expansion.capsulator": "Capsulator",
       "item.the_great_expansion.capsule": "Capsule",
-      "item.the_great_expansion.mercury_capsule": "Capsule"
+      "item.the_great_expansion.mercury_capsule": "Capsule",
+      "item.the_great_expansion.expansio_control_unit": "Expansio Control Unit",
+      "item.the_great_expansion.iron_powder": "Iron Powder",
+      "item.the_great_expansion.copper_powder": "Copper Powder",
+      "item.the_great_expansion.gold_powder": "Gold Powder",
+      "item.the_great_expansion.diamond_powder": "Diamond Powder",
+      "item.the_great_expansion.redstone_powder": "Redstone Powder"
     }
   },
   "metadata": {
@@ -4831,6 +5059,15 @@
             "children": [
               {
                 "name": "Mercury Capsule",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Multiblocks",
+            "children": [
+              {
+                "name": "Enricher",
                 "children": []
               }
             ]
@@ -4949,6 +5186,10 @@
       },
       {
         "name": "Complex Winter",
+        "children": []
+      },
+      {
+        "name": "Back To the basics",
         "children": []
       }
     ]

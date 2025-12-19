@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:expansion_control_rod"
+    },
+    "b": {
+      "item": "the_great_expansion:aqualith_control_rod"
+    },
+    "c": {
+      "item": "the_great_expansion:diamond_screen"
+    },
+    "d": {
+      "item": "the_great_expansion:mercury_capsule"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:expansio_control_unit",
+    "count": 1
+  }
+}

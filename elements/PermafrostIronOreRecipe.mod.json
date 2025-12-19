@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "induction_furnace_jei",
+    "ingredients": [
+      {
+        "value": "CUSTOM:PermafrostIronOre"
+      }
+    ],
+    "integers": [
+      1
+    ],
+    "strings": [
+      "44,000 Rf per craft",
+      "300 Ticks"
+    ],
+    "recipetype": "InductionFurnaceJei",
+    "results": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

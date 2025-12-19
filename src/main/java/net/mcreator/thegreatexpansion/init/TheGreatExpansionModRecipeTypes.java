@@ -11,6 +11,8 @@ import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.core.registries.BuiltInRegistries;
 
+import net.mcreator.thegreatexpansion.jei_recipes.InductionFurnaceJeiRecipe;
+import net.mcreator.thegreatexpansion.jei_recipes.CrusherJEITypeRecipe;
 import net.mcreator.thegreatexpansion.jei_recipes.CapsuleRecipeTypeRecipe;
 
 @EventBusSubscriber
@@ -26,6 +28,10 @@ public class TheGreatExpansionModRecipeTypes {
 			SERIALIZERS.register(bus);
 			RECIPE_TYPES.register("capsule_recipe_type", () -> CapsuleRecipeTypeRecipe.Type.INSTANCE);
 			SERIALIZERS.register("capsule_recipe_type", () -> CapsuleRecipeTypeRecipe.Serializer.INSTANCE);
+			RECIPE_TYPES.register("induction_furnace_jei", () -> InductionFurnaceJeiRecipe.Type.INSTANCE);
+			SERIALIZERS.register("induction_furnace_jei", () -> InductionFurnaceJeiRecipe.Serializer.INSTANCE);
+			RECIPE_TYPES.register("crusher_jei_type", () -> CrusherJEITypeRecipe.Type.INSTANCE);
+			SERIALIZERS.register("crusher_jei_type", () -> CrusherJEITypeRecipe.Serializer.INSTANCE);
 		});
 	}
 }
