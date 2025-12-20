@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:enrichment_frame"
+    },
+    "b": {
+      "item": "the_great_expansion:diamond_screen"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:enrichment_controller",
+    "count": 1
+  }
+}

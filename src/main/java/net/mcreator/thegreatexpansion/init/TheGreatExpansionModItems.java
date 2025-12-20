@@ -161,6 +161,10 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> REDSTONE_POWDER;
 	public static final DeferredItem<Item> ENRICHMENT_FRAME;
 	public static final DeferredItem<Item> REINFORCED_GLASS;
+	public static final DeferredItem<Item> ENRICHMENT_FRAME_INPUT;
+	public static final DeferredItem<Item> ENRICHMENT_FRAME_OUTPUT;
+	public static final DeferredItem<Item> ENRICHMENT_CONTROLLER;
+	public static final DeferredItem<Item> ENRICHMENT_ENERGY_INPUT;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -301,6 +305,10 @@ public class TheGreatExpansionModItems {
 		REDSTONE_POWDER = REGISTRY.register("redstone_powder", RedstonePowderItem::new);
 		ENRICHMENT_FRAME = block(TheGreatExpansionModBlocks.ENRICHMENT_FRAME);
 		REINFORCED_GLASS = block(TheGreatExpansionModBlocks.REINFORCED_GLASS);
+		ENRICHMENT_FRAME_INPUT = block(TheGreatExpansionModBlocks.ENRICHMENT_FRAME_INPUT);
+		ENRICHMENT_FRAME_OUTPUT = block(TheGreatExpansionModBlocks.ENRICHMENT_FRAME_OUTPUT);
+		ENRICHMENT_CONTROLLER = block(TheGreatExpansionModBlocks.ENRICHMENT_CONTROLLER);
+		ENRICHMENT_ENERGY_INPUT = block(TheGreatExpansionModBlocks.ENRICHMENT_ENERGY_INPUT);
 	}
 
 	// Start of user code block custom items

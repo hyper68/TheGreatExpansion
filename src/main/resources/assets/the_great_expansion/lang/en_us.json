@@ -188,5 +188,10 @@
   "item.the_great_expansion.diamond_powder": "Diamond Powder",
   "item.the_great_expansion.redstone_powder": "Redstone Powder",
   "block.the_great_expansion.enrichment_frame": "Enrichment Frame",
-  "block.the_great_expansion.reinforced_glass": "Reinforced Glass"
+  "block.the_great_expansion.reinforced_glass": "Reinforced Glass",
+  "block.the_great_expansion.enrichment_frame_input": "Enrichment Frame Input",
+  "block.the_great_expansion.enrichment_frame_output": "Enrichment Frame Output",
+  "block.the_great_expansion.enrichment_controller": "Enrichment Controller",
+  "block.the_great_expansion.enrichment_energy_input": "Enrichment Energy Input",
+  "gui.the_great_expansion.enrichment_gui.label_enrichment": "Enrichment"
 }

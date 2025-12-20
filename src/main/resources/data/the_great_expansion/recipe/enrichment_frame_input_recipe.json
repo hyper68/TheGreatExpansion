@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:diamond_rod"
+    },
+    "b": {
+      "item": "the_great_expansion:enrichment_frame"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:enrichment_frame_input",
+    "count": 1
+  }
+}

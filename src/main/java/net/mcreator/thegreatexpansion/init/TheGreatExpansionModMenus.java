@@ -35,6 +35,7 @@ public class TheGreatExpansionModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<InductionFurnaceGUIMenu>> INDUCTION_FURNACE_GUI = REGISTRY.register("induction_furnace_gui", () -> IMenuTypeExtension.create(InductionFurnaceGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<OmegaCraftingTableGUIMenu>> OMEGA_CRAFTING_TABLE_GUI = REGISTRY.register("omega_crafting_table_gui", () -> IMenuTypeExtension.create(OmegaCraftingTableGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<CapsulatorGUIMenu>> CAPSULATOR_GUI = REGISTRY.register("capsulator_gui", () -> IMenuTypeExtension.create(CapsulatorGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<EnrichmentGUIMenu>> ENRICHMENT_GUI = REGISTRY.register("enrichment_gui", () -> IMenuTypeExtension.create(EnrichmentGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

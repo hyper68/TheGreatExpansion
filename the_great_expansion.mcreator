@@ -4471,6 +4471,140 @@
         ]
       },
       "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentFrameInput",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_frame_input",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/EnrichmentFrameInputBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/enrichment_frame_input.json",
+          "src/main/resources/assets/the_great_expansion/models/block/enrichment_frame_input.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/enrichment_frame_input.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/enrichment_frame_input.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentFrameInputRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_frame_input_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/enrichment_frame_input_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentFrameOutput",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_frame_output",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/EnrichmentFrameOutputBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/enrichment_frame_output.json",
+          "src/main/resources/assets/the_great_expansion/models/item/enrichment_frame_output.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/enrichment_frame_output.json",
+          "src/main/resources/assets/the_great_expansion/models/block/enrichment_frame_output.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentFrameOutputRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_frame_output_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/enrichment_frame_output_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentController",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_controller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/enrichment_controller.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/EnrichmentControllerBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/enrichment_controller.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/enrichment_controller.json",
+          "src/main/resources/assets/the_great_expansion/models/block/enrichment_controller.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentContollerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_contoller_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/enrichment_contoller_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentEnergyInput",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_energy_input",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/enrichment_energy_input.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/enrichment_energy_input.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/EnrichmentEnergyInputBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/enrichment_energy_input.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/enrichment_energy_input.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentEnergyInputRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_energy_input_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/enrichment_energy_input_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/EnrichmentGUIScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/EnrichmentGUIMenu.java"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
     }
   ],
   "variable_elements": [],
@@ -4502,6 +4636,10 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EnrichmentEnergyInput",
+      "~CUSTOM:EnrichmentController",
+      "~CUSTOM:EnrichmentFrameOutput",
+      "~CUSTOM:EnrichmentFrameInput",
       "~CUSTOM:ReinforcedGlass",
       "~CUSTOM:EnrichmentFrame",
       "~CUSTOM:Capsulator",
@@ -4824,7 +4962,11 @@
       "DiamondPowder",
       "RedstonePowder",
       "EnrichmentFrame",
-      "ReinforcedGlass"
+      "ReinforcedGlass",
+      "EnrichmentFrameInput",
+      "EnrichmentFrameOutput",
+      "EnrichmentController",
+      "EnrichmentEnergyInput"
     ]
   },
   "language_map": {
@@ -5018,7 +5160,12 @@
       "item.the_great_expansion.diamond_powder": "Diamond Powder",
       "item.the_great_expansion.redstone_powder": "Redstone Powder",
       "block.the_great_expansion.enrichment_frame": "Enrichment Frame",
-      "block.the_great_expansion.reinforced_glass": "Reinforced Glass"
+      "block.the_great_expansion.reinforced_glass": "Reinforced Glass",
+      "block.the_great_expansion.enrichment_frame_input": "Enrichment Frame Input",
+      "block.the_great_expansion.enrichment_frame_output": "Enrichment Frame Output",
+      "block.the_great_expansion.enrichment_controller": "Enrichment Controller",
+      "block.the_great_expansion.enrichment_energy_input": "Enrichment Energy Input",
+      "gui.the_great_expansion.enrichment_gui.label_enrichment": "Enrichment"
     }
   },
   "metadata": {

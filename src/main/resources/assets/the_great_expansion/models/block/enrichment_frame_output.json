@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_great_expansion:block/enrichmentoutput",
+    "particle": "the_great_expansion:block/enrichmentoutput"
+  },
+  "render_type": "solid"
+}

@@ -26,6 +26,7 @@ public class TheGreatExpansionModScreens {
 		event.register(TheGreatExpansionModMenus.INDUCTION_FURNACE_GUI.get(), InductionFurnaceGUIScreen::new);
 		event.register(TheGreatExpansionModMenus.OMEGA_CRAFTING_TABLE_GUI.get(), OmegaCraftingTableGUIScreen::new);
 		event.register(TheGreatExpansionModMenus.CAPSULATOR_GUI.get(), CapsulatorGUIScreen::new);
+		event.register(TheGreatExpansionModMenus.ENRICHMENT_GUI.get(), EnrichmentGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {
