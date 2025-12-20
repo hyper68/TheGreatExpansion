@@ -138,6 +138,8 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModItems.GOLD_POWDER.get());
 				tabData.accept(TheGreatExpansionModItems.DIAMOND_POWDER.get());
 				tabData.accept(TheGreatExpansionModItems.REDSTONE_POWDER.get());
+				tabData.accept(TheGreatExpansionModBlocks.ENRICHMENT_FRAME.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.REINFORCED_GLASS.get().asItem());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WINTER_EXPANSION = REGISTRY.register("winter_expansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.the_great_expansion.winter_expansion")).icon(() -> new ItemStack(TheGreatExpansionModBlocks.SMALL_SNOWMAN.get())).displayItems((parameters, tabData) -> {

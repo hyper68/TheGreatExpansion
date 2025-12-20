@@ -159,6 +159,8 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> GOLD_POWDER;
 	public static final DeferredItem<Item> DIAMOND_POWDER;
 	public static final DeferredItem<Item> REDSTONE_POWDER;
+	public static final DeferredItem<Item> ENRICHMENT_FRAME;
+	public static final DeferredItem<Item> REINFORCED_GLASS;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -297,6 +299,8 @@ public class TheGreatExpansionModItems {
 		GOLD_POWDER = REGISTRY.register("gold_powder", GoldPowderItem::new);
 		DIAMOND_POWDER = REGISTRY.register("diamond_powder", DiamondPowderItem::new);
 		REDSTONE_POWDER = REGISTRY.register("redstone_powder", RedstonePowderItem::new);
+		ENRICHMENT_FRAME = block(TheGreatExpansionModBlocks.ENRICHMENT_FRAME);
+		REINFORCED_GLASS = block(TheGreatExpansionModBlocks.REINFORCED_GLASS);
 	}
 
 	// Start of user code block custom items

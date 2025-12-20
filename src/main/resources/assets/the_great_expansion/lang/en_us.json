@@ -186,5 +186,7 @@
   "item.the_great_expansion.copper_powder": "Copper Powder",
   "item.the_great_expansion.gold_powder": "Gold Powder",
   "item.the_great_expansion.diamond_powder": "Diamond Powder",
-  "item.the_great_expansion.redstone_powder": "Redstone Powder"
+  "item.the_great_expansion.redstone_powder": "Redstone Powder",
+  "block.the_great_expansion.enrichment_frame": "Enrichment Frame",
+  "block.the_great_expansion.reinforced_glass": "Reinforced Glass"
 }

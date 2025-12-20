@@ -93,6 +93,8 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> LEAD_BLOCK;
 	public static final DeferredBlock<Block> COMPRESSED_LEAD_BLOCK;
 	public static final DeferredBlock<Block> CAPSULATOR;
+	public static final DeferredBlock<Block> ENRICHMENT_FRAME;
+	public static final DeferredBlock<Block> REINFORCED_GLASS;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -174,6 +176,8 @@ public class TheGreatExpansionModBlocks {
 		LEAD_BLOCK = REGISTRY.register("lead_block", LeadBlockBlock::new);
 		COMPRESSED_LEAD_BLOCK = REGISTRY.register("compressed_lead_block", CompressedLeadBlockBlock::new);
 		CAPSULATOR = REGISTRY.register("capsulator", CapsulatorBlock::new);
+		ENRICHMENT_FRAME = REGISTRY.register("enrichment_frame", EnrichmentFrameBlock::new);
+		REINFORCED_GLASS = REGISTRY.register("reinforced_glass", ReinforcedGlassBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

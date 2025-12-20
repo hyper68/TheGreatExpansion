@@ -4411,6 +4411,66 @@
         ]
       },
       "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "EnrichmentFrame",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_frame",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/enrichment_frame.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/EnrichmentFrameBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/enrichment_frame.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/enrichment_frame.json",
+          "src/main/resources/assets/the_great_expansion/models/block/enrichment_frame.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "EnrichmentFrameRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enrichment_frame_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/enrichment_frame_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "ReinforcedGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/reinforced_glass.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/reinforced_glass.json",
+          "src/main/resources/assets/the_great_expansion/models/block/reinforced_glass.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/reinforced_glass.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/ReinforcedGlassBlock.java"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
+    },
+    {
+      "name": "ReinforcedGlassRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/reinforced_glass_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Multiblocks/Enricher"
     }
   ],
   "variable_elements": [],
@@ -4442,6 +4502,8 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ReinforcedGlass",
+      "~CUSTOM:EnrichmentFrame",
       "~CUSTOM:Capsulator",
       "~CUSTOM:CompressedLeadBlock",
       "~CUSTOM:LeadBlock",
@@ -4760,7 +4822,9 @@
       "CopperPowder",
       "GoldPowder",
       "DiamondPowder",
-      "RedstonePowder"
+      "RedstonePowder",
+      "EnrichmentFrame",
+      "ReinforcedGlass"
     ]
   },
   "language_map": {
@@ -4952,7 +5016,9 @@
       "item.the_great_expansion.copper_powder": "Copper Powder",
       "item.the_great_expansion.gold_powder": "Gold Powder",
       "item.the_great_expansion.diamond_powder": "Diamond Powder",
-      "item.the_great_expansion.redstone_powder": "Redstone Powder"
+      "item.the_great_expansion.redstone_powder": "Redstone Powder",
+      "block.the_great_expansion.enrichment_frame": "Enrichment Frame",
+      "block.the_great_expansion.reinforced_glass": "Reinforced Glass"
     }
   },
   "metadata": {

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:steel_face_plate"
+    },
+    "b": {
+      "item": "the_great_expansion:titanium_ingot"
+    },
+    "c": {
+      "item": "the_great_expansion:machine_frame"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:enrichment_frame",
+    "count": 1
+  }
+}
