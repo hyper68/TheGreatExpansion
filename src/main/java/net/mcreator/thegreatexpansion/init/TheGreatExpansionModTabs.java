@@ -165,6 +165,7 @@ public class TheGreatExpansionModTabs {
 			tabData.accept(TheGreatExpansionModItems.AQUALITH_SHOVEL.get());
 			tabData.accept(TheGreatExpansionModItems.AQUALITH_HOE.get());
 			tabData.accept(TheGreatExpansionModItems.STEEL_HAMMER.get());
+			tabData.accept(TheGreatExpansionModItems.IRON_HAMMER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(TheGreatExpansionModItems.TITANIUM_ARMOUR_HELMET.get());
 			tabData.accept(TheGreatExpansionModItems.TITANIUM_ARMOUR_CHESTPLATE.get());

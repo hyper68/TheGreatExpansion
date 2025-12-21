@@ -142,6 +142,7 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> REINFORCED_PERMAFROST;
 	public static final DeferredItem<Item> CRYONITE_ORE;
 	public static final DeferredItem<Item> INDUCTION_FURNACE;
+	public static final DeferredItem<Item> IRON_HAMMER;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -263,6 +264,7 @@ public class TheGreatExpansionModItems {
 		REINFORCED_PERMAFROST = block(TheGreatExpansionModBlocks.REINFORCED_PERMAFROST);
 		CRYONITE_ORE = block(TheGreatExpansionModBlocks.CRYONITE_ORE);
 		INDUCTION_FURNACE = block(TheGreatExpansionModBlocks.INDUCTION_FURNACE);
+		IRON_HAMMER = REGISTRY.register("iron_hammer", IronHammerItem::new);
 	}
 
 	// Start of user code block custom items

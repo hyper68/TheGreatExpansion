@@ -153,5 +153,6 @@
   "block.the_great_expansion.reinforced_permafrost": "Reinforced Permafrost",
   "block.the_great_expansion.cryonite_ore": "Cryonite Ore",
   "block.the_great_expansion.induction_furnace": "Induction Furnace",
-  "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": ""
+  "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": "",
+  "item.the_great_expansion.iron_hammer": "Iron Hammer"
 }

@@ -3648,6 +3648,34 @@
         "return_type": "number"
       },
       "path": "~/Machines/InductionFurnace"
+    },
+    {
+      "name": "IronHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/IronHammerItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/iron_hammer.json"
+        ]
+      },
+      "path": "~/Gear/Hammers"
+    },
+    {
+      "name": "IronHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/iron_hammer_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/iron_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Gear/Hammers"
     }
   ],
   "variable_elements": [],
@@ -3788,6 +3816,7 @@
       "~CUSTOM:AsphaltSlabs"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:IronHammer",
       "~CUSTOM:SteelHammer",
       "~CUSTOM:AqualithPickaxe"
     ],
@@ -4132,7 +4161,8 @@
       "block.the_great_expansion.reinforced_permafrost": "Reinforced Permafrost",
       "block.the_great_expansion.cryonite_ore": "Cryonite Ore",
       "block.the_great_expansion.induction_furnace": "Induction Furnace",
-      "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": ""
+      "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": "",
+      "item.the_great_expansion.iron_hammer": "Iron Hammer"
     }
   },
   "metadata": {
