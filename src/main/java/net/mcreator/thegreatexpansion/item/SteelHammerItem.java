@@ -20,12 +20,12 @@ public class SteelHammerItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 250;
+			return 300;
 		}
 
 		@Override
 		public float getSpeed() {
-			return 4f;
+			return 7f;
 		}
 
 		@Override
@@ -40,7 +40,7 @@ public class SteelHammerItem extends PickaxeItem {
 
 		@Override
 		public int getEnchantmentValue() {
-			return 2;
+			return 3;
 		}
 
 		@Override
@@ -50,7 +50,7 @@ public class SteelHammerItem extends PickaxeItem {
 	};
 
 	public SteelHammerItem() {
-		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -3f)));
+		super(TOOL_TIER, new Item.Properties().attributes(DiggerItem.createAttributes(TOOL_TIER, 3f, -2.7f)));
 	}
 
 	@Override

@@ -121,6 +121,8 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModBlocks.REINFORCED_PERMAFROST.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.CRYONITE_ORE.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.PERMAFROST_IRON_ORE.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.STEEL_HAMMER.get());
+				tabData.accept(TheGreatExpansionModItems.IRON_HAMMER.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WINTER_EXPANSION = REGISTRY.register("winter_expansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.the_great_expansion.winter_expansion")).icon(() -> new ItemStack(TheGreatExpansionModBlocks.SMALL_SNOWMAN.get())).displayItems((parameters, tabData) -> {

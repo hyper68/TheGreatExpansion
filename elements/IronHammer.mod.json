@@ -5,7 +5,7 @@
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "steelhammertemp",
+    "texture": "ironhammer",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
@@ -16,6 +16,9 @@
     "creativeTabs": [
       {
         "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:TheGreatExpansion"
       }
     ],
     "efficiency": 6.0,

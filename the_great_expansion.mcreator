@@ -389,7 +389,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/SteelBeamsItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SteelFacePlate",
@@ -403,7 +403,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/SteelFacePlateItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SteelBeamsRecipe",
@@ -417,7 +417,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/steel_beams_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SteelFacePlateRecipe",
@@ -430,7 +430,7 @@
           "src/main/resources/data/the_great_expansion/recipe/steel_face_plate_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SteelFrame",
@@ -447,7 +447,7 @@
           "src/main/resources/data/the_great_expansion/loot_table/blocks/steel_frame.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SteelFrameRecipe",
@@ -460,7 +460,7 @@
           "src/main/resources/data/the_great_expansion/recipe/steel_frame_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "MachineFrame",
@@ -477,7 +477,7 @@
           "src/main/resources/assets/the_great_expansion/blockstates/machine_frame.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "MachineFrameRecipe",
@@ -490,7 +490,7 @@
           "src/main/resources/data/the_great_expansion/recipe/machine_frame_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "TitaniumArmour",
@@ -604,7 +604,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/silicon_dust.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconIngot",
@@ -618,7 +618,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/SiliconIngotItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconIngotRecipe",
@@ -632,7 +632,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/silicon_ingot_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "CrudeOil",
@@ -905,7 +905,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/silicon_sheets.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconSheetsRecipe",
@@ -919,7 +919,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/silicon_sheets_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconPaddingHelmet",
@@ -933,7 +933,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/silicon_padding_helmet.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconPaddingChestplate",
@@ -947,7 +947,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/SiliconPaddingChestplateItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconPaddingPants",
@@ -961,7 +961,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/silicon_padding_pants.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SiliconPaddingBoots",
@@ -975,7 +975,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/SiliconPaddingBootsItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "PackedSand",
@@ -1219,7 +1219,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/block/AqualithBlockBlock.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithOreBlockRecipe",
@@ -1233,7 +1233,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_ore_block_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithBlockOreRecipe",
@@ -1247,7 +1247,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_block_ore_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithOreSmelting",
@@ -1275,7 +1275,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_pickaxe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithAxe",
@@ -1289,7 +1289,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_axe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithSword",
@@ -1303,7 +1303,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/AqualithSwordItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithShovel",
@@ -1317,7 +1317,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/item/AqualithShovelItem.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithHoe",
@@ -1331,7 +1331,7 @@
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_hoe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithPickaxeRecipe",
@@ -1345,7 +1345,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_pickaxe_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithAxeRecipe",
@@ -1359,7 +1359,7 @@
           "src/main/resources/data/the_great_expansion/recipe/aqualith_axe_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithSwordRecipe",
@@ -1373,7 +1373,7 @@
           "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_sword_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithShovelRecipe",
@@ -1387,7 +1387,7 @@
           "src/main/resources/data/the_great_expansion/recipe/aqualith_shovel_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithHoeRecipe",
@@ -1401,7 +1401,7 @@
           "src/main/resources/data/the_great_expansion/recipe/aqualith_hoe_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "AqualithArmor",
@@ -1816,7 +1816,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/procedures/ReinforcedChestCloseProcedure.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "ReinforcedChestOpen",
@@ -1848,7 +1848,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/procedures/ReinforcedChestOpenProcedure.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "ReinforcedChestOnBlockRightClicked",
@@ -1879,7 +1879,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/procedures/ReinforcedChestOnBlockRightClickedProcedure.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "ReinforcedChestGUI",
@@ -1893,7 +1893,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/world/inventory/ReinforcedChestGUIMenu.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "ReinforcedChestBlockIsPlacedBy",
@@ -1924,7 +1924,7 @@
           "src/main/java/net/mcreator/thegreatexpansion/procedures/ReinforcedChestBlockIsPlacedByProcedure.java"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "ReinforcedChest",
@@ -1943,7 +1943,7 @@
           "src/main/resources/assets/the_great_expansion/models/block/reinforced_chest.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "LeadArrow",
@@ -2287,7 +2287,7 @@
           "src/main/resources/data/the_great_expansion/recipe/reinforced_chest_recipe.json"
         ]
       },
-      "path": "~/Items"
+      "path": "~/Ingots/Items"
     },
     {
       "name": "SteelPowderJEI",
@@ -4002,7 +4002,9 @@
       "Permafrost",
       "ReinforcedPermafrost",
       "CryoniteOre",
-      "PermafrostIronOre"
+      "PermafrostIronOre",
+      "SteelHammer",
+      "IronHammer"
     ]
   },
   "language_map": {
@@ -4208,7 +4210,12 @@
       },
       {
         "name": "Ingots",
-        "children": []
+        "children": [
+          {
+            "name": "Items",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Gear",
@@ -4262,10 +4269,6 @@
       },
       {
         "name": "Powders",
-        "children": []
-      },
-      {
-        "name": "Items",
         "children": []
       },
       {
