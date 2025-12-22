@@ -108,7 +108,6 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR;
 	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR_3_WAY;
 	public static final DeferredItem<Item> COBBLESTONE_SIDE_PILLAR_4_WAY;
-	public static final DeferredItem<Item> STALKER_SPAWN_EGG;
 	public static final DeferredItem<Item> SNOWSCAPE_DISK;
 	public static final DeferredItem<Item> HOLLOW_BELLS_DISK;
 	public static final DeferredItem<Item> ICE_BRICKS;
@@ -230,7 +229,6 @@ public class TheGreatExpansionModItems {
 		COBBLESTONE_SIDE_PILLAR = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR);
 		COBBLESTONE_SIDE_PILLAR_3_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR_3_WAY);
 		COBBLESTONE_SIDE_PILLAR_4_WAY = block(TheGreatExpansionModBlocks.COBBLESTONE_SIDE_PILLAR_4_WAY);
-		STALKER_SPAWN_EGG = REGISTRY.register("stalker_spawn_egg", () -> new DeferredSpawnEggItem(TheGreatExpansionModEntities.STALKER, -16777216, -13421773, new Item.Properties()));
 		SNOWSCAPE_DISK = REGISTRY.register("snowscape_disk", SnowscapeDiskItem::new);
 		HOLLOW_BELLS_DISK = REGISTRY.register("hollow_bells_disk", HollowBellsDiskItem::new);
 		ICE_BRICKS = block(TheGreatExpansionModBlocks.ICE_BRICKS);

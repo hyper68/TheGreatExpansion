@@ -16,7 +16,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.thegreatexpansion.entity.SubZombieEntity;
-import net.mcreator.thegreatexpansion.entity.StalkerEntity;
 import net.mcreator.thegreatexpansion.entity.SandCrabEntity;
 import net.mcreator.thegreatexpansion.entity.LeadArrowProjectileEntity;
 import net.mcreator.thegreatexpansion.TheGreatExpansionMod;
@@ -30,10 +29,6 @@ public class TheGreatExpansionModEntities {
 					.sized(0.6f, 0.5f));
 	public static final DeferredHolder<EntityType<?>, EntityType<LeadArrowProjectileEntity>> LEAD_ARROW_PROJECTILE = register("lead_arrow_projectile",
 			EntityType.Builder.<LeadArrowProjectileEntity>of(LeadArrowProjectileEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final DeferredHolder<EntityType<?>, EntityType<StalkerEntity>> STALKER = register("stalker",
-			EntityType.Builder.<StalkerEntity>of(StalkerEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
-
-					.sized(0.6f, 1.8f));
 	public static final DeferredHolder<EntityType<?>, EntityType<SubZombieEntity>> SUB_ZOMBIE = register("sub_zombie",
 			EntityType.Builder.<SubZombieEntity>of(SubZombieEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
@@ -48,14 +43,12 @@ public class TheGreatExpansionModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		SandCrabEntity.init(event);
-		StalkerEntity.init(event);
 		SubZombieEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(SAND_CRAB.get(), SandCrabEntity.createAttributes().build());
-		event.put(STALKER.get(), StalkerEntity.createAttributes().build());
 		event.put(SUB_ZOMBIE.get(), SubZombieEntity.createAttributes().build());
 	}
 }

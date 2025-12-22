@@ -201,7 +201,6 @@ public class TheGreatExpansionModTabs {
 			tabData.accept(TheGreatExpansionModBlocks.WINTERBERRY.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(TheGreatExpansionModItems.SAND_CRAB_SPAWN_EGG.get());
-			tabData.accept(TheGreatExpansionModItems.STALKER_SPAWN_EGG.get());
 			tabData.accept(TheGreatExpansionModItems.SUB_ZOMBIE_SPAWN_EGG.get());
 		}
 	}

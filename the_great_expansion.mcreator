@@ -2723,22 +2723,6 @@
       "path": "~/Blocks/Cobblestone"
     },
     {
-      "name": "Stalker",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stalker",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/stalker_biome_modifier.json",
-          "src/main/java/net/mcreator/thegreatexpansion/entity/StalkerEntity.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/renderer/StalkerRenderer.java",
-          "src/main/resources/assets/the_great_expansion/models/item/stalker_spawn_egg.json"
-        ]
-      },
-      "path": "~/Enitys/Misc."
-    },
-    {
       "name": "SnowscapeDisk",
       "type": "item",
       "compiles": true,
@@ -4108,8 +4092,6 @@
       "block.the_great_expansion.cobblestone_side_pillar": "Cobblestone Side Pillar",
       "block.the_great_expansion.cobblestone_side_pillar_3_way": "Cobblestone Side Pillar 3 Way",
       "block.the_great_expansion.cobblestone_side_pillar_4_way": "Cobblestone Side Pillar 4 Way",
-      "item.the_great_expansion.stalker_spawn_egg": "Stalker Spawn Egg",
-      "entity.the_great_expansion.stalker": "Stalker",
       "subtitles.snowbound": "",
       "item.the_great_expansion.snowscape_disk.desc": "A calming soundtrack, making you feel the snow.",
       "item.the_great_expansion.snowscape_disk": "Snowscape",
