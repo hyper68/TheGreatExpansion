@@ -62,6 +62,9 @@
           "src/main/java/net/mcreator/thegreatexpansion/block/GalenaOreBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/galena_ore.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/galena_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/galena_ore.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/galena_ore_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/galena_ore.json",
           "src/main/resources/assets/the_great_expansion/models/block/galena_ore.json"
         ]
       },
@@ -98,6 +101,9 @@
           "src/main/java/net/mcreator/thegreatexpansion/block/CinnabarOreBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/cinnabar_ore.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cinnabar_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/cinnabar_ore.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/cinnabar_ore_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/cinnabar_ore.json",
           "src/main/resources/assets/the_great_expansion/models/item/cinnabar_ore.json",
           "src/main/resources/assets/the_great_expansion/models/block/cinnabar_ore.json"
         ]
@@ -3660,6 +3666,158 @@
         ]
       },
       "path": "~/Gear/Hammers"
+    },
+    {
+      "name": "LavaleerGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaleer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/LavaleerGUIMenu.java",
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/LavaleerGUIScreen.java"
+        ]
+      },
+      "path": "~/Machines/Lavaleer"
+    },
+    {
+      "name": "Lavaleer",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaleer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/LavaleerBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/item/lavaleer.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/LavaleerBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/lavaleer.json",
+          "src/main/resources/assets/the_great_expansion/models/block/lavaleer.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/lavaleer.json"
+        ]
+      },
+      "path": "~/Machines/Lavaleer"
+    },
+    {
+      "name": "NitrogenPocket",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nitrogen_pocket",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/nitrogen_pocket.json",
+          "src/main/resources/assets/the_great_expansion/models/block/nitrogen_pocket.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/nitrogen_pocket_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/nitrogen_pocket.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/nitrogen_pocket.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/nitrogen_pocket.json",
+          "src/main/resources/assets/the_great_expansion/models/item/nitrogen_pocket.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/NitrogenPocketBlock.java"
+        ]
+      },
+      "path": "~/Ores/Gas pockets"
+    },
+    {
+      "name": "NaturalGasPocket",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_gas_pocket",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/natural_gas_pocket.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/NaturalGasPocketBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/natural_gas_pocket.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/natural_gas_pocket.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/natural_gas_pocket.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/natural_gas_pocket_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/natural_gas_pocket.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/natural_gas_pocket.json"
+        ]
+      },
+      "path": "~/Ores/Gas pockets"
+    },
+    {
+      "name": "DiamondHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/diamond_hammer.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/DiamondHammerItem.java"
+        ]
+      },
+      "path": "~/Gear/Hammers"
+    },
+    {
+      "name": "DiamondHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/diamond_hammer_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/diamond_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Gear/Hammers"
+    },
+    {
+      "name": "FillerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filler_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/filler_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Filler"
+    },
+    {
+      "name": "PressureCookerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pressure_cooker_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/pressure_cooker_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Pressure Cooker"
+    },
+    {
+      "name": "InductionFurnaceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "induction_furnace_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/induction_furnace_recipe.json"
+        ]
+      },
+      "path": "~/Machines/InductionFurnace"
+    },
+    {
+      "name": "LavaleerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaleer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/lavaleer_recipe.json"
+        ]
+      },
+      "path": "~/Machines/Lavaleer"
     }
   ],
   "variable_elements": [],
@@ -3800,6 +3958,7 @@
       "~CUSTOM:AsphaltSlabs"
     ],
     "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:DiamondHammer",
       "~CUSTOM:IronHammer",
       "~CUSTOM:SteelHammer",
       "~CUSTOM:AqualithPickaxe"
@@ -3988,7 +4147,11 @@
       "CryoniteOre",
       "PermafrostIronOre",
       "SteelHammer",
-      "IronHammer"
+      "IronHammer",
+      "Lavaleer",
+      "NitrogenPocket",
+      "NaturalGasPocket",
+      "DiamondHammer"
     ]
   },
   "language_map": {
@@ -4146,7 +4309,11 @@
       "block.the_great_expansion.cryonite_ore": "Cryonite Ore",
       "block.the_great_expansion.induction_furnace": "Induction Furnace",
       "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": "",
-      "item.the_great_expansion.iron_hammer": "Iron Hammer"
+      "item.the_great_expansion.iron_hammer": "Iron Hammer",
+      "block.the_great_expansion.lavaleer": "Lavaleer",
+      "block.the_great_expansion.nitrogen_pocket": "Nitrogen Pocket",
+      "block.the_great_expansion.natural_gas_pocket": "Natural Gas Pocket",
+      "item.the_great_expansion.diamond_hammer": "Iron Hammer"
     }
   },
   "metadata": {
@@ -4188,7 +4355,12 @@
     "children": [
       {
         "name": "Ores",
-        "children": []
+        "children": [
+          {
+            "name": "Gas pockets",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Ingots",
@@ -4245,6 +4417,10 @@
           },
           {
             "name": "InductionFurnace",
+            "children": []
+          },
+          {
+            "name": "Lavaleer",
             "children": []
           }
         ]

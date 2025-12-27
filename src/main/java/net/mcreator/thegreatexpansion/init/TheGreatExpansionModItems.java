@@ -142,6 +142,10 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> CRYONITE_ORE;
 	public static final DeferredItem<Item> INDUCTION_FURNACE;
 	public static final DeferredItem<Item> IRON_HAMMER;
+	public static final DeferredItem<Item> LAVALEER;
+	public static final DeferredItem<Item> NITROGEN_POCKET;
+	public static final DeferredItem<Item> NATURAL_GAS_POCKET;
+	public static final DeferredItem<Item> DIAMOND_HAMMER;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -263,6 +267,10 @@ public class TheGreatExpansionModItems {
 		CRYONITE_ORE = block(TheGreatExpansionModBlocks.CRYONITE_ORE);
 		INDUCTION_FURNACE = block(TheGreatExpansionModBlocks.INDUCTION_FURNACE);
 		IRON_HAMMER = REGISTRY.register("iron_hammer", IronHammerItem::new);
+		LAVALEER = block(TheGreatExpansionModBlocks.LAVALEER);
+		NITROGEN_POCKET = block(TheGreatExpansionModBlocks.NITROGEN_POCKET);
+		NATURAL_GAS_POCKET = block(TheGreatExpansionModBlocks.NATURAL_GAS_POCKET);
+		DIAMOND_HAMMER = REGISTRY.register("diamond_hammer", DiamondHammerItem::new);
 	}
 
 	// Start of user code block custom items

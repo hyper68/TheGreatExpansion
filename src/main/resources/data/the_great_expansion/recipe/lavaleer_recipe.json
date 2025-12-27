@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    "cdc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "b": {
+      "item": "minecraft:lava_bucket"
+    },
+    "c": {
+      "item": "minecraft:smooth_stone"
+    },
+    "d": {
+      "item": "the_great_expansion:machine_frame"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:lavaleer",
+    "count": 1
+  }
+}

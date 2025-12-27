@@ -18,6 +18,9 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -80,6 +83,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -141,9 +147,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
+    "frequencyPerChunks": 6,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": -16,
-    "maxGenerateHeight": 48
+    "minGenerateHeight": -32,
+    "maxGenerateHeight": 96
   }
 }

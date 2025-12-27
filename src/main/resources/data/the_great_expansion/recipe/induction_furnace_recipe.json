@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "b": {
+      "item": "the_great_expansion:steel_frame"
+    },
+    "c": {
+      "item": "the_great_expansion:steel_ingot"
+    },
+    "d": {
+      "item": "minecraft:blast_furnace"
+    },
+    "e": {
+      "item": "minecraft:smooth_stone"
+    },
+    "f": {
+      "item": "the_great_expansion:machine_frame"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:induction_furnace",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "the_great_expansion:aluminum_ingot"
+    },
+    "c": {
+      "item": "minecraft:smoker"
+    },
+    "d": {
+      "item": "the_great_expansion:machine_frame"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:pressure_cooker",
+    "count": 1
+  }
+}

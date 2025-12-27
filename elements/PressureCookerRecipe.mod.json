@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "Blocks.SMOKER"
+      },
+      {
+        "value": "CUSTOM:AluminumIngot"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "CUSTOM:MachineFrame"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PressureCooker"
+    },
+    "name": "pressure_cooker_recipe",
+    "namespace": "mod"
+  }
+}

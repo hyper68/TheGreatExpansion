@@ -89,6 +89,9 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> REINFORCED_PERMAFROST;
 	public static final DeferredBlock<Block> CRYONITE_ORE;
 	public static final DeferredBlock<Block> INDUCTION_FURNACE;
+	public static final DeferredBlock<Block> LAVALEER;
+	public static final DeferredBlock<Block> NITROGEN_POCKET;
+	public static final DeferredBlock<Block> NATURAL_GAS_POCKET;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -166,6 +169,9 @@ public class TheGreatExpansionModBlocks {
 		REINFORCED_PERMAFROST = REGISTRY.register("reinforced_permafrost", ReinforcedPermafrostBlock::new);
 		CRYONITE_ORE = REGISTRY.register("cryonite_ore", CryoniteOreBlock::new);
 		INDUCTION_FURNACE = REGISTRY.register("induction_furnace", InductionFurnaceBlock::new);
+		LAVALEER = REGISTRY.register("lavaleer", LavaleerBlock::new);
+		NITROGEN_POCKET = REGISTRY.register("nitrogen_pocket", NitrogenPocketBlock::new);
+		NATURAL_GAS_POCKET = REGISTRY.register("natural_gas_pocket", NaturalGasPocketBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

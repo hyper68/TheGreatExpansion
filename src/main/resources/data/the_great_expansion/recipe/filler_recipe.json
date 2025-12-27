@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    " b ",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:tin_ingot"
+    },
+    "b": {
+      "item": "the_great_expansion:aluminum_ingot"
+    },
+    "c": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:filler",
+    "count": 1
+  }
+}

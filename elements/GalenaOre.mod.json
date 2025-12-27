@@ -18,6 +18,9 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -80,6 +83,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -133,7 +139,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "generateFeature": true,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -141,9 +147,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 6,
     "minGenerateHeight": -48,
-    "maxGenerateHeight": 64
+    "maxGenerateHeight": 48
   }
 }

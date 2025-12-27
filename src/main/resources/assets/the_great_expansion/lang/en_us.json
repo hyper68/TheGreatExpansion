@@ -152,5 +152,9 @@
   "block.the_great_expansion.cryonite_ore": "Cryonite Ore",
   "block.the_great_expansion.induction_furnace": "Induction Furnace",
   "gui.the_great_expansion.induction_furnace_gui.tooltip_empty": "",
-  "item.the_great_expansion.iron_hammer": "Iron Hammer"
+  "item.the_great_expansion.iron_hammer": "Iron Hammer",
+  "block.the_great_expansion.lavaleer": "Lavaleer",
+  "block.the_great_expansion.nitrogen_pocket": "Nitrogen Pocket",
+  "block.the_great_expansion.natural_gas_pocket": "Natural Gas Pocket",
+  "item.the_great_expansion.diamond_hammer": "Iron Hammer"
 }

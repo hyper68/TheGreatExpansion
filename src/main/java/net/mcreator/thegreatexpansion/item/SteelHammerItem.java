@@ -20,7 +20,7 @@ public class SteelHammerItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 300;
+			return 350;
 		}
 
 		@Override

@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.COBBLED_DEEPSLATE"
+      },
+      {
+        "value": "CUSTOM:SteelFrame"
+      },
+      {
+        "value": "Blocks.COBBLED_DEEPSLATE"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "Blocks.BLAST_FURNACE"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      },
+      {
+        "value": "CUSTOM:MachineFrame"
+      },
+      {
+        "value": "Blocks.SMOOTH_STONE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:InductionFurnace"
+    },
+    "name": "induction_furnace_recipe",
+    "namespace": "mod"
+  }
+}

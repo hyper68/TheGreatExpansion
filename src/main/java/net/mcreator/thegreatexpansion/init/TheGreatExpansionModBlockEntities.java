@@ -34,6 +34,7 @@ public class TheGreatExpansionModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IceCutterBlockEntity>> ICE_CUTTER = register("ice_cutter", TheGreatExpansionModBlocks.ICE_CUTTER, IceCutterBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<GerminationTankBlockEntity>> GERMINATION_TANK = register("germination_tank", TheGreatExpansionModBlocks.GERMINATION_TANK, GerminationTankBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<InductionFurnaceBlockEntity>> INDUCTION_FURNACE = register("induction_furnace", TheGreatExpansionModBlocks.INDUCTION_FURNACE, InductionFurnaceBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LavaleerBlockEntity>> LAVALEER = register("lavaleer", TheGreatExpansionModBlocks.LAVALEER, LavaleerBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -59,5 +60,8 @@ public class TheGreatExpansionModBlockEntities {
 		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, GERMINATION_TANK.get(), (blockEntity, side) -> blockEntity.getFluidTank());
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, INDUCTION_FURNACE.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, INDUCTION_FURNACE.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LAVALEER.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, LAVALEER.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
+		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, LAVALEER.get(), (blockEntity, side) -> blockEntity.getFluidTank());
 	}
 }

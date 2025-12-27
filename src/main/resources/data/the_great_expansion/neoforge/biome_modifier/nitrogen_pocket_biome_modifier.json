@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "the_great_expansion:nitrogen_pocket",
+  "step": "underground_ores"
+}

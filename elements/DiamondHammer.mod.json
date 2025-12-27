@@ -1,0 +1,46 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Pickaxe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "diamondhammer",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "",
+    "name": "Iron Hammer",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:TheGreatExpansion"
+      }
+    ],
+    "efficiency": 8.0,
+    "attackSpeed": 1.4,
+    "enchantability": 4,
+    "damageVsEntity": 4.0,
+    "usageCount": 350,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "DIAMOND",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "SteelHammerBlockDestroyedWithTool"
+    }
+  }
+}

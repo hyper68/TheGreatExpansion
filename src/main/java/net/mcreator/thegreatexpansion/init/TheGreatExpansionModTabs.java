@@ -123,6 +123,10 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModBlocks.PERMAFROST_IRON_ORE.get().asItem());
 				tabData.accept(TheGreatExpansionModItems.STEEL_HAMMER.get());
 				tabData.accept(TheGreatExpansionModItems.IRON_HAMMER.get());
+				tabData.accept(TheGreatExpansionModBlocks.LAVALEER.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.NITROGEN_POCKET.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.NATURAL_GAS_POCKET.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.DIAMOND_HAMMER.get());
 			}).withSearchBar().build());
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> WINTER_EXPANSION = REGISTRY.register("winter_expansion",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.the_great_expansion.winter_expansion")).icon(() -> new ItemStack(TheGreatExpansionModBlocks.SMALL_SNOWMAN.get())).displayItems((parameters, tabData) -> {
@@ -168,6 +172,7 @@ public class TheGreatExpansionModTabs {
 			tabData.accept(TheGreatExpansionModItems.AQUALITH_HOE.get());
 			tabData.accept(TheGreatExpansionModItems.STEEL_HAMMER.get());
 			tabData.accept(TheGreatExpansionModItems.IRON_HAMMER.get());
+			tabData.accept(TheGreatExpansionModItems.DIAMOND_HAMMER.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(TheGreatExpansionModItems.TITANIUM_ARMOUR_HELMET.get());
 			tabData.accept(TheGreatExpansionModItems.TITANIUM_ARMOUR_CHESTPLATE.get());
