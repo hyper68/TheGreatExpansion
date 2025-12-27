@@ -4,12 +4,12 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="the_great_expansion"
-version="0.4.0"
+version="0.4.4"
 displayName="The Great Expansion"
 displayURL="https://mcreator.net"
 credits="Created by Hyper"
 authors="Hyper mods"
-description="The great expanion of items and explorations"
+description="The great expansion"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

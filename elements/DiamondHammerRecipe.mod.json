@@ -45,7 +45,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronHammer"
+      "value": "CUSTOM:DiamondHammer"
     },
     "name": "diamond_hammer_recipe",
     "namespace": "mod"
