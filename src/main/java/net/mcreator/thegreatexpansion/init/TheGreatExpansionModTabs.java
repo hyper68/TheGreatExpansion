@@ -123,7 +123,6 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModBlocks.PERMAFROST_IRON_ORE.get().asItem());
 				tabData.accept(TheGreatExpansionModItems.STEEL_HAMMER.get());
 				tabData.accept(TheGreatExpansionModItems.IRON_HAMMER.get());
-				tabData.accept(TheGreatExpansionModBlocks.LAVALEER.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.NITROGEN_POCKET.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.NATURAL_GAS_POCKET.get().asItem());
 				tabData.accept(TheGreatExpansionModItems.DIAMOND_HAMMER.get());

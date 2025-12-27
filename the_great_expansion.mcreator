@@ -18,14 +18,14 @@
       "registry_name": "bauxite",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/bauxite_biome_modifier.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/bauxite.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/bauxite.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/bauxite.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/BauxiteBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/item/bauxite.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/bauxite.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/bauxite.json",
           "src/main/resources/assets/the_great_expansion/blockstates/bauxite.json",
-          "src/main/resources/assets/the_great_expansion/models/block/bauxite.json"
+          "src/main/resources/assets/the_great_expansion/models/item/bauxite.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/bauxite_biome_modifier.json",
+          "src/main/resources/assets/the_great_expansion/models/block/bauxite.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/bauxite.json"
         ]
       },
       "path": "~/Ores"
@@ -38,14 +38,14 @@
       "registry_name": "cassiterite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/cassiterite_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/cassiterite_ore.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CassiteriteOreBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/item/cassiterite_ore.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/cassiterite_ore.json",
+          "src/main/resources/assets/the_great_expansion/models/block/cassiterite_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/cassiterite_ore.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/cassiterite_ore_biome_modifier.json",
           "src/main/resources/data/the_great_expansion/worldgen/configured_feature/cassiterite_ore.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cassiterite_ore.json"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/cassiterite_ore.json",
+          "src/main/resources/assets/the_great_expansion/models/item/cassiterite_ore.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/cassiterite_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -59,13 +59,13 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/the_great_expansion/models/item/galena_ore.json",
+          "src/main/resources/assets/the_great_expansion/models/block/galena_ore.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/GalenaOreBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/galena_ore.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/galena_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/galena_ore.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/galena_ore_biome_modifier.json",
           "src/main/resources/data/the_great_expansion/worldgen/configured_feature/galena_ore.json",
-          "src/main/resources/assets/the_great_expansion/models/block/galena_ore.json"
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/galena_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -78,14 +78,14 @@
       "registry_name": "ilmenite_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/ilmenite_ore_biome_modifier.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ilmenite_ore.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ilmenite_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/ilmenite_ore.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ilmenite_ore.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IlmeniteOreBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/ilmenite_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/ilmenite_ore.json"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ilmenite_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/ilmenite_ore.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IlmeniteOreBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/ilmenite_ore.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ilmenite_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/ilmenite_ore.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/ilmenite_ore_biome_modifier.json"
         ]
       },
       "path": "~/Ores"
@@ -98,14 +98,14 @@
       "registry_name": "cinnabar_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/cinnabar_ore.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CinnabarOreBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/cinnabar_ore.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/cinnabar_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/cinnabar_ore.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/cinnabar_ore_biome_modifier.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/cinnabar_ore.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/cinnabar_ore.json",
           "src/main/resources/assets/the_great_expansion/models/item/cinnabar_ore.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cinnabar_ore.json"
+          "src/main/resources/assets/the_great_expansion/models/block/cinnabar_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/cinnabar_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -118,8 +118,8 @@
       "registry_name": "aluminum_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/aluminum_ingot.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/AluminumIngotItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/AluminumIngotItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/aluminum_ingot.json"
         ]
       },
       "path": "~/Ingots"
@@ -146,8 +146,8 @@
       "registry_name": "tin_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/tin_ingot.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/TinIngotItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/TinIngotItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/tin_ingot.json"
         ]
       },
       "path": "~/Ingots"
@@ -160,8 +160,8 @@
       "registry_name": "tin_ingot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/tin_ingot_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/tin_ingot_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/tin_ingot_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/tin_ingot_recipe.json"
         ]
       },
       "path": "~/Ingots"
@@ -188,8 +188,8 @@
       "registry_name": "lead_ingot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/lead_ingot_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/lead_ingot_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/lead_ingot_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/lead_ingot_recipe.json"
         ]
       },
       "path": "~/Ingots"
@@ -216,8 +216,8 @@
       "registry_name": "titanium_ingot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/titanium_ingot_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_ingot_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_ingot_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/titanium_ingot_recipe.json"
         ]
       },
       "path": "~/Ingots"
@@ -244,8 +244,8 @@
       "registry_name": "mercury_ingot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/mercury_ingot_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/mercury_ingot_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/mercury_ingot_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/mercury_ingot_recipe.json"
         ]
       },
       "path": "~/Ingots"
@@ -258,8 +258,8 @@
       "registry_name": "titanium_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/item/TitaniumSwordItem.java",
-          "src/main/resources/assets/the_great_expansion/models/item/titanium_sword.json"
+          "src/main/resources/assets/the_great_expansion/models/item/titanium_sword.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/TitaniumSwordItem.java"
         ]
       },
       "path": "~/Gear/Titanium"
@@ -272,9 +272,9 @@
       "registry_name": "crusher_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/CrusherGUIScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/CrusherGUIMenu.java",
           "src/main/java/net/mcreator/thegreatexpansion/network/CrusherGUISlotMessage.java",
-          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/CrusherGUIMenu.java"
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/CrusherGUIScreen.java"
         ]
       },
       "path": "~/Machines/Crusher"
@@ -287,11 +287,11 @@
       "registry_name": "crusher",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/crusher.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/crusher.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/CrusherBlockEntity.java",
-          "src/main/resources/assets/the_great_expansion/models/block/crusher.json",
+          "src/main/resources/assets/the_great_expansion/models/item/crusher.json",
           "src/main/resources/assets/the_great_expansion/blockstates/crusher.json",
+          "src/main/resources/assets/the_great_expansion/models/block/crusher.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/crusher.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CrusherBlock.java"
         ]
       },
@@ -305,8 +305,8 @@
       "registry_name": "steel_powder",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/steel_powder.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/SteelPowderItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/SteelPowderItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/steel_powder.json"
         ]
       },
       "path": "~/Powders"
@@ -377,8 +377,8 @@
       "registry_name": "steel_ingot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/steel_ingot_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/steel_ingot_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/steel_ingot_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/steel_ingot_recipe.json"
         ]
       },
       "path": "~/Ingots"
@@ -405,8 +405,8 @@
       "registry_name": "steel_face_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/steel_face_plate.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/SteelFacePlateItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/SteelFacePlateItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/steel_face_plate.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -446,11 +446,11 @@
       "registry_name": "steel_frame",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/SteelFrameBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/steel_frame.json",
-          "src/main/resources/assets/the_great_expansion/models/block/steel_frame.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/steel_frame.json",
           "src/main/resources/assets/the_great_expansion/models/item/steel_frame.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/steel_frame.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/steel_frame.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SteelFrameBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/steel_frame.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -476,10 +476,10 @@
       "registry_name": "machine_frame",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/machine_frame.json",
           "src/main/resources/assets/the_great_expansion/models/block/machine_frame.json",
-          "src/main/resources/assets/the_great_expansion/models/item/machine_frame.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/MachineFrameBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/machine_frame.json",
+          "src/main/resources/assets/the_great_expansion/models/item/machine_frame.json",
           "src/main/resources/assets/the_great_expansion/blockstates/machine_frame.json"
         ]
       },
@@ -507,10 +507,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/thegreatexpansion/item/TitaniumArmourItem.java",
-          "src/main/resources/assets/the_great_expansion/models/item/titanium_armour_helmet.json",
           "src/main/resources/assets/the_great_expansion/models/item/titanium_armour_chestplate.json",
           "src/main/resources/assets/the_great_expansion/models/item/titanium_armour_leggings.json",
-          "src/main/resources/assets/the_great_expansion/models/item/titanium_armour_boots.json"
+          "src/main/resources/assets/the_great_expansion/models/item/titanium_armour_boots.json",
+          "src/main/resources/assets/the_great_expansion/models/item/titanium_armour_helmet.json"
         ]
       },
       "path": "~/Gear/Titanium"
@@ -523,8 +523,8 @@
       "registry_name": "titanium_helmet_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_helmet_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/titanium_helmet_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/titanium_helmet_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_helmet_recipe.json"
         ]
       },
       "path": "~/Gear/Titanium"
@@ -551,8 +551,8 @@
       "registry_name": "titanium_leggings_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_leggings_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/titanium_leggings_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/titanium_leggings_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_leggings_recipe.json"
         ]
       },
       "path": "~/Gear/Titanium"
@@ -565,8 +565,8 @@
       "registry_name": "titanium_boots_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/titanium_boots_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_boots_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/titanium_boots_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/titanium_boots_recipe.json"
         ]
       },
       "path": "~/Gear/Titanium"
@@ -620,8 +620,8 @@
       "registry_name": "silicon_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/silicon_ingot.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconIngotItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconIngotItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/silicon_ingot.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -634,8 +634,8 @@
       "registry_name": "silicon_ingot_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/silicon_ingot_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/silicon_ingot_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/silicon_ingot_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/silicon_ingot_recipe.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -648,13 +648,13 @@
       "registry_name": "crude_oil",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/fluid/types/CrudeOilFluidType.java",
+          "src/main/resources/assets/the_great_expansion/models/block/crude_oil.json",
+          "src/main/resources/assets/the_great_expansion/models/item/crude_oil_bucket.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/CrudeOilItem.java",
           "src/main/resources/assets/the_great_expansion/blockstates/crude_oil.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CrudeOilBlock.java",
-          "src/main/java/net/mcreator/thegreatexpansion/item/CrudeOilItem.java",
-          "src/main/java/net/mcreator/thegreatexpansion/fluid/CrudeOilFluid.java",
-          "src/main/resources/assets/the_great_expansion/models/item/crude_oil_bucket.json",
-          "src/main/resources/assets/the_great_expansion/models/block/crude_oil.json",
-          "src/main/java/net/mcreator/thegreatexpansion/fluid/types/CrudeOilFluidType.java"
+          "src/main/java/net/mcreator/thegreatexpansion/fluid/CrudeOilFluid.java"
         ]
       },
       "path": "~/Fluids"
@@ -669,9 +669,9 @@
         "files": [
           "src/main/resources/assets/the_great_expansion/models/item/refinery.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/refinery.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/refinery.json",
           "src/main/resources/assets/the_great_expansion/models/block/refinery.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/RefineryBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/refinery.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/RefineryBlockEntity.java"
         ]
       },
@@ -758,8 +758,8 @@
       "registry_name": "empty_propane_tank",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/empty_propane_tank.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/EmptyPropaneTankItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/EmptyPropaneTankItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/empty_propane_tank.json"
         ]
       },
       "path": "~/Fluids"
@@ -800,8 +800,8 @@
       "registry_name": "diesel_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/diesel_1.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/Diesel1Item.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/Diesel1Item.java",
+          "src/main/resources/assets/the_great_expansion/models/item/diesel_1.json"
         ]
       },
       "path": "~/Fluids"
@@ -814,11 +814,11 @@
       "registry_name": "asphalt",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/asphalt.json",
           "src/main/resources/assets/the_great_expansion/blockstates/asphalt.json",
-          "src/main/resources/assets/the_great_expansion/models/block/asphalt.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/asphalt.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/AsphaltBlock.java",
           "src/main/resources/assets/the_great_expansion/models/item/asphalt.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/AsphaltBlock.java"
+          "src/main/resources/assets/the_great_expansion/models/block/asphalt.json"
         ]
       },
       "path": "~/Blocks"
@@ -832,10 +832,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/thegreatexpansion/block/FillerBlock.java",
-          "src/main/java/net/mcreator/thegreatexpansion/block/entity/FillerBlockEntity.java",
-          "src/main/resources/assets/the_great_expansion/models/item/filler.json",
           "src/main/resources/assets/the_great_expansion/models/block/filler.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/filler.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/FillerBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/item/filler.json",
           "src/main/resources/assets/the_great_expansion/blockstates/filler.json"
         ]
       },
@@ -849,8 +849,8 @@
       "registry_name": "filler_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/FillerGUIMenu.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/FillerGUIScreen.java"
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/FillerGUIScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/FillerGUIMenu.java"
         ]
       },
       "path": "~/Machines/Filler"
@@ -907,8 +907,8 @@
       "registry_name": "silicon_sheets",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconSheetsItem.java",
-          "src/main/resources/assets/the_great_expansion/models/item/silicon_sheets.json"
+          "src/main/resources/assets/the_great_expansion/models/item/silicon_sheets.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconSheetsItem.java"
         ]
       },
       "path": "~/Ingots/Items"
@@ -949,8 +949,8 @@
       "registry_name": "silicon_padding_chestplate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/silicon_padding_chestplate.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconPaddingChestplateItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconPaddingChestplateItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/silicon_padding_chestplate.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -977,8 +977,8 @@
       "registry_name": "silicon_padding_boots",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/silicon_padding_boots.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconPaddingBootsItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/SiliconPaddingBootsItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/silicon_padding_boots.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -991,11 +991,11 @@
       "registry_name": "packed_sand",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/packed_sand.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/packed_sand.json",
           "src/main/resources/assets/the_great_expansion/models/item/packed_sand.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/packed_sand.json"
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand.json"
         ]
       },
       "path": "~/Blocks"
@@ -1022,12 +1022,12 @@
       "metadata": {
         "files": [
           "src/main/resources/data/the_great_expansion/loot_table/blocks/packed_sand_stairs.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandStairsBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_stairs_outer.json",
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_stairs.json",
           "src/main/resources/assets/the_great_expansion/models/block/packed_sand_stairs_inner.json",
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_stairs.json",
           "src/main/resources/assets/the_great_expansion/models/item/packed_sand_stairs.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/packed_sand_stairs.json"
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_stairs_outer.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/packed_sand_stairs.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandStairsBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -1040,8 +1040,8 @@
       "registry_name": "packed_sand_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/packed_sand_stairs_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/packed_sand_stairs_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/packed_sand_stairs_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/packed_sand_stairs_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1054,11 +1054,11 @@
       "registry_name": "packed_sand_bricks",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandBricksBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/item/packed_sand_bricks.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/packed_sand_bricks.json",
           "src/main/resources/assets/the_great_expansion/blockstates/packed_sand_bricks.json",
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_bricks.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandBricksBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/packed_sand_bricks.json",
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_bricks.json",
+          "src/main/resources/assets/the_great_expansion/models/item/packed_sand_bricks.json"
         ]
       },
       "path": "~/Blocks"
@@ -1085,13 +1085,13 @@
       "registry_name": "packed_sand_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_brick_stairs_inner.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/packed_sand_brick_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_brick_stairs_outer.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PackedSandBrickStairsBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/item/packed_sand_brick_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_brick_stairs.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/packed_sand_brick_stairs.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/packed_sand_brick_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_brick_stairs.json"
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_brick_stairs_inner.json",
+          "src/main/resources/assets/the_great_expansion/models/item/packed_sand_brick_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/packed_sand_brick_stairs_outer.json"
         ]
       },
       "path": "~/Blocks"
@@ -1119,11 +1119,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/the_great_expansion/models/item/asphalt_slabs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/asphalt_slabs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/asphalt_slabs_full.json",
           "src/main/resources/assets/the_great_expansion/models/block/asphalt_slabs_top.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/AsphaltSlabsBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/asphalt_slabs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/asphalt_slabs_full.json",
+          "src/main/resources/assets/the_great_expansion/models/block/asphalt_slabs.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/AsphaltSlabsBlock.java",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/asphalt_slabs.json"
         ]
       },
@@ -1137,13 +1137,13 @@
       "registry_name": "asphalt_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/asphalt_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/asphalt_stairs_inner.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/asphalt_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/item/asphalt_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/asphalt_stairs_outer.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/AsphaltStairsBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/asphalt_stairs.json"
+          "src/main/resources/assets/the_great_expansion/models/block/asphalt_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/asphalt_stairs_inner.json",
+          "src/main/resources/assets/the_great_expansion/models/item/asphalt_stairs.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/asphalt_stairs.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/asphalt_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/asphalt_stairs_outer.json"
         ]
       },
       "path": "~/Blocks"
@@ -1198,14 +1198,14 @@
       "registry_name": "aqualith_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/aqualith_ore.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/aqualith_ore.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/AqualithOreBlock.java",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/aqualith_ore_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/aqualith_ore.json",
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_ore.json",
           "src/main/resources/assets/the_great_expansion/models/block/aqualith_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/aqualith_ore.json",
           "src/main/resources/assets/the_great_expansion/blockstates/aqualith_ore.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/AqualithOreBlock.java"
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/aqualith_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/aqualith_ore.json"
         ]
       },
       "path": "~/Ores"
@@ -1218,11 +1218,11 @@
       "registry_name": "aqualith_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/aqualith_block.json",
           "src/main/resources/assets/the_great_expansion/models/block/aqualith_block.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/aqualith_block.json",
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_block.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/AqualithBlockBlock.java"
+          "src/main/resources/assets/the_great_expansion/blockstates/aqualith_block.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/AqualithBlockBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/aqualith_block.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -1263,8 +1263,8 @@
       "registry_name": "aqualith_ore_smelting",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/aqualith_ore_smelting.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_ore_smelting.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_ore_smelting.json",
+          "src/main/resources/data/the_great_expansion/recipe/aqualith_ore_smelting.json"
         ]
       },
       "path": "~/Ingots"
@@ -1291,8 +1291,8 @@
       "registry_name": "aqualith_axe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithAxeItem.java",
-          "src/main/resources/assets/the_great_expansion/models/item/aqualith_axe.json"
+          "src/main/resources/assets/the_great_expansion/models/item/aqualith_axe.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithAxeItem.java"
         ]
       },
       "path": "~/Ingots/Items"
@@ -1305,8 +1305,8 @@
       "registry_name": "aqualith_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/aqualith_sword.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithSwordItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithSwordItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/aqualith_sword.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -1347,8 +1347,8 @@
       "registry_name": "aqualith_pickaxe_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/aqualith_pickaxe_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_pickaxe_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_pickaxe_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/aqualith_pickaxe_recipe.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -1375,8 +1375,8 @@
       "registry_name": "aqualith_sword_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/aqualith_sword_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_sword_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_sword_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/aqualith_sword_recipe.json"
         ]
       },
       "path": "~/Ingots/Items"
@@ -1417,10 +1417,10 @@
       "registry_name": "aqualith_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithArmorItem.java",
-          "src/main/resources/assets/the_great_expansion/models/item/aqualith_armor_helmet.json",
-          "src/main/resources/assets/the_great_expansion/models/item/aqualith_armor_leggings.json",
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_armor_boots.json",
+          "src/main/resources/assets/the_great_expansion/models/item/aqualith_armor_helmet.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/AqualithArmorItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/aqualith_armor_leggings.json",
           "src/main/resources/assets/the_great_expansion/models/item/aqualith_armor_chestplate.json"
         ]
       },
@@ -1434,8 +1434,8 @@
       "registry_name": "aqualith_armor_helmet_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_armor_helmet_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/aqualith_armor_helmet_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/aqualith_armor_helmet_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_armor_helmet_recipe.json"
         ]
       },
       "path": "~/Gear/Aqualith"
@@ -1476,8 +1476,8 @@
       "registry_name": "aqualith_armor_boots_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_armor_boots_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/aqualith_armor_boots_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/aqualith_armor_boots_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/aqualith_armor_boots_recipe.json"
         ]
       },
       "path": "~/Gear/Aqualith"
@@ -1490,11 +1490,11 @@
       "registry_name": "palo_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/palo_log.json",
           "src/main/resources/assets/the_great_expansion/blockstates/palo_log.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_log.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_log.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PaloLogBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_log.json"
+          "src/main/resources/assets/the_great_expansion/models/block/palo_log.json"
         ]
       },
       "path": "~/Blocks"
@@ -1507,10 +1507,10 @@
       "registry_name": "palo_wood",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_wood.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_wood.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_wood.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PaloWoodBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_wood.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_wood.json",
           "src/main/resources/assets/the_great_expansion/blockstates/palo_wood.json"
         ]
       },
@@ -1524,11 +1524,11 @@
       "registry_name": "palo_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_planks.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_planks.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/PaloPlanksBlock.java",
           "src/main/resources/assets/the_great_expansion/models/block/palo_planks.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_planks.json"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_planks.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_planks.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PaloPlanksBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -1541,11 +1541,11 @@
       "registry_name": "palo_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/palo_leaves.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/PaloLeavesBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/palo_leaves.json",
+          "src/main/resources/assets/the_great_expansion/models/item/palo_leaves.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_leaves.json",
-          "src/main/resources/assets/the_great_expansion/models/item/palo_leaves.json"
+          "src/main/resources/assets/the_great_expansion/models/block/palo_leaves.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PaloLeavesBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -1558,13 +1558,13 @@
       "registry_name": "palo_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/palo_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_stairs_outer.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_stairs.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_stairs.json",
           "src/main/resources/assets/the_great_expansion/models/block/palo_stairs_inner.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PaloStairsBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_stairs.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/item/palo_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_stairs_outer.json"
+          "src/main/resources/assets/the_great_expansion/models/block/palo_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/item/palo_stairs.json"
         ]
       },
       "path": "~/Blocks"
@@ -1577,12 +1577,12 @@
       "registry_name": "palo_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/PaloSlabBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/item/palo_slab.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_slab_full.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_slab.json",
           "src/main/resources/assets/the_great_expansion/models/block/palo_slab.json",
           "src/main/resources/assets/the_great_expansion/blockstates/palo_slab.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_slab_full.json",
+          "src/main/resources/assets/the_great_expansion/models/item/palo_slab.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PaloSlabBlock.java",
           "src/main/resources/assets/the_great_expansion/models/block/palo_slab_top.json"
         ]
       },
@@ -1596,13 +1596,13 @@
       "registry_name": "palo_fence",
       "metadata": {
         "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_fence.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_post.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PaloFenceBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_fence.json",
           "src/main/resources/assets/the_great_expansion/models/block/palo_fence.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_fence.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_fence.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_inventory.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_fence.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_post.json"
+          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_inventory.json"
         ]
       },
       "path": "~/Blocks"
@@ -1615,14 +1615,14 @@
       "registry_name": "palo_fence_gate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/PaloFenceGateBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate_wall_open.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_fence_gate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate_wall_open.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_fence_gate.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_fence_gate.json",
           "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate_wall.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate_open.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/PaloFenceGateBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_fence_gate.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_fence_gate.json"
         ]
       },
       "path": "~/Blocks"
@@ -1635,11 +1635,11 @@
       "registry_name": "palo_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/palo_pressure_plate_down.json",
           "src/main/resources/assets/the_great_expansion/models/block/palo_pressure_plate.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_pressure_plate.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_pressure_plate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_pressure_plate_down.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PaloPressurePlateBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_pressure_plate.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_pressure_plate.json"
         ]
       },
@@ -1653,13 +1653,13 @@
       "registry_name": "palo_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_button.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_button.json",
-          "src/main/resources/assets/the_great_expansion/models/item/palo_button.json",
           "src/main/resources/assets/the_great_expansion/models/block/palo_button_pressed.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_button_inventory.json",
+          "src/main/resources/assets/the_great_expansion/models/block/palo_button.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PaloButtonBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_button.json"
+          "src/main/resources/assets/the_great_expansion/models/block/palo_button_inventory.json",
+          "src/main/resources/assets/the_great_expansion/models/item/palo_button.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_button.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_button.json"
         ]
       },
       "path": "~/Blocks"
@@ -1672,8 +1672,8 @@
       "registry_name": "palo_wood_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_wood_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/palo_wood_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/palo_wood_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_wood_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1686,8 +1686,8 @@
       "registry_name": "palo_planks_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/palo_planks_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_planks_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_planks_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/palo_planks_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1700,8 +1700,8 @@
       "registry_name": "palo_stairs_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/palo_stairs_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_stairs_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_stairs_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/palo_stairs_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1728,8 +1728,8 @@
       "registry_name": "palo_fence_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/palo_fence_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_fence_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_fence_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/palo_fence_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1742,8 +1742,8 @@
       "registry_name": "palo_fence_gate_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_fence_gate_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/palo_fence_gate_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/palo_fence_gate_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_fence_gate_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1770,8 +1770,8 @@
       "registry_name": "palo_button_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_button_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/palo_button_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/palo_button_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/palo_button_recipe.json"
         ]
       },
       "path": "~/Blocks"
@@ -1895,8 +1895,8 @@
       "registry_name": "reinforced_chest_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/ReinforcedChestGUIScreen.java",
-          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/ReinforcedChestGUIMenu.java"
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/ReinforcedChestGUIMenu.java",
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/ReinforcedChestGUIScreen.java"
         ]
       },
       "path": "~/Ingots/Items"
@@ -1940,12 +1940,12 @@
       "registry_name": "reinforced_chest",
       "metadata": {
         "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/reinforced_chest.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/ReinforcedChestBlockEntity.java",
-          "src/main/resources/assets/the_great_expansion/models/item/reinforced_chest.json",
           "src/main/java/net/mcreator/thegreatexpansion/client/renderer/block/ReinforcedChestRenderer.java",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/reinforced_chest.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/ReinforcedChestBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/reinforced_chest.json",
+          "src/main/resources/assets/the_great_expansion/models/item/reinforced_chest.json",
           "src/main/resources/assets/the_great_expansion/models/block/reinforced_chest.json"
         ]
       },
@@ -1986,9 +1986,9 @@
       "registry_name": "pressure_cooker_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/PressureCookerGUIScreen.java",
           "src/main/java/net/mcreator/thegreatexpansion/world/inventory/PressureCookerGUIMenu.java",
-          "src/main/java/net/mcreator/thegreatexpansion/network/PressureCookerGUISlotMessage.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/PressureCookerGUIScreen.java"
+          "src/main/java/net/mcreator/thegreatexpansion/network/PressureCookerGUISlotMessage.java"
         ]
       },
       "path": "~/Machines/Pressure Cooker"
@@ -2001,11 +2001,11 @@
       "registry_name": "pressure_cooker",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/PressureCookerBlock.java",
           "src/main/resources/assets/the_great_expansion/models/block/pressure_cooker.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/pressure_cooker.json",
-          "src/main/resources/assets/the_great_expansion/models/item/pressure_cooker.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/PressureCookerBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/item/pressure_cooker.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PressureCookerBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/pressure_cooker.json",
           "src/main/resources/assets/the_great_expansion/blockstates/pressure_cooker.json"
         ]
       },
@@ -2050,12 +2050,12 @@
       "registry_name": "propane_generator",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/entity/PropaneGeneratorBlockEntity.java",
           "src/main/resources/assets/the_great_expansion/models/item/propane_generator.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/propane_generator.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/propane_generator.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PropaneGeneratorBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/propane_generator.json"
+          "src/main/resources/assets/the_great_expansion/models/block/propane_generator.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/propane_generator.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/PropaneGeneratorBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/propane_generator.json"
         ]
       },
       "path": "~/Power"
@@ -2068,9 +2068,9 @@
       "registry_name": "propane_generator_gui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/PropaneGeneratorGUIScreen.java",
           "src/main/java/net/mcreator/thegreatexpansion/world/inventory/PropaneGeneratorGUIMenu.java",
-          "src/main/java/net/mcreator/thegreatexpansion/network/PropaneGeneratorGUISlotMessage.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/PropaneGeneratorGUIScreen.java"
+          "src/main/java/net/mcreator/thegreatexpansion/network/PropaneGeneratorGUISlotMessage.java"
         ]
       },
       "path": "~/Power"
@@ -2331,11 +2331,11 @@
       "registry_name": "palo_sapling",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/PaloSaplingBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_sapling.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/palo_sapling.json",
           "src/main/resources/assets/the_great_expansion/models/item/palo_sapling.json",
-          "src/main/resources/assets/the_great_expansion/models/block/palo_sapling.json"
+          "src/main/resources/assets/the_great_expansion/models/block/palo_sapling.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/palo_sapling.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/palo_sapling.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/PaloSaplingBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -2348,8 +2348,8 @@
       "registry_name": "jewlery_workbench_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/JewleryWorkbenchGUIMenu.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/JewleryWorkbenchGUIScreen.java"
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/JewleryWorkbenchGUIScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/JewleryWorkbenchGUIMenu.java"
         ]
       },
       "path": "~/Machines/Jewlery Workbench"
@@ -2362,11 +2362,11 @@
       "registry_name": "jewlery_workbench",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/jewlery_workbench.json",
+          "src/main/resources/assets/the_great_expansion/models/block/jewlery_workbench.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/jewlery_workbench.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/jewlery_workbench.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/JewleryWorkbenchBlockEntity.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/jewlery_workbench.json",
-          "src/main/resources/assets/the_great_expansion/models/block/jewlery_workbench.json",
+          "src/main/resources/assets/the_great_expansion/models/item/jewlery_workbench.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/JewleryWorkbenchBlock.java"
         ]
       },
@@ -2380,11 +2380,11 @@
       "registry_name": "sand_vault",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/sand_vault.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/sand_vault.json",
           "src/main/resources/assets/the_great_expansion/models/item/sand_vault.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/sand_vault.json",
           "src/main/resources/assets/the_great_expansion/models/block/sand_vault.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/SandVaultBlockEntity.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/sand_vault.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/SandVaultBlock.java"
         ]
       },
@@ -2398,8 +2398,8 @@
       "registry_name": "jewlery_workbench_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/jewlery_workbench_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/jewlery_workbench_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/jewlery_workbench_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/jewlery_workbench_recipe.json"
         ]
       },
       "path": "~/Machines/Jewlery Workbench"
@@ -2426,9 +2426,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar.json",
+          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar.json",
           "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar.json",
-          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestonePillarBlock.java"
         ]
       },
@@ -2442,8 +2442,8 @@
       "registry_name": "cobblestone_pillar_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/cobblestone_pillar_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/cobblestone_pillar_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/cobblestone_pillar_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/cobblestone_pillar_recipe.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2456,11 +2456,11 @@
       "registry_name": "cobblestone_pillar_base",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar_base.json",
           "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar_base.json",
           "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_base.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_base.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestonePillarBaseBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar_base.json"
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_base.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2487,12 +2487,12 @@
       "registry_name": "alpha_2_statue",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/entity/Alpha2StatueBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/alpha_2_statue.json",
           "src/main/resources/assets/the_great_expansion/models/item/alpha_2_statue.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/alpha_2_statue.json",
           "src/main/resources/assets/the_great_expansion/models/block/alpha_2_statue.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/Alpha2StatueBlockEntity.java",
           "src/main/java/net/mcreator/thegreatexpansion/block/Alpha2StatueBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/alpha_2_statue.json"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/alpha_2_statue.json"
         ]
       },
       "path": "~/Statues"
@@ -2505,8 +2505,8 @@
       "registry_name": "alpha_2_statue_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/Alpha2StatueGUIMenu.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/gui/Alpha2StatueGUIScreen.java"
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/Alpha2StatueGUIScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/Alpha2StatueGUIMenu.java"
         ]
       },
       "path": "~/Statues"
@@ -2519,10 +2519,10 @@
       "registry_name": "cobblestone_pillar_topper",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_topper.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar_topper.json",
-          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar_topper.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_topper.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestonePillarTopperBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar_topper.json",
           "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_topper.json"
         ]
       },
@@ -2552,9 +2552,9 @@
         "files": [
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestonePillarTSectionBlock.java",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar_t_section.json",
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_t_section.json",
           "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar_t_section.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_t_section.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_t_section.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_t_section.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2567,8 +2567,8 @@
       "registry_name": "cobblestone_pillar_t_section_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/cobblestone_pillar_t_section_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/cobblestone_pillar_t_section_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/cobblestone_pillar_t_section_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/cobblestone_pillar_t_section_recipe.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2581,11 +2581,11 @@
       "registry_name": "cobblestone_pillar_3_way",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_3_way.json",
           "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar_3_way.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar_3_way.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestonePillar3WayBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_3_way.json"
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_3_way.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_3_way.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2612,11 +2612,11 @@
       "registry_name": "cobblestone_pillar_4_way",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_4_way.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_pillar_4_way.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_4_way.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestonePillar4WayBlock.java",
           "src/main/resources/assets/the_great_expansion/models/item/cobblestone_pillar_4_way.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_pillar_4_way.json"
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_pillar_4_way.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2629,8 +2629,8 @@
       "registry_name": "cobblestone_pillar_4_way_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/cobblestone_pillar_4_way_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/cobblestone_pillar_4_way_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/cobblestone_pillar_4_way_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/cobblestone_pillar_4_way_recipe.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2643,11 +2643,11 @@
       "registry_name": "cobblestone_side_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_side_pillar.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_side_pillar.json",
-          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_side_pillar.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestoneSidePillarBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_side_pillar.json"
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_side_pillar.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_side_pillar.json",
+          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_side_pillar.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_side_pillar.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2674,10 +2674,10 @@
       "registry_name": "cobblestone_side_pillar_3_way",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_side_pillar_3_way.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_side_pillar_3_way.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_side_pillar_3_way.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CobblestoneSidePillar3WayBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_side_pillar_3_way.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_side_pillar_3_way.json",
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_side_pillar_3_way.json",
           "src/main/resources/assets/the_great_expansion/models/item/cobblestone_side_pillar_3_way.json"
         ]
       },
@@ -2705,11 +2705,11 @@
       "registry_name": "cobblestone_side_pillar_4_way",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_side_pillar_4_way.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_side_pillar_4_way.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/CobblestoneSidePillar4WayBlock.java",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/cobblestone_side_pillar_4_way.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_side_pillar_4_way.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/CobblestoneSidePillar4WayBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/cobblestone_side_pillar_4_way.json",
+          "src/main/resources/assets/the_great_expansion/models/item/cobblestone_side_pillar_4_way.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/cobblestone_side_pillar_4_way.json"
         ]
       },
       "path": "~/Blocks/Cobblestone"
@@ -2736,9 +2736,9 @@
       "registry_name": "snowscape_disk",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/SnowscapeDiskItem.java",
           "src/main/resources/data/the_great_expansion/jukebox_song/snowscape_disk.json",
-          "src/main/resources/assets/the_great_expansion/models/item/snowscape_disk.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/SnowscapeDiskItem.java"
+          "src/main/resources/assets/the_great_expansion/models/item/snowscape_disk.json"
         ]
       },
       "path": "~/Music Disks"
@@ -2751,9 +2751,9 @@
       "registry_name": "hollow_bells_disk",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/hollow_bells_disk.json",
+          "src/main/resources/data/the_great_expansion/jukebox_song/hollow_bells_disk.json",
           "src/main/java/net/mcreator/thegreatexpansion/item/HollowBellsDiskItem.java",
-          "src/main/resources/data/the_great_expansion/jukebox_song/hollow_bells_disk.json"
+          "src/main/resources/assets/the_great_expansion/models/item/hollow_bells_disk.json"
         ]
       },
       "path": "~/Music Disks"
@@ -2766,11 +2766,11 @@
       "registry_name": "ice_bricks",
       "metadata": {
         "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/ice_bricks.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBricksBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_bricks.json",
           "src/main/resources/assets/the_great_expansion/models/item/ice_bricks.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_bricks.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_bricks.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_bricks.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_bricks.json"
         ]
       },
       "path": "~/Winter"
@@ -2783,13 +2783,13 @@
       "registry_name": "ice_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_stairs_outer.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_stairs_inner.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickStairsBlock.java",
           "src/main/resources/assets/the_great_expansion/models/item/ice_brick_stairs.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_stairs.json"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_stairs.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_stairs.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_stairs_outer.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_stairs_inner.json"
         ]
       },
       "path": "~/Winter"
@@ -2803,12 +2803,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_slabs.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickSlabsBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_slabs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_slabs_full.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_slabs.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_slabs_top.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_slabs.json"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_slabs.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_slabs.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickSlabsBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_slabs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_slabs_full.json"
         ]
       },
       "path": "~/Winter"
@@ -2821,13 +2821,13 @@
       "registry_name": "ice_brick_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_fence.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_fence.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickFenceBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fence_inventory.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fence_post.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_fence.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fence.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_fence.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fence_post.json"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fence_inventory.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_fence.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_fence.json"
         ]
       },
       "path": "~/Winter"
@@ -2840,14 +2840,14 @@
       "registry_name": "ice_brick_wall",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_wall.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_wall.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_wall_post.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_wall.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickWallBlock.java",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_wall_side_tall.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_wall.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_wall_inventory.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_wall.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_wall.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_wall.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickWallBlock.java"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_wall_post.json"
         ]
       },
       "path": "~/Winter"
@@ -2860,13 +2860,13 @@
       "registry_name": "ice_brick_trapdoor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_trapdoor_open.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_trapdoor.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_trapdoor.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_trapdoor.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_trapdoor.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_trapdoor_open.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickTrapdoorBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_trapdoor_top.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_trapdoor.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_trapdoor.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_trapdoor_top.json"
         ]
       },
       "path": "~/Winter"
@@ -2879,18 +2879,18 @@
       "registry_name": "ice_brick_door",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_door.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickDoorBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_door.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_right.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_left.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_door.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_right.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_left_open.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_right_open.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_right_open.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_left.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_left_open.json"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_door.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_left_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_left.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_right_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_right.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_door.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_right.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_door.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_bottom_right_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_door_top_left_open.json"
         ]
       },
       "path": "~/Winter"
@@ -2903,14 +2903,14 @@
       "registry_name": "ice_brick_fencegate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate_wall_open.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_fencegate.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickFencegateBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_fencegate.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate_open.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate_wall.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_fencegate.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBrickFencegateBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_brick_fencegate.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_brick_fencegate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate_wall_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_brick_fencegate_open.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_brick_fencegate.json"
         ]
       },
       "path": "~/Winter"
@@ -2923,12 +2923,12 @@
       "registry_name": "ice_cutter",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/ice_cutter.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/entity/IceCutterBlockEntity.java",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_cutter.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_cutter.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_cutter.json",
           "src/main/resources/assets/the_great_expansion/blockstates/ice_cutter.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceCutterBlock.java"
+          "src/main/resources/assets/the_great_expansion/models/item/ice_cutter.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceCutterBlock.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/IceCutterBlockEntity.java"
         ]
       },
       "path": "~/Winter"
@@ -2955,8 +2955,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/the_great_expansion/loot_table/blocks/big_snowman.json",
-          "src/main/resources/assets/the_great_expansion/models/block/big_snowman.json",
           "src/main/resources/assets/the_great_expansion/models/item/big_snowman.json",
+          "src/main/resources/assets/the_great_expansion/models/block/big_snowman.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/BigSnowmanBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/big_snowman.json"
         ]
@@ -2971,11 +2971,11 @@
       "registry_name": "medium_snowman",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/blockstates/medium_snowman.json",
           "src/main/resources/assets/the_great_expansion/models/block/medium_snowman.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/medium_snowman.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/MediumSnowmanBlock.java",
           "src/main/resources/assets/the_great_expansion/models/item/medium_snowman.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/MediumSnowmanBlock.java"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/medium_snowman.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/medium_snowman.json"
         ]
       },
       "path": "~/Winter"
@@ -2988,10 +2988,10 @@
       "registry_name": "small_snowman",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/small_snowman.json",
           "src/main/resources/assets/the_great_expansion/models/item/small_snowman.json",
           "src/main/resources/assets/the_great_expansion/blockstates/small_snowman.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/SmallSnowmanBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/small_snowman.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/small_snowman.json"
         ]
       },
@@ -3005,13 +3005,13 @@
       "registry_name": "snow_lily",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/snow_lily.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/snow_lily.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/snow_lily.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/SnowLilyBlock.java",
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/snow_lily_biome_modifier.json",
           "src/main/resources/assets/the_great_expansion/models/item/snow_lily.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/snow_lily.json",
           "src/main/resources/assets/the_great_expansion/models/block/snow_lily.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/snow_lily.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/snow_lily_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/snow_lily.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/snow_lily.json"
         ]
       },
@@ -3108,9 +3108,9 @@
       "registry_name": "wild_tundra",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/worldgen/biome/wild_tundra.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/wild_tundra_tree.json",
           "src/main/resources/data/the_great_expansion/worldgen/placed_feature/wild_tundra_tree.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/wild_tundra_tree.json"
+          "src/main/resources/data/the_great_expansion/worldgen/biome/wild_tundra.json"
         ]
       },
       "path": "~/Winter"
@@ -3125,9 +3125,9 @@
         "files": [
           "src/main/resources/assets/the_great_expansion/models/item/ice_block.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_block.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_block.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockBlock.java"
         ]
       },
       "path": "~/Winter"
@@ -3140,13 +3140,13 @@
       "registry_name": "ice_block_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_stairs_outer.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_stairs.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockStairsBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_stairs.json",
           "src/main/resources/assets/the_great_expansion/models/item/ice_block_stairs.json",
           "src/main/resources/assets/the_great_expansion/blockstates/ice_block_stairs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_stairs_inner.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_stairs_outer.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_stairs.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockStairsBlock.java"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_stairs_inner.json"
         ]
       },
       "path": "~/Winter"
@@ -3160,12 +3160,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_slabs.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_slabs_full.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_slabs.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_slabs.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_block_slabs.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockSlabsBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_slabs_top.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_slabs.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_block_slabs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_slabs_top.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_slabs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_slabs_full.json"
         ]
       },
       "path": "~/Winter"
@@ -3178,13 +3178,13 @@
       "registry_name": "ice_block_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fence_inventory.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_fence.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockFenceBlock.java",
           "src/main/resources/assets/the_great_expansion/blockstates/ice_block_fence.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_fence.json",
           "src/main/resources/assets/the_great_expansion/models/item/ice_block_fence.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fence_post.json"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fence_post.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_fence.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fence_inventory.json"
         ]
       },
       "path": "~/Winter"
@@ -3197,14 +3197,14 @@
       "registry_name": "ice_block_wall",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_wall.json",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_block_wall.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall_side_tall.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_wall.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall_inventory.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockWallBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_wall.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall_post.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall_side_tall.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_block_wall.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_wall.json"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_wall_post.json"
         ]
       },
       "path": "~/Winter"
@@ -3217,13 +3217,13 @@
       "registry_name": "ice_block_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_trapdoor_top.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_trapdoor.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockTrapdoorBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/ice_block_trapdoor.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_trapdoor.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_trapdoor_open.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_trapdoor.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_trapdoor.json",
-          "src/main/resources/assets/the_great_expansion/models/item/ice_block_trapdoor.json"
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_trapdoor_top.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_trapdoor.json"
         ]
       },
       "path": "~/Winter"
@@ -3236,17 +3236,17 @@
       "registry_name": "ice_block_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_bottom_left.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_door.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockDoorBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_door.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_bottom_left_open.json",
           "src/main/resources/assets/the_great_expansion/models/item/ice_block_door.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_top_left_open.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_top_right_open.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_top_right.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_bottom_left_open.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockDoorBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_door.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_bottom_right.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_top_left.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_door.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_top_right.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_bottom_left.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_door_bottom_right_open.json"
         ]
       },
@@ -3260,14 +3260,14 @@
       "registry_name": "ice_block_fencegate",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_fencegate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fencegate_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fencegate_wall_open.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_fencegate.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_fencegate.json",
           "src/main/resources/assets/the_great_expansion/models/block/ice_block_fencegate_wall.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/ice_block_fencegate.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_block_fencegate.json",
           "src/main/resources/assets/the_great_expansion/models/item/ice_block_fencegate.json",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fencegate_open.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockFencegateBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/ice_block_fencegate_wall_open.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceBlockFencegateBlock.java"
         ]
       },
       "path": "~/Winter"
@@ -3280,10 +3280,10 @@
       "registry_name": "sub_zombie",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/sub_zombie_biome_modifier.json",
+          "src/main/java/net/mcreator/thegreatexpansion/client/renderer/SubZombieRenderer.java",
           "src/main/resources/assets/the_great_expansion/models/item/sub_zombie_spawn_egg.json",
           "src/main/java/net/mcreator/thegreatexpansion/entity/SubZombieEntity.java",
-          "src/main/java/net/mcreator/thegreatexpansion/client/renderer/SubZombieRenderer.java"
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/sub_zombie_biome_modifier.json"
         ]
       },
       "path": "~/Winter"
@@ -3306,14 +3306,14 @@
       "registry_name": "snowdrop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/snowdrop.json",
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/snowdrop_biome_modifier.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/snowdrop.json",
           "src/main/resources/data/the_great_expansion/worldgen/placed_feature/snowdrop.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SnowdropBlock.java",
           "src/main/resources/assets/the_great_expansion/models/block/snowdrop.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/snowdrop.json",
           "src/main/resources/assets/the_great_expansion/blockstates/snowdrop.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/SnowdropBlock.java"
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/snowdrop_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/snowdrop.json",
+          "src/main/resources/assets/the_great_expansion/models/item/snowdrop.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/snowdrop.json"
         ]
       },
       "path": "~/Winter"
@@ -3326,14 +3326,14 @@
       "registry_name": "hellebore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/HelleboreBlock.java",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/hellebore.json",
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/hellebore_biome_modifier.json",
-          "src/main/resources/assets/the_great_expansion/models/block/hellebore.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/hellebore.json",
-          "src/main/resources/assets/the_great_expansion/models/item/hellebore.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/hellebore.json",
           "src/main/resources/data/the_great_expansion/worldgen/configured_feature/hellebore.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/hellebore.json"
+          "src/main/resources/assets/the_great_expansion/models/item/hellebore.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/HelleboreBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/hellebore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/hellebore.json",
+          "src/main/resources/assets/the_great_expansion/models/block/hellebore.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/hellebore_biome_modifier.json"
         ]
       },
       "path": "~/Winter"
@@ -3346,14 +3346,14 @@
       "registry_name": "winterberry",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/winterberry_biome_modifier.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/winterberry.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/WinterberryBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/winterberry.json",
+          "src/main/resources/assets/the_great_expansion/models/item/winterberry.json",
           "src/main/resources/data/the_great_expansion/worldgen/configured_feature/winterberry.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/winterberry.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/winterberry_biome_modifier.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/winterberry.json",
-          "src/main/resources/assets/the_great_expansion/models/item/winterberry.json"
+          "src/main/resources/assets/the_great_expansion/models/block/winterberry.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/WinterberryBlock.java",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/winterberry.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/winterberry.json"
         ]
       },
       "path": "~/Winter"
@@ -3366,12 +3366,12 @@
       "registry_name": "germination_tank",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/entity/GerminationTankBlockEntity.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/germination_tank.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/GerminationTankBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/germination_tank.json",
           "src/main/resources/assets/the_great_expansion/models/item/germination_tank.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/GerminationTankBlockEntity.java",
           "src/main/resources/assets/the_great_expansion/blockstates/germination_tank.json",
-          "src/main/resources/assets/the_great_expansion/models/block/germination_tank.json"
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/germination_tank.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/GerminationTankBlock.java"
         ]
       },
       "path": "~/Winter"
@@ -3409,14 +3409,14 @@
       "registry_name": "permafrost",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/permafrost.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/permafrost.json",
+          "src/main/resources/assets/the_great_expansion/models/item/permafrost.json",
+          "src/main/resources/assets/the_great_expansion/models/block/permafrost.json",
           "src/main/resources/data/the_great_expansion/worldgen/placed_feature/permafrost.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/permafrost_biome_modifier.json",
-          "src/main/resources/assets/the_great_expansion/models/item/permafrost.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/PermafrostBlock.java",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/permafrost.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/permafrost.json",
           "src/main/resources/assets/the_great_expansion/blockstates/permafrost.json",
-          "src/main/resources/assets/the_great_expansion/models/block/permafrost.json"
+          "src/main/java/net/mcreator/thegreatexpansion/block/PermafrostBlock.java"
         ]
       },
       "path": "~/Complex Winter"
@@ -3429,14 +3429,14 @@
       "registry_name": "permafrost_iron_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/permafrost_iron_ore.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/permafrost_iron_ore_biome_modifier.json",
-          "src/main/resources/assets/the_great_expansion/models/block/permafrost_iron_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/permafrost_iron_ore.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/permafrost_iron_ore.json",
+          "src/main/resources/assets/the_great_expansion/models/item/permafrost_iron_ore.json",
           "src/main/resources/data/the_great_expansion/worldgen/placed_feature/permafrost_iron_ore.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/PermafrostIronOreBlock.java",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/permafrost_iron_ore.json",
-          "src/main/resources/assets/the_great_expansion/models/item/permafrost_iron_ore.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/permafrost_iron_ore.json"
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/permafrost_iron_ore.json",
+          "src/main/resources/assets/the_great_expansion/models/block/permafrost_iron_ore.json"
         ]
       },
       "path": "~/Complex Winter"
@@ -3449,11 +3449,11 @@
       "registry_name": "reinforced_permafrost",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/ReinforcedPermafrostBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/reinforced_permafrost.json",
-          "src/main/resources/assets/the_great_expansion/models/item/reinforced_permafrost.json",
+          "src/main/resources/assets/the_great_expansion/models/block/reinforced_permafrost.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/reinforced_permafrost.json",
-          "src/main/resources/assets/the_great_expansion/models/block/reinforced_permafrost.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/reinforced_permafrost.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/ReinforcedPermafrostBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/reinforced_permafrost.json"
         ]
       },
       "path": "~/Complex Winter"
@@ -3466,14 +3466,14 @@
       "registry_name": "cryonite_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/cryonite_ore.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/CryoniteOreBlock.java",
           "src/main/resources/data/the_great_expansion/worldgen/placed_feature/cryonite_ore.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/cryonite_ore_biome_modifier.json",
-          "src/main/resources/assets/the_great_expansion/models/block/cryonite_ore.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/cryonite_ore.json",
           "src/main/resources/assets/the_great_expansion/blockstates/cryonite_ore.json",
           "src/main/resources/assets/the_great_expansion/models/item/cryonite_ore.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/cryonite_ore.json"
+          "src/main/resources/assets/the_great_expansion/models/block/cryonite_ore.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/cryonite_ore.json"
         ]
       },
       "path": "~/Complex Winter"
@@ -3486,12 +3486,12 @@
       "registry_name": "induction_furnace",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/block/entity/InductionFurnaceBlockEntity.java",
-          "src/main/resources/assets/the_great_expansion/models/item/induction_furnace.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/induction_furnace.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/induction_furnace.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/induction_furnace.json",
           "src/main/resources/assets/the_great_expansion/models/block/induction_furnace.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/InductionFurnaceBlock.java"
+          "src/main/resources/assets/the_great_expansion/models/item/induction_furnace.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/InductionFurnaceBlock.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/InductionFurnaceBlockEntity.java"
         ]
       },
       "path": "~/Machines/InductionFurnace"
@@ -3504,8 +3504,8 @@
       "registry_name": "induction_furnace_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/InductionFurnaceGUIMenu.java",
           "src/main/java/net/mcreator/thegreatexpansion/client/gui/InductionFurnaceGUIScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/InductionFurnaceGUIMenu.java",
           "src/main/java/net/mcreator/thegreatexpansion/network/InductionFurnaceGUISlotMessage.java"
         ]
       },
@@ -3647,8 +3647,8 @@
       "registry_name": "iron_hammer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/thegreatexpansion/item/IronHammerItem.java",
-          "src/main/resources/assets/the_great_expansion/models/item/iron_hammer.json"
+          "src/main/resources/assets/the_great_expansion/models/item/iron_hammer.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/IronHammerItem.java"
         ]
       },
       "path": "~/Gear/Hammers"
@@ -3661,8 +3661,8 @@
       "registry_name": "iron_hammer_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/recipe/iron_hammer_recipe.json",
-          "src/main/resources/data/the_great_expansion/advancement/recipes/iron_hammer_recipe.json"
+          "src/main/resources/data/the_great_expansion/advancement/recipes/iron_hammer_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/iron_hammer_recipe.json"
         ]
       },
       "path": "~/Gear/Hammers"
@@ -3689,12 +3689,12 @@
       "registry_name": "lavaleer",
       "metadata": {
         "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/lavaleer.json",
+          "src/main/resources/assets/the_great_expansion/models/block/lavaleer.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/entity/LavaleerBlockEntity.java",
           "src/main/resources/assets/the_great_expansion/models/item/lavaleer.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/LavaleerBlock.java",
-          "src/main/resources/assets/the_great_expansion/blockstates/lavaleer.json",
-          "src/main/resources/assets/the_great_expansion/models/block/lavaleer.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/lavaleer.json"
+          "src/main/resources/assets/the_great_expansion/blockstates/lavaleer.json"
         ]
       },
       "path": "~/Machines/Lavaleer"
@@ -3707,14 +3707,14 @@
       "registry_name": "nitrogen_pocket",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/NitrogenPocketBlock.java",
           "src/main/resources/data/the_great_expansion/worldgen/configured_feature/nitrogen_pocket.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/nitrogen_pocket.json",
           "src/main/resources/assets/the_great_expansion/models/block/nitrogen_pocket.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/nitrogen_pocket.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/nitrogen_pocket_biome_modifier.json",
           "src/main/resources/data/the_great_expansion/worldgen/placed_feature/nitrogen_pocket.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/nitrogen_pocket.json",
-          "src/main/resources/data/the_great_expansion/loot_table/blocks/nitrogen_pocket.json",
-          "src/main/resources/assets/the_great_expansion/models/item/nitrogen_pocket.json",
-          "src/main/java/net/mcreator/thegreatexpansion/block/NitrogenPocketBlock.java"
+          "src/main/resources/assets/the_great_expansion/models/item/nitrogen_pocket.json"
         ]
       },
       "path": "~/Ores/Gas pockets"
@@ -3727,14 +3727,14 @@
       "registry_name": "natural_gas_pocket",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/natural_gas_pocket.json",
           "src/main/java/net/mcreator/thegreatexpansion/block/NaturalGasPocketBlock.java",
-          "src/main/resources/assets/the_great_expansion/models/block/natural_gas_pocket.json",
-          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/natural_gas_pocket.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/natural_gas_pocket.json",
+          "src/main/resources/assets/the_great_expansion/models/item/natural_gas_pocket.json",
           "src/main/resources/data/the_great_expansion/loot_table/blocks/natural_gas_pocket.json",
           "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/natural_gas_pocket_biome_modifier.json",
-          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/natural_gas_pocket.json",
-          "src/main/resources/assets/the_great_expansion/blockstates/natural_gas_pocket.json"
+          "src/main/resources/assets/the_great_expansion/models/block/natural_gas_pocket.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/natural_gas_pocket.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/natural_gas_pocket.json"
         ]
       },
       "path": "~/Ores/Gas pockets"
@@ -3747,8 +3747,8 @@
       "registry_name": "diamond_hammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/the_great_expansion/models/item/diamond_hammer.json",
-          "src/main/java/net/mcreator/thegreatexpansion/item/DiamondHammerItem.java"
+          "src/main/java/net/mcreator/thegreatexpansion/item/DiamondHammerItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/diamond_hammer.json"
         ]
       },
       "path": "~/Gear/Hammers"
@@ -3761,8 +3761,8 @@
       "registry_name": "diamond_hammer_recipe",
       "metadata": {
         "files": [
-          "src/main/resources/data/the_great_expansion/advancement/recipes/diamond_hammer_recipe.json",
-          "src/main/resources/data/the_great_expansion/recipe/diamond_hammer_recipe.json"
+          "src/main/resources/data/the_great_expansion/recipe/diamond_hammer_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/diamond_hammer_recipe.json"
         ]
       },
       "path": "~/Gear/Hammers"
@@ -4148,7 +4148,6 @@
       "PermafrostIronOre",
       "SteelHammer",
       "IronHammer",
-      "Lavaleer",
       "NitrogenPocket",
       "NaturalGasPocket",
       "DiamondHammer"
@@ -4321,8 +4320,8 @@
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModAttributes.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModBiomes.java",
       "src/main/java/net/mcreator/thegreatexpansion/mixin/NoiseGeneratorSettingsMixin.java",
-      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModFluidTypes.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModFluids.java",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModFluidTypes.java",
       "src/main/java/net/mcreator/thegreatexpansion/utils/FluidStackWidget.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModMenus.java",
       "src/main/java/net/mcreator/thegreatexpansion/network/MenuStateUpdateMessage.java",
@@ -4331,8 +4330,8 @@
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModMobEffects.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModPotions.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModBrewingRecipes.java",
-      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModTrades.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModBlocks.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModBlockEntities.java",
@@ -4340,14 +4339,14 @@
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModEntities.java",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModEntityRenderers.java",
       "src/main/java/net/mcreator/thegreatexpansion/TheGreatExpansionMod.java",
-      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModModels.java",
-      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModTabs.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModSounds.java",
-      "src/main/resources/assets/the_great_expansion/sounds.json",
-      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/the_great_expansion.mixins.json",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModModels.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/the_great_expansion/sounds.json",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModSounds.java"
     ]
   },
   "foldersRoot": {
