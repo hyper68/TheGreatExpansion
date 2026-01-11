@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "wooden_trapdoor",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "REDSTONE",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SkywoodTrapdoor"
+    },
+    "name": "skywood_trapdoor_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_great_expansion:block/skyshardblock",
+    "particle": "the_great_expansion:block/skyshardblock"
+  },
+  "render_type": "solid"
+}

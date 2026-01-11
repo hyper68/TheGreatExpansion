@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:skywood_planks"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:skywood_slab",
+    "count": 6
+  }
+}

@@ -1,8 +1,21 @@
 {
   "replace": false,
   "values": [
+    "the_great_expansion:skywood_fence",
+    "the_great_expansion:skywood_button",
+    "the_great_expansion:skywood_slab",
     "the_great_expansion:palo_wood",
+    "the_great_expansion:skywood_door",
+    "the_great_expansion:skywood_planks",
+    "the_great_expansion:skywood_fence_gate",
+    "the_great_expansion:skywood_pressure_plate",
+    "the_great_expansion:stripped_skywood_wood",
+    "the_great_expansion:skywood_wood",
+    "the_great_expansion:skywood_stairs",
+    "the_great_expansion:skywood_trapdoor",
+    "the_great_expansion:skywood_log",
     "the_great_expansion:palo_log",
+    "the_great_expansion:stripped_skywood_log",
     "the_great_expansion:palo_planks"
   ]
 }

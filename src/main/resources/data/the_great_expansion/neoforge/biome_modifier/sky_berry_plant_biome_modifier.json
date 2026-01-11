@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "the_great_expansion:sky_flats",
+  "features": "the_great_expansion:sky_berry_plant",
+  "step": "vegetal_decoration"
+}

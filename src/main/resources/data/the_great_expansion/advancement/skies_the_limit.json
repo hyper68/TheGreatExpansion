@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "the_great_expansion:skylariam_gem"
+    },
+    "title": {
+      "translate": "advancements.skies_the_limit.title"
+    },
+    "description": {
+      "translate": "advancements.skies_the_limit.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "skies_the_limit_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "the_great_expansion:the_skylands"
+      }
+    }
+  }
+}

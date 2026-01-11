@@ -3282,21 +3282,10 @@
         "files": [
           "src/main/java/net/mcreator/thegreatexpansion/client/renderer/SubZombieRenderer.java",
           "src/main/resources/assets/the_great_expansion/models/item/sub_zombie_spawn_egg.json",
-          "src/main/java/net/mcreator/thegreatexpansion/entity/SubZombieEntity.java",
-          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/sub_zombie_biome_modifier.json"
+          "src/main/java/net/mcreator/thegreatexpansion/entity/SubZombieEntity.java"
         ]
       },
       "path": "~/Winter"
-    },
-    {
-      "name": "WinterExpansion",
-      "type": "tab",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "winter_expansion",
-      "metadata": {
-        "files": []
-      }
     },
     {
       "name": "Snowdrop",
@@ -3818,6 +3807,776 @@
         ]
       },
       "path": "~/Machines/Lavaleer"
+    },
+    {
+      "name": "SubZombieItIsStruckByLightning",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sub_zombie_it_is_struck_by_lightning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/SubZombieItIsStruckByLightningProcedure.java"
+        ]
+      },
+      "path": "~/Winter"
+    },
+    {
+      "name": "SkyStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/sky_stone.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/sky_stone.json",
+          "src/main/resources/assets/the_great_expansion/models/block/sky_stone.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkyStoneBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/sky_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "SkywoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_log.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_log.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodLogBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_log.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_log.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_wood.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_wood.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_wood.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_wood.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodWoodBlock.java"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "StrippedSkywoodLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_skywood_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/stripped_skywood_log.json",
+          "src/main/resources/assets/the_great_expansion/models/block/stripped_skywood_log.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/stripped_skywood_log.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/StrippedSkywoodLogBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/stripped_skywood_log.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "StrippedSkywoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_skywood_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/stripped_skywood_wood.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/stripped_skywood_wood.json",
+          "src/main/resources/assets/the_great_expansion/models/item/stripped_skywood_wood.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/StrippedSkywoodWoodBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/stripped_skywood_wood.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodPlanksBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_planks.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_planks.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_planks.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_planks.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodLeavesBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_leaves.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_leaves.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_leaves.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_leaves.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_stairs.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_stairs_outer.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_stairs.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_stairs_inner.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodStairsBlock.java"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodSlabBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_slab_top.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_slab.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_slab.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_slab_full.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_slab.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_slab.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_fence.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_fence.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_fence.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence_post.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodFenceBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence_inventory.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence_gate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence_gate_wall.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodFenceGateBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_fence_gate.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_fence_gate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence_gate_wall_open.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_fence_gate.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_fence_gate_open.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_door.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_door.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_top_right.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_top_left_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_bottom_left_open.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_door.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodDoorBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_bottom_left.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_top_right_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_top_left.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_bottom_right_open.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_door_bottom_right.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_trapdoor.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodTrapdoorBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_trapdoor.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_trapdoor.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_trapdoor.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_trapdoor_top.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_trapdoor_open.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_pressure_plate_down.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_pressure_plate.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_pressure_plate.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodPressurePlateBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_pressure_plate.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_pressure_plate.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_button_pressed.json",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_button_inventory.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skywood_button.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skywood_button.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skywood_button.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkywoodButtonBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/skywood_button.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/skywood_wood_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "StrippedSkywoodWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_skywood_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/stripped_skywood_wood_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/stripped_skywood_wood_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodPlanksRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_planks_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/skywood_planks_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_stairs_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/skywood_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_slab_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/skywood_slab_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_fence_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/skywood_fence_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/skywood_fence_gate_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodDoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_door_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/skywood_door_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_door_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodTrapdoorRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_trapdoor_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_trapdoor_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/skywood_trapdoor_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/skywood_pressure_plate_recipe.json",
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkywoodButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skywood_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/recipes/skywood_button_recipe.json",
+          "src/main/resources/data/the_great_expansion/recipe/skywood_button_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyFlats",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_flats",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/sky_flats_tree.json",
+          "src/main/resources/data/the_great_expansion/worldgen/biome/sky_flats.json",
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/sky_flats_tree.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyBerries",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_berries",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/SkyBerriesItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/sky_berries.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "TheSkylands",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_skylands",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/world/dimension/TheSkylandsDimension.java",
+          "src/main/resources/assets/the_great_expansion/models/item/the_skylands.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/TheSkylandsPortalBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/the_skylands_portal_ew.json",
+          "src/main/resources/data/the_great_expansion/dimension_type/the_skylands.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/TheSkylandsItem.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/teleporter/TheSkylandsTeleporter.java",
+          "src/main/resources/data/the_great_expansion/dimension/the_skylands.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/the_skylands_portal.json",
+          "src/main/java/net/mcreator/thegreatexpansion/world/teleporter/TheSkylandsPortalShape.java",
+          "src/main/resources/assets/the_great_expansion/models/block/the_skylands_portal_ns.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "Skyshard",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyshard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/SkyshardItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/skyshard.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyCatalyst",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_catalyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/sky_catalyst.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/SkyCatalystItem.java"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkylariamGem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skylariam_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/SkylariamGemItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/skylariam_gem.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkiesTheLimit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skies_the_limit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/skies_the_limit.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyCatalystRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_catalyst_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/sky_catalyst_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "BadaBingBadaBOOM",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bada_bing_bada_boom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/bada_bing_bada_boom.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyCatalystMarker",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_catalyst_marker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/sky_catalyst_marker.json",
+          "src/main/resources/assets/the_great_expansion/models/block/sky_catalyst_marker.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/sky_catalyst_marker.json",
+          "src/main/resources/assets/the_great_expansion/models/item/sky_catalyst_marker.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkyCatalystMarkerBlock.java"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "XMarksTheSpot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x_marks_the_spot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/x_marks_the_spot.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyCatalystRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_catalyst_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/SkyCatalystRightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyBerryPlant",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_berry_plant",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/configured_feature/sky_berry_plant.json",
+          "src/main/resources/data/the_great_expansion/neoforge/biome_modifier/sky_berry_plant_biome_modifier.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/sky_berry_plant.json",
+          "src/main/resources/assets/the_great_expansion/models/block/sky_berry_plant.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkyBerryPlantBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/sky_berry_plant.json",
+          "src/main/resources/data/the_great_expansion/worldgen/placed_feature/sky_berry_plant.json",
+          "src/main/resources/assets/the_great_expansion/models/item/sky_berry_plant.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyshardBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyshard_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/SkyshardBlockBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/skyshard_block.json",
+          "src/main/resources/assets/the_great_expansion/models/item/skyshard_block.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/skyshard_block.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyshardBlockLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyshard_block_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/skyshard_block.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkylandsIgnighterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skylands_ignighter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/skylands_ignighter_recipe.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyShrinePristine",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_shrine_pristine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/structure/sky_shrine_pristine.json",
+          "src/main/resources/data/the_great_expansion/worldgen/structure_set/sky_shrine_pristine.json",
+          "src/main/resources/data/the_great_expansion/worldgen/template_pool/sky_shrine_pristine.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyShrineDamaged",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_shrine_damaged",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/structure_set/sky_shrine_damaged.json",
+          "src/main/resources/data/the_great_expansion/worldgen/template_pool/sky_shrine_damaged.json",
+          "src/main/resources/data/the_great_expansion/worldgen/structure/sky_shrine_damaged.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "SkyShrineWreaked",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_shrine_wreaked",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/worldgen/structure_set/sky_shrine_wreaked.json",
+          "src/main/resources/data/the_great_expansion/worldgen/structure/sky_shrine_wreaked.json",
+          "src/main/resources/data/the_great_expansion/worldgen/template_pool/sky_shrine_wreaked.json"
+        ]
+      },
+      "path": "~/Skylands"
     }
   ],
   "variable_elements": [],
@@ -3843,12 +4602,46 @@
       "files": [
         "_crystalline_frost_shimmer_soft_glass_clink_airy_icy_swirl_subtle_wind_chime_sparkle_"
       ],
+      "category": "ui",
+      "subtitle": ""
+    },
+    {
+      "name": "higher",
+      "files": [
+        "higher"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "skybound",
+      "files": [
+        "skybound"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "skysthelimitsfx",
+      "files": [
+        "840279__silverillusionist__reckoning-music-sample-2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "skycatalystsfx",
+      "files": [
+        "825648__1love__1love_atmos_lev"
+      ],
       "category": "neutral",
       "subtitle": ""
     }
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SkyshardBlock",
+      "~CUSTOM:SkyStone",
       "~CUSTOM:InductionFurnace",
       "~CUSTOM:IceBlockFencegate",
       "~CUSTOM:IceBlockDoor",
@@ -3880,6 +4673,7 @@
       "~CUSTOM:Bauxite"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SkyshardBlock",
       "~CUSTOM:InductionFurnace",
       "~CUSTOM:ReinforcedChest",
       "~CUSTOM:IlmeniteOre",
@@ -3919,6 +4713,7 @@
       "~CUSTOM:CrudeOil"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:SkyStone",
       "~CUSTOM:IceBlockFencegate",
       "~CUSTOM:IceBlockDoor",
       "~CUSTOM:IceBlockTrapdoor",
@@ -3944,6 +4739,7 @@
       "~CUSTOM:PackedSand"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SkywoodStairs",
       "~CUSTOM:IceBlockStairs",
       "~CUSTOM:IceBrickStairs",
       "~CUSTOM:PaloStairs",
@@ -3952,6 +4748,7 @@
       "~CUSTOM:PackedSandStairs"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SkywoodSlab",
       "~CUSTOM:IceBlockSlabs",
       "~CUSTOM:IceBrickSlabs",
       "~CUSTOM:PaloSlab",
@@ -3970,14 +4767,29 @@
       "~CUSTOM:AqualithHoe"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SkywoodButton",
+      "~CUSTOM:SkywoodPressurePlate",
+      "~CUSTOM:SkywoodTrapdoor",
+      "~CUSTOM:SkywoodDoor",
+      "~CUSTOM:SkywoodFenceGate",
+      "~CUSTOM:SkywoodFence",
+      "~CUSTOM:SkywoodSlab",
+      "~CUSTOM:SkywoodStairs",
+      "~CUSTOM:SkywoodPlanks",
+      "~CUSTOM:StrippedSkywoodWood",
+      "~CUSTOM:StrippedSkywoodLog",
+      "~CUSTOM:SkywoodWood",
+      "~CUSTOM:SkywoodLog",
       "~CUSTOM:PaloPlanks",
       "~CUSTOM:PaloWood",
       "~CUSTOM:PaloLog"
     ],
     "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SkywoodLeaves",
       "~CUSTOM:PaloLeaves"
     ],
     "BLOCKS:minecraft:wooden_fences": [
+      "~CUSTOM:SkywoodFence",
       "~CUSTOM:PaloFence"
     ],
     "BLOCKS:mod:palo_logs": [
@@ -3985,28 +4797,34 @@
       "CUSTOM:PaloWood"
     ],
     "BLOCKS:minecraft:logs_that_burn": [
-      "TAG:mod:palo_logs"
+      "TAG:mod:palo_logs",
+      "TAG:mod:skywood_logs"
     ],
     "BLOCKS:minecraft:planks": [
-      "CUSTOM:PaloPlanks"
+      "CUSTOM:PaloPlanks",
+      "CUSTOM:SkywoodPlanks"
     ],
     "ITEMS:mod:palo_logs": [
       "CUSTOM:PaloLog",
       "CUSTOM:PaloWood"
     ],
     "ITEMS:minecraft:logs_that_burn": [
-      "TAG:mod:palo_logs"
+      "TAG:mod:palo_logs",
+      "TAG:mod:skywood_logs"
     ],
     "ITEMS:minecraft:planks": [
-      "CUSTOM:PaloPlanks"
+      "CUSTOM:PaloPlanks",
+      "CUSTOM:SkywoodPlanks"
     ],
     "BLOCKS:minecraft:saplings": [
       "~CUSTOM:PaloSapling"
     ],
     "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~CUSTOM:SkywoodPressurePlate",
       "~CUSTOM:PaloPressurePlate"
     ],
     "BLOCKS:minecraft:wooden_buttons": [
+      "~CUSTOM:SkywoodButton",
       "~CUSTOM:PaloButton"
     ],
     "ITEMS:minecraft:music_discs": [
@@ -4047,6 +4865,31 @@
     ],
     "BIOMES:minecraft:has_structure/village_snowy": [
       "~CUSTOM:WildTundra"
+    ],
+    "BLOCKS:minecraft:wooden_doors": [
+      "~CUSTOM:SkywoodDoor"
+    ],
+    "BLOCKS:minecraft:wooden_trapdoors": [
+      "~CUSTOM:SkywoodTrapdoor"
+    ],
+    "BLOCKS:mod:skywood_logs": [
+      "CUSTOM:SkywoodLog",
+      "CUSTOM:SkywoodWood",
+      "CUSTOM:StrippedSkywoodLog",
+      "CUSTOM:StrippedSkywoodWood"
+    ],
+    "ITEMS:mod:skywood_logs": [
+      "CUSTOM:SkywoodLog",
+      "CUSTOM:SkywoodWood",
+      "CUSTOM:StrippedSkywoodLog",
+      "CUSTOM:StrippedSkywoodWood"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:SkyFlats"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:SkyStone",
+      "~Blocks.GRASS"
     ]
   },
   "tab_element_order": {
@@ -4105,7 +4948,6 @@
       "PaloButton",
       "ReinforcedChest",
       "PaloSapling",
-      "JewleryWorkbench",
       "CobblestonePillar",
       "CobblestonePillarBase",
       "CobblestonePillarTopper",
@@ -4117,40 +4959,24 @@
       "CobblestoneSidePillar4Way",
       "SnowscapeDisk",
       "HollowBellsDisk",
-      "IceBricks",
-      "IceBrickStairs",
-      "IceBrickSlabs",
-      "IceBrickFence",
-      "IceBrickWall",
-      "IceBrickTrapdoor",
-      "IceBrickDoor",
-      "IceBrickFencegate",
-      "IceCutter",
-      "BigSnowman",
-      "MediumSnowman",
-      "SmallSnowman",
       "SnowLily",
-      "IceBlock",
-      "IceBlockStairs",
-      "IceBlockSlabs",
-      "IceBlockFence",
-      "IceBlockWall",
-      "IceBlockTrapdoor",
-      "IceBlockDoor",
-      "IceBlockFencegate",
       "Snowdrop",
       "Hellebore",
       "Winterberry",
-      "GerminationTank",
-      "Permafrost",
-      "ReinforcedPermafrost",
-      "CryoniteOre",
-      "PermafrostIronOre",
       "SteelHammer",
       "IronHammer",
       "NitrogenPocket",
       "NaturalGasPocket",
-      "DiamondHammer"
+      "DiamondHammer",
+      "SkyStone",
+      "SkyBerries",
+      "TheSkylands",
+      "Skyshard",
+      "SkyCatalyst",
+      "SkylariamGem",
+      "SkyCatalystMarker",
+      "SkyBerryPlant",
+      "SkyshardBlock"
     ]
   },
   "language_map": {
@@ -4297,10 +5123,9 @@
       "block.the_great_expansion.ice_block_fencegate": "Ice Block Fencegate",
       "entity.the_great_expansion.sub_zombie": "Sub Zombie",
       "item.the_great_expansion.sub_zombie_spawn_egg": "Sub Zombie Spawn Egg",
-      "item_group.the_great_expansion.winter_expansion": "TGE Winter Expansion",
       "block.the_great_expansion.snowdrop": "Snowdrop",
-      "block.the_great_expansion.hellebore": "hellebore",
-      "block.the_great_expansion.winterberry": "winterberry",
+      "block.the_great_expansion.hellebore": "Hellebore",
+      "block.the_great_expansion.winterberry": "Winterberry",
       "block.the_great_expansion.germination_tank": "Germination Tank",
       "block.the_great_expansion.permafrost": "Permafrost",
       "block.the_great_expansion.permafrost_iron_ore": "Permafrost Iron Ore",
@@ -4312,7 +5137,41 @@
       "block.the_great_expansion.lavaleer": "Lavaleer",
       "block.the_great_expansion.nitrogen_pocket": "Nitrogen Pocket",
       "block.the_great_expansion.natural_gas_pocket": "Natural Gas Pocket",
-      "item.the_great_expansion.diamond_hammer": "Iron Hammer"
+      "item.the_great_expansion.diamond_hammer": "Diamond Hammer",
+      "block.the_great_expansion.sky_stone": "Sky Stone",
+      "block.the_great_expansion.skywood_log": "Skywood Log",
+      "block.the_great_expansion.skywood_wood": "Skywood Wood",
+      "block.the_great_expansion.stripped_skywood_log": "Stripped Skywood Log",
+      "block.the_great_expansion.stripped_skywood_wood": "Stripped Skywood Wood",
+      "block.the_great_expansion.skywood_planks": "Skywood Planks",
+      "block.the_great_expansion.skywood_leaves": "Skywood Leaves",
+      "block.the_great_expansion.skywood_stairs": "Skywood Stairs",
+      "block.the_great_expansion.skywood_slab": "Skywood Slab",
+      "block.the_great_expansion.skywood_fence": "Skywood Fence",
+      "block.the_great_expansion.skywood_fence_gate": "Skywood Fence Gate",
+      "block.the_great_expansion.skywood_door": "Skywood Door",
+      "block.the_great_expansion.skywood_trapdoor": "Skywood Trapdoor",
+      "block.the_great_expansion.skywood_pressure_plate": "Skywood Pressure Plate",
+      "block.the_great_expansion.skywood_button": "Skywood Button",
+      "subtitles.higher": "",
+      "subtitles.skybound": "",
+      "biome.the_great_expansion.sky_flats": "Sky Flats",
+      "item.the_great_expansion.sky_berries": "Sky Berries",
+      "item.the_great_expansion.the_skylands": "The Skylands Portal Igniter",
+      "item.the_great_expansion.skyshard": "Skyshard",
+      "item.the_great_expansion.sky_catalyst": "Sky Catalyst",
+      "item.the_great_expansion.skylariam_gem": "Skylariam Gem",
+      "advancements.skies_the_limit.descr": "Enter The Skylands",
+      "advancements.skies_the_limit.title": "Skies The Limit",
+      "advancements.bada_bing_bada_boom.title": "Bada Bing Bada BOOM",
+      "advancements.bada_bing_bada_boom.descr": "Craft a sky catalyst",
+      "block.the_great_expansion.sky_catalyst_marker": "Sky Catalyst Marker",
+      "subtitles.skysthelimitsfx": "",
+      "subtitles.skycatalystsfx": "",
+      "advancements.x_marks_the_spot.descr": "Activate a sky catalyst marker",
+      "advancements.x_marks_the_spot.title": "X Marks The Spot",
+      "block.the_great_expansion.sky_berry_plant": "Sky Berry Plant",
+      "block.the_great_expansion.skyshard_block": "Skyshard Block"
     }
   },
   "metadata": {
@@ -4344,7 +5203,6 @@
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/the_great_expansion/sounds.json",
-      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModSounds.java"
     ]
@@ -4494,6 +5352,10 @@
       },
       {
         "name": "Complex Winter",
+        "children": []
+      },
+      {
+        "name": "Skylands",
         "children": []
       }
     ]

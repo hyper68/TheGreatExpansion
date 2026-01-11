@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_great_expansion:block/the_skylands_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_great_expansion:block/the_skylands_portal_ns"
+    }
+  }
+}

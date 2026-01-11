@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "the_great_expansion:block/skywood_planks",
+    "bottom": "the_great_expansion:block/skywood_planks",
+    "top": "the_great_expansion:block/skywood_planks",
+    "side": "the_great_expansion:block/skywood_planks"
+  },
+  "render_type": "solid"
+}

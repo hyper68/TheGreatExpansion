@@ -4,6 +4,10 @@
     {
       "id": "#the_great_expansion:palo_logs",
       "required": false
+    },
+    {
+      "id": "#the_great_expansion:skywood_logs",
+      "required": false
     }
   ]
 }

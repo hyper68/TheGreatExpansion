@@ -41,16 +41,13 @@
         "subtract": false
       }
     ],
-    "name": "winterberry",
+    "name": "Winterberry",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
         "value": "DECORATIONS"
-      },
-      {
-        "value": "CUSTOM:WinterExpansion"
       },
       {
         "value": "CUSTOM:TheGreatExpansion"

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:skylariam_gem"
+    },
+    "title": {
+      "translate": "advancements.x_marks_the_spot.title"
+    },
+    "description": {
+      "translate": "advancements.x_marks_the_spot.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "x_marks_the_spot_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:bada_bing_bada_boom"
+}

@@ -41,16 +41,13 @@
         "subtract": false
       }
     ],
-    "name": "hellebore",
+    "name": "Hellebore",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
       {
         "value": "DECORATIONS"
-      },
-      {
-        "value": "CUSTOM:WinterExpansion"
       },
       {
         "value": "CUSTOM:TheGreatExpansion"
@@ -126,6 +123,9 @@
       },
       {
         "value": "taiga_cold"
+      },
+      {
+        "value": "CUSTOM:SkyFlats"
       }
     ],
     "generationType": "Flower",

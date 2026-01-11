@@ -4,7 +4,8 @@
     "the_great_expansion:wild_tundra",
     "frozen_peaks",
     "snowy_plains",
-    "snowy_taiga"
+    "snowy_taiga",
+    "the_great_expansion:sky_flats"
   ],
   "features": "the_great_expansion:snowdrop",
   "step": "vegetal_decoration"

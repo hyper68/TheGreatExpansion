@@ -16,7 +16,7 @@ public class DiamondHammerItem extends PickaxeItem {
 	private static final Tier TOOL_TIER = new Tier() {
 		@Override
 		public int getUses() {
-			return 350;
+			return 430;
 		}
 
 		@Override

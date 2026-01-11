@@ -92,6 +92,25 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> LAVALEER;
 	public static final DeferredBlock<Block> NITROGEN_POCKET;
 	public static final DeferredBlock<Block> NATURAL_GAS_POCKET;
+	public static final DeferredBlock<Block> SKY_STONE;
+	public static final DeferredBlock<Block> SKYWOOD_LOG;
+	public static final DeferredBlock<Block> SKYWOOD_WOOD;
+	public static final DeferredBlock<Block> STRIPPED_SKYWOOD_LOG;
+	public static final DeferredBlock<Block> STRIPPED_SKYWOOD_WOOD;
+	public static final DeferredBlock<Block> SKYWOOD_PLANKS;
+	public static final DeferredBlock<Block> SKYWOOD_LEAVES;
+	public static final DeferredBlock<Block> SKYWOOD_STAIRS;
+	public static final DeferredBlock<Block> SKYWOOD_SLAB;
+	public static final DeferredBlock<Block> SKYWOOD_FENCE;
+	public static final DeferredBlock<Block> SKYWOOD_FENCE_GATE;
+	public static final DeferredBlock<Block> SKYWOOD_DOOR;
+	public static final DeferredBlock<Block> SKYWOOD_TRAPDOOR;
+	public static final DeferredBlock<Block> SKYWOOD_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> SKYWOOD_BUTTON;
+	public static final DeferredBlock<Block> THE_SKYLANDS_PORTAL;
+	public static final DeferredBlock<Block> SKY_CATALYST_MARKER;
+	public static final DeferredBlock<Block> SKY_BERRY_PLANT;
+	public static final DeferredBlock<Block> SKYSHARD_BLOCK;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -172,6 +191,25 @@ public class TheGreatExpansionModBlocks {
 		LAVALEER = REGISTRY.register("lavaleer", LavaleerBlock::new);
 		NITROGEN_POCKET = REGISTRY.register("nitrogen_pocket", NitrogenPocketBlock::new);
 		NATURAL_GAS_POCKET = REGISTRY.register("natural_gas_pocket", NaturalGasPocketBlock::new);
+		SKY_STONE = REGISTRY.register("sky_stone", SkyStoneBlock::new);
+		SKYWOOD_LOG = REGISTRY.register("skywood_log", SkywoodLogBlock::new);
+		SKYWOOD_WOOD = REGISTRY.register("skywood_wood", SkywoodWoodBlock::new);
+		STRIPPED_SKYWOOD_LOG = REGISTRY.register("stripped_skywood_log", StrippedSkywoodLogBlock::new);
+		STRIPPED_SKYWOOD_WOOD = REGISTRY.register("stripped_skywood_wood", StrippedSkywoodWoodBlock::new);
+		SKYWOOD_PLANKS = REGISTRY.register("skywood_planks", SkywoodPlanksBlock::new);
+		SKYWOOD_LEAVES = REGISTRY.register("skywood_leaves", SkywoodLeavesBlock::new);
+		SKYWOOD_STAIRS = REGISTRY.register("skywood_stairs", SkywoodStairsBlock::new);
+		SKYWOOD_SLAB = REGISTRY.register("skywood_slab", SkywoodSlabBlock::new);
+		SKYWOOD_FENCE = REGISTRY.register("skywood_fence", SkywoodFenceBlock::new);
+		SKYWOOD_FENCE_GATE = REGISTRY.register("skywood_fence_gate", SkywoodFenceGateBlock::new);
+		SKYWOOD_DOOR = REGISTRY.register("skywood_door", SkywoodDoorBlock::new);
+		SKYWOOD_TRAPDOOR = REGISTRY.register("skywood_trapdoor", SkywoodTrapdoorBlock::new);
+		SKYWOOD_PRESSURE_PLATE = REGISTRY.register("skywood_pressure_plate", SkywoodPressurePlateBlock::new);
+		SKYWOOD_BUTTON = REGISTRY.register("skywood_button", SkywoodButtonBlock::new);
+		THE_SKYLANDS_PORTAL = REGISTRY.register("the_skylands_portal", TheSkylandsPortalBlock::new);
+		SKY_CATALYST_MARKER = REGISTRY.register("sky_catalyst_marker", SkyCatalystMarkerBlock::new);
+		SKY_BERRY_PLANT = REGISTRY.register("sky_berry_plant", SkyBerryPlantBlock::new);
+		SKYSHARD_BLOCK = REGISTRY.register("skyshard_block", SkyshardBlockBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

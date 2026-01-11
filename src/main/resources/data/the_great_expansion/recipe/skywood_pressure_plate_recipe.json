@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_pressure_plate",
+  "category": "redstone",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:skywood_planks"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:skywood_pressure_plate",
+    "count": 1
+  }
+}

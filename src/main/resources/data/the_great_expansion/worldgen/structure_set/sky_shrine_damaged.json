@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "the_great_expansion:sky_shrine_damaged",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 30,
+    "salt": 245778977
+  }
+}

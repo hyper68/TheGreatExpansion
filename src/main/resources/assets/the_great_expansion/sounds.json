@@ -22,5 +22,37 @@
         "stream": false
       }
     ]
+  },
+  "higher": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:higher",
+        "stream": true
+      }
+    ]
+  },
+  "skybound": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:skybound",
+        "stream": true
+      }
+    ]
+  },
+  "skysthelimitsfx": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:840279__silverillusionist__reckoning-music-sample-2",
+        "stream": false
+      }
+    ]
+  },
+  "skycatalystsfx": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:825648__1love__1love_atmos_lev",
+        "stream": false
+      }
+    ]
   }
 }

@@ -9,7 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Iron Hammer",
+    "name": "Diamond Hammer",
     "specialInformation": {
       "fixedValue": []
     },
@@ -25,7 +25,7 @@
     "attackSpeed": 1.4,
     "enchantability": 4,
     "damageVsEntity": 4.0,
-    "usageCount": 350,
+    "usageCount": 430,
     "glowCondition": {
       "fixedValue": false
     },

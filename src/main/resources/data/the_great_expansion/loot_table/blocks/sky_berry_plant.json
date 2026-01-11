@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "the_great_expansion:blocks/sky_berry_plant",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "the_great_expansion:sky_berries",
+          "functions": [
+            {
+              "count": 4,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:explosion_decay"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

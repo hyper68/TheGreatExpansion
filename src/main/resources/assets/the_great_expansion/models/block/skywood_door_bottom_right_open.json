@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "the_great_expansion:block/skywood_door_bottom",
+    "bottom": "the_great_expansion:block/skywood_door_bottom",
+    "top": "the_great_expansion:block/skywood_door_top"
+  },
+  "render_type": "cutout"
+}

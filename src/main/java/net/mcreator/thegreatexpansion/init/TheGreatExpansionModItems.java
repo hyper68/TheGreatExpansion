@@ -146,6 +146,29 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> NITROGEN_POCKET;
 	public static final DeferredItem<Item> NATURAL_GAS_POCKET;
 	public static final DeferredItem<Item> DIAMOND_HAMMER;
+	public static final DeferredItem<Item> SKY_STONE;
+	public static final DeferredItem<Item> SKYWOOD_LOG;
+	public static final DeferredItem<Item> SKYWOOD_WOOD;
+	public static final DeferredItem<Item> STRIPPED_SKYWOOD_LOG;
+	public static final DeferredItem<Item> STRIPPED_SKYWOOD_WOOD;
+	public static final DeferredItem<Item> SKYWOOD_PLANKS;
+	public static final DeferredItem<Item> SKYWOOD_LEAVES;
+	public static final DeferredItem<Item> SKYWOOD_STAIRS;
+	public static final DeferredItem<Item> SKYWOOD_SLAB;
+	public static final DeferredItem<Item> SKYWOOD_FENCE;
+	public static final DeferredItem<Item> SKYWOOD_FENCE_GATE;
+	public static final DeferredItem<Item> SKYWOOD_DOOR;
+	public static final DeferredItem<Item> SKYWOOD_TRAPDOOR;
+	public static final DeferredItem<Item> SKYWOOD_PRESSURE_PLATE;
+	public static final DeferredItem<Item> SKYWOOD_BUTTON;
+	public static final DeferredItem<Item> SKY_BERRIES;
+	public static final DeferredItem<Item> THE_SKYLANDS;
+	public static final DeferredItem<Item> SKYSHARD;
+	public static final DeferredItem<Item> SKY_CATALYST;
+	public static final DeferredItem<Item> SKYLARIAM_GEM;
+	public static final DeferredItem<Item> SKY_CATALYST_MARKER;
+	public static final DeferredItem<Item> SKY_BERRY_PLANT;
+	public static final DeferredItem<Item> SKYSHARD_BLOCK;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -271,6 +294,29 @@ public class TheGreatExpansionModItems {
 		NITROGEN_POCKET = block(TheGreatExpansionModBlocks.NITROGEN_POCKET);
 		NATURAL_GAS_POCKET = block(TheGreatExpansionModBlocks.NATURAL_GAS_POCKET);
 		DIAMOND_HAMMER = REGISTRY.register("diamond_hammer", DiamondHammerItem::new);
+		SKY_STONE = block(TheGreatExpansionModBlocks.SKY_STONE);
+		SKYWOOD_LOG = block(TheGreatExpansionModBlocks.SKYWOOD_LOG);
+		SKYWOOD_WOOD = block(TheGreatExpansionModBlocks.SKYWOOD_WOOD);
+		STRIPPED_SKYWOOD_LOG = block(TheGreatExpansionModBlocks.STRIPPED_SKYWOOD_LOG);
+		STRIPPED_SKYWOOD_WOOD = block(TheGreatExpansionModBlocks.STRIPPED_SKYWOOD_WOOD);
+		SKYWOOD_PLANKS = block(TheGreatExpansionModBlocks.SKYWOOD_PLANKS);
+		SKYWOOD_LEAVES = block(TheGreatExpansionModBlocks.SKYWOOD_LEAVES);
+		SKYWOOD_STAIRS = block(TheGreatExpansionModBlocks.SKYWOOD_STAIRS);
+		SKYWOOD_SLAB = block(TheGreatExpansionModBlocks.SKYWOOD_SLAB);
+		SKYWOOD_FENCE = block(TheGreatExpansionModBlocks.SKYWOOD_FENCE);
+		SKYWOOD_FENCE_GATE = block(TheGreatExpansionModBlocks.SKYWOOD_FENCE_GATE);
+		SKYWOOD_DOOR = doubleBlock(TheGreatExpansionModBlocks.SKYWOOD_DOOR);
+		SKYWOOD_TRAPDOOR = block(TheGreatExpansionModBlocks.SKYWOOD_TRAPDOOR);
+		SKYWOOD_PRESSURE_PLATE = block(TheGreatExpansionModBlocks.SKYWOOD_PRESSURE_PLATE);
+		SKYWOOD_BUTTON = block(TheGreatExpansionModBlocks.SKYWOOD_BUTTON);
+		SKY_BERRIES = REGISTRY.register("sky_berries", SkyBerriesItem::new);
+		THE_SKYLANDS = REGISTRY.register("the_skylands", TheSkylandsItem::new);
+		SKYSHARD = REGISTRY.register("skyshard", SkyshardItem::new);
+		SKY_CATALYST = REGISTRY.register("sky_catalyst", SkyCatalystItem::new);
+		SKYLARIAM_GEM = REGISTRY.register("skylariam_gem", SkylariamGemItem::new);
+		SKY_CATALYST_MARKER = block(TheGreatExpansionModBlocks.SKY_CATALYST_MARKER);
+		SKY_BERRY_PLANT = block(TheGreatExpansionModBlocks.SKY_BERRY_PLANT);
+		SKYSHARD_BLOCK = block(TheGreatExpansionModBlocks.SKYSHARD_BLOCK);
 	}
 
 	// Start of user code block custom items

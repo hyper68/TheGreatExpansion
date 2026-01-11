@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_great_expansion:block/skywood_slab"
+    },
+    "type=top": {
+      "model": "the_great_expansion:block/skywood_slab_top"
+    },
+    "type=double": {
+      "model": "the_great_expansion:block/skywood_slab_full"
+    }
+  }
+}

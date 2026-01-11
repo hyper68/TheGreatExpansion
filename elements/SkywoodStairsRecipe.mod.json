@@ -1,0 +1,53 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "wooden_stairs",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      },
+      {
+        "value": "CUSTOM:SkywoodPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SkywoodStairs"
+    },
+    "name": "skywood_stairs_recipe",
+    "namespace": "mod"
+  }
+}
