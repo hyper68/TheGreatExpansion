@@ -2,77 +2,61 @@
 sidebar_position: 10
 ---
 
-# Mobs & Entities
+# Mobs
 
-Information about new creatures in The Great Expansion.
+The Great Expansion adds new mobs to Minecraft.
 
-## 👹 Hostile Mobs
+## Hostile Mobs
 
 ### Sub Zombie
-**Frozen undead creature**
+**Sub Zombie** is a frozen variant of the zombie.
 
-- **Spawns:** Snowbound biome, frozen areas
-- **Behavior:** Hostile, attacks on sight
-- **Drops:** 
-  - Rotten Flesh
-  - Rare: Frozen items
-- **Special:** Adapted to cold, immune to freezing
+#### Spawning
+- Biome: Snowbound, frozen areas
+- Light level: 7 or less
+- Behavior: Hostile
+
+#### Drops
+- Rotten Flesh (common)
+- Frozen items (rare)
+
+#### Combat
+- Health: Standard zombie health
+- Attack: Melee
+- Special: Adapted to cold climates
+
+---
 
 ### Sand Crab
-**Desert creature**
+**Sand Crab** is a creature found in sandy areas.
 
-- **Spawns:** Sandy areas
-- **Behavior:** Neutral until provoked
-- **Drops:** 
-  - Shell fragments
-  - Sand-based items
-- **Special:** Can burrow in sand
+#### Spawning
+- Biome: Desert, beaches
+- Behavior: Neutral (hostile when provoked)
+
+#### Drops
+- Shell fragments
+- Sand-based items
 
 ---
 
-## 🤝 Friendly NPCs
+## Neutral Mobs
 
 ### Eskimo
-**Tundra villager**
+**Eskimo** is a villager-like NPC found in frozen biomes.
 
-- **Spawns:** Snowbound, Wild Tundra
-- **Behavior:** Friendly NPC
-- **Trading:** Special frozen biome items
-- **Profession:** Tundra trader
+#### Spawning
+- Biome: Snowbound, Wild Tundra
+- Behavior: Neutral, trader
 
-#### Eskimo Trades
-- **Buys:** Common items, food
-- **Sells:** 
-  - Permafrost items
-  - Cold-resistant gear
-  - Palo wood products
-  - Special potions
+#### Trading
+Eskimos offer trades for:
+- Cold-climate items
+- Permafrost materials
+- Palo wood products
+- Frozen foods
 
 ---
 
-## 🎯 Combat Tips
-
-### Fighting Sub Zombies
-- Use fire-based weapons
-- Keep distance with bow
-- Bring warm potions
-- Fight in daylight when possible
-
-### Dealing with Sand Crabs
-- Avoid sandy terrain if unprepared
-- Use ranged attacks
-- Be careful when mining sand
-- Can be befriended with specific items
-
----
-
-## 💎 Mob Drops
-
-### Valuable Drops
-- **Sub Zombie:** Frozen materials
-- **Sand Crab:** Shell components
-- **Eskimo Trades:** Unique items
-
-### Farming
-- Sub Zombie farms for frozen items
-- Eskimo trading posts for renewable resources
+## See also
+- [Biomes](./biomes)

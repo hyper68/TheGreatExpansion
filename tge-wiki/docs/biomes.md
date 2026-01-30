@@ -2,52 +2,68 @@
 sidebar_position: 7
 ---
 
-# Biomes & World Generation
+# Biomes
 
-Explore the new biomes and world features added by The Great Expansion.
+The Great Expansion adds new biomes to the Overworld.
 
-## 🌍 New Biomes
+## Biome Types
 
-### ❄️ Snowbound
-**Frozen wasteland with unique resources**
+### Snowbound
+**Snowbound** is a frozen biome variant.
 
-- **Temperature:** Very Cold
-- **Precipitation:** Snow
-- **Features:** Permafrost Iron Ore, Ice formations
-- **Mobs:** Sub Zombies, Eskimos
-- **Resources:** Cryonite Ore, Permafrost blocks
+#### Climate
+- Temperature: Very cold
+- Precipitation: Snow
+- Weather: Frequent snowfall
 
-### 🌲 Wild Tundra
-**Harsh northern landscape**
+#### Features
+- Permafrost Iron Ore (abundant)
+- Cryonite Ore generation
+- Ice formations
+- Frozen lakes
 
-- **Temperature:** Cold
-- **Vegetation:** Palo Trees, Snow Lilies
-- **Features:** Frozen lakes, ice caves
-- **Resources:** Unique flora and fauna
-
----
-
-## 🌳 Trees & Wood Types
-
-### Palo Tree
-- **Found in:** Wild Tundra, cold biomes
-- **Wood Type:** Palo Wood (unique color)
-- **Products:** Planks, slabs, stairs, fences
-- **Uses:** Building, crafting, decoration
+#### Mobs
+- Sub Zombie (hostile)
+- Eskimo (neutral, trader)
 
 ---
 
-## 🏔️ Special Structures
+### Wild Tundra
+**Wild Tundra** is a cold biome with sparse vegetation.
 
-- **Ice Formations** - Natural ice structures
-- **Frozen Caves** - Underground ice systems
-- **Permafrost Deposits** - Rich iron veins
+#### Climate
+- Temperature: Cold
+- Precipitation: Snow
+- Weather: Occasional snowfall
+
+#### Features
+- Palo Trees
+- Snow Lily flowers
+- Snowdrop flowers
+- Frozen caves
+
+#### Vegetation
+- Palo Trees (unique wood type)
+- Cold-adapted plants
 
 ---
 
-## 📍 Resource Distribution
+## World Generation
 
-- **Permafrost Iron:** Abundant in frozen biomes
-- **Cryonite Ore:** Underground in cold regions
-- **Palo Trees:** Surface in tundra
-- **Snow Plants:** Various cold biomes
+### Ore Distribution
+Certain ores generate more frequently in specific biomes:
+- **Permafrost Iron Ore**: Common in Snowbound and Wild Tundra
+- **Cryonite Ore**: Found underground in frozen biomes
+
+### Structures
+Frozen biomes may contain:
+- Ice formations (natural)
+- Frozen caves
+- Underground ice systems
+
+---
+
+## See also
+- [Ores and Materials](./ores-and-materials)
+- [Plants](./plants)
+- [Mobs](./mobs)

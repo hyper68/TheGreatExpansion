@@ -2,192 +2,91 @@
 sidebar_position: 2
 ---
 
-# Getting Started with The Great Expansion
+# Getting Started
 
-Welcome to The Great Expansion! This guide will help you take your first steps into the expanded world of Minecraft.
+This guide covers the basics of The Great Expansion mod.
 
-## 📋 Table of Contents
-
-1. [Installation](#installation)
-2. [First Steps](#first-steps)
-3. [Early Game Progression](#early-game-progression)
-4. [Your First Machine](#your-first-machine)
-5. [Next Steps](#next-steps)
-
----
-
-## 🔧 Installation
+## Installation
 
 ### Requirements
-- **Minecraft Version:** 1.21.x
-- **Mod Loader:** NeoForge
-- **Dependencies:** None (standalone mod)
+- Minecraft 1.21.x
+- NeoForge mod loader
 
 ### Installation Steps
-1. Download and install NeoForge for Minecraft 1.21.x
-2. Download The Great Expansion mod from the releases page
-3. Place the mod file in your `mods` folder
-4. Launch Minecraft with the NeoForge profile
-5. Verify the mod is loaded by checking the Mods menu
+1. Install NeoForge for Minecraft 1.21.x
+2. Download The Great Expansion mod file
+3. Place mod file in the `mods` folder
+4. Launch Minecraft with NeoForge profile
 
 ---
 
-## 🌍 First Steps
+## First Resources
 
-### Finding New Ores
+### Early Ores
+Begin by mining these common ores:
 
-When you start a new world or explore new chunks, you'll encounter several new ores:
+#### Bauxite
+- Y-level: -16 to 128
+- Tool: Iron Pickaxe
+- Output: Aluminum Ingot (via smelting)
 
-#### **Underground Ores** (Found at various depths)
-- **Bauxite** (Y: -16 to 128) - Source of Aluminum
-- **Cassiterite Ore** (Various depths) - Source of Tin
-- **Galena Ore** (Underground) - Source of Lead
-- **Ilmenite Ore** (Deep underground) - Source of Titanium
-- **Cinnabar Ore** (Underground) - Source of Mercury
-- **Cryonite Ore** (Frozen biomes) - Ice-based resource
+#### Cassiterite
+- Tool: Stone Pickaxe
+- Output: Tin Ingot
 
-#### **Special Ores**
-- **Aqualith Ore** (Underwater in certain biomes) - Rare blue gem
-- **Permafrost Iron Ore** (Frozen biomes only) - Cold-resistant iron
-
-### Your First Resources
-
-Start by mining these basic materials:
-
-1. **Bauxite** → Smelt into **Aluminum Ingot**
-   - Used for early-game tools and machines
-   - Common and easy to find
-
-2. **Cassiterite Ore** → Smelt into **Tin Ingot**
-   - Essential for bronze and electronics
-   - Combine with copper for various alloys
-
-3. **Iron** (vanilla + permafrost variant)
-   - Still essential for machines
-   - Permafrost variant has cold resistance
+#### Permafrost Iron
+- Found in frozen biomes
+- Functions like regular iron ore
 
 ---
 
-## ⚡ Early Game Progression
+## Early Game
 
 ### Phase 1: Basic Tools
+1. Gather vanilla resources (wood, stone, iron)
+2. Mine Bauxite for aluminum
+3. Explore frozen biomes for Permafrost Iron
 
-1. **Start with vanilla tools** as usual
-2. **Mine Bauxite** for your first TGE resource
-3. **Smelt Aluminum Ingots** in a regular furnace
-4. **Craft basic aluminum tools** (not as good as iron, but accessible)
-
-### Phase 2: Better Materials
-
-1. **Find and mine Tin** (Cassiterite Ore)
-2. **Explore frozen biomes** for Permafrost Iron
-3. **Search underwater** for rare Aqualith Ore
-4. **Craft improved tool sets**:
-   - Iron tools (vanilla)
-   - Aqualith tools (water-based, special properties)
-   - Steel tools (requires processing)
-
-### Phase 3: Machine Setup
-
-Now you're ready to build your first machines!
+### Phase 2: First Machine
+Build a Crusher to double ore output:
+1. Gather iron ingots, piston, redstone
+2. Craft Crusher
+3. Process ores: 1 ore → 2 dust → 2 ingots
 
 ---
 
-## 🏭 Your First Machine
+## Mid Game
 
-### The Crusher
+### Advanced Materials
+1. Find Ilmenite Ore for titanium
+2. Process steel ingots
+3. Build Induction Furnace
 
-The **Crusher** is your gateway to advanced resource processing.
-
-#### What You Need:
-```
-Crafting Recipe:
-[ Iron ] [ Iron ] [ Iron ]
-[ Iron ] [Piston] [ Iron ]
-[ Iron ] [Redstone] [ Iron ]
-```
-
-#### What It Does:
-- Crushes ores into dusts
-- Processes items for better yields
-- Required for many advanced recipes
-
-#### How to Use:
-1. Place the Crusher in your base
-2. Right-click to open the GUI
-3. Insert ores in the input slot
-4. Provide power (or fuel, depending on configuration)
-5. Collect crushed materials from output
-
-### The Induction Furnace
-
-An **Induction Furnace** is faster and more efficient than a regular furnace.
-
-#### Benefits:
-- 2x faster smelting
-- Energy-powered (more efficient)
-- Can process multiple items
-- Required for some advanced materials
-
-#### Crafting:
-```
-[Steel Beams] [Steel Beams] [Steel Beams]
-[Machine Frame] [Furnace] [Machine Frame]
-[Steel Beams] [Redstone] [Steel Beams]
-```
+### Power Systems
+1. Craft Propane Generator
+2. Set up energy network
+3. Power advanced machines
 
 ---
 
-## 🎯 Next Steps
+## Late Game
 
-Once you have basic machines running, you can:
-
-### 1. Build a Power System
-- Craft a **Propane Generator** for mobile power
-- Set up **energy storage** systems
-- Create a **power distribution network**
-
-### 2. Advance Your Processing
-- Build a **Refinery** for oil processing
-- Create a **Germination Tank** for plant farming
-- Set up a **Pressure Cooker** for advanced recipes
-
-### 3. Explore New Biomes
-- Visit the **Snowbound** biome for unique resources
-- Find **Palo Trees** for special wood
-- Discover frozen structures and resources
-
-### 4. Craft Advanced Equipment
-- Create **Steel Armor** for better protection
-- Forge **Titanium Weapons** for maximum damage
-- Build **Aqualith Armor** for water breathing
-
-### 5. Automation & Expansion
-- Set up automated ore processing
-- Build resource transportation systems
-- Create self-sufficient production lines
+### End-Game Equipment
+1. Craft Titanium or Aqualith armor
+2. Create advanced tools
+3. Build automated processing systems
 
 ---
 
-## 💡 Beginner Tips
+## Progression Path
 
-1. **Start Simple** - Don't rush to build everything at once
-2. **Explore Thoroughly** - New ores spawn in different biomes
-3. **Keep Materials** - Many items are needed for machines later
-4. **Build Storage** - The mod adds many new items
-5. **Use JEI/REI** - View recipes in-game with Just Enough Items or Roughly Enough Items
-6. **Read Item Tooltips** - Hover over items for useful information
-7. **Plan Your Base** - Machines need space and power connections
+1. **Early**: Bauxite, Cassiterite, Permafrost Iron
+2. **Mid**: Crusher, Steel, Titanium
+3. **Late**: Aqualith, Advanced Machines, Automation
 
 ---
 
-## 📚 What's Next?
-
-Now that you understand the basics, explore these sections:
-
-- **[Ores & Materials](./** - Detailed ore information
-- **[Machines](./** - Complete machine guide
-- **[Tools & Weapons](./** - All tool sets
-- **[Recipe Guides](./** - Crafting chains and processing
-
-Happy crafting! 🎮
+## See also
+- [Ores and Materials](./ores-and-materials)
+- [Machines](./machines)
+- [Tools and Weapons](./tools-and-weapons)

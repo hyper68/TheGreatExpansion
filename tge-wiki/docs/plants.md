@@ -2,62 +2,86 @@
 sidebar_position: 9
 ---
 
-# Plants & Flora
+# Plants
 
-Guide to all new plants, flowers, and vegetation.
+The Great Expansion adds new plants and trees to Minecraft.
 
-## 🌸 Flowers
+## Flowers
 
 ### Snow Lily
-- **Biome:** Frozen/Snow biomes
-- **Use:** Decoration, potions
-- **Rarity:** Common in snow
+**Snow Lily** is a flower found in frozen biomes.
+
+#### Generation
+- Biome: Snowbound, frozen biomes
+- Location: Surface
+
+---
 
 ### Snowdrop
-- **Biome:** Cold regions
-- **Use:** Decoration, dyes
-- **Rarity:** Uncommon
+**Snowdrop** is a cold-climate flower.
+
+#### Generation
+- Biome: Cold regions
+- Location: Surface
+
+---
 
 ### Hellebore
-- **Biome:** Various cold biomes
-- **Use:** Potions, decoration
-- **Properties:** Special effects
+**Hellebore** is a plant found in various cold biomes.
+
+#### Generation
+- Biome: Cold biomes
+- Location: Surface
+
+---
 
 ### Winterberry
-- **Type:** Bush/Berry
-- **Biome:** Cold forests
-- **Use:** Food, potions
-- **Harvest:** Right-click mature bush
+**Winterberry** is a berry-producing bush.
+
+#### Generation
+- Biome: Cold forests
+- Location: Surface
 
 ---
 
-## 🌲 Trees
+## Trees
 
 ### Palo Tree
-- **Biome:** Wild Tundra
-- **Wood:** Unique colored wood
-- **Sapling:** Can be replanted
-- **Drops:** Wood, leaves, saplings
+**Palo Trees** are unique trees found in cold biomes.
+
+#### Generation
+- Biome: Wild Tundra
+- Structure: Standard tree
+- Leaves: Palo Leaves
+- Wood: Palo Log
+
+#### Drops
+- Palo Log (trunk)
+- Palo Leaves (foliage)
+- Palo Sapling (rare, from leaves)
+
+#### Wood Products
+Can be crafted into a full set of wood items:
+- Planks
+- Slabs
+- Stairs
+- Fences
+- Fence Gates
+- Buttons
+- Pressure Plates
 
 ---
 
-## 🌱 Special Plants
+## Other Plants
 
 ### Alpentall
-- **Type:** Tall plant
-- **Use:** Decoration
-- **Biome:** Mountain/cold regions
+Tall plant found in mountainous cold regions.
 
 ### Apalatian
-- **Type:** Special flora
-- **Use:** Crafting ingredient
-- **Rarity:** Rare
+Special flora with unique properties.
 
 ---
 
-## 🧪 Uses
-
-- **Potions:** Many plants have potion effects
-- **Decoration:** Beautify your builds
-- **Dyes:** Some plants provide unique colors
-- **Crafting:** Various recipes
+## See also
+- [Biomes](./biomes)
+- [Blocks](./blocks)
