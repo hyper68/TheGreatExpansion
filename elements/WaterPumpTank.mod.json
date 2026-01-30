@@ -1,0 +1,18 @@
+{
+  "_fv": 79,
+  "_type": "fluid_tanks",
+  "definition": {
+    "block": "WaterPump",
+    "inteType": "Default",
+    "tanks": [],
+    "gui": "WaterPumpGUI",
+    "overlays": [
+      {
+        "xPos": 10,
+        "yPos": 11,
+        "height": 16,
+        "index": 0
+      }
+    ]
+  }
+}

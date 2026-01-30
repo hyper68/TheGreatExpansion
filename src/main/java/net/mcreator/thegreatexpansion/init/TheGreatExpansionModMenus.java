@@ -34,6 +34,8 @@ public class TheGreatExpansionModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<GerminationTankGUIMenu>> GERMINATION_TANK_GUI = REGISTRY.register("germination_tank_gui", () -> IMenuTypeExtension.create(GerminationTankGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<InductionFurnaceGUIMenu>> INDUCTION_FURNACE_GUI = REGISTRY.register("induction_furnace_gui", () -> IMenuTypeExtension.create(InductionFurnaceGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<LavaleerGUIMenu>> LAVALEER_GUI = REGISTRY.register("lavaleer_gui", () -> IMenuTypeExtension.create(LavaleerGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<IceMachineGuiMenu>> ICE_MACHINE_GUI = REGISTRY.register("ice_machine_gui", () -> IMenuTypeExtension.create(IceMachineGuiMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<WaterPumpGUIMenu>> WATER_PUMP_GUI = REGISTRY.register("water_pump_gui", () -> IMenuTypeExtension.create(WaterPumpGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

@@ -1,0 +1,5278 @@
+{
+  "elements": {
+    "Alpentall": {
+      "type": "enchantment",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Alpha 2 Statue": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "Alpha2StatueGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Alpha2StatueGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aluminum Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aluminum_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Apalatian": {
+      "type": "attribute",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith": {
+      "type": "armor",
+      "relationships": {
+        "produces": [
+          {
+            "recipe": "aqualith_block_ore_recipe",
+            "type": "crafting",
+            "inputs": [
+              "Aqualithblock"
+            ],
+            "count": 9
+          }
+        ],
+        "consumed_by": [
+          {
+            "recipe": "aqualith_armor_boots_recipe",
+            "type": "crafting",
+            "produces": "Boots"
+          },
+          {
+            "recipe": "aqualith_armor_boots_recipe",
+            "type": "crafting",
+            "produces": "Boots"
+          },
+          {
+            "recipe": "aqualith_armor_boots_recipe",
+            "type": "crafting",
+            "produces": "Boots"
+          },
+          {
+            "recipe": "aqualith_armor_boots_recipe",
+            "type": "crafting",
+            "produces": "Boots"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_chestplate_recipe",
+            "type": "crafting",
+            "produces": "Body"
+          },
+          {
+            "recipe": "aqualith_armor_helmet_recipe",
+            "type": "crafting",
+            "produces": "Helmet"
+          },
+          {
+            "recipe": "aqualith_armor_helmet_recipe",
+            "type": "crafting",
+            "produces": "Helmet"
+          },
+          {
+            "recipe": "aqualith_armor_helmet_recipe",
+            "type": "crafting",
+            "produces": "Helmet"
+          },
+          {
+            "recipe": "aqualith_armor_helmet_recipe",
+            "type": "crafting",
+            "produces": "Helmet"
+          },
+          {
+            "recipe": "aqualith_armor_helmet_recipe",
+            "type": "crafting",
+            "produces": "Helmet"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_armor_leggings_recipe",
+            "type": "crafting",
+            "produces": "Legs"
+          },
+          {
+            "recipe": "aqualith_axe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithaxe"
+          },
+          {
+            "recipe": "aqualith_axe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithaxe"
+          },
+          {
+            "recipe": "aqualith_axe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithaxe"
+          },
+          {
+            "recipe": "aqualith_hoe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithhoe"
+          },
+          {
+            "recipe": "aqualith_hoe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithhoe"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_ore_block_recipe",
+            "type": "crafting",
+            "produces": "Aqualithblock"
+          },
+          {
+            "recipe": "aqualith_pickaxe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithpickaxe"
+          },
+          {
+            "recipe": "aqualith_pickaxe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithpickaxe"
+          },
+          {
+            "recipe": "aqualith_pickaxe_recipe",
+            "type": "crafting",
+            "produces": "Aqualithpickaxe"
+          },
+          {
+            "recipe": "aqualith_shovel_recipe",
+            "type": "crafting",
+            "produces": "Aqualithshovel"
+          },
+          {
+            "recipe": "aqualith_sword_recipe",
+            "type": "crafting",
+            "produces": "Aqualithsword"
+          },
+          {
+            "recipe": "aqualith_sword_recipe",
+            "type": "crafting",
+            "produces": "Aqualithsword"
+          }
+        ],
+        "requires": [
+          "Aqualithblock"
+        ],
+        "enables": [
+          {
+            "tool": "Aqualith Axe",
+            "type": "repair_material"
+          },
+          {
+            "tool": "Aqualith Hoe",
+            "type": "repair_material"
+          },
+          {
+            "tool": "Aqualith Pickaxe",
+            "type": "repair_material"
+          },
+          {
+            "tool": "Aqualith Shovel",
+            "type": "repair_material"
+          },
+          {
+            "tool": "Aqualith Sword",
+            "type": "repair_material"
+          }
+        ],
+        "dropped_by": [
+          {
+            "block": "Aqualith Ore",
+            "type": "block_drop"
+          }
+        ],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 2,
+        "recipe_count": 44,
+        "complexity": 66
+      }
+    },
+    "aqualith_armor_boots_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aqualith_armor_chestplate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aqualith_armor_helmet_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aqualith_armor_leggings_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith Axe": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [
+          "Aqualith"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 2
+      }
+    },
+    "aqualith_axe_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Block of Aqualith": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aqualith_block_ore_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith Hoe": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [
+          "Aqualith"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 2
+      }
+    },
+    "aqualith_hoe_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [
+          "Aqualith"
+        ],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aqualith_ore_block_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "aqualith_ore_smelting": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith Pickaxe": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [
+          "Aqualith"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 2
+      }
+    },
+    "aqualith_pickaxe_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith Shovel": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [
+          "Aqualith"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 2
+      }
+    },
+    "aqualith_shovel_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Aqualith Sword": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [
+          "Aqualith"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 2
+      }
+    },
+    "aqualith_sword_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Asphalt": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Asphalt Slabs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "asphalt_slabs_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Asphalt Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "asphalt_stairs_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Avencidor": {
+      "type": "potion",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "BadaBingBadaBOOM.mod": {
+      "type": "achievement",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Bauxite": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Big Snowman": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cassiterite Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cinnabar Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Pillar": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Pillar 3 Way": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_pillar_3_way_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Pillar 4 Way": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_pillar_4_way_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Pillar Base": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_pillar_base_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_pillar_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Pillar Topper": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_pillar_topper_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Pillar T Section": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_pillar_t_section_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Side Pillar": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Side Pillar 3 Way": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_side_pillar_3_way_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cobblestone Side Pillar 4 Way": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_side_pillar_4_way_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "cobblestone_side_pillar_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Crude Oil": {
+      "type": "fluid",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Crusher": {
+      "type": "block",
+      "relationships": {
+        "produces": [
+          {
+            "recipe": "crusher_recipe",
+            "type": "crafting",
+            "inputs": [
+              "Tiningot",
+              "Redstone Block",
+              "Tiningot",
+              "Tiningot",
+              "Grindstone",
+              "Tiningot",
+              "Titaniumingot",
+              "Titaniumingot",
+              "Titaniumingot"
+            ],
+            "count": 1
+          }
+        ],
+        "consumed_by": [],
+        "requires": [
+          "Tiningot",
+          "Redstone Block",
+          "Grindstone",
+          "Titaniumingot"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "CrusherGUI",
+        "blocks": [],
+        "tier": 1,
+        "recipe_count": 0,
+        "complexity": 18
+      }
+    },
+    "CrusherGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "CrusherProcedure.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "crusher_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Cryonite Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Diamond Hammer": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "diamond_hammer_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Diesel 38 fl oz": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Empty Propane Tank": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Eskimo.mod": {
+      "type": "villagerprofession",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "EskimoTrades.mod": {
+      "type": "villagertrade",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Filled Propane Tank": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Filler": {
+      "type": "block",
+      "relationships": {
+        "produces": [
+          {
+            "recipe": "filler_recipe",
+            "type": "crafting",
+            "inputs": [
+              "Tiningot",
+              "Aluminumingot",
+              "Smooth Stone",
+              "Smooth Stone",
+              "Smooth Stone"
+            ],
+            "count": 1
+          }
+        ],
+        "consumed_by": [],
+        "requires": [
+          "Tiningot",
+          "Aluminumingot",
+          "Smooth Stone"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "FillerGUI",
+        "blocks": [],
+        "tier": 1,
+        "recipe_count": 0,
+        "complexity": 16
+      }
+    },
+    "FillerGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "FillerProc.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "filler_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Galena Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Gasoline 60 fl oz": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Germination Tank": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "GerminationTankGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "GerminationTankGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Hellebore": {
+      "type": "plant",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Snowscape": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Door": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Fence": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Fencegate": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Slabs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Trapdoor": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Block Wall": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Door": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Fence": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Fencegate": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Bricks": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Slabs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Trapdoor": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Brick Wall": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ice Cutter": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "ice_cutter_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Ilmenite Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Induction Furnace": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [
+          {
+            "recipe": "aluminum_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "aqualith_ore_smelting",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "lead_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "mercury_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "silicon_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "steel_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "tin_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          },
+          {
+            "recipe": "titanium_ingot_recipe",
+            "inputs": [],
+            "output": ""
+          }
+        ],
+        "gui": "InductionFurnaceGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "InductionFurnaceCrafting.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "InductionFurnaceGaugetextureEnergy.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "InductionFurnaceGaugetextureHeat.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "InductionFurnaceGetEnergy.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "InductionFurnaceGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "induction_furnace_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Iron Hammer": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "iron_hammer_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Jewlery Workbench": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "JewleryWorkbenchGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "JewleryWorkbenchGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "jewlery_workbench_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Lavaleer": {
+      "type": "block",
+      "relationships": {
+        "produces": [
+          {
+            "recipe": "lavaleer_recipe",
+            "type": "crafting",
+            "inputs": [
+              "Cobbled Deepslate",
+              "Cobbled Deepslate",
+              "Lava Bucket",
+              "Cobbled Deepslate",
+              "Smooth Stone",
+              "Machineframe",
+              "Smooth Stone"
+            ],
+            "count": 1
+          }
+        ],
+        "consumed_by": [],
+        "requires": [
+          "Cobbled Deepslate",
+          "Lava Bucket",
+          "Smooth Stone",
+          "Machineframe"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "LavaleerGUI",
+        "blocks": [],
+        "tier": 5,
+        "recipe_count": 0,
+        "complexity": 58
+      }
+    },
+    "LavaleerGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "lavaleer_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Lead Arrow": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "LeadArrowProjectile.mod": {
+      "type": "projectile",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Lead Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "lead_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Machine Frame": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "machine_frame_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Medium Snowman": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Mercury Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "mercury_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Natural Gas Pocket": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Nitrogen Pocket": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Packed Sand": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Packed Sand Bricks": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "packed_sand_bricks_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Packed Sand Brick Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "packed_sand_brick_stairs_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "packed_sand_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Packed Sand Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "packed_sand_stairs_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Button": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_button_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Fence": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Fence Gate": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_fence_gate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_fence_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Leaves": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Log": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Planks": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_planks_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Pressure Plate": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_pressure_plate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Sapling": {
+      "type": "plant",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Slab": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_slab_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_stairs_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PaloTree.mod": {
+      "type": "feature",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Palo Wood": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "palo_wood_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Permafrost": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Permafrost Iron Ore": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Pressure Cooker": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "PressureCookerGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PressureCookerGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PressureCookerPowerValue.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PressureCookerProcedure.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "pressure_cooker_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Propane (Gas)": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Propane Generator": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "PropaneGeneratorGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PropaneGeneratorGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PropaneGeneratorOnTickUpdate.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PropaneGeneratorPowerGauge.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PropaneGeneratorPowerValue.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "PropaneGeneratorProcedure.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "propane_tank_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Refinery": {
+      "type": "block",
+      "relationships": {
+        "produces": [
+          {
+            "recipe": "refinery_recipe",
+            "type": "crafting",
+            "inputs": [
+              "Titaniumingot",
+              "Titaniumingot",
+              "Steelingot",
+              "Bucket",
+              "Steelingot",
+              "Machineframe",
+              "Campfire",
+              "Machineframe"
+            ],
+            "count": 1
+          }
+        ],
+        "consumed_by": [],
+        "requires": [
+          "Titaniumingot",
+          "Steelingot",
+          "Bucket",
+          "Machineframe",
+          "Campfire"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "RefineryGUI",
+        "blocks": [],
+        "tier": 5,
+        "recipe_count": 0,
+        "complexity": 60
+      }
+    },
+    "RefineryGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "RefineryProc.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "refinery_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Reinforced Chest": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": "ReinforcedChestGUI",
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "ReinforcedChestBlockIsPlacedBy.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "ReinforcedChestClose.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "ReinforcedChestGUI.mod": {
+      "type": "gui",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "ReinforcedChestOnBlockRightClicked.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "ReinforcedChestOpen.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "reinforced_chest_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Reinforced Permafrost": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sand Crab": {
+      "type": "mob",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sand Vault": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Dust": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "silicon_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Padding Boots": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Padding Chestplate": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Padding Helmet": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Padding Pants": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Silicon Sheets": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "silicon_sheets_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SkiesTheLimit.mod": {
+      "type": "achievement",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sky Berries": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sky Berry Plant": {
+      "type": "plant",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sky Catalyst": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sky Catalyst Marker": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "sky_catalyst_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SkyCatalystRightclickedOnBlock.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sky Flats": {
+      "type": "biome",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skylands_ignighter_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skylariam Gem": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skyshard": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [
+          {
+            "recipe": "sky_catalyst_recipe",
+            "type": "crafting",
+            "produces": "Skylariamgem"
+          },
+          {
+            "recipe": "sky_catalyst_recipe",
+            "type": "crafting",
+            "produces": "Skylariamgem"
+          },
+          {
+            "recipe": "sky_catalyst_recipe",
+            "type": "crafting",
+            "produces": "Skylariamgem"
+          },
+          {
+            "recipe": "sky_catalyst_recipe",
+            "type": "crafting",
+            "produces": "Skylariamgem"
+          }
+        ],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 4,
+        "complexity": 4
+      }
+    },
+    "Skyshard Block": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "blocks/skyshard_block": {
+      "type": "loottable",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SkyShrineDamaged.mod": {
+      "type": "structure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SkyShrinePristine.mod": {
+      "type": "structure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SkyShrineWreaked.mod": {
+      "type": "structure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sky Stone": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Button": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_button_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Door": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_door_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Fence": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Fence Gate": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_fence_gate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_fence_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Leaves": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Log": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Planks": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_planks_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Pressure Plate": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_pressure_plate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Slab": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_slab_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Stairs": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_stairs_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Trapdoor": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_trapdoor_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Skywood Wood": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "skywood_wood_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Small Snowman": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Snowbound.mod": {
+      "type": "potioneffect",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Snowdrop": {
+      "type": "plant",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Snowfleck": {
+      "type": "potion",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Snow Lily": {
+      "type": "plant",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Steel Beams": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "steel_beams_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Steel Face Plate": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "steel_face_plate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Steel Frame": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "steel_frame_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Steel Hammer": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SteelHammerBlockDestroyedWithTool.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "steel_hammer_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Steel Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "steel_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Steel Powder": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SteelPowderJEI.mod": {
+      "type": "jeirecipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Stripped Skywood Log": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Stripped Skywood Wood": {
+      "type": "block",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "stripped_skywood_wood_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Sub Zombie": {
+      "type": "mob",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "SubZombieItIsStruckByLightning.mod": {
+      "type": "procedure",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "The Great Expansion": {
+      "type": "tab",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "The Skylands": {
+      "type": "dimension",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Tin Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "tin_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Titanium": {
+      "type": "armor",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Titanium Axe": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "titanium_boots_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "titanium_chestplate_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "titanium_helmet_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Titanium Ingot": {
+      "type": "item",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "titanium_ingot_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "titanium_leggings_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Titanium Sword": {
+      "type": "tool",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [
+          "TitaniumIngot"
+        ],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 2
+      }
+    },
+    "titanium_sword_recipe": {
+      "type": "recipe",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "WaterTank.mod": {
+      "type": "fluid_tanks",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Wild Tundra": {
+      "type": "biome",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "Winterberry": {
+      "type": "plant",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    },
+    "XMarksTheSpot.mod": {
+      "type": "achievement",
+      "relationships": {
+        "produces": [],
+        "consumed_by": [],
+        "requires": [],
+        "enables": [],
+        "dropped_by": [],
+        "drops": [],
+        "crafted_in": [],
+        "processes": [],
+        "gui": null,
+        "blocks": [],
+        "tier": 0,
+        "recipe_count": 0,
+        "complexity": 0
+      }
+    }
+  },
+  "statistics": {
+    "total_relationships": 345,
+    "total_recipes": 78,
+    "orphaned_items": 155,
+    "dead_end_items": 158,
+    "max_tier": 5,
+    "avg_complexity": 2.1652173913043478,
+    "machines": 13,
+    "tier_distribution": {
+      "2": 2,
+      "0": 335,
+      "1": 4,
+      "3": 1,
+      "4": 1,
+      "5": 2
+    }
+  }
+}

@@ -1,9 +1,12 @@
 # THE GREAT EXPANSION - ULTRA-COMPREHENSIVE MOD CONTENT GUIDE
-### Complete Documentation of All 226+ Mod Elements
+### Complete Documentation of All 278 Mod Element files (scanned)
 
 This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, block, biome, recipe, and mechanic in "The Great Expansion" mod.
 
 ---
+
+> Last scanned: 2026-01-29 — elements/ contains 278 .mod.json files. Guide updated to match current workspace elements.
+
 
 ## 📖 TABLE OF CONTENTS
 1. [Ores & Mining](#ores--mining)
@@ -970,7 +973,7 @@ Uses: Advanced armor components, electronics
 
 ## 🔍 COMPLETE ELEMENT COUNT
 
-**Total Mod Elements**: 226 .mod.json files
+**Total Mod Elements**: 278 .mod.json files
 
 **Breakdown by Category**:
 - Ores: 8 types (including variants)
@@ -1047,4 +1050,4 @@ Powers: Induction Furnace, Pressure Cooker, other FE machines
 
 ---
 
-**This guide documents all 226+ elements across 12 major categories. Every ore spawn height, tool stat, armor value, machine recipe, and block variant has been catalogued.**
+**This guide documents all 278 elements across 12 major categories. Every ore spawn height, tool stat, armor value, machine recipe, and block variant has been catalogued.**

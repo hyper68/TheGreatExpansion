@@ -1,0 +1,85 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 104,
+    "height": 115,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "sprite",
+        "data": {
+          "sprite": "water_tank_spritesheet.png",
+          "spritesCount": 12,
+          "spriteIndex": {
+            "fixedValue": 0.0,
+            "name": "WaterLevelFinderIceMachine"
+          },
+          "x": 186,
+          "y": 80,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_water_level",
+          "text": {
+            "fixedValue": "Water level"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 71,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_energylevel",
+          "text": {
+            "fixedValue": "EnergyLevel",
+            "name": "PressureCookerPowerValue"
+          },
+          "color": {
+            "value": -2302863,
+            "falpha": 0.0
+          },
+          "x": 178,
+          "y": 157,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_test",
+          "text": "test",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "WaterPumpOnTickUpdate"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 220,
+          "y": 136,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

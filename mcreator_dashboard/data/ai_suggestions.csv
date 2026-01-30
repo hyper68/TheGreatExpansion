@@ -1,0 +1,401 @@
+source,target,score,reason
+Aqualith,aqualith_armor_boots_recipe,1.0,name
+Aqualith,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith,aqualith_armor_helmet_recipe,1.0,name
+Aqualith,aqualith_armor_leggings_recipe,1.0,name
+Aqualith,aqualith_axe_recipe,1.0,name
+Aqualith,Block of Aqualith,1.0,name
+Aqualith,aqualith_block_ore_recipe,1.0,name
+Aqualith,aqualith_hoe_recipe,1.0,name
+Aqualith,Aqualith Ore,1.0,name
+Aqualith,aqualith_ore_block_recipe,1.0,name
+Aqualith,aqualith_ore_smelting,1.0,name
+Aqualith,aqualith_pickaxe_recipe,1.0,name
+Aqualith,aqualith_shovel_recipe,1.0,name
+Aqualith,aqualith_sword_recipe,1.0,name
+Crusher,crusher_recipe,1.0,name
+Crusher,SteelPowderJEI.mod,1.0,name
+Filler,filler_recipe,1.0,name
+Alpha 2 Statue,Alpha2StatueGUI.mod,1.0,name
+Aqualith Ore,Aqualith,1.0,name
+Aqualith Ore,aqualith_armor_boots_recipe,1.0,name
+Aqualith Ore,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith Ore,aqualith_armor_helmet_recipe,1.0,name
+Aqualith Ore,aqualith_armor_leggings_recipe,1.0,name
+Aqualith Ore,Aqualith Axe,1.0,name
+Aqualith Ore,aqualith_axe_recipe,1.0,name
+Aqualith Ore,Block of Aqualith,1.0,presence
+Aqualith Ore,aqualith_block_ore_recipe,1.0,name
+Aqualith Ore,Aqualith Hoe,1.0,name
+Aqualith Ore,aqualith_hoe_recipe,1.0,name
+Aqualith Ore,aqualith_ore_block_recipe,1.0,name
+Aqualith Ore,aqualith_ore_smelting,1.0,name
+Aqualith Ore,Aqualith Pickaxe,1.0,name
+Aqualith Ore,aqualith_pickaxe_recipe,1.0,name
+Aqualith Ore,Aqualith Shovel,1.0,name
+Aqualith Ore,aqualith_shovel_recipe,1.0,name
+Aqualith Ore,Aqualith Sword,1.0,name
+Aqualith Ore,aqualith_sword_recipe,1.0,name
+Aqualith Axe,aqualith_armor_boots_recipe,1.0,name
+Aqualith Axe,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith Axe,aqualith_armor_helmet_recipe,1.0,name
+Aqualith Axe,aqualith_armor_leggings_recipe,1.0,name
+Aqualith Axe,aqualith_axe_recipe,1.0,name
+Aqualith Axe,Block of Aqualith,1.0,name
+Aqualith Axe,aqualith_block_ore_recipe,1.0,name
+Aqualith Axe,Aqualith Hoe,1.0,presence
+Aqualith Axe,aqualith_hoe_recipe,1.0,name
+Aqualith Axe,Aqualith Ore,1.0,name
+Aqualith Axe,aqualith_ore_block_recipe,1.0,name
+Aqualith Axe,aqualith_ore_smelting,1.0,name
+Aqualith Axe,Aqualith Pickaxe,1.0,name
+Aqualith Axe,aqualith_pickaxe_recipe,1.0,name
+Aqualith Axe,Aqualith Shovel,1.0,presence
+Aqualith Axe,aqualith_shovel_recipe,1.0,name
+Aqualith Axe,Aqualith Sword,1.0,name
+Aqualith Axe,aqualith_sword_recipe,1.0,name
+Aqualith Hoe,aqualith_armor_boots_recipe,1.0,name
+Aqualith Hoe,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith Hoe,aqualith_armor_helmet_recipe,1.0,name
+Aqualith Hoe,aqualith_armor_leggings_recipe,1.0,name
+Aqualith Hoe,Aqualith Axe,1.0,presence
+Aqualith Hoe,aqualith_axe_recipe,1.0,name
+Aqualith Hoe,Block of Aqualith,1.0,name
+Aqualith Hoe,aqualith_block_ore_recipe,1.0,name
+Aqualith Hoe,aqualith_hoe_recipe,1.0,name
+Aqualith Hoe,Aqualith Ore,1.0,name
+Aqualith Hoe,aqualith_ore_block_recipe,1.0,name
+Aqualith Hoe,aqualith_ore_smelting,1.0,name
+Aqualith Hoe,Aqualith Pickaxe,1.0,presence
+Aqualith Hoe,aqualith_pickaxe_recipe,1.0,name
+Aqualith Hoe,Aqualith Shovel,1.0,name
+Aqualith Hoe,aqualith_shovel_recipe,1.0,name
+Aqualith Hoe,Aqualith Sword,1.0,name
+Aqualith Hoe,aqualith_sword_recipe,1.0,name
+Aqualith Pickaxe,aqualith_armor_boots_recipe,1.0,name
+Aqualith Pickaxe,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith Pickaxe,aqualith_armor_helmet_recipe,1.0,name
+Aqualith Pickaxe,aqualith_armor_leggings_recipe,1.0,name
+Aqualith Pickaxe,Aqualith Axe,1.0,presence
+Aqualith Pickaxe,aqualith_axe_recipe,1.0,name
+Aqualith Pickaxe,Block of Aqualith,1.0,name
+Aqualith Pickaxe,aqualith_block_ore_recipe,1.0,name
+Aqualith Pickaxe,Aqualith Hoe,1.0,presence
+Aqualith Pickaxe,aqualith_hoe_recipe,1.0,name
+Aqualith Pickaxe,Aqualith Ore,1.0,name
+Aqualith Pickaxe,aqualith_ore_block_recipe,1.0,name
+Aqualith Pickaxe,aqualith_ore_smelting,1.0,name
+Aqualith Pickaxe,aqualith_pickaxe_recipe,1.0,name
+Aqualith Pickaxe,Aqualith Shovel,1.0,name
+Aqualith Pickaxe,aqualith_shovel_recipe,1.0,name
+Aqualith Pickaxe,Aqualith Sword,1.0,name
+Aqualith Pickaxe,aqualith_sword_recipe,1.0,name
+Aqualith Shovel,aqualith_armor_boots_recipe,1.0,name
+Aqualith Shovel,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith Shovel,aqualith_armor_helmet_recipe,1.0,name
+Aqualith Shovel,aqualith_armor_leggings_recipe,1.0,name
+Aqualith Shovel,Aqualith Axe,1.0,presence
+Aqualith Shovel,aqualith_axe_recipe,1.0,name
+Aqualith Shovel,Block of Aqualith,1.0,name
+Aqualith Shovel,aqualith_block_ore_recipe,1.0,name
+Aqualith Shovel,Aqualith Hoe,1.0,presence
+Aqualith Shovel,aqualith_hoe_recipe,1.0,name
+Aqualith Shovel,Aqualith Ore,1.0,name
+Aqualith Shovel,aqualith_ore_block_recipe,1.0,name
+Aqualith Shovel,aqualith_ore_smelting,1.0,name
+Aqualith Shovel,Aqualith Pickaxe,1.0,presence
+Aqualith Shovel,aqualith_pickaxe_recipe,1.0,name
+Aqualith Shovel,aqualith_shovel_recipe,1.0,name
+Aqualith Shovel,Aqualith Sword,1.0,name
+Aqualith Shovel,aqualith_sword_recipe,1.0,name
+Aqualith Sword,aqualith_armor_boots_recipe,1.0,name
+Aqualith Sword,aqualith_armor_chestplate_recipe,1.0,name
+Aqualith Sword,aqualith_armor_helmet_recipe,1.0,name
+Aqualith Sword,aqualith_armor_leggings_recipe,1.0,name
+Aqualith Sword,Aqualith Axe,1.0,presence
+Aqualith Sword,aqualith_axe_recipe,1.0,name
+Aqualith Sword,Block of Aqualith,1.0,name
+Aqualith Sword,aqualith_block_ore_recipe,1.0,name
+Aqualith Sword,Aqualith Hoe,1.0,presence
+Aqualith Sword,aqualith_hoe_recipe,1.0,name
+Aqualith Sword,Aqualith Ore,1.0,name
+Aqualith Sword,aqualith_ore_block_recipe,1.0,name
+Aqualith Sword,aqualith_ore_smelting,1.0,name
+Aqualith Sword,Aqualith Pickaxe,1.0,name
+Aqualith Sword,aqualith_pickaxe_recipe,1.0,name
+Aqualith Sword,Aqualith Shovel,1.0,name
+Aqualith Sword,aqualith_shovel_recipe,1.0,name
+Aqualith Sword,aqualith_sword_recipe,1.0,name
+Aluminum Ingot,aluminum_ingot_recipe,1.0,name
+Apalatian,Snowbound.mod,1.0,presence
+Block of Aqualith,aqualith_block_ore_recipe,1.0,name
+Block of Aqualith,aqualith_ore_block_recipe,1.0,name
+Block of Aqualith,BadaBingBadaBOOM.mod,1.0,name
+Block of Aqualith,CrusherProcedure.mod,1.0,name
+Block of Aqualith,crusher_recipe,1.0,name
+Block of Aqualith,Eskimo.mod,1.0,name
+Block of Aqualith,FillerProc.mod,1.0,name
+Block of Aqualith,Ice Block,1.0,presence
+Block of Aqualith,Ice Block Door,1.0,name
+Block of Aqualith,Ice Block Fence,1.0,name
+Block of Aqualith,Ice Block Fencegate,1.0,name
+Block of Aqualith,Ice Block Slabs,1.0,presence
+Block of Aqualith,Ice Block Stairs,1.0,presence
+Block of Aqualith,Ice Block Trapdoor,1.0,name
+Block of Aqualith,Ice Block Wall,1.0,name
+Block of Aqualith,InductionFurnaceCrafting.mod,1.0,name
+Block of Aqualith,InductionFurnaceGaugetextureEnergy.mod,1.0,name
+Block of Aqualith,InductionFurnaceGaugetextureHeat.mod,1.0,name
+Block of Aqualith,InductionFurnaceGetEnergy.mod,1.0,name
+Block of Aqualith,PaloTree.mod,1.0,name
+Block of Aqualith,PressureCookerPowerValue.mod,1.0,name
+Block of Aqualith,PressureCookerProcedure.mod,1.0,name
+Block of Aqualith,PropaneGeneratorOnTickUpdate.mod,1.0,name
+Block of Aqualith,PropaneGeneratorPowerGauge.mod,1.0,name
+Block of Aqualith,PropaneGeneratorPowerValue.mod,1.0,name
+Block of Aqualith,PropaneGeneratorProcedure.mod,1.0,name
+Block of Aqualith,RefineryProc.mod,1.0,name
+Block of Aqualith,ReinforcedChestBlockIsPlacedBy.mod,1.0,name
+Block of Aqualith,ReinforcedChestClose.mod,1.0,name
+Block of Aqualith,ReinforcedChestOnBlockRightClicked.mod,1.0,name
+Block of Aqualith,ReinforcedChestOpen.mod,1.0,name
+Block of Aqualith,Sand Crab,1.0,name
+Block of Aqualith,SkiesTheLimit.mod,1.0,name
+Block of Aqualith,Sky Catalyst Marker,1.0,presence
+Block of Aqualith,SkyCatalystRightclickedOnBlock.mod,1.0,name
+Block of Aqualith,Skyshard Block,1.0,presence
+Block of Aqualith,blocks/skyshard_block,1.0,name
+Block of Aqualith,SkyShrineDamaged.mod,1.0,presence
+Block of Aqualith,SkyShrinePristine.mod,1.0,presence
+Block of Aqualith,SkyShrineWreaked.mod,1.0,presence
+Block of Aqualith,SteelHammerBlockDestroyedWithTool.mod,1.0,name
+Block of Aqualith,Sub Zombie,1.0,name
+Block of Aqualith,SubZombieItIsStruckByLightning.mod,1.0,name
+Block of Aqualith,The Skylands,1.0,name
+Block of Aqualith,XMarksTheSpot.mod,1.0,name
+Asphalt,Asphalt Slabs,1.0,presence
+Asphalt,asphalt_slabs_recipe,1.0,name
+Asphalt,Asphalt Stairs,1.0,presence
+Asphalt,asphalt_stairs_recipe,1.0,name
+Asphalt,RefineryProc.mod,1.0,name
+Asphalt Slabs,Asphalt,1.0,name
+Asphalt Slabs,asphalt_slabs_recipe,1.0,name
+Asphalt Slabs,Asphalt Stairs,1.0,presence
+Asphalt Slabs,asphalt_stairs_recipe,1.0,name
+Asphalt Slabs,RefineryProc.mod,1.0,name
+Asphalt Stairs,Asphalt,1.0,name
+Asphalt Stairs,Asphalt Slabs,1.0,presence
+Asphalt Stairs,asphalt_slabs_recipe,1.0,name
+Asphalt Stairs,asphalt_stairs_recipe,1.0,name
+Asphalt Stairs,RefineryProc.mod,1.0,name
+Bauxite,aluminum_ingot_recipe,1.0,name
+Big Snowman,Wild Tundra,1.0,name
+Cobblestone Pillar,Cobblestone Pillar 3 Way,1.0,presence
+Cobblestone Pillar,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar,Cobblestone Pillar 4 Way,1.0,name
+Cobblestone Pillar,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar,Cobblestone Pillar Base,1.0,presence
+Cobblestone Pillar,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Pillar,cobblestone_pillar_recipe,1.0,name
+Cobblestone Pillar,Cobblestone Pillar Topper,1.0,presence
+Cobblestone Pillar,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Pillar,Cobblestone Pillar T Section,1.0,presence
+Cobblestone Pillar,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Pillar,Cobblestone Side Pillar,1.0,name
+Cobblestone Pillar,Cobblestone Side Pillar 3 Way,1.0,presence
+Cobblestone Pillar,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar,Cobblestone Side Pillar 4 Way,1.0,presence
+Cobblestone Pillar,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Pillar,1.0,name
+Cobblestone Pillar 3 Way,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Pillar 4 Way,1.0,presence
+Cobblestone Pillar 3 Way,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Pillar Base,1.0,presence
+Cobblestone Pillar 3 Way,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Pillar 3 Way,cobblestone_pillar_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Pillar Topper,1.0,name
+Cobblestone Pillar 3 Way,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Pillar T Section,1.0,presence
+Cobblestone Pillar 3 Way,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Side Pillar,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Side Pillar 3 Way,1.0,name
+Cobblestone Pillar 3 Way,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar 3 Way,Cobblestone Side Pillar 4 Way,1.0,name
+Cobblestone Pillar 3 Way,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar 3 Way,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Pillar,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Pillar 3 Way,1.0,presence
+Cobblestone Pillar 4 Way,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Pillar Base,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_pillar_recipe,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Pillar Topper,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Pillar T Section,1.0,presence
+Cobblestone Pillar 4 Way,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Side Pillar,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Side Pillar 3 Way,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar 4 Way,Cobblestone Side Pillar 4 Way,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar 4 Way,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Pillar Base,Cobblestone Pillar,1.0,name
+Cobblestone Pillar Base,Cobblestone Pillar 3 Way,1.0,presence
+Cobblestone Pillar Base,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar Base,Cobblestone Pillar 4 Way,1.0,presence
+Cobblestone Pillar Base,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar Base,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Pillar Base,cobblestone_pillar_recipe,1.0,name
+Cobblestone Pillar Base,Cobblestone Pillar Topper,1.0,name
+Cobblestone Pillar Base,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Pillar Base,Cobblestone Pillar T Section,1.0,presence
+Cobblestone Pillar Base,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Pillar Base,Cobblestone Side Pillar,1.0,presence
+Cobblestone Pillar Base,Cobblestone Side Pillar 3 Way,1.0,presence
+Cobblestone Pillar Base,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar Base,Cobblestone Side Pillar 4 Way,1.0,presence
+Cobblestone Pillar Base,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar Base,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Pillar Topper,Cobblestone Pillar,1.0,presence
+Cobblestone Pillar Topper,Cobblestone Pillar 3 Way,1.0,name
+Cobblestone Pillar Topper,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar Topper,Cobblestone Pillar 4 Way,1.0,name
+Cobblestone Pillar Topper,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar Topper,Cobblestone Pillar Base,1.0,name
+Cobblestone Pillar Topper,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Pillar Topper,cobblestone_pillar_recipe,1.0,name
+Cobblestone Pillar Topper,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Pillar Topper,Cobblestone Pillar T Section,1.0,name
+Cobblestone Pillar Topper,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Pillar Topper,Cobblestone Side Pillar,1.0,presence
+Cobblestone Pillar Topper,Cobblestone Side Pillar 3 Way,1.0,name
+Cobblestone Pillar Topper,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar Topper,Cobblestone Side Pillar 4 Way,1.0,name
+Cobblestone Pillar Topper,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar Topper,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Pillar T Section,Cobblestone Pillar,1.0,presence
+Cobblestone Pillar T Section,Cobblestone Pillar 3 Way,1.0,presence
+Cobblestone Pillar T Section,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar T Section,Cobblestone Pillar 4 Way,1.0,presence
+Cobblestone Pillar T Section,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar T Section,Cobblestone Pillar Base,1.0,presence
+Cobblestone Pillar T Section,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Pillar T Section,cobblestone_pillar_recipe,1.0,name
+Cobblestone Pillar T Section,Cobblestone Pillar Topper,1.0,name
+Cobblestone Pillar T Section,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Pillar T Section,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Pillar T Section,Cobblestone Side Pillar,1.0,presence
+Cobblestone Pillar T Section,Cobblestone Side Pillar 3 Way,1.0,presence
+Cobblestone Pillar T Section,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Pillar T Section,Cobblestone Side Pillar 4 Way,1.0,presence
+Cobblestone Pillar T Section,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Pillar T Section,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Pillar,1.0,name
+Cobblestone Side Pillar,Cobblestone Pillar 3 Way,1.0,name
+Cobblestone Side Pillar,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Pillar 4 Way,1.0,name
+Cobblestone Side Pillar,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Pillar Base,1.0,presence
+Cobblestone Side Pillar,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Side Pillar,cobblestone_pillar_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Pillar Topper,1.0,presence
+Cobblestone Side Pillar,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Pillar T Section,1.0,name
+Cobblestone Side Pillar,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Side Pillar 3 Way,1.0,presence
+Cobblestone Side Pillar,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Side Pillar,Cobblestone Side Pillar 4 Way,1.0,presence
+Cobblestone Side Pillar,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Side Pillar,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Pillar,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Pillar 3 Way,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Pillar 4 Way,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Pillar Base,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_pillar_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Pillar Topper,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Pillar T Section,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Side Pillar,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,Cobblestone Side Pillar 4 Way,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Side Pillar 3 Way,cobblestone_side_pillar_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Pillar,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Pillar 3 Way,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_pillar_3_way_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Pillar 4 Way,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_pillar_4_way_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Pillar Base,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_pillar_base_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_pillar_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Pillar Topper,1.0,presence
+Cobblestone Side Pillar 4 Way,cobblestone_pillar_topper_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Pillar T Section,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_pillar_t_section_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Side Pillar,1.0,name
+Cobblestone Side Pillar 4 Way,Cobblestone Side Pillar 3 Way,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_side_pillar_3_way_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_side_pillar_4_way_recipe,1.0,name
+Cobblestone Side Pillar 4 Way,cobblestone_side_pillar_recipe,1.0,name
+Diamond Hammer,Aqualith Axe,1.0,presence
+Diamond Hammer,Block of Aqualith,1.0,name
+Diamond Hammer,Aqualith Hoe,1.0,presence
+Diamond Hammer,Aqualith Ore,1.0,name
+Diamond Hammer,Aqualith Pickaxe,1.0,name
+Diamond Hammer,Aqualith Shovel,1.0,name
+Diamond Hammer,Aqualith Sword,1.0,name
+Diamond Hammer,Cinnabar Ore,1.0,name
+Diamond Hammer,diamond_hammer_recipe,1.0,name
+Diamond Hammer,Steel Hammer,1.0,presence
+Diamond Hammer,The Great Expansion,1.0,presence
+Diamond Hammer,Titanium Sword,1.0,presence
+Empty Propane Tank,CrusherProcedure.mod,1.0,name
+Empty Propane Tank,FillerProc.mod,1.0,name
+Empty Propane Tank,InductionFurnaceCrafting.mod,1.0,name
+Empty Propane Tank,PressureCookerProcedure.mod,1.0,name
+Empty Propane Tank,RefineryProc.mod,1.0,name
+Ice Block,EskimoTrades.mod,1.0,name
+Ice Block,Ice Block Door,1.0,presence
+Ice Block,Ice Block Fence,1.0,presence
+Ice Block,Ice Block Fencegate,1.0,presence
+Ice Block,Ice Block Slabs,1.0,presence
+Ice Block,Ice Block Stairs,1.0,presence
+Ice Block,Ice Block Trapdoor,1.0,presence
+Ice Block,Ice Block Wall,1.0,presence
+Ice Block,Ice Brick Door,1.0,presence
+Ice Block,Ice Brick Fence,1.0,presence
+Ice Block,Ice Brick Fencegate,1.0,presence
+Ice Block,Ice Bricks,1.0,presence
+Ice Block,Ice Brick Slabs,1.0,presence
+Ice Block,Ice Brick Stairs,1.0,presence
+Ice Block,Ice Brick Trapdoor,1.0,presence
+Ice Block,Ice Brick Wall,1.0,presence
+Ice Block,Ice Cutter,1.0,presence
+Ice Block,ice_cutter_recipe,1.0,name
+Ice Block,Sky Berry Plant,1.0,name
+Ice Block,Snow Lily,1.0,name
+Ice Block,Sub Zombie,1.0,name
+Ice Block Door,EskimoTrades.mod,1.0,name
+Ice Block Door,Ice Block,1.0,name
+Ice Block Door,Ice Block Fence,1.0,presence
+Ice Block Door,Ice Block Fencegate,1.0,presence
+Ice Block Door,Ice Block Slabs,1.0,presence
+Ice Block Door,Ice Block Stairs,1.0,name
+Ice Block Door,Ice Block Trapdoor,1.0,name
+Ice Block Door,Ice Block Wall,1.0,name
+Ice Block Door,Ice Brick Door,1.0,presence
+Ice Block Door,Ice Brick Fence,1.0,presence
+Ice Block Door,Ice Brick Fencegate,1.0,presence
+Ice Block Door,Ice Bricks,1.0,presence
+Ice Block Door,Ice Brick Slabs,1.0,presence
+Ice Block Door,Ice Brick Stairs,1.0,presence
+Ice Block Door,Ice Brick Trapdoor,1.0,name
+Ice Block Door,Ice Brick Wall,1.0,presence
+Ice Block Door,Ice Cutter,1.0,presence
+Ice Block Door,ice_cutter_recipe,1.0,name

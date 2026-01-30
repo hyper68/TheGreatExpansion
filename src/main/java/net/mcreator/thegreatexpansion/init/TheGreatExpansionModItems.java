@@ -169,6 +169,8 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> SKY_CATALYST_MARKER;
 	public static final DeferredItem<Item> SKY_BERRY_PLANT;
 	public static final DeferredItem<Item> SKYSHARD_BLOCK;
+	public static final DeferredItem<Item> ICE_MACHINE;
+	public static final DeferredItem<Item> WATER_PUMP;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -317,6 +319,8 @@ public class TheGreatExpansionModItems {
 		SKY_CATALYST_MARKER = block(TheGreatExpansionModBlocks.SKY_CATALYST_MARKER);
 		SKY_BERRY_PLANT = block(TheGreatExpansionModBlocks.SKY_BERRY_PLANT);
 		SKYSHARD_BLOCK = block(TheGreatExpansionModBlocks.SKYSHARD_BLOCK);
+		ICE_MACHINE = block(TheGreatExpansionModBlocks.ICE_MACHINE);
+		WATER_PUMP = block(TheGreatExpansionModBlocks.WATER_PUMP);
 	}
 
 	// Start of user code block custom items

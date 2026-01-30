@@ -111,6 +111,8 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> SKY_CATALYST_MARKER;
 	public static final DeferredBlock<Block> SKY_BERRY_PLANT;
 	public static final DeferredBlock<Block> SKYSHARD_BLOCK;
+	public static final DeferredBlock<Block> ICE_MACHINE;
+	public static final DeferredBlock<Block> WATER_PUMP;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -210,6 +212,8 @@ public class TheGreatExpansionModBlocks {
 		SKY_CATALYST_MARKER = REGISTRY.register("sky_catalyst_marker", SkyCatalystMarkerBlock::new);
 		SKY_BERRY_PLANT = REGISTRY.register("sky_berry_plant", SkyBerryPlantBlock::new);
 		SKYSHARD_BLOCK = REGISTRY.register("skyshard_block", SkyshardBlockBlock::new);
+		ICE_MACHINE = REGISTRY.register("ice_machine", IceMachineBlock::new);
+		WATER_PUMP = REGISTRY.register("water_pump", WaterPumpBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

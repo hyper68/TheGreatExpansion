@@ -25,6 +25,8 @@ public class TheGreatExpansionModScreens {
 		event.register(TheGreatExpansionModMenus.GERMINATION_TANK_GUI.get(), GerminationTankGUIScreen::new);
 		event.register(TheGreatExpansionModMenus.INDUCTION_FURNACE_GUI.get(), InductionFurnaceGUIScreen::new);
 		event.register(TheGreatExpansionModMenus.LAVALEER_GUI.get(), LavaleerGUIScreen::new);
+		event.register(TheGreatExpansionModMenus.ICE_MACHINE_GUI.get(), IceMachineGuiScreen::new);
+		event.register(TheGreatExpansionModMenus.WATER_PUMP_GUI.get(), WaterPumpGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {

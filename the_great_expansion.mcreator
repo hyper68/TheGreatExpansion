@@ -4577,6 +4577,145 @@
         ]
       },
       "path": "~/Skylands"
+    },
+    {
+      "name": "IceMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/ice_machine.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/IceMachineBlockEntity.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/ice_machine.json",
+          "src/main/resources/assets/the_great_expansion/models/block/ice_machine.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/ice_machine.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/IceMachineBlock.java"
+        ]
+      },
+      "path": "~/Machines/Ice Machine"
+    },
+    {
+      "name": "IceMachineGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_machine_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/IceMachineGuiScreen.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/IceMachineGuiMenu.java"
+        ]
+      },
+      "path": "~/Machines/Ice Machine"
+    },
+    {
+      "name": "WaterLevelFinderIceMachine",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_level_finder_ice_machine",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/WaterLevelFinderIceMachineProcedure.java"
+        ]
+      },
+      "path": "~/Machines/Ice Machine"
+    },
+    {
+      "name": "WaterPump",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pump",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/water_pump.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/WaterPumpBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/water_pump.json",
+          "src/main/resources/assets/the_great_expansion/models/block/water_pump.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/water_pump.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/WaterPumpBlockEntity.java"
+        ]
+      },
+      "path": "~/Machines/WaterPump"
+    },
+    {
+      "name": "WaterPumpGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pump_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/network/WaterPumpGUIButtonMessage.java",
+          "src/main/java/net/mcreator/thegreatexpansion/world/inventory/WaterPumpGUIMenu.java",
+          "src/main/java/net/mcreator/thegreatexpansion/client/gui/WaterPumpGUIScreen.java"
+        ]
+      },
+      "path": "~/Machines/WaterPump"
+    },
+    {
+      "name": "WaterPumpOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pump_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/WaterPumpOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Machines/WaterPump"
+    },
+    {
+      "name": "WaterPumpTank",
+      "type": "fluid_tanks",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_pump_tank",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Machines/WaterPump"
     }
   ],
   "variable_elements": [],
@@ -4976,7 +5115,9 @@
       "SkylariamGem",
       "SkyCatalystMarker",
       "SkyBerryPlant",
-      "SkyshardBlock"
+      "SkyshardBlock",
+      "IceMachine",
+      "WaterPump"
     ]
   },
   "language_map": {
@@ -5171,7 +5312,12 @@
       "advancements.x_marks_the_spot.descr": "Activate a sky catalyst marker",
       "advancements.x_marks_the_spot.title": "X Marks The Spot",
       "block.the_great_expansion.sky_berry_plant": "Sky Berry Plant",
-      "block.the_great_expansion.skyshard_block": "Skyshard Block"
+      "block.the_great_expansion.skyshard_block": "Skyshard Block",
+      "block.the_great_expansion.ice_machine": "Ice Machine",
+      "block.the_great_expansion.water_pump": "Water Pump",
+      "gui.the_great_expansion.water_pump_gui.label_water_level": "Water level",
+      "gui.the_great_expansion.water_pump_gui.label_energylevel": "EnergyLevel",
+      "gui.the_great_expansion.water_pump_gui.button_test": "test"
     }
   },
   "metadata": {
@@ -5203,6 +5349,7 @@
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModModels.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/the_great_expansion/sounds.json",
+      "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/thegreatexpansion/init/TheGreatExpansionModSounds.java"
     ]
@@ -5278,6 +5425,14 @@
           },
           {
             "name": "Lavaleer",
+            "children": []
+          },
+          {
+            "name": "Ice Machine",
+            "children": []
+          },
+          {
+            "name": "WaterPump",
             "children": []
           }
         ]

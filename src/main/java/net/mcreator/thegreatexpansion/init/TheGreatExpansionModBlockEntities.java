@@ -35,6 +35,8 @@ public class TheGreatExpansionModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<GerminationTankBlockEntity>> GERMINATION_TANK = register("germination_tank", TheGreatExpansionModBlocks.GERMINATION_TANK, GerminationTankBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<InductionFurnaceBlockEntity>> INDUCTION_FURNACE = register("induction_furnace", TheGreatExpansionModBlocks.INDUCTION_FURNACE, InductionFurnaceBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LavaleerBlockEntity>> LAVALEER = register("lavaleer", TheGreatExpansionModBlocks.LAVALEER, LavaleerBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IceMachineBlockEntity>> ICE_MACHINE = register("ice_machine", TheGreatExpansionModBlocks.ICE_MACHINE, IceMachineBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<WaterPumpBlockEntity>> WATER_PUMP = register("water_pump", TheGreatExpansionModBlocks.WATER_PUMP, WaterPumpBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -63,5 +65,11 @@ public class TheGreatExpansionModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, LAVALEER.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, LAVALEER.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
 		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, LAVALEER.get(), (blockEntity, side) -> blockEntity.getFluidTank());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ICE_MACHINE.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ICE_MACHINE.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
+		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, ICE_MACHINE.get(), (blockEntity, side) -> blockEntity.getFluidTank());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, WATER_PUMP.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, WATER_PUMP.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
+		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, WATER_PUMP.get(), (blockEntity, side) -> blockEntity.getFluidTank());
 	}
 }

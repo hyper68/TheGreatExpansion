@@ -1,0 +1,3517 @@
+{
+  "timestamp": "20260112_185109",
+  "datetime": "2026-01-12T18:51:09.779754",
+  "total_elements": 269,
+  "elements": {
+    "Alpentall": {
+      "name": "Alpentall",
+      "type": "enchantment",
+      "file_name": "Alpentall.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Alpha 2 Statue": {
+      "name": "Alpha 2 Statue",
+      "type": "block",
+      "file_name": "Alpha2Statue.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Alpha2StatueGUI.mod": {
+      "name": "Alpha2StatueGUI.mod",
+      "type": "gui",
+      "file_name": "Alpha2StatueGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Aluminum Ingot": {
+      "name": "Aluminum Ingot",
+      "type": "item",
+      "file_name": "AluminumIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "aluminum_ingot_recipe": {
+      "name": "aluminum_ingot_recipe",
+      "type": "recipe",
+      "file_name": "AluminumIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Smelting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Apalatian": {
+      "name": "Apalatian",
+      "type": "attribute",
+      "file_name": "Apalatian.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Aqualith": {
+      "name": "Aqualith",
+      "type": "armor",
+      "file_name": "AqualithArmor.mod",
+      "dependencies": [],
+      "recipes_using": [
+        "aqualith_armor_boots_recipe",
+        "aqualith_armor_boots_recipe",
+        "aqualith_armor_boots_recipe",
+        "aqualith_armor_boots_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_chestplate_recipe",
+        "aqualith_armor_helmet_recipe",
+        "aqualith_armor_helmet_recipe",
+        "aqualith_armor_helmet_recipe",
+        "aqualith_armor_helmet_recipe",
+        "aqualith_armor_helmet_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_armor_leggings_recipe",
+        "aqualith_axe_recipe",
+        "aqualith_axe_recipe",
+        "aqualith_axe_recipe",
+        "aqualith_hoe_recipe",
+        "aqualith_hoe_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_ore_block_recipe",
+        "aqualith_pickaxe_recipe",
+        "aqualith_pickaxe_recipe",
+        "aqualith_pickaxe_recipe",
+        "aqualith_shovel_recipe",
+        "aqualith_sword_recipe",
+        "aqualith_sword_recipe"
+      ],
+      "recipe_outputs": [
+        "aqualith_block_ore_recipe"
+      ]
+    },
+    "aqualith_armor_boots_recipe": {
+      "name": "aqualith_armor_boots_recipe",
+      "type": "recipe",
+      "file_name": "AqualithArmorBootsRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "output": "AqualithArmor.boots",
+      "output_count": 1
+    },
+    "aqualith_armor_chestplate_recipe": {
+      "name": "aqualith_armor_chestplate_recipe",
+      "type": "recipe",
+      "file_name": "AqualithArmorChestplateRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "output": "AqualithArmor.body",
+      "output_count": 1
+    },
+    "aqualith_armor_helmet_recipe": {
+      "name": "aqualith_armor_helmet_recipe",
+      "type": "recipe",
+      "file_name": "AqualithArmorHelmetRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "output": "AqualithArmor.helmet",
+      "output_count": 1
+    },
+    "aqualith_armor_leggings_recipe": {
+      "name": "aqualith_armor_leggings_recipe",
+      "type": "recipe",
+      "file_name": "AqualithArmorLeggingsRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "output": "AqualithArmor.legs",
+      "output_count": 1
+    },
+    "Aqualith Axe": {
+      "name": "Aqualith Axe",
+      "type": "tool",
+      "file_name": "AqualithAxe.mod",
+      "dependencies": [
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "aqualith_axe_recipe": {
+      "name": "aqualith_axe_recipe",
+      "type": "recipe",
+      "file_name": "AqualithAxeRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "output": "AqualithAxe",
+      "output_count": 1
+    },
+    "Block of Aqualith": {
+      "name": "Block of Aqualith",
+      "type": "block",
+      "file_name": "AqualithBlock.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 5.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "aqualith_block_ore_recipe": {
+      "name": "aqualith_block_ore_recipe",
+      "type": "recipe",
+      "file_name": "AqualithBlockOreRecipe.mod",
+      "dependencies": [
+        "AqualithBlock"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "AqualithBlock"
+      ],
+      "output": "Aqualith",
+      "output_count": 9
+    },
+    "Aqualith Hoe": {
+      "name": "Aqualith Hoe",
+      "type": "tool",
+      "file_name": "AqualithHoe.mod",
+      "dependencies": [
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "aqualith_hoe_recipe": {
+      "name": "aqualith_hoe_recipe",
+      "type": "recipe",
+      "file_name": "AqualithHoeRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "output": "AqualithHoe",
+      "output_count": 1
+    },
+    "Aqualith Ore": {
+      "name": "Aqualith Ore",
+      "type": "block",
+      "file_name": "AqualithOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 12.0,
+      "resistance": 15.157165665103982,
+      "tool_type": "pickaxe"
+    },
+    "aqualith_ore_block_recipe": {
+      "name": "aqualith_ore_block_recipe",
+      "type": "recipe",
+      "file_name": "AqualithOreBlockRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Aqualith"
+      ],
+      "output": "AqualithBlock",
+      "output_count": 1
+    },
+    "aqualith_ore_smelting": {
+      "name": "aqualith_ore_smelting",
+      "type": "recipe",
+      "file_name": "AqualithOreSmelting.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Smelting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Aqualith Pickaxe": {
+      "name": "Aqualith Pickaxe",
+      "type": "tool",
+      "file_name": "AqualithPickaxe.mod",
+      "dependencies": [
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "aqualith_pickaxe_recipe": {
+      "name": "aqualith_pickaxe_recipe",
+      "type": "recipe",
+      "file_name": "AqualithPickaxeRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "output": "AqualithPickaxe",
+      "output_count": 1
+    },
+    "Aqualith Shovel": {
+      "name": "Aqualith Shovel",
+      "type": "tool",
+      "file_name": "AqualithShovel.mod",
+      "dependencies": [
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "aqualith_shovel_recipe": {
+      "name": "aqualith_shovel_recipe",
+      "type": "recipe",
+      "file_name": "AqualithShovelRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Stick",
+        "Stick"
+      ],
+      "output": "AqualithShovel",
+      "output_count": 1
+    },
+    "Aqualith Sword": {
+      "name": "Aqualith Sword",
+      "type": "tool",
+      "file_name": "AqualithSword.mod",
+      "dependencies": [
+        "Aqualith"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "aqualith_sword_recipe": {
+      "name": "aqualith_sword_recipe",
+      "type": "recipe",
+      "file_name": "AqualithSwordRecipe.mod",
+      "dependencies": [
+        "Aqualith",
+        "Aqualith",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Aqualith",
+        "Aqualith",
+        "Stick"
+      ],
+      "output": "AqualithSword",
+      "output_count": 1
+    },
+    "Asphalt": {
+      "name": "Asphalt",
+      "type": "block",
+      "file_name": "Asphalt.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.1,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Asphalt Slabs": {
+      "name": "Asphalt Slabs",
+      "type": "block",
+      "file_name": "AsphaltSlabs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "asphalt_slabs_recipe": {
+      "name": "asphalt_slabs_recipe",
+      "type": "recipe",
+      "file_name": "AsphaltSlabsRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Asphalt Stairs": {
+      "name": "Asphalt Stairs",
+      "type": "block",
+      "file_name": "AsphaltStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "asphalt_stairs_recipe": {
+      "name": "asphalt_stairs_recipe",
+      "type": "recipe",
+      "file_name": "AsphaltStairsRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Avencidor": {
+      "name": "Avencidor",
+      "type": "potion",
+      "file_name": "AvencidorPotion.mod",
+      "dependencies": [
+        "STRENGTH",
+        "HEALTH_BOOST",
+        "LUCK"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "BadaBingBadaBOOM.mod": {
+      "name": "BadaBingBadaBOOM.mod",
+      "type": "achievement",
+      "file_name": "BadaBingBadaBOOM.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Bauxite": {
+      "name": "Bauxite",
+      "type": "block",
+      "file_name": "Bauxite.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Big Snowman": {
+      "name": "Big Snowman",
+      "type": "block",
+      "file_name": "BigSnowman.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Cassiterite Ore": {
+      "name": "Cassiterite Ore",
+      "type": "block",
+      "file_name": "CassiteriteOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Cinnabar Ore": {
+      "name": "Cinnabar Ore",
+      "type": "block",
+      "file_name": "CinnabarOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Cobblestone Pillar": {
+      "name": "Cobblestone Pillar",
+      "type": "block",
+      "file_name": "CobblestonePillar.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Cobblestone Pillar 3 Way": {
+      "name": "Cobblestone Pillar 3 Way",
+      "type": "block",
+      "file_name": "CobblestonePillar3Way.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_pillar_3_way_recipe": {
+      "name": "cobblestone_pillar_3_way_recipe",
+      "type": "recipe",
+      "file_name": "CobblestonePillar3WayRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Cobblestone Pillar 4 Way": {
+      "name": "Cobblestone Pillar 4 Way",
+      "type": "block",
+      "file_name": "CobblestonePillar4Way.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_pillar_4_way_recipe": {
+      "name": "cobblestone_pillar_4_way_recipe",
+      "type": "recipe",
+      "file_name": "CobblestonePillar4WayRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Cobblestone Pillar Base": {
+      "name": "Cobblestone Pillar Base",
+      "type": "block",
+      "file_name": "CobblestonePillarBase.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_pillar_base_recipe": {
+      "name": "cobblestone_pillar_base_recipe",
+      "type": "recipe",
+      "file_name": "CobblestonePillarBaseRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "cobblestone_pillar_recipe": {
+      "name": "cobblestone_pillar_recipe",
+      "type": "recipe",
+      "file_name": "CobblestonePillarRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Cobblestone Pillar Topper": {
+      "name": "Cobblestone Pillar Topper",
+      "type": "block",
+      "file_name": "CobblestonePillarTopper.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_pillar_topper_recipe": {
+      "name": "cobblestone_pillar_topper_recipe",
+      "type": "recipe",
+      "file_name": "CobblestonePillarTopperRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Cobblestone Pillar T Section": {
+      "name": "Cobblestone Pillar T Section",
+      "type": "block",
+      "file_name": "CobblestonePillarTSection.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_pillar_t_section_recipe": {
+      "name": "cobblestone_pillar_t_section_recipe",
+      "type": "recipe",
+      "file_name": "CobblestonePillarTSectionRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Cobblestone Side Pillar": {
+      "name": "Cobblestone Side Pillar",
+      "type": "block",
+      "file_name": "CobblestoneSidePillar.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Cobblestone Side Pillar 3 Way": {
+      "name": "Cobblestone Side Pillar 3 Way",
+      "type": "block",
+      "file_name": "CobblestoneSidePillar3Way.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_side_pillar_3_way_recipe": {
+      "name": "cobblestone_side_pillar_3_way_recipe",
+      "type": "recipe",
+      "file_name": "CobblestoneSidePillar3WayRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Cobblestone Side Pillar 4 Way": {
+      "name": "Cobblestone Side Pillar 4 Way",
+      "type": "block",
+      "file_name": "CobblestoneSidePillar4Way.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "cobblestone_side_pillar_4_way_recipe": {
+      "name": "cobblestone_side_pillar_4_way_recipe",
+      "type": "recipe",
+      "file_name": "CobblestoneSidePillar4WayRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "cobblestone_side_pillar_recipe": {
+      "name": "cobblestone_side_pillar_recipe",
+      "type": "recipe",
+      "file_name": "CobblestoneSidePillarRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Crude Oil": {
+      "name": "Crude Oil",
+      "type": "fluid",
+      "file_name": "CrudeOil.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Crusher": {
+      "name": "Crusher",
+      "type": "block",
+      "file_name": "Crusher.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [
+        "crusher_recipe"
+      ],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "CrusherGUI.mod": {
+      "name": "CrusherGUI.mod",
+      "type": "gui",
+      "file_name": "CrusherGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "CrusherProcedure.mod": {
+      "name": "CrusherProcedure.mod",
+      "type": "procedure",
+      "file_name": "CrusherProcedure.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "crusher_recipe": {
+      "name": "crusher_recipe",
+      "type": "recipe",
+      "file_name": "CrusherRecipe.mod",
+      "dependencies": [
+        "TinIngot",
+        "Redstone Block",
+        "TinIngot",
+        "TinIngot",
+        "Grindstone",
+        "TinIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TinIngot",
+        "Redstone Block",
+        "TinIngot",
+        "TinIngot",
+        "Grindstone",
+        "TinIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "output": "Crusher",
+      "output_count": 1
+    },
+    "Cryonite Ore": {
+      "name": "Cryonite Ore",
+      "type": "block",
+      "file_name": "CryoniteOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Diamond Hammer": {
+      "name": "Diamond Hammer",
+      "type": "tool",
+      "file_name": "DiamondHammer.mod",
+      "dependencies": [
+        "Diamond"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "diamond_hammer_recipe": {
+      "name": "diamond_hammer_recipe",
+      "type": "recipe",
+      "file_name": "DiamondHammerRecipe.mod",
+      "dependencies": [
+        "Diamond",
+        "Diamond",
+        "Diamond",
+        "Diamond",
+        "Stick",
+        "Diamond",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Diamond",
+        "Diamond",
+        "Diamond",
+        "Diamond",
+        "Stick",
+        "Diamond",
+        "Stick"
+      ],
+      "output": "DiamondHammer",
+      "output_count": 1
+    },
+    "Diesel 38 fl oz": {
+      "name": "Diesel 38 fl oz",
+      "type": "item",
+      "file_name": "Diesel1.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Empty Propane Tank": {
+      "name": "Empty Propane Tank",
+      "type": "item",
+      "file_name": "EmptyPropaneTank.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Eskimo.mod": {
+      "name": "Eskimo.mod",
+      "type": "villagerprofession",
+      "file_name": "Eskimo.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "EskimoTrades.mod": {
+      "name": "EskimoTrades.mod",
+      "type": "villagertrade",
+      "file_name": "EskimoTrades.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Filled Propane Tank": {
+      "name": "Filled Propane Tank",
+      "type": "item",
+      "file_name": "FilledPropaneTank.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Filler": {
+      "name": "Filler",
+      "type": "block",
+      "file_name": "Filler.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [
+        "filler_recipe"
+      ],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "FillerGUI.mod": {
+      "name": "FillerGUI.mod",
+      "type": "gui",
+      "file_name": "FillerGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "FillerProc.mod": {
+      "name": "FillerProc.mod",
+      "type": "procedure",
+      "file_name": "FillerProc.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "filler_recipe": {
+      "name": "filler_recipe",
+      "type": "recipe",
+      "file_name": "FillerRecipe.mod",
+      "dependencies": [
+        "TinIngot",
+        "AluminumIngot",
+        "Smooth Stone",
+        "Smooth Stone",
+        "Smooth Stone"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TinIngot",
+        "AluminumIngot",
+        "Smooth Stone",
+        "Smooth Stone",
+        "Smooth Stone"
+      ],
+      "output": "Filler",
+      "output_count": 1
+    },
+    "Galena Ore": {
+      "name": "Galena Ore",
+      "type": "block",
+      "file_name": "GalenaOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Gasoline 60 fl oz": {
+      "name": "Gasoline 60 fl oz",
+      "type": "item",
+      "file_name": "Gasoline1.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Germination Tank": {
+      "name": "Germination Tank",
+      "type": "block",
+      "file_name": "GerminationTank.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "GerminationTankGUI.mod": {
+      "name": "GerminationTankGUI.mod",
+      "type": "gui",
+      "file_name": "GerminationTankGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Hellebore": {
+      "name": "Hellebore",
+      "type": "plant",
+      "file_name": "Hellebore.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Snowscape": {
+      "name": "Snowscape",
+      "type": "item",
+      "file_name": "SnowscapeDisk.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Ice Block": {
+      "name": "Ice Block",
+      "type": "block",
+      "file_name": "IceBlock.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Door": {
+      "name": "Ice Block Door",
+      "type": "block",
+      "file_name": "IceBlockDoor.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Fence": {
+      "name": "Ice Block Fence",
+      "type": "block",
+      "file_name": "IceBlockFence.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Fencegate": {
+      "name": "Ice Block Fencegate",
+      "type": "block",
+      "file_name": "IceBlockFencegate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Slabs": {
+      "name": "Ice Block Slabs",
+      "type": "block",
+      "file_name": "IceBlockSlabs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Stairs": {
+      "name": "Ice Block Stairs",
+      "type": "block",
+      "file_name": "IceBlockStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Trapdoor": {
+      "name": "Ice Block Trapdoor",
+      "type": "block",
+      "file_name": "IceBlockTrapdoor.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Block Wall": {
+      "name": "Ice Block Wall",
+      "type": "block",
+      "file_name": "IceBlockWall.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Door": {
+      "name": "Ice Brick Door",
+      "type": "block",
+      "file_name": "IceBrickDoor.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Fence": {
+      "name": "Ice Brick Fence",
+      "type": "block",
+      "file_name": "IceBrickFence.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Fencegate": {
+      "name": "Ice Brick Fencegate",
+      "type": "block",
+      "file_name": "IceBrickFencegate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Bricks": {
+      "name": "Ice Bricks",
+      "type": "block",
+      "file_name": "IceBricks.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Slabs": {
+      "name": "Ice Brick Slabs",
+      "type": "block",
+      "file_name": "IceBrickSlabs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Stairs": {
+      "name": "Ice Brick Stairs",
+      "type": "block",
+      "file_name": "IceBrickStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Trapdoor": {
+      "name": "Ice Brick Trapdoor",
+      "type": "block",
+      "file_name": "IceBrickTrapdoor.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Brick Wall": {
+      "name": "Ice Brick Wall",
+      "type": "block",
+      "file_name": "IceBrickWall.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Ice Cutter": {
+      "name": "Ice Cutter",
+      "type": "block",
+      "file_name": "IceCutter.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "ice_cutter_recipe": {
+      "name": "ice_cutter_recipe",
+      "type": "recipe",
+      "file_name": "IceCutterRecipe.mod",
+      "dependencies": [
+        "Planks",
+        "Stonecutter",
+        "Planks",
+        "Planks",
+        "Planks",
+        "Planks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Planks",
+        "Stonecutter",
+        "Planks",
+        "Planks",
+        "Planks",
+        "Planks"
+      ],
+      "output": "IceCutter",
+      "output_count": 1
+    },
+    "Ilmenite Ore": {
+      "name": "Ilmenite Ore",
+      "type": "block",
+      "file_name": "IlmeniteOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Induction Furnace": {
+      "name": "Induction Furnace",
+      "type": "block",
+      "file_name": "InductionFurnace.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "InductionFurnaceCrafting.mod": {
+      "name": "InductionFurnaceCrafting.mod",
+      "type": "procedure",
+      "file_name": "InductionFurnaceCrafting.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "InductionFurnaceGaugetextureEnergy.mod": {
+      "name": "InductionFurnaceGaugetextureEnergy.mod",
+      "type": "procedure",
+      "file_name": "InductionFurnaceGaugetextureEnergy.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "InductionFurnaceGaugetextureHeat.mod": {
+      "name": "InductionFurnaceGaugetextureHeat.mod",
+      "type": "procedure",
+      "file_name": "InductionFurnaceGaugetextureHeat.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "InductionFurnaceGetEnergy.mod": {
+      "name": "InductionFurnaceGetEnergy.mod",
+      "type": "procedure",
+      "file_name": "InductionFurnaceGetEnergy.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "InductionFurnaceGUI.mod": {
+      "name": "InductionFurnaceGUI.mod",
+      "type": "gui",
+      "file_name": "InductionFurnaceGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "induction_furnace_recipe": {
+      "name": "induction_furnace_recipe",
+      "type": "recipe",
+      "file_name": "InductionFurnaceRecipe.mod",
+      "dependencies": [
+        "Cobbled Deepslate",
+        "SteelFrame",
+        "Cobbled Deepslate",
+        "SteelIngot",
+        "Blast Furnace",
+        "SteelIngot",
+        "Smooth Stone",
+        "MachineFrame",
+        "Smooth Stone"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Cobbled Deepslate",
+        "SteelFrame",
+        "Cobbled Deepslate",
+        "SteelIngot",
+        "Blast Furnace",
+        "SteelIngot",
+        "Smooth Stone",
+        "MachineFrame",
+        "Smooth Stone"
+      ],
+      "output": "InductionFurnace",
+      "output_count": 1
+    },
+    "Iron Hammer": {
+      "name": "Iron Hammer",
+      "type": "tool",
+      "file_name": "IronHammer.mod",
+      "dependencies": [
+        "Iron Ingot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "iron_hammer_recipe": {
+      "name": "iron_hammer_recipe",
+      "type": "recipe",
+      "file_name": "IronHammerRecipe.mod",
+      "dependencies": [
+        "Iron Ingot",
+        "Iron Ingot",
+        "Iron Ingot",
+        "Iron Ingot",
+        "Stick",
+        "Iron Ingot",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Iron Ingot",
+        "Iron Ingot",
+        "Iron Ingot",
+        "Iron Ingot",
+        "Stick",
+        "Iron Ingot",
+        "Stick"
+      ],
+      "output": "IronHammer",
+      "output_count": 1
+    },
+    "Jewlery Workbench": {
+      "name": "Jewlery Workbench",
+      "type": "block",
+      "file_name": "JewleryWorkbench.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "JewleryWorkbenchGUI.mod": {
+      "name": "JewleryWorkbenchGUI.mod",
+      "type": "gui",
+      "file_name": "JewleryWorkbenchGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "jewlery_workbench_recipe": {
+      "name": "jewlery_workbench_recipe",
+      "type": "recipe",
+      "file_name": "JewleryWorkbenchRecipe.mod",
+      "dependencies": [
+        "SteelIngot",
+        "SteelIngot",
+        "SteelIngot",
+        "Planks",
+        "Planks",
+        "Planks",
+        "Planks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SteelIngot",
+        "SteelIngot",
+        "SteelIngot",
+        "Planks",
+        "Planks",
+        "Planks",
+        "Planks"
+      ],
+      "output": "JewleryWorkbench",
+      "output_count": 1
+    },
+    "Lavaleer": {
+      "name": "Lavaleer",
+      "type": "block",
+      "file_name": "Lavaleer.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [
+        "lavaleer_recipe"
+      ],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "LavaleerGUI.mod": {
+      "name": "LavaleerGUI.mod",
+      "type": "gui",
+      "file_name": "LavaleerGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "lavaleer_recipe": {
+      "name": "lavaleer_recipe",
+      "type": "recipe",
+      "file_name": "LavaleerRecipe.mod",
+      "dependencies": [
+        "Cobbled Deepslate",
+        "Cobbled Deepslate",
+        "Lava Bucket",
+        "Cobbled Deepslate",
+        "Smooth Stone",
+        "MachineFrame",
+        "Smooth Stone"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Cobbled Deepslate",
+        "Cobbled Deepslate",
+        "Lava Bucket",
+        "Cobbled Deepslate",
+        "Smooth Stone",
+        "MachineFrame",
+        "Smooth Stone"
+      ],
+      "output": "Lavaleer",
+      "output_count": 1
+    },
+    "Lead Arrow": {
+      "name": "Lead Arrow",
+      "type": "item",
+      "file_name": "LeadArrow.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "LeadArrowProjectile.mod": {
+      "name": "LeadArrowProjectile.mod",
+      "type": "projectile",
+      "file_name": "LeadArrowProjectile.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Lead Ingot": {
+      "name": "Lead Ingot",
+      "type": "item",
+      "file_name": "LeadIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "lead_ingot_recipe": {
+      "name": "lead_ingot_recipe",
+      "type": "recipe",
+      "file_name": "LeadIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Smelting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Machine Frame": {
+      "name": "Machine Frame",
+      "type": "block",
+      "file_name": "MachineFrame.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "machine_frame_recipe": {
+      "name": "machine_frame_recipe",
+      "type": "recipe",
+      "file_name": "MachineFrameRecipe.mod",
+      "dependencies": [
+        "AluminumIngot",
+        "AluminumIngot",
+        "SteelFrame",
+        "AluminumIngot",
+        "AluminumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "AluminumIngot",
+        "AluminumIngot",
+        "SteelFrame",
+        "AluminumIngot",
+        "AluminumIngot"
+      ],
+      "output": "MachineFrame",
+      "output_count": 1
+    },
+    "Medium Snowman": {
+      "name": "Medium Snowman",
+      "type": "block",
+      "file_name": "MediumSnowman.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Mercury Ingot": {
+      "name": "Mercury Ingot",
+      "type": "item",
+      "file_name": "MercuryIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "mercury_ingot_recipe": {
+      "name": "mercury_ingot_recipe",
+      "type": "recipe",
+      "file_name": "MercuryIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Smelting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Natural Gas Pocket": {
+      "name": "Natural Gas Pocket",
+      "type": "block",
+      "file_name": "NaturalGasPocket.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Nitrogen Pocket": {
+      "name": "Nitrogen Pocket",
+      "type": "block",
+      "file_name": "NitrogenPocket.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Packed Sand": {
+      "name": "Packed Sand",
+      "type": "block",
+      "file_name": "PackedSand.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "shovel"
+    },
+    "Packed Sand Bricks": {
+      "name": "Packed Sand Bricks",
+      "type": "block",
+      "file_name": "PackedSandBricks.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 3.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "packed_sand_bricks_recipe": {
+      "name": "packed_sand_bricks_recipe",
+      "type": "recipe",
+      "file_name": "PackedSandBricksRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Packed Sand Brick Stairs": {
+      "name": "Packed Sand Brick Stairs",
+      "type": "block",
+      "file_name": "PackedSandBrickStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 3.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "packed_sand_brick_stairs_recipe": {
+      "name": "packed_sand_brick_stairs_recipe",
+      "type": "recipe",
+      "file_name": "PackedSandBrickStairsRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "packed_sand_recipe": {
+      "name": "packed_sand_recipe",
+      "type": "recipe",
+      "file_name": "PackedSandRecipe.mod",
+      "dependencies": [
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0",
+        "Sand#0"
+      ],
+      "output": "PackedSand",
+      "output_count": 1
+    },
+    "Packed Sand Stairs": {
+      "name": "Packed Sand Stairs",
+      "type": "block",
+      "file_name": "PackedSandStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "packed_sand_stairs_recipe": {
+      "name": "packed_sand_stairs_recipe",
+      "type": "recipe",
+      "file_name": "PackedSandStairsRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Stone cutting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Palo Button": {
+      "name": "Palo Button",
+      "type": "block",
+      "file_name": "PaloButton.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "Not specified"
+    },
+    "palo_button_recipe": {
+      "name": "palo_button_recipe",
+      "type": "recipe",
+      "file_name": "PaloButtonRecipe.mod",
+      "dependencies": [
+        "PaloPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "PaloPlanks"
+      ],
+      "output": "PaloButton",
+      "output_count": 1
+    },
+    "Palo Fence": {
+      "name": "Palo Fence",
+      "type": "block",
+      "file_name": "PaloFence.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "Not specified"
+    },
+    "Palo Fence Gate": {
+      "name": "Palo Fence Gate",
+      "type": "block",
+      "file_name": "PaloFenceGate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "Not specified"
+    },
+    "palo_fence_gate_recipe": {
+      "name": "palo_fence_gate_recipe",
+      "type": "recipe",
+      "file_name": "PaloFenceGateRecipe.mod",
+      "dependencies": [
+        "Stick",
+        "PaloPlanks",
+        "Stick",
+        "Stick",
+        "PaloPlanks",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Stick",
+        "PaloPlanks",
+        "Stick",
+        "Stick",
+        "PaloPlanks",
+        "Stick"
+      ],
+      "output": "PaloFenceGate",
+      "output_count": 1
+    },
+    "palo_fence_recipe": {
+      "name": "palo_fence_recipe",
+      "type": "recipe",
+      "file_name": "PaloFenceRecipe.mod",
+      "dependencies": [
+        "PaloPlanks",
+        "Stick",
+        "PaloPlanks",
+        "PaloPlanks",
+        "Stick",
+        "PaloPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "PaloPlanks",
+        "Stick",
+        "PaloPlanks",
+        "PaloPlanks",
+        "Stick",
+        "PaloPlanks"
+      ],
+      "output": "PaloFence",
+      "output_count": 3
+    },
+    "Palo Leaves": {
+      "name": "Palo Leaves",
+      "type": "block",
+      "file_name": "PaloLeaves.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 0.2,
+      "resistance": 0.2,
+      "tool_type": "Not specified"
+    },
+    "Palo Log": {
+      "name": "Palo Log",
+      "type": "block",
+      "file_name": "PaloLog.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 2.0,
+      "tool_type": "axe"
+    },
+    "Palo Planks": {
+      "name": "Palo Planks",
+      "type": "block",
+      "file_name": "PaloPlanks.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "palo_planks_recipe": {
+      "name": "palo_planks_recipe",
+      "type": "recipe",
+      "file_name": "PaloPlanksRecipe.mod",
+      "dependencies": [
+        "palo_logs"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "palo_logs"
+      ],
+      "output": "PaloPlanks",
+      "output_count": 4
+    },
+    "Palo Pressure Plate": {
+      "name": "Palo Pressure Plate",
+      "type": "block",
+      "file_name": "PaloPressurePlate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "Not specified"
+    },
+    "palo_pressure_plate_recipe": {
+      "name": "palo_pressure_plate_recipe",
+      "type": "recipe",
+      "file_name": "PaloPressurePlateRecipe.mod",
+      "dependencies": [
+        "PaloPlanks",
+        "PaloPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "PaloPlanks",
+        "PaloPlanks"
+      ],
+      "output": "PaloPressurePlate",
+      "output_count": 1
+    },
+    "Palo Sapling": {
+      "name": "Palo Sapling",
+      "type": "plant",
+      "file_name": "PaloSapling.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Palo Slab": {
+      "name": "Palo Slab",
+      "type": "block",
+      "file_name": "PaloSlab.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "Not specified"
+    },
+    "palo_slab_recipe": {
+      "name": "palo_slab_recipe",
+      "type": "recipe",
+      "file_name": "PaloSlabRecipe.mod",
+      "dependencies": [
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks"
+      ],
+      "output": "PaloSlab",
+      "output_count": 6
+    },
+    "Palo Stairs": {
+      "name": "Palo Stairs",
+      "type": "block",
+      "file_name": "PaloStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 3.0,
+      "resistance": 2.0,
+      "tool_type": "Not specified"
+    },
+    "palo_stairs_recipe": {
+      "name": "palo_stairs_recipe",
+      "type": "recipe",
+      "file_name": "PaloStairsRecipe.mod",
+      "dependencies": [
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks",
+        "PaloPlanks"
+      ],
+      "output": "PaloStairs",
+      "output_count": 4
+    },
+    "PaloTree.mod": {
+      "name": "PaloTree.mod",
+      "type": "feature",
+      "file_name": "PaloTree.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Palo Wood": {
+      "name": "Palo Wood",
+      "type": "block",
+      "file_name": "PaloWood.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 2.0,
+      "tool_type": "axe"
+    },
+    "palo_wood_recipe": {
+      "name": "palo_wood_recipe",
+      "type": "recipe",
+      "file_name": "PaloWoodRecipe.mod",
+      "dependencies": [
+        "PaloLog",
+        "PaloLog",
+        "PaloLog",
+        "PaloLog"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "PaloLog",
+        "PaloLog",
+        "PaloLog",
+        "PaloLog"
+      ],
+      "output": "PaloWood",
+      "output_count": 3
+    },
+    "Permafrost": {
+      "name": "Permafrost",
+      "type": "block",
+      "file_name": "Permafrost.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Permafrost Iron Ore": {
+      "name": "Permafrost Iron Ore",
+      "type": "block",
+      "file_name": "PermafrostIronOre.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Pressure Cooker": {
+      "name": "Pressure Cooker",
+      "type": "block",
+      "file_name": "PressureCooker.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "PressureCookerGUI.mod": {
+      "name": "PressureCookerGUI.mod",
+      "type": "gui",
+      "file_name": "PressureCookerGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "PressureCookerPowerValue.mod": {
+      "name": "PressureCookerPowerValue.mod",
+      "type": "procedure",
+      "file_name": "PressureCookerPowerValue.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "PressureCookerProcedure.mod": {
+      "name": "PressureCookerProcedure.mod",
+      "type": "procedure",
+      "file_name": "PressureCookerProcedure.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "pressure_cooker_recipe": {
+      "name": "pressure_cooker_recipe",
+      "type": "recipe",
+      "file_name": "PressureCookerRecipe.mod",
+      "dependencies": [
+        "Smooth Stone",
+        "AluminumIngot",
+        "Smooth Stone",
+        "AluminumIngot",
+        "Smoker",
+        "AluminumIngot",
+        "Smooth Stone",
+        "MachineFrame",
+        "Smooth Stone"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Smooth Stone",
+        "AluminumIngot",
+        "Smooth Stone",
+        "AluminumIngot",
+        "Smoker",
+        "AluminumIngot",
+        "Smooth Stone",
+        "MachineFrame",
+        "Smooth Stone"
+      ],
+      "output": "PressureCooker",
+      "output_count": 1
+    },
+    "Propane (Gas)": {
+      "name": "Propane (Gas)",
+      "type": "item",
+      "file_name": "Propane.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Propane Generator": {
+      "name": "Propane Generator",
+      "type": "block",
+      "file_name": "PropaneGenerator.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "PropaneGeneratorGUI.mod": {
+      "name": "PropaneGeneratorGUI.mod",
+      "type": "gui",
+      "file_name": "PropaneGeneratorGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "PropaneGeneratorOnTickUpdate.mod": {
+      "name": "PropaneGeneratorOnTickUpdate.mod",
+      "type": "procedure",
+      "file_name": "PropaneGeneratorOnTickUpdate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "PropaneGeneratorPowerGauge.mod": {
+      "name": "PropaneGeneratorPowerGauge.mod",
+      "type": "procedure",
+      "file_name": "PropaneGeneratorPowerGauge.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "PropaneGeneratorPowerValue.mod": {
+      "name": "PropaneGeneratorPowerValue.mod",
+      "type": "procedure",
+      "file_name": "PropaneGeneratorPowerValue.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "PropaneGeneratorProcedure.mod": {
+      "name": "PropaneGeneratorProcedure.mod",
+      "type": "procedure",
+      "file_name": "PropaneGeneratorProcedure.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "propane_tank_recipe": {
+      "name": "propane_tank_recipe",
+      "type": "recipe",
+      "file_name": "PropaneTankRecipe.mod",
+      "dependencies": [
+        "AluminumIngot",
+        "AluminumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "AluminumIngot",
+        "AluminumIngot"
+      ],
+      "output": "EmptyPropaneTank",
+      "output_count": 1
+    },
+    "Refinery": {
+      "name": "Refinery",
+      "type": "block",
+      "file_name": "Refinery.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [
+        "refinery_recipe"
+      ],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "RefineryGUI.mod": {
+      "name": "RefineryGUI.mod",
+      "type": "gui",
+      "file_name": "RefineryGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "RefineryProc.mod": {
+      "name": "RefineryProc.mod",
+      "type": "procedure",
+      "file_name": "RefineryProc.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "refinery_recipe": {
+      "name": "refinery_recipe",
+      "type": "recipe",
+      "file_name": "RefineryRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "SteelIngot",
+        "CrudeOil.bucket",
+        "SteelIngot",
+        "MachineFrame",
+        "Campfire",
+        "MachineFrame"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "SteelIngot",
+        "CrudeOil.bucket",
+        "SteelIngot",
+        "MachineFrame",
+        "Campfire",
+        "MachineFrame"
+      ],
+      "output": "Refinery",
+      "output_count": 1
+    },
+    "Reinforced Chest": {
+      "name": "Reinforced Chest",
+      "type": "block",
+      "file_name": "ReinforcedChest.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 3.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "ReinforcedChestBlockIsPlacedBy.mod": {
+      "name": "ReinforcedChestBlockIsPlacedBy.mod",
+      "type": "procedure",
+      "file_name": "ReinforcedChestBlockIsPlacedBy.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "ReinforcedChestClose.mod": {
+      "name": "ReinforcedChestClose.mod",
+      "type": "procedure",
+      "file_name": "ReinforcedChestClose.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "ReinforcedChestGUI.mod": {
+      "name": "ReinforcedChestGUI.mod",
+      "type": "gui",
+      "file_name": "ReinforcedChestGUI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "ReinforcedChestOnBlockRightClicked.mod": {
+      "name": "ReinforcedChestOnBlockRightClicked.mod",
+      "type": "procedure",
+      "file_name": "ReinforcedChestOnBlockRightClicked.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "ReinforcedChestOpen.mod": {
+      "name": "ReinforcedChestOpen.mod",
+      "type": "procedure",
+      "file_name": "ReinforcedChestOpen.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "reinforced_chest_recipe": {
+      "name": "reinforced_chest_recipe",
+      "type": "recipe",
+      "file_name": "ReinforcedChestRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "SteelIngot",
+        "Chest",
+        "SteelIngot",
+        "SteelIngot",
+        "SteelFrame",
+        "SteelIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "SteelIngot",
+        "Chest",
+        "SteelIngot",
+        "SteelIngot",
+        "SteelFrame",
+        "SteelIngot"
+      ],
+      "output": "ReinforcedChest",
+      "output_count": 1
+    },
+    "Reinforced Permafrost": {
+      "name": "Reinforced Permafrost",
+      "type": "block",
+      "file_name": "ReinforcedPermafrost.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Sand Crab": {
+      "name": "Sand Crab",
+      "type": "mob",
+      "file_name": "SandCrab.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "health": 10,
+      "attack_strength": 3
+    },
+    "Sand Vault": {
+      "name": "Sand Vault",
+      "type": "block",
+      "file_name": "SandVault.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Silicon Dust": {
+      "name": "Silicon Dust",
+      "type": "item",
+      "file_name": "SiliconDust.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Silicon Ingot": {
+      "name": "Silicon Ingot",
+      "type": "item",
+      "file_name": "SiliconIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "silicon_ingot_recipe": {
+      "name": "silicon_ingot_recipe",
+      "type": "recipe",
+      "file_name": "SiliconIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Blasting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Silicon Padding Boots": {
+      "name": "Silicon Padding Boots",
+      "type": "item",
+      "file_name": "SiliconPaddingBoots.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Silicon Padding Chestplate": {
+      "name": "Silicon Padding Chestplate",
+      "type": "item",
+      "file_name": "SiliconPaddingChestplate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Silicon Padding Helmet": {
+      "name": "Silicon Padding Helmet",
+      "type": "item",
+      "file_name": "SiliconPaddingHelmet.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Silicon Padding Pants": {
+      "name": "Silicon Padding Pants",
+      "type": "item",
+      "file_name": "SiliconPaddingPants.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Silicon Sheets": {
+      "name": "Silicon Sheets",
+      "type": "item",
+      "file_name": "SiliconSheets.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "silicon_sheets_recipe": {
+      "name": "silicon_sheets_recipe",
+      "type": "recipe",
+      "file_name": "SiliconSheetsRecipe.mod",
+      "dependencies": [
+        "SiliconIngot",
+        "SiliconIngot",
+        "SiliconIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SiliconIngot",
+        "SiliconIngot",
+        "SiliconIngot"
+      ],
+      "output": "SiliconSheets",
+      "output_count": 1
+    },
+    "SkiesTheLimit.mod": {
+      "name": "SkiesTheLimit.mod",
+      "type": "achievement",
+      "file_name": "SkiesTheLimit.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Sky Berries": {
+      "name": "Sky Berries",
+      "type": "item",
+      "file_name": "SkyBerries.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Sky Berry Plant": {
+      "name": "Sky Berry Plant",
+      "type": "plant",
+      "file_name": "SkyBerryPlant.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Sky Catalyst": {
+      "name": "Sky Catalyst",
+      "type": "item",
+      "file_name": "SkyCatalyst.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Sky Catalyst Marker": {
+      "name": "Sky Catalyst Marker",
+      "type": "block",
+      "file_name": "SkyCatalystMarker.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "sky_catalyst_recipe": {
+      "name": "sky_catalyst_recipe",
+      "type": "recipe",
+      "file_name": "SkyCatalystRecipe.mod",
+      "dependencies": [
+        "Skyshard",
+        "Skyshard",
+        "Nether Star",
+        "Skyshard",
+        "Skyshard"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Skyshard",
+        "Skyshard",
+        "Nether Star",
+        "Skyshard",
+        "Skyshard"
+      ],
+      "output": "SkylariamGem",
+      "output_count": 1
+    },
+    "SkyCatalystRightclickedOnBlock.mod": {
+      "name": "SkyCatalystRightclickedOnBlock.mod",
+      "type": "procedure",
+      "file_name": "SkyCatalystRightclickedOnBlock.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Sky Flats": {
+      "name": "Sky Flats",
+      "type": "biome",
+      "file_name": "SkyFlats.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "skylands_ignighter_recipe": {
+      "name": "skylands_ignighter_recipe",
+      "type": "recipe",
+      "file_name": "SkylandsIgnighterRecipe.mod",
+      "dependencies": [
+        "Flint And Steel",
+        "Nether Star"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Flint And Steel",
+        "Nether Star"
+      ],
+      "output": "TheSkylands",
+      "output_count": 1
+    },
+    "Skylariam Gem": {
+      "name": "Skylariam Gem",
+      "type": "item",
+      "file_name": "SkylariamGem.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Skyshard": {
+      "name": "Skyshard",
+      "type": "item",
+      "file_name": "Skyshard.mod",
+      "dependencies": [],
+      "recipes_using": [
+        "sky_catalyst_recipe",
+        "sky_catalyst_recipe",
+        "sky_catalyst_recipe",
+        "sky_catalyst_recipe"
+      ],
+      "recipe_outputs": []
+    },
+    "Skyshard Block": {
+      "name": "Skyshard Block",
+      "type": "block",
+      "file_name": "SkyshardBlock.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "blocks/skyshard_block": {
+      "name": "blocks/skyshard_block",
+      "type": "loottable",
+      "file_name": "SkyshardBlockLootTable.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "SkyShrineDamaged.mod": {
+      "name": "SkyShrineDamaged.mod",
+      "type": "structure",
+      "file_name": "SkyShrineDamaged.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "SkyShrinePristine.mod": {
+      "name": "SkyShrinePristine.mod",
+      "type": "structure",
+      "file_name": "SkyShrinePristine.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "SkyShrineWreaked.mod": {
+      "name": "SkyShrineWreaked.mod",
+      "type": "structure",
+      "file_name": "SkyShrineWreaked.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Sky Stone": {
+      "name": "Sky Stone",
+      "type": "block",
+      "file_name": "SkyStone.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "pickaxe"
+    },
+    "Skywood Button": {
+      "name": "Skywood Button",
+      "type": "block",
+      "file_name": "SkywoodButton.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 0.5,
+      "resistance": 0.5,
+      "tool_type": "axe"
+    },
+    "skywood_button_recipe": {
+      "name": "skywood_button_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodButtonRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodButton",
+      "output_count": 1
+    },
+    "Skywood Door": {
+      "name": "Skywood Door",
+      "type": "block",
+      "file_name": "SkywoodDoor.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 3.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "skywood_door_recipe": {
+      "name": "skywood_door_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodDoorRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodDoor",
+      "output_count": 3
+    },
+    "Skywood Fence": {
+      "name": "Skywood Fence",
+      "type": "block",
+      "file_name": "SkywoodFence.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "Skywood Fence Gate": {
+      "name": "Skywood Fence Gate",
+      "type": "block",
+      "file_name": "SkywoodFenceGate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "skywood_fence_gate_recipe": {
+      "name": "skywood_fence_gate_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodFenceGateRecipe.mod",
+      "dependencies": [
+        "Stick",
+        "SkywoodPlanks",
+        "Stick",
+        "Stick",
+        "SkywoodPlanks",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "Stick",
+        "SkywoodPlanks",
+        "Stick",
+        "Stick",
+        "SkywoodPlanks",
+        "Stick"
+      ],
+      "output": "SkywoodFenceGate",
+      "output_count": 1
+    },
+    "skywood_fence_recipe": {
+      "name": "skywood_fence_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodFenceRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks",
+        "Stick",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "Stick",
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks",
+        "Stick",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "Stick",
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodFence",
+      "output_count": 3
+    },
+    "Skywood Leaves": {
+      "name": "Skywood Leaves",
+      "type": "block",
+      "file_name": "SkywoodLeaves.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 0.2,
+      "resistance": 0.2,
+      "tool_type": "Not specified"
+    },
+    "Skywood Log": {
+      "name": "Skywood Log",
+      "type": "block",
+      "file_name": "SkywoodLog.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 2.0,
+      "tool_type": "axe"
+    },
+    "Skywood Planks": {
+      "name": "Skywood Planks",
+      "type": "block",
+      "file_name": "SkywoodPlanks.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "skywood_planks_recipe": {
+      "name": "skywood_planks_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodPlanksRecipe.mod",
+      "dependencies": [
+        "skywood_logs"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "skywood_logs"
+      ],
+      "output": "SkywoodPlanks",
+      "output_count": 4
+    },
+    "Skywood Pressure Plate": {
+      "name": "Skywood Pressure Plate",
+      "type": "block",
+      "file_name": "SkywoodPressurePlate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 0.5,
+      "resistance": 0.5,
+      "tool_type": "axe"
+    },
+    "skywood_pressure_plate_recipe": {
+      "name": "skywood_pressure_plate_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodPressurePlateRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodPressurePlate",
+      "output_count": 1
+    },
+    "Skywood Slab": {
+      "name": "Skywood Slab",
+      "type": "block",
+      "file_name": "SkywoodSlab.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "skywood_slab_recipe": {
+      "name": "skywood_slab_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodSlabRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodSlab",
+      "output_count": 6
+    },
+    "Skywood Stairs": {
+      "name": "Skywood Stairs",
+      "type": "block",
+      "file_name": "SkywoodStairs.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "skywood_stairs_recipe": {
+      "name": "skywood_stairs_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodStairsRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodStairs",
+      "output_count": 4
+    },
+    "Skywood Trapdoor": {
+      "name": "Skywood Trapdoor",
+      "type": "block",
+      "file_name": "SkywoodTrapdoor.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 3.0,
+      "resistance": 3.0,
+      "tool_type": "axe"
+    },
+    "skywood_trapdoor_recipe": {
+      "name": "skywood_trapdoor_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodTrapdoorRecipe.mod",
+      "dependencies": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks",
+        "SkywoodPlanks"
+      ],
+      "output": "SkywoodTrapdoor",
+      "output_count": 2
+    },
+    "Skywood Wood": {
+      "name": "Skywood Wood",
+      "type": "block",
+      "file_name": "SkywoodWood.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 2.0,
+      "tool_type": "axe"
+    },
+    "skywood_wood_recipe": {
+      "name": "skywood_wood_recipe",
+      "type": "recipe",
+      "file_name": "SkywoodWoodRecipe.mod",
+      "dependencies": [
+        "SkywoodLog",
+        "SkywoodLog",
+        "SkywoodLog",
+        "SkywoodLog"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SkywoodLog",
+        "SkywoodLog",
+        "SkywoodLog",
+        "SkywoodLog"
+      ],
+      "output": "SkywoodWood",
+      "output_count": 3
+    },
+    "Small Snowman": {
+      "name": "Small Snowman",
+      "type": "block",
+      "file_name": "SmallSnowman.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "Snowbound.mod": {
+      "name": "Snowbound.mod",
+      "type": "potioneffect",
+      "file_name": "Snowbound.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Snowdrop": {
+      "name": "Snowdrop",
+      "type": "plant",
+      "file_name": "Snowdrop.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Snowfleck": {
+      "name": "Snowfleck",
+      "type": "potion",
+      "file_name": "SnowfleckPotion.mod",
+      "dependencies": [
+        "FIRE_RESISTANCE",
+        "WATER_BREATHING",
+        "HEALTH_BOOST"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Snow Lily": {
+      "name": "Snow Lily",
+      "type": "plant",
+      "file_name": "SnowLily.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Steel Beams": {
+      "name": "Steel Beams",
+      "type": "item",
+      "file_name": "SteelBeams.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "steel_beams_recipe": {
+      "name": "steel_beams_recipe",
+      "type": "recipe",
+      "file_name": "SteelBeamsRecipe.mod",
+      "dependencies": [
+        "SteelIngot",
+        "SteelIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SteelIngot",
+        "SteelIngot"
+      ],
+      "output": "SteelBeams",
+      "output_count": 4
+    },
+    "Steel Face Plate": {
+      "name": "Steel Face Plate",
+      "type": "item",
+      "file_name": "SteelFacePlate.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "steel_face_plate_recipe": {
+      "name": "steel_face_plate_recipe",
+      "type": "recipe",
+      "file_name": "SteelFacePlateRecipe.mod",
+      "dependencies": [
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams",
+        "SteelBeams"
+      ],
+      "output": "SteelFacePlate",
+      "output_count": 1
+    },
+    "Steel Frame": {
+      "name": "Steel Frame",
+      "type": "block",
+      "file_name": "SteelFrame.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 1.0,
+      "resistance": 10.0,
+      "tool_type": "Not specified"
+    },
+    "steel_frame_recipe": {
+      "name": "steel_frame_recipe",
+      "type": "recipe",
+      "file_name": "SteelFrameRecipe.mod",
+      "dependencies": [
+        "SteelBeams",
+        "SteelBeams",
+        "SteelFacePlate",
+        "SteelBeams",
+        "SteelBeams"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SteelBeams",
+        "SteelBeams",
+        "SteelFacePlate",
+        "SteelBeams",
+        "SteelBeams"
+      ],
+      "output": "SteelFrame",
+      "output_count": 1
+    },
+    "Steel Hammer": {
+      "name": "Steel Hammer",
+      "type": "tool",
+      "file_name": "SteelHammer.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "SteelHammerBlockDestroyedWithTool.mod": {
+      "name": "SteelHammerBlockDestroyedWithTool.mod",
+      "type": "procedure",
+      "file_name": "SteelHammerBlockDestroyedWithTool.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "steel_hammer_recipe": {
+      "name": "steel_hammer_recipe",
+      "type": "recipe",
+      "file_name": "SteelHammerRecipe.mod",
+      "dependencies": [
+        "SteelIngot",
+        "SteelIngot",
+        "SteelIngot",
+        "SteelIngot",
+        "Stick",
+        "SteelIngot",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "SteelIngot",
+        "SteelIngot",
+        "SteelIngot",
+        "SteelIngot",
+        "Stick",
+        "SteelIngot",
+        "Stick"
+      ],
+      "output": "SteelHammer",
+      "output_count": 1
+    },
+    "Steel Ingot": {
+      "name": "Steel Ingot",
+      "type": "item",
+      "file_name": "SteelIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "steel_ingot_recipe": {
+      "name": "steel_ingot_recipe",
+      "type": "recipe",
+      "file_name": "SteelIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Blasting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Steel Powder": {
+      "name": "Steel Powder",
+      "type": "item",
+      "file_name": "SteelPowder.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "SteelPowderJEI.mod": {
+      "name": "SteelPowderJEI.mod",
+      "type": "jeirecipe",
+      "file_name": "SteelPowderJEI.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Stripped Skywood Log": {
+      "name": "Stripped Skywood Log",
+      "type": "block",
+      "file_name": "StrippedSkywoodLog.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 2.0,
+      "tool_type": "axe"
+    },
+    "Stripped Skywood Wood": {
+      "name": "Stripped Skywood Wood",
+      "type": "block",
+      "file_name": "StrippedSkywoodWood.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "hardness": 2.0,
+      "resistance": 2.0,
+      "tool_type": "axe"
+    },
+    "stripped_skywood_wood_recipe": {
+      "name": "stripped_skywood_wood_recipe",
+      "type": "recipe",
+      "file_name": "StrippedSkywoodWoodRecipe.mod",
+      "dependencies": [
+        "StrippedSkywoodLog",
+        "StrippedSkywoodLog",
+        "StrippedSkywoodLog",
+        "StrippedSkywoodLog"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "StrippedSkywoodLog",
+        "StrippedSkywoodLog",
+        "StrippedSkywoodLog",
+        "StrippedSkywoodLog"
+      ],
+      "output": "StrippedSkywoodWood",
+      "output_count": 3
+    },
+    "Sub Zombie": {
+      "name": "Sub Zombie",
+      "type": "mob",
+      "file_name": "SubZombie.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "health": 10,
+      "attack_strength": 3
+    },
+    "SubZombieItIsStruckByLightning.mod": {
+      "name": "SubZombieItIsStruckByLightning.mod",
+      "type": "procedure",
+      "file_name": "SubZombieItIsStruckByLightning.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "The Great Expansion": {
+      "name": "The Great Expansion",
+      "type": "tab",
+      "file_name": "TheGreatExpansion.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "The Skylands": {
+      "name": "The Skylands",
+      "type": "dimension",
+      "file_name": "TheSkylands.mod",
+      "dependencies": [
+        "SkyFlats",
+        "mutated_forest",
+        "plains",
+        "stone_beach",
+        "beaches"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Tin Ingot": {
+      "name": "Tin Ingot",
+      "type": "item",
+      "file_name": "TinIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "tin_ingot_recipe": {
+      "name": "tin_ingot_recipe",
+      "type": "recipe",
+      "file_name": "TinIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Smelting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "Titanium": {
+      "name": "Titanium",
+      "type": "armor",
+      "file_name": "TitaniumArmour.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Titanium Axe": {
+      "name": "Titanium Axe",
+      "type": "tool",
+      "file_name": "TitaniumAxe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "titanium_boots_recipe": {
+      "name": "titanium_boots_recipe",
+      "type": "recipe",
+      "file_name": "TitaniumBootsRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "output": "TitaniumArmour.boots",
+      "output_count": 1
+    },
+    "titanium_chestplate_recipe": {
+      "name": "titanium_chestplate_recipe",
+      "type": "recipe",
+      "file_name": "TitaniumChestplateRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "SteelIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "SteelIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "output": "TitaniumArmour.body",
+      "output_count": 1
+    },
+    "titanium_helmet_recipe": {
+      "name": "titanium_helmet_recipe",
+      "type": "recipe",
+      "file_name": "TitaniumHelmetRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "output": "TitaniumArmour.helmet",
+      "output_count": 1
+    },
+    "Titanium Ingot": {
+      "name": "Titanium Ingot",
+      "type": "item",
+      "file_name": "TitaniumIngot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "titanium_ingot_recipe": {
+      "name": "titanium_ingot_recipe",
+      "type": "recipe",
+      "file_name": "TitaniumIngotRecipe.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Smelting",
+      "inputs": [],
+      "output": "",
+      "output_count": 1
+    },
+    "titanium_leggings_recipe": {
+      "name": "titanium_leggings_recipe",
+      "type": "recipe",
+      "file_name": "TitaniumLeggingsRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "SteelIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "SteelIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "TitaniumIngot"
+      ],
+      "output": "TitaniumArmour.legs",
+      "output_count": 1
+    },
+    "Titanium Sword": {
+      "name": "Titanium Sword",
+      "type": "tool",
+      "file_name": "TitaniumSword.mod",
+      "dependencies": [
+        "TitaniumIngot"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "titanium_sword_recipe": {
+      "name": "titanium_sword_recipe",
+      "type": "recipe",
+      "file_name": "TitaniumSwordRecipe.mod",
+      "dependencies": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "Stick"
+      ],
+      "recipes_using": [],
+      "recipe_outputs": [],
+      "recipe_type": "Crafting",
+      "inputs": [
+        "TitaniumIngot",
+        "TitaniumIngot",
+        "Stick"
+      ],
+      "output": "TitaniumSword",
+      "output_count": 1
+    },
+    "WaterTank.mod": {
+      "name": "WaterTank.mod",
+      "type": "fluid_tanks",
+      "file_name": "WaterTank.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Wild Tundra": {
+      "name": "Wild Tundra",
+      "type": "biome",
+      "file_name": "WildTundra.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "Winterberry": {
+      "name": "Winterberry",
+      "type": "plant",
+      "file_name": "Winterberry.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    },
+    "XMarksTheSpot.mod": {
+      "name": "XMarksTheSpot.mod",
+      "type": "achievement",
+      "file_name": "XMarksTheSpot.mod",
+      "dependencies": [],
+      "recipes_using": [],
+      "recipe_outputs": []
+    }
+  }
+}

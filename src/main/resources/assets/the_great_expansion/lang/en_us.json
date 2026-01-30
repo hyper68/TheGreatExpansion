@@ -189,5 +189,10 @@
   "advancements.x_marks_the_spot.descr": "Activate a sky catalyst marker",
   "advancements.x_marks_the_spot.title": "X Marks The Spot",
   "block.the_great_expansion.sky_berry_plant": "Sky Berry Plant",
-  "block.the_great_expansion.skyshard_block": "Skyshard Block"
+  "block.the_great_expansion.skyshard_block": "Skyshard Block",
+  "block.the_great_expansion.ice_machine": "Ice Machine",
+  "block.the_great_expansion.water_pump": "Water Pump",
+  "gui.the_great_expansion.water_pump_gui.label_water_level": "Water level",
+  "gui.the_great_expansion.water_pump_gui.label_energylevel": "EnergyLevel",
+  "gui.the_great_expansion.water_pump_gui.button_test": "test"
 }
