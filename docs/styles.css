@@ -89,6 +89,7 @@ nav .container {
     min-height: 100vh;
     display: flex;
     align-items: center;
+    margin-top: 70px; /* Account for fixed header */
 }
 
 .hero-content {
@@ -224,10 +225,11 @@ nav .container {
 }
 
 .mod-features li::before {
-    content: "→";
+    content: "•";
     position: absolute;
     left: 0;
     color: var(--white);
+    font-weight: bold;
 }
 
 .mod-link {
