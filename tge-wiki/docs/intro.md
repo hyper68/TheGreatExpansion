@@ -3,116 +3,87 @@ sidebar_position: 1
 slug: /
 ---
 
-# The Great Expansion Wiki
+# The Great Expansion
 
-Welcome to the comprehensive wiki for **The Great Expansion (TGE)** mod! This wiki provides detailed information about all aspects of the mod, from basic resources to advanced machinery.
+**The Great Expansion** is a Minecraft mod for version 1.21.x that adds new ores, tools, armor, machines, and biomes to the game.
 
-## 🎮 What is The Great Expansion?
+## Contents
 
-The Great Expansion is a comprehensive Minecraft mod that significantly expands your gameplay experience with:
+The Great Expansion adds the following content:
 
-- **15+ New Ores** - Including Bauxite, Cassiterite, Galena, Ilmenite, Cryonite, and the rare Aqualith
-- **Multiple Tool & Armor Sets** - Each with unique properties and advantages
-- **Industrial Machines** - Automation, ore processing, and power generation
-- **New Biomes** - Frozen tundras, unique landscapes, and special structures
-- **Building Materials** - Decorative blocks, pillars, and architectural elements
-- **Energy Systems** - Power generation, storage, and distribution
-- **Fluid Processing** - Oil refining and chemical systems
-- **And Much More!**
+### Ores and Materials
+- 8 new ore types that generate in the Overworld
+- New ingot types obtained from smelting ores
+- Special materials for advanced crafting
 
-## 📚 Wiki Sections
+### Tools and Weapons
+- Aqualith tool set (Durability: 1561)
+- Titanium tool set (Durability: 1500)
+- Diamond Hammer (Durability: 1561, mines 3×3 area)
+- Iron Hammer (Durability: 250, mines 3×3 area)
+- Steel Hammer (Durability: 1000, mines 3×3 area)
 
-### [Getting Started](./getting-started)
-New to The Great Expansion? Start here to learn the basics and get your first steps into the expanded world of Minecraft.
+### Armor
+- **Aqualith Armor** - Durability: 39 per piece, Protection: 8/24/20/8 (Helmet/Chestplate/Leggings/Boots), Toughness: 3.0, Enchantability: 36
+- **Titanium Armor** - Durability: 15 per piece, Protection: 2/6/5/2, Toughness: 0.0, Enchantability: 9
 
-### [Ores & Materials](./ores-and-materials)
-Comprehensive guide to all new ores, ingots, and raw materials added by TGE, including where to find them and how to process them.
+### Machines
+- Crusher - Processes ores and materials
+- Induction Furnace - Smelts items with increased efficiency
+- Refinery - Converts crude oil into fuels
+- Germination Tank - Accelerates plant growth
+- Pressure Cooker - Cooks food and processes materials
+- Propane Generator - Generates power from propane
+- Ice Cutter - Processes ice blocks
+- Jewelry Workbench - Crafts jewelry and accessories
+- Filler - Automates block placement
 
-### [Tools & Weapons](./tools-and-weapons)
-Detailed information about all new tool sets, weapons, and their unique properties.
+### Biomes
+- **Snowbound** - Frozen biome variant
+- **Wild Tundra** - Cold biome with unique vegetation
 
-### [Armor](./armor)
-Complete armor sets guide, including stats, crafting recipes, and special abilities.
+### World Generation
+- New ore generation in various Y-levels
+- Palo trees in cold biomes
+- Underground fluid pockets (Natural Gas, Nitrogen, Crude Oil)
 
-### [Machines & Automation](./machines)
-Learn about all the machines in TGE - from crushers and refineries to advanced power generation.
+## Obtaining
 
-### [Biomes & World Generation](./biomes)
-Explore the new biomes, structures, and world features added by The Great Expansion.
+The Great Expansion can be installed using NeoForge mod loader for Minecraft 1.21.x.
 
-### [Blocks & Building](./blocks)
-Building materials, decorative blocks, and architectural elements for your constructions.
+## Data Values
 
-### [Plants & Flora](./plants)
-New plants, flowers, and trees to discover and utilize.
+### Ore Hardness
+All ores have the following properties:
+- Hardness: 1.0
+- Blast Resistance: 10.0
+- Requires: Iron Pickaxe or better
+- Stack Size: 64
 
-### [Mobs & Entities](./mobs)
-Information about new creatures, their behavior, drops, and trading.
+### Armor Comparison
 
-### [Recipe Guides](./recipes)
-Crafting chains, processing recipes, and material conversion guides.
+| Armor Type | Material | Durability Multiplier | Protection (Total) | Toughness | Enchantability |
+|------------|----------|----------------------|-------------------|-----------|----------------|
+| Aqualith   | Aqualith | 39 | 60 | 3.0 | 36 |
+| Titanium   | Titanium Ingot | 15 | 15 | 0.0 | 9 |
 
-### [Tips & Tricks](./guides)
-Advanced strategies, optimization guides, and helpful tips for mastering TGE.
+### Tool Comparison
 
----
+| Tool | Material | Durability | Attack Damage | Attack Speed | Efficiency | Enchantability |
+|------|----------|------------|---------------|--------------|------------|----------------|
+| Titanium Sword | Titanium Ingot | 100 | 8.5 | 1.6 | 4.0 | 2 |
+| Diamond Hammer | Diamond | 1561 | 4.0 | 1.4 | 8.0 | 10 |
+| Iron Hammer | Iron Ingot | 250 | 4.0 | 1.4 | 8.0 | 4 |
+| Steel Hammer | Steel Ingot | 1000 | 4.0 | 1.4 | 8.0 | 4 |
 
-## 🔧 Mod Information
+## History
 
-- **Mod Version:** 1.0+
-- **Minecraft Version:** 1.21.x
-- **Mod Loader:** NeoForge
-- **GitHub:** [hyper68/TheGreatExpansion](https://github.com/hyper68/TheGreatExpansion)
+This mod is currently in active development.
 
-## 🌟 Featured Systems
+## See also
 
-### Multi-Stage Ore Processing
-TGE introduces an advanced ore processing system:
-1. **Mine** raw ores from the world
-2. **Crush** them in machines for double yield
-3. **Smelt or Refine** for pure materials
-4. **Craft** advanced items and equipment
-
-### Power Generation
-Multiple power generation options:
-- **Propane Generators** for portable, fuel-based power
-- **Lavaleer** for lava-powered generation
-- **Induction Furnaces** for efficient material processing
-- **Energy Storage** systems for power buffering
-
-### Custom Biomes & Resources
-- **Snowbound Biome** with unique frozen resources
-- **Palo Trees** providing special wood types
-- **Permafrost Iron** abundant in cold regions
-- **Underwater Aqualith** deposits in oceans
-
----
-
-## 💡 Quick Start Guide
-
-1. **Install the mod** using NeoForge
-2. **Start mining** common ores like Bauxite
-3. **Build your first Crusher** to double ore output
-4. **Set up power generation** with a Propane Generator
-5. **Explore frozen biomes** for unique resources
-6. **Craft advanced tools** like Titanium or Aqualith sets
-
----
-
-## 📖 How to Use This Wiki
-
-- **Browse by category** using the sidebar navigation
-- **Search** for specific items using the search bar (Ctrl+K)
-- **Follow progression paths** from early to late game
-- **Check cross-references** for related topics
-- **View recipes** in-game using JEI (Just Enough Items)
-
----
-
-## 🤝 Contributing
-
-Found an error or want to improve the wiki? Visit our [GitHub repository](https://github.com/hyper68/TheGreatExpansion) to contribute!
-
----
-
-**Ready to expand your Minecraft experience? Let's get started!** 🚀
+- [Ores and Materials](./ores-and-materials)
+- [Tools and Weapons](./tools-and-weapons)
+- [Armor](./armor)
+- [Machines](./machines)
+- [Biomes](./biomes)
