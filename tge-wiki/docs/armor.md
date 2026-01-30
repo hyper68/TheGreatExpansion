@@ -2,296 +2,139 @@
 sidebar_position: 5
 ---
 
-# Armor Guide
+# Armor
 
-Complete guide to all armor sets in The Great Expansion, including stats, recipes, and special properties.
+The Great Expansion adds two armor sets to Minecraft.
 
-## 📋 Table of Contents
+## Armor Sets
 
-1. [Armor Sets Overview](#armor-sets-overview)
-2. [Aqualith Armor](#aqualith-armor)
-3. [Titanium Armor](#titanium-armor)
-4. [Silicon Padding](#silicon-padding)
-5. [Armor Comparison](#armor-comparison)
-6. [Enchantments](#enchantments)
+### Aqualith Armor
+**Aqualith Armor** is a complete armor set crafted from Aqualith gems.
 
----
-
-## 🛡️ Armor Sets Overview
-
-The Great Expansion adds several armor sets with unique properties and protection levels.
-
-###Available Armor Sets
-- **Aqualith Armor** - Aquatic-themed with water breathing
-- **Titanium Armor** - End-game, highest protection
-- **Silicon Padding** - Lightweight, insulation properties
-
----
-
-## 💎 Aqualith Armor
-**Mystical armor from the depths**
-
-### Stats
-- **Durability:** 39 uses per piece
-- **Protection:**
+#### Statistics
+- Durability multiplier: 39
+- Armor points (total): 60
   - Helmet: 8 armor points
   - Chestplate: 24 armor points
   - Leggings: 20 armor points
   - Boots: 8 armor points
-- **Toughness:** 3.0
-- **Knockback Resistance:** 0.0
-- **Enchantability:** 36
+- Toughness: 3.0
+- Knockback resistance: 0.0
+- Enchantability: 36
+- Repair material: Aqualith
 
-### Special Properties
-- 💧 **Water Breathing** - Breathe underwater indefinitely (full set)
-- 🌊 **Swim Speed** - 50% faster swimming (full set)
-- 🐟 **Aquatic Affinity** - Mine faster underwater
-- 💙 **Night Vision** - See clearly in dark water
+#### Durability per Piece
+Using the durability multiplier of 39:
+- Helmet: 429 uses (39 × 11)
+- Chestplate: 624 uses (39 × 16)
+- Leggings: 585 uses (39 × 15)
+- Boots: 507 uses (39 × 13)
 
-### Crafting
-**Material:** Aqualith gems (from Aqualith Ore)
-
-```
-Helmet:
-[Aqualith] [Aqualith] [Aqualith]
-[Aqualith]     [ ]    [Aqualith]
-    [ ]        [ ]        [ ]
-
-Chestplate:
-[Aqualith]     [ ]    [Aqualith]
-[Aqualith] [Aqualith] [Aqualith]
-[Aqualith] [Aqualith] [Aqualith]
-
-Leggings:
-[Aqualith] [Aqualith] [Aqualith]
-[Aqualith]     [ ]    [Aqualith]
-[Aqualith]     [ ]    [Aqualith]
-
-Boots:
-    [ ]        [ ]        [ ]
-[Aqualith]     [ ]    [Aqualith]
-[Aqualith]     [ ]    [Aqualith]
-```
-
-### Best Uses
-- Ocean exploration and building
-- Ocean monument raids
-- Underwater mining operations
-- Deep sea treasure hunting
-- Guardian farming
+#### Equip Sound
+Default armor equip sound.
 
 ---
 
-## ⚡ Titanium Armor
-**Ultimate protection for end-game content**
+### Titanium Armor
+**Titanium Armor** is a complete armor set crafted from Titanium Ingots.
 
-### Stats
-- **Durability:** High (2000+ per piece)
-- **Protection:** Maximum defense
-- **Toughness:** 4.0
-- **Knockback Resistance:** 0.1 per piece
+#### Statistics
+- Durability multiplier: 15
+- Armor points (total): 15
+  - Helmet: 2 armor points
+  - Chestplate: 6 armor points
+  - Leggings: 5 armor points
+  - Boots: 2 armor points
+- Toughness: 0.0
+- Knockback resistance: 0.0
+- Enchantability: 9
+- Repair material: Titanium Ingot
 
-### Special Properties
-- 💪 **Maximum Defense** - Best protection in the mod
-- ⚡ **High Durability** - Lasts extremely long
-- 🛡️ **Knockback Resistance** - Stand your ground
-- ✨ **Excellent Enchantability** - Better enchantments
+#### Durability per Piece
+Using the durability multiplier of 15:
+- Helmet: 165 uses (15 × 11)
+- Chestplate: 240 uses (15 × 16)
+- Leggings: 225 uses (15 × 15)
+- Boots: 195 uses (15 × 13)
 
-### Crafting
-**Material:** Titanium Ingots (from Ilmenite Ore)
-
-```
-Helmet Recipe:
-[Titanium] [Titanium] [Titanium]
-[Titanium]     [ ]    [Titanium]
-    [ ]        [ ]        [ ]
-
-Chestplate Recipe:
-[Titanium]     [ ]    [Titanium]
-[Titanium] [Titanium] [Titanium]
-[Titanium] [Titanium] [Titanium]
-
-Leggings Recipe:
-[Titanium] [Titanium] [Titanium]
-[Titanium]     [ ]    [Titanium]
-[Titanium]     [ ]    [Titanium]
-
-Boots Recipe:
-    [ ]        [ ]        [ ]
-[Titanium]     [ ]    [Titanium]
-[Titanium]     [ ]    [Titanium]
-```
-
-### Best Uses
-- End-game content and bosses
-- PvP combat
-- Dangerous mob farming
-- Nether fortress raids
-- Heavy exploration
+#### Equip Sound
+`item.armor.equip_iron`
 
 ---
 
-## 🧤 Silicon Padding
-**Specialized protective padding**
+## Armor Comparison
 
-### Components
-- Silicon Padding Helmet
-- Silicon Padding Chestplate
-- Silicon Padding Leggings
-- Silicon Padding Boots
+### Protection Values
 
-### Properties
-- Lightweight protection
-- Insulation properties
-- Can be worn under other armor
-- Heat/cold resistance
-
-### Crafting
-**Material:** Silicon Sheets (from Silicon Ingots)
-
-### Uses
-- Temperature protection
-- Additional layer of defense
-- Machine work safety
-- Hazardous environment protection
-
----
-
-## 📊 Armor Comparison
-
-### Protection Level
-1. **Titanium Armor** ⭐⭐⭐⭐⭐ - Maximum defense
-2. **Aqualith Armor** ⭐⭐⭐⭐ - High defense
-3. **Diamond Armor** ⭐⭐⭐⭐ - Vanilla high-tier
-4. **Silicon Padding** ⭐⭐ - Light protection
+| Armor Type | Helmet | Chestplate | Leggings | Boots | Total |
+|------------|--------|------------|----------|-------|-------|
+| Aqualith | 8 | 24 | 20 | 8 | 60 |
+| Titanium | 2 | 6 | 5 | 2 | 15 |
+| Diamond | 3 | 8 | 6 | 3 | 20 |
+| Iron | 2 | 6 | 5 | 2 | 15 |
 
 ### Durability
-1. **Titanium** - 2000+ uses
-2. **Aqualith** - 1500+ uses
-3. **Diamond** - 363+ uses
-4. **Silicon** - Varies
 
-### Special Features
-- **Aqualith** - Water breathing, swim speed
-- **Titanium** - Knockback resistance
-- **Silicon** - Insulation, lightweight
+| Armor Type | Helmet | Chestplate | Leggings | Boots |
+|------------|--------|------------|----------|-------|
+| Aqualith | 429 | 624 | 585 | 507 |
+| Titanium | 165 | 240 | 225 | 195 |
+| Diamond | 363 | 528 | 495 | 429 |
+| Iron | 165 | 240 | 225 | 195 |
 
-### Enchantability
-1. **Aqualith** - 36 (Excellent)
-2. **Titanium** - 15 (Good)
-3. **Diamond** - 10 (Standard)
+### Other Properties
 
----
-
-## ✨ Enchantments
-
-### Recommended Enchantments
-
-#### **Helmet**
-- Protection IV
-- Respiration III (especially with Aqualith)
-- Aqua Affinity
-- Unbreaking III
-- Mending
-
-#### **Chestplate**
-- Protection IV
-- Thorns III
-- Unbreaking III
-- Mending
-
-#### **Leggings**
-- Protection IV
-- Swift Sneak III
-- Unbreaking III
-- Mending
-
-#### **Boots**
-- Protection IV
-- Depth Strider III (or Frost Walker II)
-- Feather Falling IV
-- Unbreaking III
-- Mending
-
-### Optimal Configurations
-
-**Titanium Armor (Combat Focus):**
-```
-All pieces: Protection IV, Unbreaking III, Mending
-Helmet: Respiration III
-Boots: Feather Falling IV, Depth Strider III
-```
-
-**Aqualith Armor (Aquatic Focus):**
-```
-All pieces: Protection IV, Unbreaking III, Mending
-Helmet: Respiration III, Aqua Affinity
-Boots: Depth Strider III
-```
+| Armor Type | Toughness | Knockback Resistance | Enchantability |
+|------------|-----------|----------------------|----------------|
+| Aqualith | 3.0 | 0.0 | 36 |
+| Titanium | 0.0 | 0.0 | 9 |
+| Diamond | 2.0 | 0.0 | 10 |
+| Iron | 0.0 | 0.0 | 9 |
 
 ---
 
-## 💡 Usage Tips
+## Obtaining
 
-### Early Game
-1. Start with iron or diamond armor
-2. Collect Aqualith for water work
-3. Save titanium for later
+### Crafting
+All armor pieces follow standard Minecraft armor crafting patterns:
+- Helmet: 5 material
+- Chestplate: 8 material
+- Leggings: 7 material
+- Boots: 4 material
 
-### Mid Game
-1. Craft Aqualith armor for ocean exploration
-2. Begin collecting titanium ore
-3. Enchant your best armor set
+Total material required per full set: 24 pieces
 
-### Late Game
-1. Craft full Titanium armor
-2. Max enchant everything
-3. Keep specialized sets (Aqualith for water)
-4. Have backup armor with Mending
-
-### Maintenance
-1. **Use Mending** - Best way to maintain armor
-2. **XP Farm** - Keep armor repaired automatically
-3. **Backup Sets** - Have spare armor
-4. **Anvil Repair** - Emergency repairs with materials
-
-### Situational Armor
-- **Ocean Work:** Aqualith Armor
-- **Combat:** Titanium Armor
-- **Hot Environments:** Silicon Padding
-- **General Use:** Best available with Protection
+### Materials
+- **Aqualith**: Obtained from mining Aqualith Ore (found underwater)
+- **Titanium Ingot**: Smelted from Ilmenite Ore
 
 ---
 
-## 🎯 Recommended Loadouts
+## Usage
 
-### Ocean Explorer
-- **Armor:** Full Aqualith Set
-- **Enchants:** Protection IV, Respiration III, Depth Strider III
-- **Tools:** Aqualith Pickaxe & Sword
-- **Potions:** Night Vision (backup)
+### Protection
+Armor provides damage reduction based on armor points and toughness values. Higher values provide better protection against damage.
 
-### Combat Specialist
-- **Armor:** Full Titanium Set
-- **Enchants:** Protection IV, Thorns III, Feather Falling IV
-- **Weapon:** Titanium Sword (Sharpness V)
-- **Potions:** Strength, Speed, Health
+### Durability
+Armor loses durability when the player takes damage. The durability values shown are maximum uses before the armor breaks.
 
-### All-Purpose Adventurer
-- **Armor:** Titanium or Aqualith (situation dependent)
-- **Enchants:** Full Protection suite with Mending
-- **Tools:** Best available for each task
-- **Backup:** Second armor set in Ender Chest
+### Enchanting
+Both armor sets can be enchanted. Aqualith armor has higher enchantability (36), making it more likely to receive better enchantments at the same experience level.
 
 ---
 
-## 🔗 Related Pages
+## Data Values
 
-- **[Tools & Weapons](./tools-and-weapons)** - Complement your armor
-- **[Ores & Materials](./ores-and-materials)** - Armor materials
-- **[Getting Started](./getting-started)** - Armor progression
-- **[Guides](./guides)** - Advanced strategies
+Armor piece IDs use the namespace `the_great_expansion:` followed by the armor piece name.
+
+Examples:
+- `the_great_expansion:aqualith_helmet`
+- `the_great_expansion:aqualith_chestplate`
+- `the_great_expansion:titanium_helmet`
 
 ---
 
-**Gear Up and Stay Protected!** 🛡️⚔️
+## See also
+- [Tools and Weapons](./tools-and-weapons)
+- [Ores and Materials](./ores-and-materials)
+- [Recipes](./recipes)
