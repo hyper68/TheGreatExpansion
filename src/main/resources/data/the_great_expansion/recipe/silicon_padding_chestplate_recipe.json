@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:silicon_sheets"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:silicon_padding_chestplate",
+    "count": 1
+  }
+}
