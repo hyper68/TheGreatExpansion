@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "the_great_expansion:skylariam_gem"
+      "id": "the_great_expansion:sky_catalyst"
     },
     "title": {
       "translate": "advancements.bada_bing_bada_boom.title"
@@ -10,7 +10,7 @@
       "translate": "advancements.bada_bing_bada_boom.descr"
     },
     "frame": "task",
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": true,
     "hidden": false
   },
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "the_great_expansion:skylariam_gem"
+              "the_great_expansion:sky_catalyst"
             ],
             "count": {
               "min": 1,

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "cba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:ghast_tear"
+    },
+    "b": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "c": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "d": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:sky_tome",
+    "count": 1
+  }
+}

@@ -37,6 +37,16 @@ public class TheGreatExpansionModBlockEntities {
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<LavaleerBlockEntity>> LAVALEER = register("lavaleer", TheGreatExpansionModBlocks.LAVALEER, LavaleerBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<IceMachineBlockEntity>> ICE_MACHINE = register("ice_machine", TheGreatExpansionModBlocks.ICE_MACHINE, IceMachineBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<WaterPumpBlockEntity>> WATER_PUMP = register("water_pump", TheGreatExpansionModBlocks.WATER_PUMP, WaterPumpBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TomeEmitterBlockEntity>> TOME_EMITTER = register("tome_emitter", TheGreatExpansionModBlocks.TOME_EMITTER, TomeEmitterBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TomeEmitterFlightBlockEntity>> TOME_EMITTER_FLIGHT = register("tome_emitter_flight", TheGreatExpansionModBlocks.TOME_EMITTER_FLIGHT, TomeEmitterFlightBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TomeEmitterSkyBlockEntity>> TOME_EMITTER_SKY = register("tome_emitter_sky", TheGreatExpansionModBlocks.TOME_EMITTER_SKY, TomeEmitterSkyBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TomeEmitterNatureBlockEntity>> TOME_EMITTER_NATURE = register("tome_emitter_nature", TheGreatExpansionModBlocks.TOME_EMITTER_NATURE, TomeEmitterNatureBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TomeEmitterEarthBlockEntity>> TOME_EMITTER_EARTH = register("tome_emitter_earth", TheGreatExpansionModBlocks.TOME_EMITTER_EARTH, TomeEmitterEarthBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ActivatorBenchBlockEntity>> ACTIVATOR_BENCH = register("activator_bench", TheGreatExpansionModBlocks.ACTIVATOR_BENCH, ActivatorBenchBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ActivatorBenchIgniterBlockEntity>> ACTIVATOR_BENCH_IGNITER = register("activator_bench_igniter", TheGreatExpansionModBlocks.ACTIVATOR_BENCH_IGNITER,
+			ActivatorBenchIgniterBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ActivatorBenchIgniterInBlockEntity>> ACTIVATOR_BENCH_IGNITER_IN = register("activator_bench_igniter_in", TheGreatExpansionModBlocks.ACTIVATOR_BENCH_IGNITER_IN,
+			ActivatorBenchIgniterInBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -71,5 +81,13 @@ public class TheGreatExpansionModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, WATER_PUMP.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, WATER_PUMP.get(), (blockEntity, side) -> blockEntity.getEnergyStorage());
 		event.registerBlockEntity(Capabilities.FluidHandler.BLOCK, WATER_PUMP.get(), (blockEntity, side) -> blockEntity.getFluidTank());
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TOME_EMITTER.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TOME_EMITTER_FLIGHT.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TOME_EMITTER_SKY.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TOME_EMITTER_NATURE.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TOME_EMITTER_EARTH.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ACTIVATOR_BENCH.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ACTIVATOR_BENCH_IGNITER.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ACTIVATOR_BENCH_IGNITER_IN.get(), SidedInvWrapper::new);
 	}
 }

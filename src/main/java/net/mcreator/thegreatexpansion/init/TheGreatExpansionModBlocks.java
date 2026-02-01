@@ -113,6 +113,14 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> SKYSHARD_BLOCK;
 	public static final DeferredBlock<Block> ICE_MACHINE;
 	public static final DeferredBlock<Block> WATER_PUMP;
+	public static final DeferredBlock<Block> TOME_EMITTER;
+	public static final DeferredBlock<Block> TOME_EMITTER_FLIGHT;
+	public static final DeferredBlock<Block> TOME_EMITTER_SKY;
+	public static final DeferredBlock<Block> TOME_EMITTER_NATURE;
+	public static final DeferredBlock<Block> TOME_EMITTER_EARTH;
+	public static final DeferredBlock<Block> ACTIVATOR_BENCH;
+	public static final DeferredBlock<Block> ACTIVATOR_BENCH_IGNITER;
+	public static final DeferredBlock<Block> ACTIVATOR_BENCH_IGNITER_IN;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -214,6 +222,14 @@ public class TheGreatExpansionModBlocks {
 		SKYSHARD_BLOCK = REGISTRY.register("skyshard_block", SkyshardBlockBlock::new);
 		ICE_MACHINE = REGISTRY.register("ice_machine", IceMachineBlock::new);
 		WATER_PUMP = REGISTRY.register("water_pump", WaterPumpBlock::new);
+		TOME_EMITTER = REGISTRY.register("tome_emitter", TomeEmitterBlock::new);
+		TOME_EMITTER_FLIGHT = REGISTRY.register("tome_emitter_flight", TomeEmitterFlightBlock::new);
+		TOME_EMITTER_SKY = REGISTRY.register("tome_emitter_sky", TomeEmitterSkyBlock::new);
+		TOME_EMITTER_NATURE = REGISTRY.register("tome_emitter_nature", TomeEmitterNatureBlock::new);
+		TOME_EMITTER_EARTH = REGISTRY.register("tome_emitter_earth", TomeEmitterEarthBlock::new);
+		ACTIVATOR_BENCH = REGISTRY.register("activator_bench", ActivatorBenchBlock::new);
+		ACTIVATOR_BENCH_IGNITER = REGISTRY.register("activator_bench_igniter", ActivatorBenchIgniterBlock::new);
+		ACTIVATOR_BENCH_IGNITER_IN = REGISTRY.register("activator_bench_igniter_in", ActivatorBenchIgniterInBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

@@ -68,7 +68,7 @@
       "value": "block.portal.ambient"
     },
     "enableIgniter": true,
-    "igniterName": "The Skylands Portal Igniter",
+    "igniterName": "The Skylands Igniter",
     "igniterRarity": "UNCOMMON",
     "specialInformation": {
       "fixedValue": []

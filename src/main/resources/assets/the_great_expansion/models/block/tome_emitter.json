@@ -1,0 +1,13 @@
+{
+  "parent": "the_great_expansion:custom/tome_emitter",
+  "textures": {
+    "all": "the_great_expansion:block/tome_emitter_icon",
+    "particle": "the_great_expansion:block/tome_emitter_icon",
+    "11": "the_great_expansion:block/tome_emitter_base",
+    "4": "the_great_expansion:block/tome_emitter_empty",
+    "missing": "the_great_expansion:block/tome_emitter_pillar",
+    "9": "the_great_expansion:block/tome_emitter_pillar",
+    "10": "the_great_expansion:block/tome_emitter_detail"
+  },
+  "render_type": "solid"
+}

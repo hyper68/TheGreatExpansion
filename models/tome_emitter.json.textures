@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "11": "tome_emitter_base",
+        "4": "tome_emitter_empty",
+        "missing": "tome_emitter_pillar",
+        "9": "tome_emitter_pillar",
+        "10": "tome_emitter_detail"
+      }
+    },
+    "flight": {
+      "name": "flight",
+      "map": {
+        "11": "tome_emitter_base",
+        "4": "tome_emitter_flight",
+        "missing": "tome_emitter_pillar",
+        "9": "tome_emitter_pillar",
+        "10": "tome_emitter_detail"
+      }
+    },
+    "sky": {
+      "name": "sky",
+      "map": {
+        "11": "tome_emitter_base",
+        "4": "tome_emitter_sky",
+        "missing": "tome_emitter_pillar",
+        "9": "tome_emitter_pillar",
+        "10": "tome_emitter_detail"
+      }
+    },
+    "nature": {
+      "name": "nature",
+      "map": {
+        "11": "tome_emitter_base",
+        "4": "tome_emitter_nature",
+        "missing": "tome_emitter_pillar",
+        "9": "tome_emitter_pillar",
+        "10": "tome_emitter_detail"
+      }
+    },
+    "earth": {
+      "name": "earth",
+      "map": {
+        "11": "tome_emitter_base",
+        "4": "tome_emitter_earth",
+        "missing": "tome_emitter_pillar",
+        "9": "tome_emitter_pillar",
+        "10": "tome_emitter_detail"
+      }
+    }
+  }
+}

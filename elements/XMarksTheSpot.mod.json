@@ -5,7 +5,7 @@
     "achievementName": "X Marks The Spot",
     "achievementDescription": "Activate a sky catalyst marker",
     "achievementIcon": {
-      "value": "CUSTOM:SkylariamGem"
+      "value": "CUSTOM:SkyCatalystMarker"
     },
     "background": "Default",
     "disableDisplay": false,

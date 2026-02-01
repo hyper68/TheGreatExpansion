@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "bdb",
+    "eba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "b": {
+      "item": "the_great_expansion:titanium_ingot"
+    },
+    "c": {
+      "item": "minecraft:water_bucket"
+    },
+    "d": {
+      "item": "minecraft:book"
+    },
+    "e": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:earth_tome",
+    "count": 1
+  }
+}

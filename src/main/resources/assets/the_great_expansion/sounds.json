@@ -54,5 +54,21 @@
         "stream": false
       }
     ]
+  },
+  "tome_wind_woosh": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:wind-magic-5-378630",
+        "stream": false
+      }
+    ]
+  },
+  "shine": {
+    "sounds": [
+      {
+        "name": "the_great_expansion:meaningful-shine-sfx-215264",
+        "stream": false
+      }
+    ]
   }
 }

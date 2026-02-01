@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb"
+  ],
+  "key": {
+    "a": {
+      "tag": "minecraft:terracotta"
+    },
+    "b": {
+      "item": "minecraft:cracked_deepslate_bricks"
+    },
+    "c": {
+      "item": "minecraft:deepslate_tile_slab"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:activator_bench",
+    "count": 1
+  }
+}

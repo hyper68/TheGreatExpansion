@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_great_expansion:block/tome_emitter_earth"
+    },
+    "facing=east": {
+      "model": "the_great_expansion:block/tome_emitter_earth",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_great_expansion:block/tome_emitter_earth",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_great_expansion:block/tome_emitter_earth",
+      "y": 270
+    }
+  }
+}

@@ -171,6 +171,12 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> SKYSHARD_BLOCK;
 	public static final DeferredItem<Item> ICE_MACHINE;
 	public static final DeferredItem<Item> WATER_PUMP;
+	public static final DeferredItem<Item> FLIGHT_TOME;
+	public static final DeferredItem<Item> SKY_TOME;
+	public static final DeferredItem<Item> EARTH_TOME;
+	public static final DeferredItem<Item> NATURE_TOME;
+	public static final DeferredItem<Item> TOME_EMITTER;
+	public static final DeferredItem<Item> ACTIVATOR_BENCH;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -321,6 +327,12 @@ public class TheGreatExpansionModItems {
 		SKYSHARD_BLOCK = block(TheGreatExpansionModBlocks.SKYSHARD_BLOCK);
 		ICE_MACHINE = block(TheGreatExpansionModBlocks.ICE_MACHINE);
 		WATER_PUMP = block(TheGreatExpansionModBlocks.WATER_PUMP);
+		FLIGHT_TOME = REGISTRY.register("flight_tome", FlightTomeItem::new);
+		SKY_TOME = REGISTRY.register("sky_tome", SkyTomeItem::new);
+		EARTH_TOME = REGISTRY.register("earth_tome", EarthTomeItem::new);
+		NATURE_TOME = REGISTRY.register("nature_tome", NatureTomeItem::new);
+		TOME_EMITTER = block(TheGreatExpansionModBlocks.TOME_EMITTER);
+		ACTIVATOR_BENCH = block(TheGreatExpansionModBlocks.ACTIVATOR_BENCH);
 	}
 
 	// Start of user code block custom items

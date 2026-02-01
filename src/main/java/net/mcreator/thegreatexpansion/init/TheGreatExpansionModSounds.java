@@ -21,4 +21,6 @@ public class TheGreatExpansionModSounds {
 	public static final DeferredHolder<SoundEvent, SoundEvent> SKYBOUND = REGISTRY.register("skybound", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("the_great_expansion", "skybound")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SKYSTHELIMITSFX = REGISTRY.register("skysthelimitsfx", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("the_great_expansion", "skysthelimitsfx")));
 	public static final DeferredHolder<SoundEvent, SoundEvent> SKYCATALYSTSFX = REGISTRY.register("skycatalystsfx", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("the_great_expansion", "skycatalystsfx")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> TOME_WIND_WOOSH = REGISTRY.register("tome_wind_woosh", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("the_great_expansion", "tome_wind_woosh")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> SHINE = REGISTRY.register("shine", () -> SoundEvent.createVariableRangeEvent(ResourceLocation.fromNamespaceAndPath("the_great_expansion", "shine")));
 }

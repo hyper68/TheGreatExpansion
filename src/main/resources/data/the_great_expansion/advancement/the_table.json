@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:activator_bench"
+    },
+    "title": {
+      "translate": "advancements.the_table.title"
+    },
+    "description": {
+      "translate": "advancements.the_table.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_table_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "the_great_expansion:activator_bench"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:i_gotta_emmit"
+}

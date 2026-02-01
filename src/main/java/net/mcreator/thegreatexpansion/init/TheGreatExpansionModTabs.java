@@ -109,8 +109,12 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModBlocks.SKY_CATALYST_MARKER.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.SKY_BERRY_PLANT.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.SKYSHARD_BLOCK.get().asItem());
-				tabData.accept(TheGreatExpansionModBlocks.ICE_MACHINE.get().asItem());
-				tabData.accept(TheGreatExpansionModBlocks.WATER_PUMP.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.FLIGHT_TOME.get());
+				tabData.accept(TheGreatExpansionModItems.SKY_TOME.get());
+				tabData.accept(TheGreatExpansionModItems.EARTH_TOME.get());
+				tabData.accept(TheGreatExpansionModItems.NATURE_TOME.get());
+				tabData.accept(TheGreatExpansionModBlocks.TOME_EMITTER.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.ACTIVATOR_BENCH.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

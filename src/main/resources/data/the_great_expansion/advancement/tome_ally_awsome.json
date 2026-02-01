@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "id": "the_great_expansion:flight_tome"
+    },
+    "title": {
+      "translate": "advancements.tome_ally_awsome.title"
+    },
+    "description": {
+      "translate": "advancements.tome_ally_awsome.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tome_ally_awsome_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

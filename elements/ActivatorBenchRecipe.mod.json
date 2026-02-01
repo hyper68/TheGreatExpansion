@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.STAINED_HARDENED_CLAY"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CRACKED_DEEPSLATE_BRICKS"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_TILE_SLAB"
+      },
+      {
+        "value": "Blocks.CRACKED_DEEPSLATE_BRICKS"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ActivatorBench"
+    },
+    "name": "activator_bench_recipe",
+    "namespace": "mod"
+  }
+}

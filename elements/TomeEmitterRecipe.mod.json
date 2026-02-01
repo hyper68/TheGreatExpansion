@@ -16,34 +16,34 @@
         "value": ""
       },
       {
-        "value": ""
+        "value": "Blocks.DEEPSLATE"
       },
       {
         "value": ""
       },
       {
+        "value": "Blocks.DEEPSLATE_TILES"
+      },
+      {
+        "value": "Blocks.LECTERN"
+      },
+      {
+        "value": "Blocks.CHISELED_DEEPSLATE"
+      },
+      {
         "value": ""
       },
       {
-        "value": "Items.FLINT_AND_STEEL"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.NETHER_STAR"
+        "value": "Blocks.CRACKED_DEEPSLATE_BRICKS"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TheSkylands"
+      "value": "CUSTOM:TomeEmitter"
     },
-    "name": "skylands_ignighter_recipe",
+    "name": "tome_emitter_recipe",
     "namespace": "mod"
   }
 }

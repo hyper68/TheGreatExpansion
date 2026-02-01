@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:winterberry"
+    },
+    "b": {
+      "item": "the_great_expansion:palo_leaves"
+    },
+    "c": {
+      "tag": "minecraft:terracotta"
+    },
+    "d": {
+      "item": "minecraft:oak_leaves"
+    },
+    "e": {
+      "item": "minecraft:book"
+    },
+    "f": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "g": {
+      "item": "minecraft:moss_block"
+    },
+    "h": {
+      "item": "minecraft:dark_oak_leaves"
+    },
+    "i": {
+      "tag": "minecraft:saplings"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:nature_tome",
+    "count": 1
+  }
+}

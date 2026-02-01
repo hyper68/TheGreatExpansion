@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:the_skylands"
+    },
+    "title": {
+      "translate": "advancements.gosh_that_was_hard.title"
+    },
+    "description": {
+      "translate": "advancements.gosh_that_was_hard.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "gosh_that_was_hard_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:the_table"
+}

@@ -41,7 +41,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SkylariamGem"
+      "value": "CUSTOM:SkyCatalyst"
     },
     "name": "sky_catalyst_recipe",
     "namespace": "mod"

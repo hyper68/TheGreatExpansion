@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:skylariam_gem"
+    },
+    "title": {
+      "translate": "advancements.this_is_where_it_ends_for_now.title"
+    },
+    "description": {
+      "translate": "advancements.this_is_where_it_ends_for_now.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "this_is_where_it_ends_for_now_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:skylariam_gem"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:x_marks_the_spot"
+}

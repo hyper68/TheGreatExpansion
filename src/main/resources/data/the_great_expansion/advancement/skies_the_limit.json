@@ -1,8 +1,7 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "id": "the_great_expansion:skylariam_gem"
+      "id": "the_great_expansion:skyshard_block"
     },
     "title": {
       "translate": "advancements.skies_the_limit.title"
@@ -10,7 +9,7 @@
     "description": {
       "translate": "advancements.skies_the_limit.descr"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -22,5 +21,6 @@
         "to": "the_great_expansion:the_skylands"
       }
     }
-  }
+  },
+  "parent": "the_great_expansion:gosh_that_was_hard"
 }

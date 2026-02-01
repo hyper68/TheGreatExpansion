@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "1": "activator_bench_ring",
+        "2": "activator_bench_base",
+        "3": "activator_bench_igniter_skylands",
+        "4": "activator_bench_ignitor_frame"
+      }
+    }
+  }
+}

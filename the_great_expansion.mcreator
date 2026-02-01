@@ -4521,19 +4521,6 @@
       "path": "~/Skylands"
     },
     {
-      "name": "SkylandsIgnighterRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skylands_ignighter_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_great_expansion/recipe/skylands_ignighter_recipe.json"
-        ]
-      },
-      "path": "~/Skylands"
-    },
-    {
       "name": "SkyShrinePristine",
       "type": "structure",
       "compiles": true,
@@ -4716,6 +4703,413 @@
         "files": []
       },
       "path": "~/Machines/WaterPump"
+    },
+    {
+      "name": "FlightTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/FlightTomeItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/flight_tome.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "SkyTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_tome",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/sky_tome.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/SkyTomeItem.java"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "EarthTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/EarthTomeItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/earth_tome.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "NatureTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nature_tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/NatureTomeItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/nature_tome.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/TomeEmitterBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/item/tome_emitter.json",
+          "src/main/resources/assets/the_great_expansion/models/block/tome_emitter.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/tome_emitter.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/TomeEmitterBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/tome_emitter.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterFlight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_flight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/tome_emitter_flight.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/tome_emitter_flight.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/TomeEmitterFlightBlock.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/TomeEmitterFlightBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/tome_emitter_flight.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterSky",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_sky",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/blockstates/tome_emitter_sky.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/TomeEmitterSkyBlock.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/TomeEmitterSkyBlockEntity.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/tome_emitter_sky.json",
+          "src/main/resources/assets/the_great_expansion/models/block/tome_emitter_sky.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterNature",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_nature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/tome_emitter_nature.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/TomeEmitterNatureBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/tome_emitter_nature.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/TomeEmitterNatureBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/tome_emitter_nature.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterEarth",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_earth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/TomeEmitterEarthBlock.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/tome_emitter_earth.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/tome_emitter_earth.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/TomeEmitterEarthBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/block/tome_emitter_earth.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/TomeEmitterOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeAllyAwsome",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_ally_awsome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/tome_ally_awsome.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "ActivatorBench",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activator_bench",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/ActivatorBenchBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/block/activator_bench.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/ActivatorBenchBlockEntity.java",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/activator_bench.json",
+          "src/main/resources/assets/the_great_expansion/models/item/activator_bench.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/activator_bench.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "ActivatorBenchIgniter",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activator_bench_igniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/activator_bench_igniter.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/activator_bench_igniter.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/ActivatorBenchIgniterBlock.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/ActivatorBenchIgniterBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/models/block/activator_bench_igniter.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "ActivatorBenchIgniterIn",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activator_bench_igniter_in",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/activator_bench_igniter_in.json",
+          "src/main/resources/assets/the_great_expansion/models/block/activator_bench_igniter_in.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/ActivatorBenchIgniterInBlock.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/ActivatorBenchIgniterInBlockEntity.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/activator_bench_igniter_in.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "ActivatorBenchOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activator_bench_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/ActivatorBenchOnBlockRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "GoshThatWasHard",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gosh_that_was_hard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/gosh_that_was_hard.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "FlightTomeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/flight_tome_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "SkyTomeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/sky_tome_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "EarthTomeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/earth_tome_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "NatureTomeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nature_tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/nature_tome_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "ThisIsWhereItEndsForNow",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "this_is_where_it_ends_for_now",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/this_is_where_it_ends_for_now.json"
+        ]
+      },
+      "path": "~/Skylands"
+    },
+    {
+      "name": "IGottaEmmit",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_gotta_emmit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/i_gotta_emmit.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TheTable",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/the_table.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "ActivatorBenchRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activator_bench_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/activator_bench_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/tome_emitter_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
     }
   ],
   "variable_elements": [],
@@ -4775,10 +5169,34 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "tome_wind_woosh",
+      "files": [
+        "wind-magic-5-378630"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "shine",
+      "files": [
+        "meaningful-shine-sfx-215264"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ActivatorBenchIgniterIn",
+      "~CUSTOM:ActivatorBenchIgniter",
+      "~CUSTOM:ActivatorBench",
+      "~CUSTOM:TomeEmitterEarth",
+      "~CUSTOM:TomeEmitterNature",
+      "~CUSTOM:TomeEmitterSky",
+      "~CUSTOM:TomeEmitterFlight",
+      "~CUSTOM:TomeEmitter",
       "~CUSTOM:SkyshardBlock",
       "~CUSTOM:SkyStone",
       "~CUSTOM:InductionFurnace",
@@ -4852,6 +5270,14 @@
       "~CUSTOM:CrudeOil"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:ActivatorBenchIgniterIn",
+      "~CUSTOM:ActivatorBenchIgniter",
+      "~CUSTOM:ActivatorBench",
+      "~CUSTOM:TomeEmitterEarth",
+      "~CUSTOM:TomeEmitterNature",
+      "~CUSTOM:TomeEmitterSky",
+      "~CUSTOM:TomeEmitterFlight",
+      "~CUSTOM:TomeEmitter",
       "~CUSTOM:SkyStone",
       "~CUSTOM:IceBlockFencegate",
       "~CUSTOM:IceBlockDoor",
@@ -5116,8 +5542,14 @@
       "SkyCatalystMarker",
       "SkyBerryPlant",
       "SkyshardBlock",
-      "IceMachine",
-      "WaterPump"
+      "FlightTome",
+      "SkyTome",
+      "EarthTome",
+      "NatureTome",
+      "TomeEmitter",
+      "ActivatorBench",
+      "ActivatorBenchIgniter",
+      "ActivatorBenchIgniterIn"
     ]
   },
   "language_map": {
@@ -5298,7 +5730,7 @@
       "subtitles.skybound": "",
       "biome.the_great_expansion.sky_flats": "Sky Flats",
       "item.the_great_expansion.sky_berries": "Sky Berries",
-      "item.the_great_expansion.the_skylands": "The Skylands Portal Igniter",
+      "item.the_great_expansion.the_skylands": "The Skylands Igniter",
       "item.the_great_expansion.skyshard": "Skyshard",
       "item.the_great_expansion.sky_catalyst": "Sky Catalyst",
       "item.the_great_expansion.skylariam_gem": "Skylariam Gem",
@@ -5317,7 +5749,31 @@
       "block.the_great_expansion.water_pump": "Water Pump",
       "gui.the_great_expansion.water_pump_gui.label_water_level": "Water level",
       "gui.the_great_expansion.water_pump_gui.label_energylevel": "EnergyLevel",
-      "gui.the_great_expansion.water_pump_gui.button_test": "test"
+      "gui.the_great_expansion.water_pump_gui.button_test": "test",
+      "item.the_great_expansion.flight_tome": "Flight Tome",
+      "item.the_great_expansion.sky_tome": "Sky Tome",
+      "item.the_great_expansion.earth_tome": "Earth Tome",
+      "item.the_great_expansion.nature_tome": "Nature Tome",
+      "block.the_great_expansion.tome_emitter": "Tome Emitter",
+      "block.the_great_expansion.tome_emitter_flight": "Tome Emitter",
+      "block.the_great_expansion.tome_emitter_sky": "Tome Emitter",
+      "block.the_great_expansion.tome_emitter_nature": "Tome Emitter",
+      "block.the_great_expansion.tome_emitter_earth": "Tome Emitter",
+      "subtitles.tome_wind_woosh": "",
+      "advancements.tome_ally_awsome.title": "Tome-ally Awesome",
+      "advancements.tome_ally_awsome.descr": "Make any Tome. Now you just need something to put it in!",
+      "block.the_great_expansion.activator_bench": "Activator Bench",
+      "block.the_great_expansion.activator_bench_igniter": "Activator Bench",
+      "block.the_great_expansion.activator_bench_igniter_in": "Activator Bench",
+      "advancements.gosh_that_was_hard.descr": "Craft a skylands portal igniter. (sky, Flight, Earth, Nature)",
+      "advancements.gosh_that_was_hard.title": "Gosh That Was Hard",
+      "subtitles.shine": "",
+      "advancements.this_is_where_it_ends_for_now.title": "This Is Where It Ends... For Now",
+      "advancements.this_is_where_it_ends_for_now.descr": "Get a skylarium gem",
+      "advancements.i_gotta_emmit.title": "I Gotta Emmit",
+      "advancements.i_gotta_emmit.descr": "Craft a Tome Emitter. Not much use without a bench.",
+      "advancements.the_table.title": "The Bench",
+      "advancements.the_table.descr": "Place an activation Bench, now you just need 4 tome emmitters!"
     }
   },
   "metadata": {
@@ -5511,6 +5967,10 @@
       },
       {
         "name": "Skylands",
+        "children": []
+      },
+      {
+        "name": "Tomes",
         "children": []
       }
     ]

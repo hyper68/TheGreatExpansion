@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:deepslate"
+    },
+    "b": {
+      "item": "minecraft:deepslate_tiles"
+    },
+    "c": {
+      "item": "minecraft:lectern"
+    },
+    "d": {
+      "item": "minecraft:chiseled_deepslate"
+    },
+    "e": {
+      "item": "minecraft:cracked_deepslate_bricks"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:tome_emitter",
+    "count": 1
+  }
+}

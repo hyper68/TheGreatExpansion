@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:tome_emitter"
+    },
+    "title": {
+      "translate": "advancements.i_gotta_emmit.title"
+    },
+    "description": {
+      "translate": "advancements.i_gotta_emmit.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "i_gotta_emmit_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "the_great_expansion:tome_emitter"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:tome_ally_awsome"
+}
