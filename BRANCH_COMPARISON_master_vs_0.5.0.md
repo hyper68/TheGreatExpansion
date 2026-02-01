@@ -250,7 +250,7 @@ These commits represent branch management operations:
 
 | Metric | Master (0.4.4) | 0.5.0 Branch | Difference |
 |--------|----------------|--------------|------------|
-| **Version** | 0.4.4 | 0.5.0 Pre-Release 1 | +0.0.6 (pre) |
+| **Version** | 0.4.4 | 0.5.0 Pre-Release 1 | +1 minor version |
 | **Last Update** | Dec 27, 2025 | Feb 1, 2026 | +36 days |
 | **Total Elements** | ~278 | ~303+ | +25+ |
 | **Machines** | ~10 | ~12+ | +2 |
