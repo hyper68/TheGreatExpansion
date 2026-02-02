@@ -17,7 +17,9 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
@@ -270,6 +272,83 @@ public class ActivatorBenchOnBlockRightclickedProcedure {
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
+		}
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).isEnchantable() && (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == TheGreatExpansionModBlocks.ACTIVATOR_BENCH.get()
+				&& ((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock() == TheGreatExpansionModBlocks.TOME_EMITTER_LIGHTNING.get()
+						|| (world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock() == TheGreatExpansionModBlocks.TOME_EMITTER_LIGHTNING.get()
+						|| (world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock() == TheGreatExpansionModBlocks.TOME_EMITTER_LIGHTNING.get()
+						|| (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == TheGreatExpansionModBlocks.TOME_EMITTER_LIGHTNING.get()) == true) {
+			(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+					.enchant(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("the_great_expansion:strike"))), 1);
+			if (entity instanceof ServerPlayer _player) {
+				AdvancementHolder _adv = _player.server.getAdvancements().get(ResourceLocation.parse("the_great_expansion:so_fricken_bright"));
+				if (_adv != null) {
+					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+					if (!_ap.isDone()) {
+						for (String criteria : _ap.getRemainingCriteria())
+							_player.getAdvancements().award(_adv, criteria);
+					}
+				}
+			}
+			if (world instanceof ServerLevel _level)
+				_level.sendParticles(ParticleTypes.WHITE_SMOKE, x, y, z, 10, 2, 2, 2, 2);
+			{
+				BlockPos _bp = BlockPos.containing(x + 1, y, z);
+				BlockState _bs = TheGreatExpansionModBlocks.TOME_EMITTER.get().defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Property<?> _propertyOld : _bso.getProperties()) {
+					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+						try {
+							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+						} catch (Exception e) {
+						}
+				}
+				world.setBlock(_bp, _bs, 3);
+			}
+			{
+				BlockPos _bp = BlockPos.containing(x - 1, y, z);
+				BlockState _bs = TheGreatExpansionModBlocks.TOME_EMITTER.get().defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Property<?> _propertyOld : _bso.getProperties()) {
+					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+						try {
+							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+						} catch (Exception e) {
+						}
+				}
+				world.setBlock(_bp, _bs, 3);
+			}
+			{
+				BlockPos _bp = BlockPos.containing(x, y, z + 1);
+				BlockState _bs = TheGreatExpansionModBlocks.TOME_EMITTER.get().defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Property<?> _propertyOld : _bso.getProperties()) {
+					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+						try {
+							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+						} catch (Exception e) {
+						}
+				}
+				world.setBlock(_bp, _bs, 3);
+			}
+			{
+				BlockPos _bp = BlockPos.containing(x, y, z - 1);
+				BlockState _bs = TheGreatExpansionModBlocks.TOME_EMITTER.get().defaultBlockState();
+				BlockState _bso = world.getBlockState(_bp);
+				for (Property<?> _propertyOld : _bso.getProperties()) {
+					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
+					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+						try {
+							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+						} catch (Exception e) {
+						}
+				}
+				world.setBlock(_bp, _bs, 3);
+			}
+			TheGreatExpansionMod.LOGGER.info("Worked");
 		}
 	}
 

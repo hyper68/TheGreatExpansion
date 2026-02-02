@@ -177,6 +177,7 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> NATURE_TOME;
 	public static final DeferredItem<Item> TOME_EMITTER;
 	public static final DeferredItem<Item> ACTIVATOR_BENCH;
+	public static final DeferredItem<Item> LIGHTNING_TOME;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -333,6 +334,7 @@ public class TheGreatExpansionModItems {
 		NATURE_TOME = REGISTRY.register("nature_tome", NatureTomeItem::new);
 		TOME_EMITTER = block(TheGreatExpansionModBlocks.TOME_EMITTER);
 		ACTIVATOR_BENCH = block(TheGreatExpansionModBlocks.ACTIVATOR_BENCH);
+		LIGHTNING_TOME = REGISTRY.register("lightning_tome", LightningTomeItem::new);
 	}
 
 	// Start of user code block custom items

@@ -115,6 +115,7 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModItems.NATURE_TOME.get());
 				tabData.accept(TheGreatExpansionModBlocks.TOME_EMITTER.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.ACTIVATOR_BENCH.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.LIGHTNING_TOME.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

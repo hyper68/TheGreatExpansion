@@ -121,6 +121,7 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> ACTIVATOR_BENCH;
 	public static final DeferredBlock<Block> ACTIVATOR_BENCH_IGNITER;
 	public static final DeferredBlock<Block> ACTIVATOR_BENCH_IGNITER_IN;
+	public static final DeferredBlock<Block> TOME_EMITTER_LIGHTNING;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -230,6 +231,7 @@ public class TheGreatExpansionModBlocks {
 		ACTIVATOR_BENCH = REGISTRY.register("activator_bench", ActivatorBenchBlock::new);
 		ACTIVATOR_BENCH_IGNITER = REGISTRY.register("activator_bench_igniter", ActivatorBenchIgniterBlock::new);
 		ACTIVATOR_BENCH_IGNITER_IN = REGISTRY.register("activator_bench_igniter_in", ActivatorBenchIgniterInBlock::new);
+		TOME_EMITTER_LIGHTNING = REGISTRY.register("tome_emitter_lightning", TomeEmitterLightningBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

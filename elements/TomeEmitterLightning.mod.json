@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "tome_emitter:nature",
+    "customModelName": "tome_emitter:lightning",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,

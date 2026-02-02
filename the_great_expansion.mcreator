@@ -5110,6 +5110,99 @@
         ]
       },
       "path": "~/Tomes"
+    },
+    {
+      "name": "LightningTome",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_tome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/LightningTomeItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/lightning_tome.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "LightningTomeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_tome_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/lightning_tome_recipe.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "Strike",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strike",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/enchantment/strike.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "StrikeProc",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strike_proc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/StrikeProcProcedure.java"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "SoFrickenBright",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_fricken_bright",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/so_fricken_bright.json"
+        ]
+      },
+      "path": "~/Tomes"
+    },
+    {
+      "name": "TomeEmitterLightning",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tome_emitter_lightning",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/block/tome_emitter_lightning.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/tome_emitter_lightning.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/entity/TomeEmitterLightningBlockEntity.java",
+          "src/main/java/net/mcreator/thegreatexpansion/block/TomeEmitterLightningBlock.java",
+          "src/main/resources/assets/the_great_expansion/blockstates/tome_emitter_lightning.json"
+        ]
+      },
+      "path": "~/Tomes"
     }
   ],
   "variable_elements": [],
@@ -5189,6 +5282,7 @@
   ],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TomeEmitterLightning",
       "~CUSTOM:ActivatorBenchIgniterIn",
       "~CUSTOM:ActivatorBenchIgniter",
       "~CUSTOM:ActivatorBench",
@@ -5270,6 +5364,7 @@
       "~CUSTOM:CrudeOil"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TomeEmitterLightning",
       "~CUSTOM:ActivatorBenchIgniterIn",
       "~CUSTOM:ActivatorBenchIgniter",
       "~CUSTOM:ActivatorBench",
@@ -5455,6 +5550,9 @@
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~CUSTOM:SkyStone",
       "~Blocks.GRASS"
+    ],
+    "ENCHANTMENTS:minecraft:treasure": [
+      "~CUSTOM:Strike"
     ]
   },
   "tab_element_order": {
@@ -5549,7 +5647,8 @@
       "TomeEmitter",
       "ActivatorBench",
       "ActivatorBenchIgniter",
-      "ActivatorBenchIgniterIn"
+      "ActivatorBenchIgniterIn",
+      "LightningTome"
     ]
   },
   "language_map": {
@@ -5765,7 +5864,7 @@
       "block.the_great_expansion.activator_bench": "Activator Bench",
       "block.the_great_expansion.activator_bench_igniter": "Activator Bench",
       "block.the_great_expansion.activator_bench_igniter_in": "Activator Bench",
-      "advancements.gosh_that_was_hard.descr": "Craft a skylands portal igniter. (sky, Flight, Earth, Nature)",
+      "advancements.gosh_that_was_hard.descr": "Craft a skylands portal igniter. (sky, Flight, Earth, Nature)(Deepslate Bricks Portal)",
       "advancements.gosh_that_was_hard.title": "Gosh That Was Hard",
       "subtitles.shine": "",
       "advancements.this_is_where_it_ends_for_now.title": "This Is Where It Ends... For Now",
@@ -5773,7 +5872,12 @@
       "advancements.i_gotta_emmit.title": "I Gotta Emmit",
       "advancements.i_gotta_emmit.descr": "Craft a Tome Emitter. Not much use without a bench.",
       "advancements.the_table.title": "The Bench",
-      "advancements.the_table.descr": "Place an activation Bench, now you just need 4 tome emmitters!"
+      "advancements.the_table.descr": "Place an activation Bench, now you just need 4 tome emmitters!",
+      "item.the_great_expansion.lightning_tome": "Lightning Tome",
+      "enchantment.the_great_expansion.strike": "Strike",
+      "advancements.so_fricken_bright.descr": "Apply a Lighting Tome to a Tool.",
+      "advancements.so_fricken_bright.title": "So Fricken Bright",
+      "block.the_great_expansion.tome_emitter_lightning": "Tome Emitter"
     }
   },
   "metadata": {
@@ -5978,7 +6082,7 @@
   "workspaceSettings": {
     "modid": "the_great_expansion",
     "modName": "The Great Expansion",
-    "version": "0.4.4",
+    "version": "0.5.0",
     "description": "The great expansion",
     "author": "Hyper mods",
     "websiteURL": "https://mcreator.net",

@@ -49,6 +49,16 @@
         "9": "tome_emitter_pillar",
         "10": "tome_emitter_detail"
       }
+    },
+    "lightning": {
+      "name": "lightning",
+      "map": {
+        "11": "tome_emitter_base",
+        "4": "tome_emitter_lighting",
+        "missing": "tome_emitter_pillar",
+        "9": "tome_emitter_pillar",
+        "10": "tome_emitter_detail"
+      }
     }
   }
 }

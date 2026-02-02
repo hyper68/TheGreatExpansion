@@ -1,0 +1,30 @@
+{
+  "description": {
+    "translate": "enchantment.the_great_expansion.strike"
+  },
+  "supported_items": [
+    "the_great_expansion:titanium_sword",
+    "the_great_expansion:aqualith_sword",
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:iron_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword"
+  ],
+  "weight": 10,
+  "max_level": 4,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 6,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "exclusive_set": []
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:lightning_tome"
+    },
+    "title": {
+      "translate": "advancements.so_fricken_bright.title"
+    },
+    "description": {
+      "translate": "advancements.so_fricken_bright.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "so_fricken_bright_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:this_is_where_it_ends_for_now"
+}

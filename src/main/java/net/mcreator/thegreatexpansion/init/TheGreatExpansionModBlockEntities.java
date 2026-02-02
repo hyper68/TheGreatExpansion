@@ -47,6 +47,8 @@ public class TheGreatExpansionModBlockEntities {
 			ActivatorBenchIgniterBlockEntity::new);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ActivatorBenchIgniterInBlockEntity>> ACTIVATOR_BENCH_IGNITER_IN = register("activator_bench_igniter_in", TheGreatExpansionModBlocks.ACTIVATOR_BENCH_IGNITER_IN,
 			ActivatorBenchIgniterInBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<TomeEmitterLightningBlockEntity>> TOME_EMITTER_LIGHTNING = register("tome_emitter_lightning", TheGreatExpansionModBlocks.TOME_EMITTER_LIGHTNING,
+			TomeEmitterLightningBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -89,5 +91,6 @@ public class TheGreatExpansionModBlockEntities {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ACTIVATOR_BENCH.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ACTIVATOR_BENCH_IGNITER.get(), SidedInvWrapper::new);
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, ACTIVATOR_BENCH_IGNITER_IN.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, TOME_EMITTER_LIGHTNING.get(), SidedInvWrapper::new);
 	}
 }

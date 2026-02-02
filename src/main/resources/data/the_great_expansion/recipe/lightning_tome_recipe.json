@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "cbf"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:sky_tome"
+    },
+    "b": {
+      "item": "the_great_expansion:skyshard"
+    },
+    "c": {
+      "item": "minecraft:dragon_breath"
+    },
+    "d": {
+      "item": "minecraft:lightning_rod"
+    },
+    "e": {
+      "item": "minecraft:book"
+    },
+    "f": {
+      "item": "the_great_expansion:skylariam_gem"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:lightning_tome",
+    "count": 1
+  }
+}

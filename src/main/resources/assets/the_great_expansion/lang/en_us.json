@@ -210,7 +210,7 @@
   "block.the_great_expansion.activator_bench": "Activator Bench",
   "block.the_great_expansion.activator_bench_igniter": "Activator Bench",
   "block.the_great_expansion.activator_bench_igniter_in": "Activator Bench",
-  "advancements.gosh_that_was_hard.descr": "Craft a skylands portal igniter. (sky, Flight, Earth, Nature)",
+  "advancements.gosh_that_was_hard.descr": "Craft a skylands portal igniter. (sky, Flight, Earth, Nature)(Deepslate Bricks Portal)",
   "advancements.gosh_that_was_hard.title": "Gosh That Was Hard",
   "subtitles.shine": "",
   "advancements.this_is_where_it_ends_for_now.title": "This Is Where It Ends... For Now",
@@ -218,5 +218,10 @@
   "advancements.i_gotta_emmit.title": "I Gotta Emmit",
   "advancements.i_gotta_emmit.descr": "Craft a Tome Emitter. Not much use without a bench.",
   "advancements.the_table.title": "The Bench",
-  "advancements.the_table.descr": "Place an activation Bench, now you just need 4 tome emmitters!"
+  "advancements.the_table.descr": "Place an activation Bench, now you just need 4 tome emmitters!",
+  "item.the_great_expansion.lightning_tome": "Lightning Tome",
+  "enchantment.the_great_expansion.strike": "Strike",
+  "advancements.so_fricken_bright.descr": "Apply a Lighting Tome to a Tool.",
+  "advancements.so_fricken_bright.title": "So Fricken Bright",
+  "block.the_great_expansion.tome_emitter_lightning": "Tome Emitter"
 }

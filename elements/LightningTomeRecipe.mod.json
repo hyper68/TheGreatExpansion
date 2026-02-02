@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SkyTome"
+      },
+      {
+        "value": "CUSTOM:Skyshard"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      },
+      {
+        "value": "Items.BOOK"
+      },
+      {
+        "value": "Blocks.LIGHTNING_ROD"
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": "CUSTOM:Skyshard"
+      },
+      {
+        "value": "CUSTOM:SkylariamGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LightningTome"
+    },
+    "name": "lightning_tome_recipe",
+    "namespace": "mod"
+  }
+}

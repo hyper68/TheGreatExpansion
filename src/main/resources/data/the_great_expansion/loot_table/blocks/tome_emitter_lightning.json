@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "the_great_expansion:blocks/tome_emitter_sky",
+  "random_sequence": "the_great_expansion:blocks/tome_emitter_lightning",
   "pools": [
     {
       "rolls": 1.0,

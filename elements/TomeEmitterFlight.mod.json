@@ -54,7 +54,7 @@
     "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:TomeEmitter"
     },
     "dropAmount": 1,
     "xpAmountMin": 0,
