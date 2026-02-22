@@ -1,0 +1,17 @@
+{
+  "type": "the_great_expansion:crushed",
+  "ingredients": [
+    {
+      "item": "the_great_expansion:spark_powder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "the_great_expansion:enriched_gunpowder",
+      "count": 1
+    }
+  ]
+}

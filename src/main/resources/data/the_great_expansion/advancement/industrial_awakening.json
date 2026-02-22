@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:bauxite"
+    },
+    "title": {
+      "translate": "advancements.industrial_awakening.title"
+    },
+    "description": {
+      "translate": "advancements.industrial_awakening.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "industrial_awakening_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:the_great_expansion_adv"
+}

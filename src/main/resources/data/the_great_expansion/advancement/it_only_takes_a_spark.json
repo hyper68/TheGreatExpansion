@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:spark_powder"
+    },
+    "title": {
+      "translate": "advancements.it_only_takes_a_spark.title"
+    },
+    "description": {
+      "translate": "advancements.it_only_takes_a_spark.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "it_only_takes_a_spark_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:spark_powder"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:black_n_yellow"
+}

@@ -34,7 +34,7 @@ public class RefineryGUIMenu extends AbstractContainerMenu implements TheGreatEx
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 8)
+			if (!this.containsKey(key) && this.size() >= 7)
 				return null;
 			return super.put(key, value);
 		}
@@ -91,17 +91,6 @@ public class RefineryGUIMenu extends AbstractContainerMenu implements TheGreatEx
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 62) {
-			private final int slot = 0;
-			private int x = RefineryGUIMenu.this.x;
-			private int y = RefineryGUIMenu.this.y;
-
-			@Override
-			public void setChanged() {
-				super.setChanged();
-				slotChanged(0, 0, 0);
-			}
-		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 35) {
 			private final int slot = 1;
 			private int x = RefineryGUIMenu.this.x;
@@ -180,16 +169,16 @@ public class RefineryGUIMenu extends AbstractContainerMenu implements TheGreatEx
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 6) {
-				if (!this.moveItemStackTo(itemstack1, 6, this.slots.size(), true))
+			if (index < 5) {
+				if (!this.moveItemStackTo(itemstack1, 5, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 6, false)) {
-				if (index < 6 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 6 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 5, false)) {
+				if (index < 5 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 5 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 6, 6 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 5, 5 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

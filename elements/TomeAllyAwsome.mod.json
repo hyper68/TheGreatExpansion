@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Tome-ally Awesome",
-    "achievementDescription": "Make any Tome. Now you just need something to put it in!",
+    "achievementDescription": "Craft a Flight Tome to begin your magic path.",
     "achievementIcon": {
       "value": "CUSTOM:FlightTome"
     },

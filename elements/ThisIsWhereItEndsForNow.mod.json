@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "This Is Where It Ends... For Now",
-    "achievementDescription": "Get a skylarium gem",
+    "achievementDescription": "Acquire a Skylariam Gem from the Skylands.",
     "achievementIcon": {
       "value": "CUSTOM:SkylariamGem"
     },

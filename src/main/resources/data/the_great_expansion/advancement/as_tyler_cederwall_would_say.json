@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:enriched_tnt"
+    },
+    "title": {
+      "translate": "advancements.as_tyler_cederwall_would_say.title"
+    },
+    "description": {
+      "translate": "advancements.as_tyler_cederwall_would_say.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "as_tyler_cederwall_would_say_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:enriched_tnt"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:ticking_time_bomb"
+}

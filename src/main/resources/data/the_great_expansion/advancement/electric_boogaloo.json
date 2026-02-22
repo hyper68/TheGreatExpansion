@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:induction_furnace"
+    },
+    "title": {
+      "translate": "advancements.electric_boogaloo.title"
+    },
+    "description": {
+      "translate": "advancements.electric_boogaloo.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "electric_boogaloo_0": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "the_great_expansion:induction_furnace"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:automation_nation"
+}

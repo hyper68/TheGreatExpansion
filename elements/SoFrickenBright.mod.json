@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "So Fricken Bright",
-    "achievementDescription": "Apply a Lighting Tome to a Tool.",
+    "achievementDescription": "Infuse a weapon with Stormstrike using a Lightning Tome at the Activator Bench.",
     "achievementIcon": {
       "value": "CUSTOM:LightningTome"
     },

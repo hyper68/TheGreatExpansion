@@ -178,6 +178,10 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> TOME_EMITTER;
 	public static final DeferredItem<Item> ACTIVATOR_BENCH;
 	public static final DeferredItem<Item> LIGHTNING_TOME;
+	public static final DeferredItem<Item> OIL_NODE;
+	public static final DeferredItem<Item> SPARK_POWDER;
+	public static final DeferredItem<Item> ENRICHED_GUNPOWDER;
+	public static final DeferredItem<Item> ENRICHED_TNT;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -335,6 +339,10 @@ public class TheGreatExpansionModItems {
 		TOME_EMITTER = block(TheGreatExpansionModBlocks.TOME_EMITTER);
 		ACTIVATOR_BENCH = block(TheGreatExpansionModBlocks.ACTIVATOR_BENCH);
 		LIGHTNING_TOME = REGISTRY.register("lightning_tome", LightningTomeItem::new);
+		OIL_NODE = block(TheGreatExpansionModBlocks.OIL_NODE);
+		SPARK_POWDER = REGISTRY.register("spark_powder", SparkPowderItem::new);
+		ENRICHED_GUNPOWDER = REGISTRY.register("enriched_gunpowder", EnrichedGunpowderItem::new);
+		ENRICHED_TNT = block(TheGreatExpansionModBlocks.ENRICHED_TNT);
 	}
 
 	// Start of user code block custom items

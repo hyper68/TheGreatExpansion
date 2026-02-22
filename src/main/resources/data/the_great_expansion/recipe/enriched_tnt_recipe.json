@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bab",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "the_great_expansion:enriched_gunpowder"
+    },
+    "b": {
+      "tag": "minecraft:sand"
+    }
+  },
+  "result": {
+    "id": "the_great_expansion:enriched_tnt",
+    "count": 1
+  }
+}

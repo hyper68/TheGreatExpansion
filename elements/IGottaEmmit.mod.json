@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "achievement",
   "definition": {
-    "achievementName": "I Gotta Emmit",
-    "achievementDescription": "Craft a Tome Emitter. Not much use without a bench.",
+    "achievementName": "I Gotta Emit",
+    "achievementDescription": "Craft and place a Tome Emitter. You’ll need four around the Activator Bench.",
     "achievementIcon": {
       "value": "CUSTOM:TomeEmitter"
     },

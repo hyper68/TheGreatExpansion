@@ -1,0 +1,17 @@
+{
+  "type": "the_great_expansion:crushed",
+  "ingredients": [
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "the_great_expansion:spark_powder",
+      "count": 1
+    }
+  ]
+}

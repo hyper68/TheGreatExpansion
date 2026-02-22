@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Bada Bing Bada BOOM",
-    "achievementDescription": "Craft a sky catalyst",
+    "achievementDescription": "Craft a Sky Catalyst to locate Skylands structures.",
     "achievementIcon": {
       "value": "CUSTOM:SkyCatalyst"
     },

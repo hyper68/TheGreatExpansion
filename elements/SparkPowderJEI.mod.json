@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "crushed",
+    "ingredients": [
+      {
+        "value": "Items.FLINT"
+      },
+      {
+        "value": "Blocks.COBBLESTONE"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "Crushed",
+    "results": [
+      {
+        "value": "CUSTOM:SparkPowder"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

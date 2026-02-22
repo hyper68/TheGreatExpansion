@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:diesel_1"
+    },
+    "title": {
+      "translate": "advancements.fuelish_dreams.title"
+    },
+    "description": {
+      "translate": "advancements.fuelish_dreams.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fuelish_dreams_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:murica"
+}

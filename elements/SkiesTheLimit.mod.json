@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Skies The Limit",
-    "achievementDescription": "Enter The Skylands",
+    "achievementDescription": "Enter the Skylands through the deepslate-brick portal.",
     "achievementIcon": {
       "value": "CUSTOM:SkyshardBlock"
     },

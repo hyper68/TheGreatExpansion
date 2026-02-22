@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:aluminum_ingot"
+    },
+    "title": {
+      "translate": "advancements.same_but_different.title"
+    },
+    "description": {
+      "translate": "advancements.same_but_different.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "same_but_different_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:industrial_awakening"
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "crushed",
+    "ingredients": [
+      {
+        "value": "CUSTOM:SparkPowder"
+      },
+      {
+        "value": "Items.GUNPOWDER"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "Crushed",
+    "results": [
+      {
+        "value": "CUSTOM:EnrichedGunpowder"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

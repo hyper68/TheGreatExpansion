@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Gosh That Was Hard",
-    "achievementDescription": "Craft a skylands portal igniter. (sky, Flight, Earth, Nature)(Deepslate Bricks Portal)",
+    "achievementDescription": "Craft the Skylands Igniter using the four elemental tomes at the Activator Bench.",
     "achievementIcon": {
       "value": "CUSTOM:TheSkylands"
     },

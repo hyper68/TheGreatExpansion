@@ -49,13 +49,9 @@ public record RefineryGUISlotMessage(int slotID, int x, int y, int z, int change
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
-		if (slot == 0 && changeType == 0) {
-
-			RefineryProcProcedure.execute(world, x, y, z);
-		}
 		if (slot == 1 && changeType == 0) {
 
-			RefineryProcProcedure.execute(world, x, y, z);
+			RefineryProcProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

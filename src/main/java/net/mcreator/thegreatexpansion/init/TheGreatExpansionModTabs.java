@@ -116,6 +116,10 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModBlocks.TOME_EMITTER.get().asItem());
 				tabData.accept(TheGreatExpansionModBlocks.ACTIVATOR_BENCH.get().asItem());
 				tabData.accept(TheGreatExpansionModItems.LIGHTNING_TOME.get());
+				tabData.accept(TheGreatExpansionModBlocks.OIL_NODE.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.SPARK_POWDER.get());
+				tabData.accept(TheGreatExpansionModItems.ENRICHED_GUNPOWDER.get());
+				tabData.accept(TheGreatExpansionModBlocks.ENRICHED_TNT.get().asItem());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

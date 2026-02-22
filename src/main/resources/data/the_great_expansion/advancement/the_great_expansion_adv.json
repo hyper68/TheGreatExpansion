@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "the_great_expansion:textures/screens/grass_block_top.png",
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": {
+      "translate": "advancements.the_great_expansion_adv.title"
+    },
+    "description": {
+      "translate": "advancements.the_great_expansion_adv.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_great_expansion_adv_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

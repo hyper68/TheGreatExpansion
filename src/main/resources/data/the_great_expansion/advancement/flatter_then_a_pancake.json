@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:steel_face_plate"
+    },
+    "title": {
+      "translate": "advancements.flatter_then_a_pancake.title"
+    },
+    "description": {
+      "translate": "advancements.flatter_then_a_pancake.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flatter_then_a_pancake_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "the_great_expansion:steel_face_plate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "the_great_expansion:powder_to_rock_hard"
+}

@@ -59,6 +59,50 @@ public class CrusherProcedureProcedure {
 				_itemHandlerModifiable.setStackInSlot(2, _setstack);
 			}
 		}
+		if (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() < 64 && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == Items.FLINT
+				&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).copy()).getItem() == Blocks.COBBLESTONE.asItem()
+				&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() <= 63 && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == TheGreatExpansionModItems.SPARK_POWDER.get()
+						|| (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.AIR.asItem())) {
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				int _slotid = 0;
+				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+				_stk.shrink(1);
+				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+			}
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				int _slotid = 1;
+				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+				_stk.shrink(1);
+				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+			}
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				ItemStack _setstack = new ItemStack(TheGreatExpansionModItems.SPARK_POWDER.get()).copy();
+				_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() + 1);
+				_itemHandlerModifiable.setStackInSlot(2, _setstack);
+			}
+		}
+		if (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() < 64 && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 0).copy()).getItem() == TheGreatExpansionModItems.SPARK_POWDER.get()
+				&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 1).copy()).getItem() == Items.GUNPOWDER
+				&& (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() <= 63 && (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == TheGreatExpansionModItems.ENRICHED_GUNPOWDER.get()
+						|| (itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).copy()).getItem() == Blocks.AIR.asItem())) {
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				int _slotid = 0;
+				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+				_stk.shrink(1);
+				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+			}
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				int _slotid = 1;
+				ItemStack _stk = _itemHandlerModifiable.getStackInSlot(_slotid).copy();
+				_stk.shrink(1);
+				_itemHandlerModifiable.setStackInSlot(_slotid, _stk);
+			}
+			if (world instanceof ILevelExtension _ext && _ext.getCapability(Capabilities.ItemHandler.BLOCK, BlockPos.containing(x, y, z), null) instanceof IItemHandlerModifiable _itemHandlerModifiable) {
+				ItemStack _setstack = new ItemStack(TheGreatExpansionModItems.ENRICHED_GUNPOWDER.get()).copy();
+				_setstack.setCount(itemFromBlockInventory(world, BlockPos.containing(x, y, z), 2).getCount() + 1);
+				_itemHandlerModifiable.setStackInSlot(2, _setstack);
+			}
+		}
 	}
 
 	private static ItemStack itemFromBlockInventory(LevelAccessor world, BlockPos pos, int slot) {

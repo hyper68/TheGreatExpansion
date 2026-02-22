@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "X Marks The Spot",
-    "achievementDescription": "Activate a sky catalyst marker",
+    "achievementDescription": "Activate a Sky Catalyst Marker to reveal a hidden cache.",
     "achievementIcon": {
       "value": "CUSTOM:SkyCatalystMarker"
     },

@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "The Bench",
-    "achievementDescription": "Place an activation Bench, now you just need 4 tome emmitters!",
+    "achievementDescription": "Place the Activator Bench. Surround it with four Tome Emitters.",
     "achievementIcon": {
       "value": "CUSTOM:ActivatorBench"
     },

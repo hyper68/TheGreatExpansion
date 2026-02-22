@@ -1,11 +1,11 @@
 # THE GREAT EXPANSION - ULTRA-COMPREHENSIVE MOD CONTENT GUIDE
-### Complete Documentation of All 278 Mod Element files (scanned)
+### Complete Documentation of All 343 Mod Element files (scanned)
 
 This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, block, biome, recipe, and mechanic in "The Great Expansion" mod.
 
 ---
 
-> Last scanned: 2026-01-29 — elements/ contains 278 .mod.json files. Guide updated to match current workspace elements.
+> Last scanned: 2026-02-20 — elements/ contains 343 .mod.json files. Guide updated to match current workspace elements.
 
 
 ## 📖 TABLE OF CONTENTS
@@ -20,7 +20,8 @@ This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, bl
 9. [Biomes & World Generation](#biomes--world-generation)
 10. [Plants & Natural Features](#plants--natural-features)
 11. [Special Items & Misc](#special-items--misc)
-12. [Complete Crafting Trees](#complete-crafting-trees)
+12. [Advancements](#advancements)
+13. [Complete Crafting Trees](#complete-crafting-trees)
 
 ---
 
@@ -847,6 +848,52 @@ This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, bl
 
 ---
 
+## 🏆 ADVANCEMENTS
+
+This section lists every advancement and splits them into two separate trees: Magic and Tech. Parent/child links jump between advancements in this section.
+
+### Magic Advancement Tree
+
+| Advancement | Description | Type | Parent | Children |
+| --- | --- | --- | --- | --- |
+| <a id="adv-tome-ally-awesome"></a>[Tome-ally Awesome](#adv-tome-ally-awesome) | Craft a Flight Tome to begin your magic path. | task | Root | [I Gotta Emit](#adv-i-gotta-emit), [Stoneheart Study](#adv-stoneheart-study), [Storm Study](#adv-storm-study), [Verdant Study](#adv-verdant-study), [Skybound Study](#adv-skybound-study) |
+| <a id="adv-i-gotta-emit"></a>[I Gotta Emit](#adv-i-gotta-emit) | Craft and place a Tome Emitter. You'll need four around the Activator Bench. | task | [Tome-ally Awesome](#adv-tome-ally-awesome) | [The Bench](#adv-the-bench) |
+| <a id="adv-the-bench"></a>[The Bench](#adv-the-bench) | Place the Activator Bench. Surround it with four Tome Emitters. | task | [I Gotta Emit](#adv-i-gotta-emit) | [Gosh That Was Hard](#adv-gosh-that-was-hard) |
+| <a id="adv-gosh-that-was-hard"></a>[Gosh That Was Hard](#adv-gosh-that-was-hard) | Craft the Skylands Igniter using the four elemental tomes at the Activator Bench. | challenge | [The Bench](#adv-the-bench) | [Skies The Limit](#adv-skies-the-limit) |
+| <a id="adv-skies-the-limit"></a>[Skies The Limit](#adv-skies-the-limit) | Enter the Skylands through the deepslate-brick portal. | task | [Gosh That Was Hard](#adv-gosh-that-was-hard) | [Bada Bing Bada BOOM](#adv-bada-bing-bada-boom) |
+| <a id="adv-bada-bing-bada-boom"></a>[Bada Bing Bada BOOM](#adv-bada-bing-bada-boom) | Craft a Sky Catalyst to locate Skylands structures. | task | [Skies The Limit](#adv-skies-the-limit) | [X Marks The Spot](#adv-x-marks-the-spot) |
+| <a id="adv-x-marks-the-spot"></a>[X Marks The Spot](#adv-x-marks-the-spot) | Activate a Sky Catalyst Marker to reveal a hidden cache. | challenge | [Bada Bing Bada BOOM](#adv-bada-bing-bada-boom) | [This Is Where It Ends... For Now](#adv-this-is-where-it-ends-for-now) |
+| <a id="adv-this-is-where-it-ends-for-now"></a>[This Is Where It Ends... For Now](#adv-this-is-where-it-ends-for-now) | Acquire a Skylariam Gem from the Skylands. | goal | [X Marks The Spot](#adv-x-marks-the-spot) | [So Fricken Bright](#adv-so-fricken-bright) |
+| <a id="adv-so-fricken-bright"></a>[So Fricken Bright](#adv-so-fricken-bright) | Infuse a weapon with Stormstrike using a Lightning Tome at the Activator Bench. | challenge | [This Is Where It Ends... For Now](#adv-this-is-where-it-ends-for-now) | None |
+| <a id="adv-stoneheart-study"></a>[Stoneheart Study](#adv-stoneheart-study) | Craft an Earth Tome to unlock grounding rituals. | task | [Tome-ally Awesome](#adv-tome-ally-awesome) | None |
+| <a id="adv-storm-study"></a>[Storm Study](#adv-storm-study) | Craft a Lightning Tome to unlock infusion rituals. | task | [Tome-ally Awesome](#adv-tome-ally-awesome) | None |
+| <a id="adv-verdant-study"></a>[Verdant Study](#adv-verdant-study) | Craft a Nature Tome to unlock growth rituals. | task | [Tome-ally Awesome](#adv-tome-ally-awesome) | None |
+| <a id="adv-skybound-study"></a>[Skybound Study](#adv-skybound-study) | Craft a Sky Tome to unlock airy rituals. | task | [Tome-ally Awesome](#adv-tome-ally-awesome) | None |
+
+### Tech Advancement Tree
+
+| Advancement | Description | Type | Parent | Children |
+| --- | --- | --- | --- | --- |
+| <a id="adv-the-great-expansion"></a>[The Great Expansion](#adv-the-great-expansion) | Thank you for installing, and have an amazing time. | task | Root | [Industrial Awakening](#adv-industrial-awakening), [The Hunt](#adv-the-hunt) |
+| <a id="adv-industrial-awakening"></a>[Industrial Awakening](#adv-industrial-awakening) | Start your journey with the core ores. | goal | [The Great Expansion](#adv-the-great-expansion) | [Same But Different](#adv-same-but-different) |
+| <a id="adv-same-but-different"></a>[Same But Different](#adv-same-but-different) | Turn raw ore into usable metal. | task | [Industrial Awakening](#adv-industrial-awakening) | [Black N Yellow](#adv-black-n-yellow), [Cover Me In... Titanium?](#adv-cover-me-in-titanium) |
+| <a id="adv-black-n-yellow"></a>[Black N Yellow](#adv-black-n-yellow) | Craft Charcoal for steel processing. | task | [Same But Different](#adv-same-but-different) | [Your Really Crushing It](#adv-your-really-crushing-it), [It Only Takes A Spark](#adv-it-only-takes-a-spark) |
+| <a id="adv-your-really-crushing-it"></a>[Your Really Crushing It](#adv-your-really-crushing-it) | Build your first machine, the crusher. | task | [Black N Yellow](#adv-black-n-yellow) | [You Got Special Powders](#adv-you-got-special-powders) |
+| <a id="adv-you-got-special-powders"></a>[You Got Special Powders](#adv-you-got-special-powders) | Make steel powder using iron and charcoal in a crusher. | task | [Your Really Crushing It](#adv-your-really-crushing-it) | [Powder To Rock Hard](#adv-powder-to-rock-hard) |
+| <a id="adv-powder-to-rock-hard"></a>[Powder To Rock Hard](#adv-powder-to-rock-hard) | Smelt steel powder in a blast furnace. | task | [You Got Special Powders](#adv-you-got-special-powders) | [BEAMS](#adv-beams), [Flatter Then A Pancake](#adv-flatter-then-a-pancake) |
+| <a id="adv-beams"></a>[BEAMS](#adv-beams) | Craft a steel beam. | task | [Powder To Rock Hard](#adv-powder-to-rock-hard) | [Frame It Up](#adv-frame-it-up) |
+| <a id="adv-frame-it-up"></a>[Frame It Up](#adv-frame-it-up) | Craft a steel frame. | task | [BEAMS](#adv-beams) | [Feed The Machine](#adv-feed-the-machine) |
+| <a id="adv-feed-the-machine"></a>[Feed The Machine](#adv-feed-the-machine) | Craft a machine frame. | task | [Frame It Up](#adv-frame-it-up) | [It Can Only Get Better](#adv-it-can-only-get-better) |
+| <a id="adv-it-can-only-get-better"></a>[It Can Only Get Better](#adv-it-can-only-get-better) | Make a refinery. | task | [Feed The Machine](#adv-feed-the-machine) | [Murica](#adv-murica) |
+| <a id="adv-murica"></a>[Murica](#adv-murica) | Extract oil from a node or natural pool. | task | [It Can Only Get Better](#adv-it-can-only-get-better) | None |
+| <a id="adv-flatter-then-a-pancake"></a>[Flatter Then A Pancake](#adv-flatter-then-a-pancake) | Craft a steel Faceplate. | task | [Powder To Rock Hard](#adv-powder-to-rock-hard) | None |
+| <a id="adv-it-only-takes-a-spark"></a>[It Only Takes A Spark](#adv-it-only-takes-a-spark) | Crush flint with cobblestone to make Spark Powder. | task | [Black N Yellow](#adv-black-n-yellow) | [Ticking Time Bomb](#adv-ticking-time-bomb) |
+| <a id="adv-ticking-time-bomb"></a>[Ticking Time Bomb](#adv-ticking-time-bomb) | Craft Enriched Gunpowder using Spark Powder and Gunpowder. | task | [It Only Takes A Spark](#adv-it-only-takes-a-spark) | [As Tyler Cederwall Would Say](#adv-as-tyler-cederwall-would-say) |
+| <a id="adv-as-tyler-cederwall-would-say"></a>[As Tyler Cederwall Would Say](#adv-as-tyler-cederwall-would-say) | "Skkkkkboooom", Craft Enriched TNT. | task | [Ticking Time Bomb](#adv-ticking-time-bomb) | None |
+| <a id="adv-cover-me-in-titanium"></a>[Cover Me In... Titanium?](#adv-cover-me-in-titanium) | Craft a full set of titanium armour. | challenge | [Same But Different](#adv-same-but-different) | None |
+| <a id="adv-the-hunt"></a>[The Hunt](#adv-the-hunt) | Find and obtain aqualith in a desert biome. | task | [The Great Expansion](#adv-the-great-expansion) | [For What](#adv-for-what) |
+| <a id="adv-for-what"></a>[For What](#adv-for-what) | Craft a full set of aqualith armour. | challenge | [The Hunt](#adv-the-hunt) | None |
+
 ## 📜 COMPLETE CRAFTING TREES
 
 ### Machine Production Path
@@ -1024,29 +1071,7 @@ Powers: Induction Furnace, Pressure Cooker, other FE machines
 
 ---
 
-## 🎓 PROGRESSION GUIDE
 
-### Early Game (Stone Age to Iron)
-1. Mine standard ores (Bauxite, Cassiterite, Galena)
-2. Smelt into ingots
-3. Craft basic tools and armor
-
-### Mid Game (Machine Age)
-1. Build Crusher (first machine)
-2. Process Steel (Iron + Charcoal → Steel)
-3. Build Machine Frames
-4. Construct Refinery
-5. Find Crude Oil
-6. Start petroleum processing
-
-### Late Game (Advanced Tech)
-1. Build power generation (Propane Generator)
-2. Construct powered machines (Induction Furnace)
-3. Hunt for Aqualith (desert biome)
-4. Craft Aqualith equipment set
-5. Build Titanium armor
-6. Explore Winter Expansion biomes
-7. Master all processing chains
 
 ---
 

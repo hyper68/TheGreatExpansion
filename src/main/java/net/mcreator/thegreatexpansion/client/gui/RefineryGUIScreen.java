@@ -3,12 +3,14 @@ package net.mcreator.thegreatexpansion.client.gui;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.GuiGraphics;
 
 import net.mcreator.thegreatexpansion.world.inventory.RefineryGUIMenu;
+import net.mcreator.thegreatexpansion.procedures.InductionFurnaceGaugetextureHeatProcedure;
 import net.mcreator.thegreatexpansion.init.TheGreatExpansionModScreens;
 
 import com.mojang.blaze3d.systems.RenderSystem;
@@ -42,10 +44,6 @@ public class RefineryGUIScreen extends AbstractContainerScreen<RefineryGUIMenu> 
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		boolean customTooltipShown = false;
-		if (mouseX > leftPos + 21 && mouseX < leftPos + 45 && mouseY > topPos + 57 && mouseY < topPos + 81) {
-			guiGraphics.renderTooltip(font, Component.translatable("gui.the_great_expansion.refinery_gui.tooltip_heat_source"), mouseX, mouseY);
-			customTooltipShown = true;
-		}
 		if (mouseX > leftPos + 57 && mouseX < leftPos + 81 && mouseY > topPos + 30 && mouseY < topPos + 54) {
 			guiGraphics.renderTooltip(font, Component.translatable("gui.the_great_expansion.refinery_gui.tooltip_liquid"), mouseX, mouseY);
 			customTooltipShown = true;
@@ -60,6 +58,8 @@ public class RefineryGUIScreen extends AbstractContainerScreen<RefineryGUIMenu> 
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(ResourceLocation.parse("the_great_expansion:textures/screens/energy_bar_spritesheet.png"), this.leftPos + 21, this.topPos + 10, Mth.clamp((int) InductionFurnaceGaugetextureHeatProcedure.execute(world, x, y, z) * 16, 0, 128),
+				0, 16, 64, 144, 64);
 		RenderSystem.disableBlend();
 	}
 
