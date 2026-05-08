@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "name": "default",
+      "map": {
+        "0": "minecraft:suspicious_sand_0",
+        "missing": "minecraft:suspicious_sand_0"
+      }
+    }
+  }
+}

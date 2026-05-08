@@ -1,0 +1,10 @@
+{
+  "parent": "the_great_expansion:custom/sandcastle",
+  "textures": {
+    "all": "the_great_expansion:block/packedsand",
+    "particle": "the_great_expansion:block/packedsand",
+    "0": "minecraft:block/suspicious_sand_0",
+    "missing": "minecraft:block/suspicious_sand_0"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "the_great_expansion:crushed",
+  "ingredients": [
+    {
+      "item": "the_great_expansion:netherite_powder"
+    },
+    {
+      "item": "the_great_expansion:steel_powder"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "the_great_expansion:stetherite_blend",
+      "count": 1
+    }
+  ]
+}

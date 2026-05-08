@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "the_great_expansion:packed_sand"
+    "the_great_expansion:packed_sand",
+    "the_great_expansion:sand_castle"
   ]
 }

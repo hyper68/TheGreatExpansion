@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:coffea_arabica_germinated"
+    },
+    "title": {
+      "translate": "advancements.fire_caffination.title"
+    },
+    "description": {
+      "translate": "advancements.fire_caffination.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fire_caffination_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:stardewey"
+}

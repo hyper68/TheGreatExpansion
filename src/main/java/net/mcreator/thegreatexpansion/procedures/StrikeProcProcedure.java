@@ -1,6 +1,6 @@
 package net.mcreator.thegreatexpansion.procedures;
 
-import net.neoforged.neoforge.event.entity.living.LivingEntityUseItemEvent;
+import net.neoforged.neoforge.event.entity.player.CriticalHitEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
@@ -23,28 +23,23 @@ import javax.annotation.Nullable;
 @EventBusSubscriber
 public class StrikeProcProcedure {
 	@SubscribeEvent
-	public static void onUseItemStart(LivingEntityUseItemEvent.Start event) {
-		if (event.getEntity() != null) {
-			execute(event, event.getEntity().level(), event.getEntity());
-		}
+	public static void onPlayerCriticalHit(CriticalHitEvent event) {
+		execute(event, event.getEntity().level(), event.getTarget(), event.getEntity());
 	}
 
-	public static void execute(LevelAccessor world, Entity entity) {
-		execute(null, world, entity);
+	public static void execute(LevelAccessor world, Entity entity, Entity sourceentity) {
+		execute(null, world, entity, sourceentity);
 	}
 
-	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity) {
-		if (entity == null)
+	private static void execute(@Nullable Event event, LevelAccessor world, Entity entity, Entity sourceentity) {
+		if (entity == null || sourceentity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("the_great_expansion:strike")))) == 1 && entity.isAttackable()) {
-			if (Math.random() < 1) {
-				assert Boolean.TRUE; //#dbg:StrikeProc:marker9
-				if (world instanceof ServerLevel _level) {
-					LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
-					entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ())));;
-					_level.addFreshEntity(entityToSpawn);
-				}
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
+				.getEnchantmentLevel(world.registryAccess().lookupOrThrow(Registries.ENCHANTMENT).getOrThrow(ResourceKey.create(Registries.ENCHANTMENT, ResourceLocation.parse("the_great_expansion:strike")))) == 1 && Math.random() < 1) {
+			if (world instanceof ServerLevel _level) {
+				LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
+				entityToSpawn.moveTo(Vec3.atBottomCenterOf(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ())));;
+				_level.addFreshEntity(entityToSpawn);
 			}
 		}
 	}

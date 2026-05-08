@@ -1,13 +1,13 @@
 {
   "display": {
     "icon": {
-      "id": "the_great_expansion:spark_powder"
+      "id": "the_great_expansion:coffee_bean"
     },
     "title": {
-      "translate": "advancements.it_only_takes_a_spark.title"
+      "translate": "advancements.beanos.title"
     },
     "description": {
-      "translate": "advancements.it_only_takes_a_spark.descr"
+      "translate": "advancements.beanos.descr"
     },
     "frame": "task",
     "show_toast": true,
@@ -15,13 +15,13 @@
     "hidden": false
   },
   "criteria": {
-    "it_only_takes_a_spark_0": {
+    "beanos_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "the_great_expansion:spark_powder"
+              "the_great_expansion:coffee_bean"
             ],
             "count": {
               "min": 1,
@@ -32,5 +32,5 @@
       }
     }
   },
-  "parent": "the_great_expansion:your_really_crushing_it"
+  "parent": "the_great_expansion:fire_caffination"
 }

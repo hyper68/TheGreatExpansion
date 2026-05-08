@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:sky_berries"
+    },
+    "title": {
+      "translate": "advancements.a_taste_of_the_sky.title"
+    },
+    "description": {
+      "translate": "advancements.a_taste_of_the_sky.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_taste_of_the_sky_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "the_great_expansion:sky_berries"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "the_great_expansion:stardewey"
+}

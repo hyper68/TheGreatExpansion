@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "the_great_expansion:aqualith_hoe"
+    },
+    "title": {
+      "translate": "advancements.stardewey.title"
+    },
+    "description": {
+      "translate": "advancements.stardewey.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "stardewey_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "the_great_expansion:the_great_expansion_adv"
+}

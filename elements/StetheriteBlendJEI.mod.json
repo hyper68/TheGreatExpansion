@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "crushed",
+    "ingredients": [
+      {
+        "value": "CUSTOM:NetheritePowder"
+      },
+      {
+        "value": "CUSTOM:SteelPowder"
+      }
+    ],
+    "integers": [],
+    "strings": [],
+    "recipetype": "Crushed",
+    "results": [
+      {
+        "value": "CUSTOM:StetheriteBlend"
+      }
+    ],
+    "resultCounts": [
+      1
+    ],
+    "count": 0
+  }
+}

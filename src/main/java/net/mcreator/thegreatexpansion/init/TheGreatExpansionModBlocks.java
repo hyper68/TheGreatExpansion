@@ -124,6 +124,9 @@ public class TheGreatExpansionModBlocks {
 	public static final DeferredBlock<Block> TOME_EMITTER_LIGHTNING;
 	public static final DeferredBlock<Block> OIL_NODE;
 	public static final DeferredBlock<Block> ENRICHED_TNT;
+	public static final DeferredBlock<Block> SAND_CASTLE;
+	public static final DeferredBlock<Block> COFFEA_ARABICA;
+	public static final DeferredBlock<Block> COFFEA_ARABICA_GERMINATED;
 	static {
 		BAUXITE = REGISTRY.register("bauxite", BauxiteBlock::new);
 		CASSITERITE_ORE = REGISTRY.register("cassiterite_ore", CassiteriteOreBlock::new);
@@ -236,6 +239,9 @@ public class TheGreatExpansionModBlocks {
 		TOME_EMITTER_LIGHTNING = REGISTRY.register("tome_emitter_lightning", TomeEmitterLightningBlock::new);
 		OIL_NODE = REGISTRY.register("oil_node", OilNodeBlock::new);
 		ENRICHED_TNT = REGISTRY.register("enriched_tnt", EnrichedTNTBlock::new);
+		SAND_CASTLE = REGISTRY.register("sand_castle", SandCastleBlock::new);
+		COFFEA_ARABICA = REGISTRY.register("coffea_arabica", CoffeaArabicaBlock::new);
+		COFFEA_ARABICA_GERMINATED = REGISTRY.register("coffea_arabica_germinated", CoffeaArabicaGerminatedBlock::new);
 	}
 	// Start of user code block custom blocks
 	// End of user code block custom blocks

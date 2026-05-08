@@ -182,6 +182,13 @@ public class TheGreatExpansionModItems {
 	public static final DeferredItem<Item> SPARK_POWDER;
 	public static final DeferredItem<Item> ENRICHED_GUNPOWDER;
 	public static final DeferredItem<Item> ENRICHED_TNT;
+	public static final DeferredItem<Item> SAND_CASTLE;
+	public static final DeferredItem<Item> NETHERITE_POWDER;
+	public static final DeferredItem<Item> STETHERITE_BLEND;
+	public static final DeferredItem<Item> STETHERITE_INGOT;
+	public static final DeferredItem<Item> COFFEA_ARABICA;
+	public static final DeferredItem<Item> COFFEA_ARABICA_GERMINATED;
+	public static final DeferredItem<Item> COFFEE_BEAN;
 	static {
 		BAUXITE = block(TheGreatExpansionModBlocks.BAUXITE);
 		CASSITERITE_ORE = block(TheGreatExpansionModBlocks.CASSITERITE_ORE);
@@ -343,6 +350,13 @@ public class TheGreatExpansionModItems {
 		SPARK_POWDER = REGISTRY.register("spark_powder", SparkPowderItem::new);
 		ENRICHED_GUNPOWDER = REGISTRY.register("enriched_gunpowder", EnrichedGunpowderItem::new);
 		ENRICHED_TNT = block(TheGreatExpansionModBlocks.ENRICHED_TNT);
+		SAND_CASTLE = block(TheGreatExpansionModBlocks.SAND_CASTLE);
+		NETHERITE_POWDER = REGISTRY.register("netherite_powder", NetheritePowderItem::new);
+		STETHERITE_BLEND = REGISTRY.register("stetherite_blend", StetheriteBlendItem::new);
+		STETHERITE_INGOT = REGISTRY.register("stetherite_ingot", StetheriteIngotItem::new);
+		COFFEA_ARABICA = block(TheGreatExpansionModBlocks.COFFEA_ARABICA);
+		COFFEA_ARABICA_GERMINATED = block(TheGreatExpansionModBlocks.COFFEA_ARABICA_GERMINATED);
+		COFFEE_BEAN = REGISTRY.register("coffee_bean", CoffeeBeanItem::new);
 	}
 
 	// Start of user code block custom items

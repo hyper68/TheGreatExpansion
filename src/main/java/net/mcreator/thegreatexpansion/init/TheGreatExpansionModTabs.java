@@ -120,6 +120,13 @@ public class TheGreatExpansionModTabs {
 				tabData.accept(TheGreatExpansionModItems.SPARK_POWDER.get());
 				tabData.accept(TheGreatExpansionModItems.ENRICHED_GUNPOWDER.get());
 				tabData.accept(TheGreatExpansionModBlocks.ENRICHED_TNT.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.SAND_CASTLE.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.NETHERITE_POWDER.get());
+				tabData.accept(TheGreatExpansionModItems.STETHERITE_BLEND.get());
+				tabData.accept(TheGreatExpansionModItems.STETHERITE_INGOT.get());
+				tabData.accept(TheGreatExpansionModBlocks.COFFEA_ARABICA.get().asItem());
+				tabData.accept(TheGreatExpansionModBlocks.COFFEA_ARABICA_GERMINATED.get().asItem());
+				tabData.accept(TheGreatExpansionModItems.COFFEE_BEAN.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent
@@ -181,6 +188,8 @@ public class TheGreatExpansionModTabs {
 			tabData.accept(TheGreatExpansionModBlocks.WINTERBERRY.get().asItem());
 			tabData.accept(TheGreatExpansionModBlocks.SKYWOOD_LEAVES.get().asItem());
 			tabData.accept(TheGreatExpansionModBlocks.SKY_BERRY_PLANT.get().asItem());
+			tabData.accept(TheGreatExpansionModBlocks.COFFEA_ARABICA.get().asItem());
+			tabData.accept(TheGreatExpansionModBlocks.COFFEA_ARABICA_GERMINATED.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(TheGreatExpansionModItems.SAND_CRAB_SPAWN_EGG.get());
 			tabData.accept(TheGreatExpansionModItems.SUB_ZOMBIE_SPAWN_EGG.get());

@@ -5168,6 +5168,10 @@
             "type": "entity"
           },
           {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -5716,6 +5720,366 @@
         ]
       },
       "path": "~/Tech Advancments"
+    },
+    {
+      "name": "SandCastle",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_castle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/block/SandCastleBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/sand_castle.json",
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/sand_castle.json",
+          "src/main/resources/assets/the_great_expansion/models/block/sand_castle.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/sand_castle.json"
+        ]
+      },
+      "path": "~/Summer Expansion"
+    },
+    {
+      "name": "SandCastleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sand_castle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/sand_castle_recipe.json"
+        ]
+      },
+      "path": "~/Summer Expansion"
+    },
+    {
+      "name": "NetheritePowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/netherite_powder.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/NetheritePowderItem.java"
+        ]
+      },
+      "path": "~/Powders"
+    },
+    {
+      "name": "YourJustCrushingIt",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "your_just_crushing_it",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/your_just_crushing_it.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "TwoIsBetterThenOne",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "two_is_better_then_one",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/two_is_better_then_one.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "StetheriteBlend",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stetherite_blend",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/item/StetheriteBlendItem.java",
+          "src/main/resources/assets/the_great_expansion/models/item/stetherite_blend.json"
+        ]
+      },
+      "path": "~/Powders"
+    },
+    {
+      "name": "StetheriteIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stetherite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/stetherite_ingot.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/StetheriteIngotItem.java"
+        ]
+      },
+      "path": "~/Ingots"
+    },
+    {
+      "name": "NetheritePowderJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_powder_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/netherite_powder_jei.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "StetheriteBlendJEI",
+      "type": "jeirecipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stetherite_blend_jei",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/recipe/stetherite_blend_jei.json"
+        ]
+      },
+      "path": "~/Machines/Crusher"
+    },
+    {
+      "name": "ItsGettingHotInHere",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_getting_hot_in_here",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/its_getting_hot_in_here.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "Stardewey",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardewey",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/stardewey.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "LushLife",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lush_life",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/lush_life.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "ATasteOfTheSky",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_taste_of_the_sky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/a_taste_of_the_sky.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "FireCaffination",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_caffination",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/fire_caffination.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "BEANOS",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beanos",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/beanos.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
+    },
+    {
+      "name": "CoffeaArabicaBoneMealSuccessCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffea_arabica_bone_meal_success_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/CoffeaArabicaBoneMealSuccessConditionProcedure.java"
+        ]
+      },
+      "path": "~/Plants and Farming"
+    },
+    {
+      "name": "CoffeaArabica",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffea_arabica",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/coffea_arabica.json",
+          "src/main/resources/assets/the_great_expansion/models/block/coffea_arabica.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/CoffeaArabicaBlock.java",
+          "src/main/resources/assets/the_great_expansion/models/item/coffea_arabica.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/coffea_arabica.json"
+        ]
+      },
+      "path": "~/Plants and Farming"
+    },
+    {
+      "name": "CoffeaArabicaGerminatedPlantRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffea_arabica_germinated_plant_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/CoffeaArabicaGerminatedPlantRightclickedProcedure.java"
+        ]
+      },
+      "path": "~/Plants and Farming"
+    },
+    {
+      "name": "CoffeaArabicaGerminated",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffea_arabica_germinated",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/loot_table/blocks/coffea_arabica_germinated.json",
+          "src/main/resources/assets/the_great_expansion/models/block/coffea_arabica_germinated.json",
+          "src/main/resources/assets/the_great_expansion/models/item/coffea_arabica_germinated.json",
+          "src/main/resources/assets/the_great_expansion/blockstates/coffea_arabica_germinated.json",
+          "src/main/java/net/mcreator/thegreatexpansion/block/CoffeaArabicaGerminatedBlock.java"
+        ]
+      },
+      "path": "~/Plants and Farming"
+    },
+    {
+      "name": "CoffeaArabicaOnTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffea_arabica_on_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/thegreatexpansion/procedures/CoffeaArabicaOnTickUpdateProcedure.java"
+        ]
+      },
+      "path": "~/Plants and Farming"
+    },
+    {
+      "name": "CoffeeBean",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coffee_bean",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_great_expansion/models/item/coffee_bean.json",
+          "src/main/java/net/mcreator/thegreatexpansion/item/CoffeeBeanItem.java"
+        ]
+      },
+      "path": "~/Plants and Farming"
+    },
+    {
+      "name": "JuicyBusiness",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "juicy_business",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_great_expansion/advancement/juicy_business.json"
+        ]
+      },
+      "path": "~/Tech Advancments"
     }
   ],
   "variable_elements": [],
@@ -5909,6 +6273,7 @@
       "~CUSTOM:Asphalt"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:SandCastle",
       "~CUSTOM:PackedSand"
     ],
     "BLOCKS:minecraft:stairs": [
@@ -6165,7 +6530,14 @@
       "OilNode",
       "SparkPowder",
       "EnrichedGunpowder",
-      "EnrichedTNT"
+      "EnrichedTNT",
+      "SandCastle",
+      "NetheritePowder",
+      "StetheriteBlend",
+      "StetheriteIngot",
+      "CoffeaArabica",
+      "CoffeaArabicaGerminated",
+      "CoffeeBean"
     ]
   },
   "language_map": {
@@ -6444,7 +6816,32 @@
       "advancements.automation_nation.descr": "Build a Filler",
       "advancements.automation_nation.title": "Automation Nation",
       "advancements.electric_boogaloo.descr": "Power up an Induction Furnace and smelt something fancy.",
-      "advancements.electric_boogaloo.title": "Electric Boogaloo"
+      "advancements.electric_boogaloo.title": "Electric Boogaloo",
+      "block.the_great_expansion.sand_castle": "Sand Castle",
+      "item.the_great_expansion.netherite_powder": "Netherite Powder",
+      "advancements.your_just_crushing_it.title": "Your Just Crushing It",
+      "advancements.your_just_crushing_it.descr": "Crush a netherite ingot down into Netherite Powder",
+      "advancements.two_is_better_then_one.descr": "Crush Netherite Powder down with Steel Powder to make Stetherite Blend.",
+      "advancements.two_is_better_then_one.title": "Two Is Better Then One",
+      "item.the_great_expansion.stetherite_blend": "Stetherite Blend",
+      "item.the_great_expansion.stetherite_ingot": "Stetherite Ingot",
+      "advancements.its_getting_hot_in_here.descr": "Put Stetherite Blend into an Induction Furnace to smelt it into a Stetherite ingot.",
+      "advancements.its_getting_hot_in_here.title": "Its Gettin\u0027 Hot In here",
+      "advancements.stardewey.title": "Stardewey",
+      "advancements.stardewey.descr": "Enter the *Cough* stardew / farming side of The Great Expansion!",
+      "advancements.lush_life.descr": "\"Live my day as if it was the last\" and collect all of the flowers this mod has to offer!",
+      "advancements.lush_life.title": "Lush Life",
+      "advancements.a_taste_of_the_sky.descr": "Ive always wondered what it tastes like, now you can tell me.",
+      "advancements.a_taste_of_the_sky.title": "A Taste Of The Sky",
+      "advancements.fire_caffination.descr": "Harvest a Coffea Arabica plant.",
+      "advancements.fire_caffination.title": "Fire Caffination",
+      "advancements.beanos.title": "BEANOS",
+      "advancements.beanos.descr": "Collect a Coffee Bean.",
+      "block.the_great_expansion.coffea_arabica": "Coffea Arabica",
+      "block.the_great_expansion.coffea_arabica_germinated": "Coffea Arabica Germinated",
+      "item.the_great_expansion.coffee_bean": "Coffee Bean",
+      "advancements.juicy_business.title": "Juicy Business",
+      "advancements.juicy_business.descr": "Create a Juice Press. Who doesen\u0027t love fresh juice, am I right?"
     }
   },
   "metadata": {
@@ -6643,6 +7040,14 @@
       },
       {
         "name": "Explosives",
+        "children": []
+      },
+      {
+        "name": "Summer Expansion",
+        "children": []
+      },
+      {
+        "name": "Plants and Farming",
         "children": []
       }
     ]
