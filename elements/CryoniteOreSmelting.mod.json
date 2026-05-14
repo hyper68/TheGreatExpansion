@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:CryoniteOre"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.7,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CryoniteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "Blocks.ICE"
+    },
+    "name": "cryonite_ore_smelting",
+    "namespace": "mod"
+  }
+}

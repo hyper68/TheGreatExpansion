@@ -96,11 +96,14 @@ This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, bl
 - **Replaces**: Permafrost only
 - **Biome**: Winter/Tundra biomes
 - **Creative Tab**: Winter Expansion
-- **Uses**: Winter-themed crafting
+- **Smelts Into**: Ice Block
+- **Uses**: Winter-themed crafting, ice production
 
 #### **Permafrost Iron Ore**
-- **Location**: Permafrost-based variant
+- **Location**: Permafrost-based variant (Y: -32 to 0)
 - **Special**: Iron ore that generates in frozen biomes within Permafrost blocks
+- **Smelts Into**: Iron Ingot
+- **Uses**: Alternative iron source in frozen biomes
 
 ---
 
@@ -199,9 +202,14 @@ This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, bl
 
 #### **Silicon Padding (Armor Components)**
 - **Silicon Padding Helmet**
+  - Recipe: 5 Silicon Sheets (helmet pattern)
 - **Silicon Padding Chestplate**
+  - Recipe: 8 Silicon Sheets (chestplate pattern)
+- **Silicon Padding Pants**
+  - Recipe: 7 Silicon Sheets (leggings pattern)
 - **Silicon Padding Boots**
-- **Uses**: Crafting components for advanced armor
+  - Recipe: 4 Silicon Sheets (boots pattern)
+- **Uses**: Crafting components for advanced armor (e.g., Titanium Armor)
 
 ---
 
@@ -271,6 +279,36 @@ This exhaustive guide documents EVERY ore, ingot, tool, armor piece, machine, bl
 - **Enchantability**: 2
 - **Mining Level**: Diamond tier
 - **Repair**: Titanium Ingot
+
+#### **Titanium Pickaxe**
+- **Efficiency**: 10.0
+- **Attack Damage**: 5.0
+- **Attack Speed**: 1.2
+- **Durability**: 100 uses
+- **Enchantability**: 2
+- **Mining Level**: Netherite tier
+- **Repair**: Titanium Ingot
+- **Recipe**: 3 Titanium Ingots + 2 Sticks
+
+#### **Titanium Shovel**
+- **Efficiency**: 10.0
+- **Attack Damage**: 4.5
+- **Attack Speed**: 1.0
+- **Durability**: 100 uses
+- **Enchantability**: 2
+- **Mining Level**: Netherite tier
+- **Repair**: Titanium Ingot
+- **Recipe**: 1 Titanium Ingot + 2 Sticks
+
+#### **Titanium Hoe**
+- **Efficiency**: 10.0
+- **Attack Damage**: 1.0
+- **Attack Speed**: 4.0
+- **Durability**: 100 uses
+- **Enchantability**: 2
+- **Mining Level**: Netherite tier
+- **Repair**: Titanium Ingot
+- **Recipe**: 2 Titanium Ingots + 2 Sticks
 
 ### Hammer Tools (3×3 MINING)
 

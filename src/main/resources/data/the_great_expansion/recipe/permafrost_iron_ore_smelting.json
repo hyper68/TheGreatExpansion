@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "the_great_expansion:permafrost_iron_ore"
+  },
+  "result": {
+    "id": "minecraft:iron_ingot"
+  }
+}
